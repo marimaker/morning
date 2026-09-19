@@ -133,6 +133,7 @@
   function renderNav(current) {
     var nav = document.getElementById("nav");
     nav.textContent = "";
+    nav.appendChild(h("button", { type: "button", class: "navclose", "data-navclose": "1", "aria-label": "Menü schließen", text: "✕" }));
     nav.appendChild(h("a", { class: "brand", href: "#/", html: "MORNING<small>Nachrichten verstehen</small>" }));
     function item(label, hash, key, count) {
       var a = h("a", { class: "nv", href: hash }, h("span", { text: label }), count != null ? h("span", { class: "cnt", text: String(count) }) : null);
@@ -844,9 +845,10 @@
 
   /* ───────────────────────── Ereignisse ───────────────────────── */
   document.addEventListener("click", function (e) {
-    var el = e.target.closest("[data-term],[data-go],[data-goto],[data-back],[data-close]");
+    var el = e.target.closest("[data-term],[data-go],[data-goto],[data-back],[data-close],[data-navclose]");
     if (!el) return;
     if (el.hasAttribute("data-term")) { openTerm(el.getAttribute("data-term")); return; }
+    if (el.hasAttribute("data-navclose")) { setNav(false); return; }
     if (el.hasAttribute("data-close")) { closeModal(); return; }
     if (el.hasAttribute("data-back")) {
       if (trail.length > 1) location.hash = trail[trail.length - 2].hash; else location.hash = "#/";

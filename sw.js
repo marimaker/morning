@@ -1,6 +1,6 @@
 // Service Worker: macht die Seite offline nutzbar. Netzwerk zuerst, damit die tägliche
 // Ausgabe (edition-data.js) immer frisch ist. Ohne Netz kommt die zuletzt gespeicherte Version.
-var CACHE = "morning-v2";
+var CACHE = "morning-v3";
 var CORE = ["./", "index.html", "styles.css", "app.js", "knowledge.js", "edition-data.js",
             "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 

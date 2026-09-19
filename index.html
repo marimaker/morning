@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MORNING – Nachrichten verstehen</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#0f1b2d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MORNING">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+<a class="skip" href="#app">Zum Inhalt springen</a>
+<div class="shell">
+  <nav id="nav" class="side" aria-label="Bereiche"></nav>
+  <div class="mainwrap">
+    <header class="bar">
+      <button id="menuBtn" class="menu" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      <a class="logo-sm" href="#/">MORNING</a>
+      <form id="searchForm" class="search" role="search" autocomplete="off">
+        <label for="q" class="sr">Was möchtest du verstehen?</label>
+        <input id="q" type="search" placeholder="Was möchtest du verstehen?" list="qsuggest">
+        <datalist id="qsuggest"></datalist>
+        <button type="submit" aria-label="Suchen">Suchen</button>
+      </form>
+    </header>
+    <div id="crumbs" class="crumbs" aria-label="Pfad"></div>
+    <main id="app" tabindex="-1"></main>
+    <footer class="foot">
+      Zusammenfassung aus veröffentlichten Quellen, keine Anlageberatung. Zahlen ohne Gewähr. Jede Meldung nennt ihre Quellen.
+      Kennzeichnung: <b class="tag fakt">FAKT</b> <b class="tag einordnung">EINORDNUNG</b> <b class="tag position">POSITION</b> <b class="tag unbestaetigt">UNBESTÄTIGT</b>
+    </footer>
+  </div>
+  <aside id="explore" class="explore" aria-label="Explore"></aside>
+</div>
+<div id="scrim" class="scrim" hidden></div>
+<div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle"></div>
+
+<script src="knowledge.js"></script>
+<script src="edition-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

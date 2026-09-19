@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0f1b2d"/>
+  <circle cx="366" cy="150" r="34" fill="#2f5bea"/>
+  <text x="256" y="345" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-weight="800" font-size="250" fill="#ffffff">M</text>
+  <rect x="136" y="376" width="240" height="16" rx="8" fill="#2f5bea"/>
+</svg>

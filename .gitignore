@@ -1,0 +1,15 @@
+# Protokolle und Sicherungen des täglichen Updates
+logs/
+backups/
+# Zwischendatei des Updates
+edition-data.new.js
+# Mac-Müll
+.DS_Store
+# Geheimnisse gehören nie ins Repository
+.env
+.env.*
+*.pem
+*.key
+
+# Persönliche Notiz mit dem Seiten-Link
+MEIN-LINK.txt

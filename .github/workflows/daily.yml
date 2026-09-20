@@ -1,0 +1,109 @@
+name: Tägliche Ausgabe
+
+# Läuft jeden Morgen auf GitHub-Servern, dein Mac muss nicht eingeschaltet sein.
+# GitHub-Zeitpläne laufen in UTC und können verspätet starten (oft einige Minuten, manchmal länger).
+# Zwei Zeitpunkte decken Sommer- und Winterzeit ab. Ein Schutz im ersten Schritt sorgt dafür,
+# dass nur einmal pro Tag und nicht vor 6 Uhr Berliner Zeit gearbeitet wird.
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 06:30 Sommerzeit (CEST)
+    - cron: "30 5 * * *"   # 06:30 Winterzeit (CET)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Auch ausführen, wenn für heute schon eine Ausgabe existiert"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # edition-data.js ins Repository schreiben
+  pages: write      # Neuaufbau der Webseite anstoßen
+
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Zeitfenster und Datum prüfen
+        id: gate
+        env:
+          EVENT: ${{ github.event_name }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          TODAY=$(TZ=Europe/Berlin date +%F)
+          HOUR=$(TZ=Europe/Berlin date +%H)
+          WEEKDAY=$(TZ=Europe/Berlin date +%A)
+          RUN=true
+          if [ "$EVENT" = "schedule" ] && [ "$((10#$HOUR))" -lt 6 ]; then
+            RUN=false; echo "Es ist $HOUR Uhr in Berlin, zu früh. Der andere Zeitplan übernimmt."
+          fi
+          if grep -q "date: \"$TODAY\"" edition-data.js && [ "$FORCE" != "true" ]; then
+            RUN=false; echo "Für $TODAY existiert schon eine Ausgabe."
+          fi
+          echo "run=$RUN"         >> "$GITHUB_OUTPUT"
+          echo "today=$TODAY"     >> "$GITHUB_OUTPUT"
+          echo "weekday=$WEEKDAY" >> "$GITHUB_OUTPUT"
+          echo "Datum $TODAY ($WEEKDAY), Berlin $HOUR Uhr, ausführen: $RUN"
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: "20"
+
+      - name: Claude Code installieren
+        if: steps.gate.outputs.run == 'true'
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Recherche und neue Ausgabe schreiben
+        if: steps.gate.outputs.run == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TODAY: ${{ steps.gate.outputs.today }}
+          WEEKDAY: ${{ steps.gate.outputs.weekday }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::Das Secret CLAUDE_CODE_OAUTH_TOKEN fehlt. Repository, Settings, Secrets and variables, Actions."
+            exit 1
+          fi
+          rm -f edition-data.new.js
+          PROMPT="Heutiges Datum (Europe/Berlin): $TODAY ($WEEKDAY). Setze date und dateLabel entsprechend.
+
+          $(cat UPDATE-PROMPT.md)"
+          # Claude darf nur suchen, lesen und Dateien schreiben (keine Shell).
+          timeout 40m claude -p "$PROMPT" \
+            --allowedTools "WebSearch,WebFetch,Read,Write" \
+            --permission-mode acceptEdits \
+            --no-session-persistence || echo "claude beendete mit Status $?"
+          if [ ! -f edition-data.new.js ]; then
+            echo "::error::edition-data.new.js wurde nicht erzeugt. Die alte Ausgabe bleibt."
+            exit 1
+          fi
+
+      - name: Neue Ausgabe prüfen
+        if: steps.gate.outputs.run == 'true'
+        env:
+          EXPECTED_DATE: ${{ steps.gate.outputs.today }}
+        run: node validate-ci.js edition-data.new.js
+
+      - name: Veröffentlichen
+        if: steps.gate.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TODAY: ${{ steps.gate.outputs.today }}
+        run: |
+          cp edition-data.new.js edition-data.js
+          git config user.name "morning-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add edition-data.js
+          git commit -m "Ausgabe $TODAY"
+          git pull --rebase origin main
+          git push origin main
+          # Pushes mit dem Workflow-Token lösen den Webseiten-Bau nicht zuverlässig aus, deshalb explizit anfordern.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" || echo "Hinweis: Pages-Build konnte nicht angefordert werden."
+          echo "Ausgabe $TODAY veröffentlicht." >> "$GITHUB_STEP_SUMMARY"

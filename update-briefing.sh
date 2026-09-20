@@ -16,7 +16,9 @@ notify() { osascript -e "display notification \"$1\" with title \"MORNING\"" >/d
 
   # 1) Claude recherchiert und schreibt edition-data.new.js (max. 25 Minuten)
   perl -e 'alarm shift; exec @ARGV' 1500 \
-    claude -p "$(cat UPDATE-PROMPT.md)" \
+    claude -p "Heutiges Datum (Europe/Berlin): $TODAY ($(date +%A)). Setze date und dateLabel entsprechend.
+
+$(cat UPDATE-PROMPT.md)" \
       --allowedTools "WebSearch,WebFetch,Read,Write" \
       --permission-mode acceptEdits \
       --no-session-persistence

@@ -2,16 +2,16 @@
 // Verweise: "e:ID" Erklärung, "n:ID" Zahl, "t:ID" Fachbegriff, "chain:ID" Kette, "s:N" Meldung Nr. N (ab 1).
 // Tags an Aussagen: fakt | einordnung | position | unbestaetigt
 window.EDITION = {
-  date: "2026-09-26",
-  dateLabel: "Samstag, 26. September 2026",
-  updatedLabel: "Recherchestand 26.09.2026",
-  marketNote: "Diese Ausgabe erscheint am Samstagmorgen, wenn die Börsen geschlossen sind. Die europäischen und US-Zahlen zeigen daher den Handelsschluss vom Freitag, 25.09.2026 (Xetra 17:30 Uhr bzw. US-Handelsschluss). Bitcoin wird rund um die Uhr gehandelt, sein Wert stammt vom Freitagvormittag (US-Ostküstenzeit). Auch am Freitag kursierten für mehrere Kennzahlen abweichende Werte: Beim DAX-Schlussstand unterscheiden sich Quellen zwischen 25.396 und 25.409 Punkten, bei der Bund-Rendite zwischen rund 3,58 % und 3,62 %, und beim Brent-Ölpreis reicht die Bandbreite der Berichte weiterhin von rund 99 bis 108 Dollar je Barrel. Werte mit „≈” stammen aus Marktberichten und können je nach Quelle und Erhebungszeitpunkt abweichen.",
+  date: "2026-09-27",
+  dateLabel: "Sonntag, 27. September 2026",
+  updatedLabel: "Recherchestand 27.09.2026",
+  marketNote: "Diese Ausgabe erscheint am Sonntag, wenn die Börsen geschlossen sind. Die europäischen und US-Zahlen zeigen daher weiterhin den Handelsschluss vom Freitag, 25.09.2026 (Xetra 17:30 Uhr bzw. US-Handelsschluss) – am Samstag und Sonntag wurde nicht gehandelt. Bitcoin wird rund um die Uhr gehandelt, sein Wert stammt vom Sonntagvormittag. Auch für den Freitagsschluss kursieren je nach Quelle abweichende Werte: Beim DAX zwischen 25.396 und 25.409 Punkten, bei der Bund-Rendite zwischen rund 3,57 % und 3,62 %, beim Brent-Ölpreis reicht die Bandbreite der Berichte weiterhin von rund 99 bis 108 Dollar je Barrel, wobei die meisten konsistenten Quellen rund 104 Dollar nennen. Werte mit „≈” stammen aus Marktberichten und können je nach Quelle und Erhebungszeitpunkt abweichen.",
 
   top: [
-    { text: "Der DAX beendete die Woche am Freitag mit einem Plus von rund 0,4 % und stoppte damit eine dreiwöchige Verlustserie; auch Euro Stoxx 50, S&P 500, Dow und Nasdaq schlossen im Plus. Die US-Rendite blieb dabei nahe ihrem höchsten Stand seit 2007/2008 (rund 5,17 %), gestützt von anhaltenden Inflationssorgen.", ref: "s:1" },
-    { text: "Iran übermittelte über Katar einen Sieben-Tage-Fahrplan zur Beendigung des seit Ende Februar laufenden Kriegs mit den USA und Israel, der am sechsten Tag eine Wiedereröffnung der Straße von Hormus vorsieht. Die USA und Iran erkunden laut Bloomberg zugleich einen gestaffelten Deal zur Öffnung der Meerenge, während Huthi-Rebellen weiter Ziele in Saudi-Arabien angreifen und der Ölpreis entsprechend schwankt (Berichte: rund 99 bis 108 Dollar je Barrel Brent).", ref: "s:7" },
-    { text: "Die Konsumentenstimmung fiel sowohl in Deutschland (GfK/NIM-Index: −30,6 Punkte) als auch in den USA (University of Michigan: 48,1 Punkte, 4-Monats-Tief) deutlich – beide Institute nennen hohe Öl- und Spritpreise infolge der Nahost-Lage als wichtigen Faktor.", ref: "s:4" },
-    { text: "In Berlin stimmten die Delegierten der Linken auf einem Sonderparteitag mit deutlicher Mehrheit dafür, SPD und Grüne zu Sondierungsgesprächen für eine Landesregierung einzuladen. Während die Grünen grundsätzliche Gesprächsbereitschaft zeigten, forderten mehr als 60 Berliner Sozialdemokraten, darunter frühere Regierende Bürgermeister, einen Stopp der Gespräche mit der Linken.", ref: "s:5" }
+    { text: "US-Präsident Trump wies den von Iran über Katar übermittelten Sieben-Tage-Fahrplan zur Wiedereröffnung der Straße von Hormus am Samstag öffentlich zurück; Iran spricht laut eigenen Angaben erst von einer „ersten Reaktion” und wartet auf eine förmliche Antwort. Parallel griff die von Saudi-Arabien geführte Koalition am Samstag erneut Huthi-Raketen und -Drohnen ab.", ref: "s:8" },
+    { text: "Die US-Notenbank Fed hat unter ihrem neuen Vorsitzenden Kevin Warsh den Leitzins am 16.09. um 25 Basispunkte auf 3,75–4,0 % erhöht, die EZB zog am 10.09. mit einer Anhebung des Einlagensatzes auf 2,50 % nach – beide begründen den Schritt mit dem Nahost-Konflikt und gestiegener Inflation. Die US-Rendite blieb entsprechend nahe ihrem höchsten Stand seit Juni 2007 (rund 5,17–5,22 %).", ref: "s:4" },
+    { text: "In der Nacht zum Samstag griff Russland Kyjiw und Sumy mit 173 Drohnen an; in Sumy starben zwei Menschen, in Kyjiw wurde die Stadt die dritte Nacht in Folge getroffen. Die Ukraine griff im Gegenzug die russische Ölraffinerie Ilski an. Zugleich bestätigte das US-Außenministerium nicht, dass Präsident Trump bereits eine „finale Entscheidung” zu einer Patriot-Lizenz für die Ukraine getroffen habe, wie Präsident Selenskyj berichtet hatte.", ref: "s:9" },
+    { text: "In Berlin nahm die SPD die Einladung der Linken zu Sondierungsgesprächen an, die Grünen zeigten sich gesprächsbereit, machten aber Bedingungen zu Antisemitismus und zur Rolle der Linken im Sicherheitsressort. Erste Gespräche sollen laut Linken-Chefin Elif Eralp in der Woche ab dem 28.09. beginnen; die CDU bleibt laut Unionsfraktionschef Thorsten Frei als Partner ausgeschlossen.", ref: "s:6" }
   ],
 
   strip: ["dax", "eurostoxx50", "sp500", "nasdaq", "eurusd", "ust10", "bund10", "gold", "brent", "bitcoin"],
@@ -19,80 +19,76 @@ window.EDITION = {
   /* ─────────────────────────── ZAHLEN ─────────────────────────── */
   numbers: {
     "dax": {
-      label: "DAX", value: "≈ 25.400", change: "≈ +0,5 %", dir: "up", asof: "Schluss Fr 25.09.", story: 1,
+      label: "DAX", value: "≈ 25.409", change: "≈ +0,56 %", dir: "up", asof: "Schluss Fr 25.09. (Wochenende: kein Handel)", story: 1,
       means: "Der DAX bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Der Punktestand ist ein Vergleichswert ohne Einheit. Entscheidend ist die Veränderung: ein Plus heißt, die 40 Firmen wurden zusammen höher bewertet als am Vortag.",
       compare: [
-        { label: "Widersprüchliche Angaben", text: "Für den Freitagsschluss nennen Quellen unterschiedliche Werte: 25.396,22 Punkte (+0,51 %) laut einer Quelle, 25.408,64 Punkte (+0,56 %) laut einer anderen – beide bezogen auf einen Donnerstagsschluss von 25.266,53 Punkten." },
-        { label: "Wochenbilanz", text: "Der DAX beendete die Woche laut Berichten mit einem Plus von rund 0,4 % und stoppte damit eine dreiwöchige Verlustserie." }
+        { label: "Widersprüchliche Angaben", text: "Für den Freitagsschluss nennen zwei unabhängig recherchierte Quellen (onvista, finanzen.at) übereinstimmend 25.408,64 Punkte (+0,56 %); eine frühere Quelle hatte 25.396,22 Punkte (+0,51 %) genannt – beide bezogen auf einen Donnerstagsschluss von 25.266,53 Punkten." },
+        { label: "Wochenbilanz", text: "Der DAX beendete die Woche mit einem Plus von rund 0,4 % und stoppte damit eine dreiwöchige Verlustserie. Da am Samstag und Sonntag nicht gehandelt wird, bleibt dieser Stand bis Montag unverändert." }
       ],
       moved: {
         intro: "Marktbeobachter nennen für Freitag vor allem:",
         items: [
-          "Leicht nachgebende Ölpreise nach Berichten über mögliche Fortschritte bei der Wiedereröffnung der Straße von Hormus stützten die Stimmung (Meldung 7).",
-          "Analyst Andreas Lipkow (CMC Markets) verwies laut Bericht zugleich auf anhaltende Vorsicht wegen hoher Finanzierungskosten durch die gestiegenen Anleiherenditen.",
-          "Bankenwerte wie Commerzbank und Deutsche Bank gehörten zu den Gewinnern, während BASF nach Kurszielsenkungen deutlich verlor."
+          "Leicht nachgebende Ölpreise nach Berichten über mögliche Fortschritte bei der Wiedereröffnung der Straße von Hormus stützten die Stimmung – dieser Fortschritt wurde von Präsident Trump am Samstag allerdings öffentlich zurückgewiesen (Meldung 8).",
+          "Die Rendite-Situation blieb angespannt: Sowohl die Fed als auch die EZB hatten in den Vortagen die Leitzinsen erhöht (Meldung 4), was die Finanzierungskosten von Unternehmen erhöht."
         ]
       },
       important: [
-        { area: "Öl", text: "Nachlassende Ölpreise stützten die Stimmung am Freitag.", ref: "e:oil-stocks" },
-        { area: "Zinsen", text: "Die Anleiherenditen blieben auf mehrjährigen Hochs.", ref: "s:2" }
+        { area: "Öl", text: "Nachlassende Ölpreise stützten die Stimmung am Freitag, die Lage bleibt aber unsicher.", ref: "e:oil-stocks" },
+        { area: "Zinsen", text: "Die Anleiherenditen blieben nach den Zinserhöhungen von Fed und EZB auf mehrjährigen Hochs.", ref: "s:4" }
       ],
-      source: { title: "onvista: Verlustserie beendet – Dax erzielt kleines Wochenplus", url: "https://www.onvista.de/news/2026/09-25-verlustserie-beendet-dax-erzielt-kleines-wochenplus-41121301-19-26557594" }
+      source: { title: "onvista: Aktien Frankfurt Schluss – Dax beendet durchwachsene Woche freundlich", url: "https://www.onvista.de/news/2026/09-25-roundup-aktien-frankfurt-schluss-dax-beendet-durchwachsene-woche-freundlich-0-10-26557628" }
     },
     "eurostoxx50": {
-      label: "Euro Stoxx 50", value: "6.302,82", change: "+0,48 %", dir: "up", asof: "Schluss Fr 25.09.", story: 1,
+      label: "Euro Stoxx 50", value: "6.302,82", change: "+0,48 %", dir: "up", asof: "Schluss Fr 25.09. (Wochenende: kein Handel)", story: 1,
       means: "Der Euro Stoxx 50 bildet 50 große Unternehmen aus dem Euroraum ab, nicht nur aus Deutschland. Ein Plus heißt: Diese Unternehmen wurden zusammen höher bewertet als am Vortag, mit teils großen Unterschieden zwischen einzelnen Aktien.",
       compare: [
-        { label: "Gewinner", text: "UBS +3,2 % (Spekulationen über eine Kooperation mit einer ausländischen Bank sowie ein gewonnener Rechtsstreit im Zusammenhang mit der Credit-Suisse-Übernahme in Australien); Bankenwerte insgesamt stärkster Sektor." },
-        { label: "Verlierer", text: "Ölwerte gaben mit den fallenden Ölpreisen nach, Airbus −1 % (Berichte über Qualitätsprobleme an der A321neo-Rumpfverstärkung), EssilorLuxottica −0,6 % (Kurszielsenkungen von Goldman Sachs und Bernstein)." },
-        { label: "Jahresverlauf", text: "Seit Jahresbeginn 2026 liegt der Index laut Bericht mit +7,70 % im Plus." }
+        { label: "Vergleich zu anderen Quellen", text: "ARIVA.DE bestätigt den Wert mit rund +0,5 %; keine widersprüchlichen Angaben zu diesem Index gefunden." }
       ],
       moved: {
         intro: "Berichte nennen für Freitag:",
         items: [
           "Moderate Erholung zum Wochenschluss, gestützt von Bankenwerten.",
-          "Nachlassende Ölpreise entlasteten energieintensive Sektoren, belasteten aber Ölkonzerne selbst.",
-          "Analyst Andreas Lipkow warnte zugleich vor anhaltend hohen Energiepreisen als Inflationsrisiko."
+          "Nachlassende Ölpreise entlasteten energieintensive Sektoren zeitweise."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Steigende US- und Bund-Renditen wirken weiter auf europäische Aktien.", ref: "e:yield-stocks" }
+        { area: "Zinsen", text: "Steigende US- und Bund-Renditen nach den jüngsten Zinserhöhungen wirken weiter auf europäische Aktien.", ref: "e:yield-stocks" }
       ],
-      source: { title: "onvista: ROUNDUP Aktien Europa Schluss – Aufatmen zum Wochenende", url: "https://www.onvista.de/news/2026/09-25-roundup-aktien-europa-schluss-aufatmen-zum-wochenende-0-10-26557627" }
+      source: { title: "ARIVA.DE: Aktien Europa Schluss – Aufatmen zum Wochenende", url: "https://www.ariva.de/euro-stoxx-50-index/news/aktien-europa-schluss-aufatmen-zum-wochenende-12148944" }
     },
     "sp500": {
-      label: "S&P 500", value: "7.743,41", change: "+0,51 % (+39,28 Pkt.)", dir: "up", asof: "Schluss Fr 25.09.", story: 1,
+      label: "S&P 500", value: "7.743,41", change: "+0,51 % (+39,28 Pkt.)", dir: "up", asof: "Schluss Fr 25.09. (Wochenende: kein Handel)", story: 1,
       means: "Der S&P 500 bildet 500 große US-Unternehmen ab und gilt als wichtigster Gradmesser des US-Aktienmarkts. Ein Plus von 0,51 % heißt: Diese Firmen wurden zusammen rund 0,51 % höher bewertet als am Vortag.",
       compare: [
         { label: "Dow Jones", text: "+0,93 % (+478,64 Punkte) auf 51.828,62 – beendete eine dreitägige Verluststrähne." },
         { label: "Nasdaq", text: "+0,48 % (+129,34 Punkte) auf 27.068,72 Punkte." },
-        { label: "Wochenbilanz", text: "Alle drei US-Indizes verzeichneten laut Berichten einen Wochengewinn, obwohl die Anleiherendite zeitweise auf den höchsten Stand seit 2008 gestiegen war." }
+        { label: "Wochenbilanz", text: "Alle drei US-Indizes verzeichneten einen Wochengewinn, obwohl die Anleiherendite zeitweise auf den höchsten Stand seit Juni 2007 gestiegen war." }
       ],
       moved: {
         intro: "Berichte nennen für Freitag:",
         items: [
-          "Ölpreise gaben nach Berichten über einen möglichen gestaffelten Deal zur Wiedereröffnung der Straße von Hormus zwischen den USA und Iran nach.",
-          "Das Trump-Xi-Treffen deutete auf einen vorerst stabilen Handelsstatus zwischen den USA und China hin.",
-          "Gegenläufig meldete die University of Michigan ein 4-Monats-Tief beim Verbrauchervertrauen wegen hoher Benzinpreise und Zollsorgen (Meldung 4)."
+          "Ölpreise gaben nach Berichten über einen möglichen gestaffelten Deal zur Wiedereröffnung der Straße von Hormus nach – ein Fortschritt, den Trump am Samstag öffentlich zurückwies (Meldung 8).",
+          "Das Trump-Xi-Treffen deutete auf einen vorerst stabilen Handelsstatus zwischen den USA und China hin (Meldung 10).",
+          "Marktbreite gilt laut Berichten als schwach: Die Gewinne stützen sich stark auf einzelne KI-Werte."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Die US-Rendite blieb nahe ihrem mehrjährigen Hoch.", ref: "n:ust10" }
+        { area: "Zinsen", text: "Die US-Rendite blieb nahe ihrem mehrjährigen Hoch nach der Fed-Zinserhöhung vom 16.09.", ref: "n:ust10" }
       ],
-      source: { title: "Yahoo Finance: Stock market today – Friday, September 25", url: "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" }
+      source: { title: "Yahoo Finance: Stock market today – Dow, S&P 500, Nasdaq notch weekly wins", url: "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" }
     },
     "nasdaq": {
-      label: "Nasdaq", value: "27.068,72", change: "+0,48 % (+129,34 Pkt.)", dir: "up", asof: "Schluss Fr 25.09.", story: 1,
+      label: "Nasdaq", value: "27.068,72", change: "+0,48 % (+129,34 Pkt.)", dir: "up", asof: "Schluss Fr 25.09. (Wochenende: kein Handel)", story: 1,
       means: "Die Nasdaq Composite umfasst alle an der Nasdaq gehandelten Aktien und wird stark von Technologiefirmen geprägt. Am Freitag legte sie trotz hoher Anleiherenditen leicht zu.",
       compare: [
-        { label: "Woche", text: "Die Nasdaq verzeichnete trotz zwischenzeitlicher Verluste am Donnerstag einen Wochengewinn." },
-        { label: "Chipwerte", text: "Chipwerte profitierten laut Berichten von Meldungen über Kapazitätsengpässe bei TSMC, die Nvidia, AMD und Broadcom zugutekommen könnten (Meldung 14)." }
+        { label: "Woche", text: "Die Nasdaq verzeichnete trotz zwischenzeitlicher Verluste einen Wochengewinn." },
+        { label: "Chipwerte", text: "AMD stieg im Wochenverlauf um rund 10 % auf ein 52-Wochen-Hoch und übersprang erstmals eine Marktkapitalisierung von 1 Billion Dollar, während Broadcom und Nvidia zeitweise unter Druck standen (Meldung 14)." }
       ],
       moved: {
         intro: "Berichte nennen:",
         items: [
-          "Nachlassende Ölpreise und Hoffnung auf eine Entspannung am Golf stützten risikofreudigere Anlagen.",
-          "TSMC signalisierte Kapazitätsengpässe bei fortschrittlichen KI-Chips, was Chipwerte stützte."
+          "Nachlassende Ölpreise und Hoffnung auf eine Entspannung am Golf stützten risikofreudigere Anlagen am Freitag.",
+          "TSMC signalisierte laut Berichten rund 90 % mehr Nachfrage nach Fertigungskapazität und warnte vor Engpässen, was Chipwerte stützte."
         ]
       },
       important: [
@@ -101,10 +97,10 @@ window.EDITION = {
       source: { title: "CNBC: Stock market news for Sept. 25, 2026", url: "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html" }
     },
     "eurusd": {
-      label: "EUR/USD", value: "≈ 1,140", change: "≈ +0,36 %", dir: "up", asof: "Fr 25.09.", story: 2,
+      label: "EUR/USD", value: "≈ 1,140", change: "≈ +0,3 %", dir: "up", asof: "Fr 25.09. (Wochenende: kein Handel)", story: 2,
       means: "1 Euro kostet etwa 1,140 US-Dollar. Steigt der Kurs, wird der Euro im Verhältnis zum Dollar etwas stärker.",
       compare: [
-        { label: "Referenzkurs", text: "Die EZB nannte für Freitag einen Referenzkurs von 1,1403 Dollar je Euro, der Handelskurs lag bei rund 1,1401." }
+        { label: "Widersprüchliche Angaben", text: "Die EZB nannte für Freitag einen Referenzkurs von 1,1403 Dollar je Euro (Vortag: 1,1367); ein Marktdatenanbieter (TradingEconomics) nennt einen etwas niedrigeren Handelsschlusskurs von rund 1,1387. Beide Werte sind plausibel, da EZB-Fixing und Marktschluss zeitlich versetzt erfasst werden." }
       ],
       moved: {
         intro: "Berichte nennen:",
@@ -113,22 +109,23 @@ window.EDITION = {
         ]
       },
       important: [
-        { area: "Zinsen", text: "Die Zinsdifferenz zwischen den USA und dem Euroraum bleibt im Fokus.", ref: "s:2" }
+        { area: "Zinsen", text: "Die Zinsdifferenz zwischen den USA und dem Euroraum bleibt nach den jüngsten Zinserhöhungen beider Notenbanken im Fokus.", ref: "s:4" }
       ],
-      source: { title: "onvista: Devisen – Eurokurs hält leichten Vorsprung zum US-Dollar", url: "https://www.onvista.de/news/2026/09-25-devisen-eurokurs-haelt-leichten-vorsprung-zum-us-dollar-0-10-26557645" }
+      source: { title: "finanzen.at: Devisen (EZB-Richtwerte) – Euro-Referenzkurs bei 1,1403 US-Dollar", url: "https://www.finanzen.at/nachrichten/aktien/devisen-ezb-richtwerte-euro-referenzkurs-bei-1-1403-us-dollar-1036574688" }
     },
     "ust10": {
-      label: "10Y US Treasury", value: "≈ 5,17 %", change: "kaum verändert, nahe dem höchsten Stand seit 2007/2008", dir: "flat", asof: "Fr 25.09.", story: 2, whyRef: "e:yield-meaning",
-      means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 5,17 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 5,17 % Zinsen pro Jahr.",
+      label: "10Y US Treasury", value: "≈ 5,17–5,22 %", change: "kaum verändert, nahe dem höchsten Stand seit Juni 2007", dir: "flat", asof: "Fr 25.09. (Wochenende: kein Handel)", story: 2, whyRef: "e:yield-meaning",
+      means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 5,2 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 5,2 % Zinsen pro Jahr.",
       compare: [
-        { label: "Wochenhoch", text: "Im Wochenverlauf erreichte die Rendite laut mehreren Berichten zeitweise ein Tageshoch von rund 5,18 % – nach Quellenangaben der höchste Stand seit 2007 bzw. seit der Finanzkrise 2008." },
-        { label: "CNBC-Einordnung", text: "CNBC beschrieb die Bewegung zum Wochenschluss als „little changed to end a volatile week”." }
+        { label: "Widersprüchliche Angaben", text: "TradingEconomics nennt für Freitag rund 5,17 %, eine andere Quelle (ms-aktuell) rund 5,217 %; im Wochenverlauf wurde laut mehreren Berichten ein Tageshoch von rund 5,22–5,23 % erreicht – nach übereinstimmenden Angaben der höchste Stand seit Juni 2007." },
+        { label: "CNBC-Einordnung", text: "CNBC beschrieb die Bewegung zum Wochenschluss als „little changed to end a volatile week”." },
+        { label: "Ausblick", text: "Die 30-jährige US-Rendite erreichte im Wochenverlauf zeitweise rund 5,53 %, die 2-jährige rund 4,90 %; 30-jährige Hypothekenzinsen in den USA stiegen auf rund 7,45 %, den höchsten Stand seit über zwei Jahren." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Anhaltende Inflationssorgen nach den starken US-Konjunkturdaten der Vortage hielten die Rendite auf hohem Niveau.",
-          "Die finale September-Erhebung der University of Michigan zeigte gestiegene Inflationserwartungen der Verbraucher (1-Jahres-Erwartung: 4,6 %, stärkster Anstieg seit Juni), was Zinssorgen zusätzlich nährte (Meldung 4)."
+          "Die US-Notenbank Fed hatte den Leitzins am 16.09.2026 unter ihrem neuen Vorsitzenden Kevin Warsh um 25 Basispunkte auf 3,75–4,0 % erhöht – die erste Erhöhung seit 2023, begründet mit dem Nahost-Konflikt und gestiegener Inflation (Meldung 4).",
+          "16 von 18 Mitgliedern des Offenmarktausschusses erwarten laut Projektionen mindestens eine weitere Zinserhöhung im Jahr 2026."
         ]
       },
       important: [
@@ -139,28 +136,29 @@ window.EDITION = {
       source: { title: "CNBC: 10-year Treasury yield little changed to end a volatile week", url: "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html" }
     },
     "bund10": {
-      label: "Bund Yield (10 J.)", value: "≈ 3,62 %", change: "weiter gestiegen", dir: "up", asof: "Fr 25.09.", story: 2, whyRef: "e:yield-meaning",
+      label: "Bund Yield (10 J.)", value: "≈ 3,57–3,62 %", change: "weiterhin nahe 17-Jahres-Hoch", dir: "up", asof: "Fr 25.09. (Wochenende: kein Handel)", story: 2, whyRef: "e:yield-meaning",
       means: "Die Rendite zehnjähriger Bundesanleihen ist der Richtwert für Zinsen in Deutschland. Rund 3,6 % bedeutet: Wer eine Bundesanleihe zum heutigen Kurs kauft und zehn Jahre hält, erhält rund 3,6 % pro Jahr.",
       compare: [
-        { label: "Widersprüchliche Angaben", text: "Eine Quelle nennt für Freitag 3,62 % (weiter steigend), eine andere Quellenzusammenfassung 3,58 %. Übereinstimmend ist die Richtung: weiterhin erhöht gegenüber der Vorwoche (rund 3,44 % am Dienstag zuvor)." }
+        { label: "Widersprüchliche Angaben", text: "Eine Quelle (ms-aktuell) nennt für Freitag rund 3,57 % (Donnerstag: 3,547 %) und beschreibt einen 17-Jahres-Höchststand; eine andere Quellenzusammenfassung nennt bis zu 3,62 %. Übereinstimmend ist die Richtung: weiterhin deutlich erhöht gegenüber der Vorwoche (rund 3,44 % am Dienstag zuvor)." }
       ],
       moved: {
         intro: "Berichte nennen:",
         items: [
           "Die Bund-Rendite setzte ihren Anstieg der Vortage im Sog der hohen US-Rendite fort.",
-          "Zunehmende Erwartungen an weitere geldpolitische Straffung beiderseits des Atlantiks sowie anhaltend hohe Energiepreise wurden als Hintergrund genannt."
+          "Die EZB hatte den Einlagensatz am 10.09.2026 um 25 Basispunkte auf 2,50 % erhöht – die zweite Anhebung 2026 nach Juni, begründet mit dem Nahost-Konflikt und einer Inflationsprognose von 3,0 % für 2026 (Meldung 4)."
         ]
       },
       important: [
         { area: "Staatsfinanzen", text: "Höhere Zinsen verteuern neue Bundesschulden, relevant für den Haushalt 2027.", ref: "e:debt-brake" }
       ],
-      source: { title: "onvista: Deutsche Anleihen geben weiter nach", url: "https://www.onvista.de/news/2026/09-25-deutsche-anleihen-geben-weiter-nach-0-10-26557598" }
+      source: { title: "ms-aktuell.de: Bundrendite steigt auf höchsten Stand seit 17 Jahren", url: "https://ms-aktuell.de/welt/anleiherenditen-25-09-2026/" }
     },
     "gold": {
-      label: "Gold", value: "≈ 4.278 $", change: "kaum verändert", dir: "flat", asof: "Fr 25.09.", story: 3, whyRef: "e:gold-why",
-      means: "Gold kostet etwa 4.278 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
+      label: "Gold", value: "≈ 4.280 $", change: "kaum verändert", dir: "flat", asof: "Fr 25.09. (Wochenende: kein regulärer Handel)", story: 3, whyRef: "e:gold-why",
+      means: "Gold kostet etwa 4.280 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
       compare: [
-        { label: "Abweichende Angaben", text: "Quellen nennen für Freitag Werte zwischen rund 4.275 $ und 4.281 $ je nach Handelsplatz und Tageszeit – nahe dem Niveau der Vorwoche." }
+        { label: "Wochenbilanz", text: "Im Wochenvergleich gab Gold laut Berichten rund 1 % nach, belastet von den hohen Anleiherenditen nach den Zinserhöhungen von Fed und EZB." },
+        { label: "Wochenende", text: "Ein inoffizieller Datenpunkt (Future-getrieben, kein regulärer Handel) nennt für Samstagmorgen rund 4.284 Dollar; Prognosen für den Handelsstart am Montag nennen eine Spanne von rund 4.255 bis 4.314 Dollar." }
       ],
       moved: {
         intro: "Berichte nennen:",
@@ -172,687 +170,699 @@ window.EDITION = {
       important: [
         { area: "Zinsen", text: "Höhere Zinserwartungen machen zinslose Anlagen wie Gold tendenziell weniger attraktiv.", ref: "e:gold-why" }
       ],
-      source: { title: "gold.de: Goldpreis aktuell", url: "https://www.gold.de/kurse/goldpreis/" }
+      source: { title: "USAGOLD: Daily Precious Metals Market Report, September 25, 2026", url: "https://www.usagold.com/daily-precious-metals-market-report-september-25-2026/" }
     },
     "brent": {
-      label: "Brent Oil", value: "≈ 104 $", change: "stark schwankend, Berichte nennen zwischen ≈ 99 und 108 $", dir: "down", asof: "Fr 25.09.", story: 7, whyRef: "e:hormuz",
+      label: "Brent Oil", value: "≈ 104 $", change: "−2,1 % zum Vortag, Berichte nennen zwischen ≈ 99 und 108 $", dir: "down", asof: "Fr 25.09. (Wochenende: kein regulärer Handel)", story: 8, whyRef: "e:hormuz",
       means: "Brent ist die wichtigste internationale Ölsorte. Etwa 104 Dollar je Fass (159 Liter) sind rund 65 US-Cent je Liter Rohöl, ohne Raffinerie, Transport und Steuern.",
       compare: [
-        { label: "Ungewöhnlich große Bandbreite", text: "Für den Freitagsschluss nennen Quellen sehr unterschiedliche Werte: rund 104–106 $ laut mehreren Marktberichten, eine Quelle nennt einen Rückgang auf rund 98,76 $, eine andere rund 102,75 $. Die Bandbreite lässt sich aus den gesichteten Quellen nicht auf einen einzelnen Wert eingrenzen." }
+        { label: "Konsistenteste Angabe", text: "Zwei unabhängige Quellen (EnergyNow, Fortune/Yahoo) nennen übereinstimmend 104,32 $ für den Freitagsschluss (−2,14 % bzw. −2,28 $ zum Donnerstag), Wochenbilanz rund +0,43 %." },
+        { label: "Abweichender Wert", text: "Eine weitere Quelle (convextrade.com) nennt 105,69 $ mit einem angegebenen Tagesplus von +8,47 % – das widerspricht den beiden anderen Quellen deutlich und wirkt wie ein Datenfehler; dieser Wert wird hier nicht als verlässlich eingestuft." },
+        { label: "Größere Bandbreite in älteren Berichten", text: "Einzelne Berichte hatten für den Freitagsschluss auch Werte bis 108 $ genannt; diese ließen sich in der aktuellen Recherche nicht bestätigen." }
       ],
       moved: {
-        intro: "Berichte nennen für Freitag:",
+        intro: "Berichte nennen für Freitag und das Wochenende:",
         items: [
-          "Die USA und Iran erkunden laut Bloomberg einen „gestaffelten Deal” (phased deal) zur Wiedereröffnung der Straße von Hormus gegen eine Lockerung der US-Seeblockade iranischer Häfen – das drückte den Ölpreis zeitweise.",
-          "Gleichzeitig griffen Huthi-Rebellen am Donnerstag erneut mit ballistischen Raketen Ziele nahe Taif und Yanbu in Saudi-Arabien an, die von der saudischen Luftabwehr abgefangen wurden – das trieb den Preis zeitweise wieder nach oben."
+          "Hoffnungen auf einen gestaffelten Deal zur Wiedereröffnung der Straße von Hormus zwischen den USA und Iran drückten den Ölpreis am Freitag zeitweise.",
+          "Präsident Trump wies den von Iran übermittelten Sieben-Tage-Fahrplan am Samstag jedoch öffentlich zurück – das könnte die Unsicherheit für die kommende Handelswoche erhöhen, auch wenn dafür noch kein neuer Marktpreis vorliegt (Meldung 8).",
+          "Die von Saudi-Arabien geführte Koalition fing am Samstag erneut Huthi-Raketen und -Drohnen ab, die auf Ziele in Saudi-Arabien gerichtet waren."
         ]
       },
       important: [
         { area: "Inflation", text: "Öl verteuert Sprit, Heizen und Transport.", ref: "e:oil-inflation" },
-        { area: "Verbraucherstimmung", text: "Hohe Ölpreise gehören zu den genannten Gründen für die gesunkene Konsumentenstimmung in Deutschland und den USA.", ref: "s:4" }
+        { area: "Zentralbanken", text: "Hohe Ölpreise gehören zu den von Fed und EZB genannten Gründen für ihre jüngsten Zinserhöhungen.", ref: "s:4" }
       ],
-      source: { title: "Bloomberg: US, Iran Said to Be Exploring Phased Deal to Open Hormuz", url: "https://www.bloomberg.com/news/articles/2026-09-24/us-iran-said-to-be-exploring-phased-deal-to-open-hormuz" }
+      source: { title: "EnergyNow: Oil Ends Week Lower as U.S.-Iran Truce Hopes Hit WTI While Middle East Supply Risks Keep Brent Above $100", url: "https://energynow.com/2026/09/oil-ends-week-lower-as-u-s-iran-truce-hopes-hit-wti-while-middle-east-supply-risks-keep-brent-above-100/" }
     },
     "bitcoin": {
-      label: "Bitcoin", value: "≈ 84.400 $", change: "≈ +0,5 %, Woche ≈ +10 %", dir: "up", asof: "Fr 25.09., Vormittag ET", story: 3, whyRef: "e:bitcoin-what",
-      means: "Ein Bitcoin kostet rund 84.400 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
+      label: "Bitcoin", value: "≈ 84.000 $", change: "≈ −1 % (24h), Wochenhoch über 87.300 $", dir: "down", asof: "So 27.09., Vormittag", story: 3, whyRef: "e:bitcoin-what",
+      means: "Ein Bitcoin kostet rund 84.000 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
       compare: [
-        { label: "Tagesverlauf", text: "Eröffnung bei rund 84.378 $, zeitweise (7:14 Uhr ET) bis 85.200 $, gegen 9 Uhr ET rund 84.413 $ – Angaben schwanken je nach Zeitpunkt und Handelsplatz. Der Vortagesschluss wird je nach Quelle mit rund 83.650 bis 83.940 $ angegeben." },
-        { label: "Wochenperformance", text: "Bitcoin und Ethereum verzeichneten laut Berichten eine gemeinsame Wochenperformance von rund +10 %." }
+        { label: "Wochenendverlauf", text: "Bitcoin stieg im Wochenverlauf zeitweise auf über 87.363 $ und gab danach wieder auf rund 84.027 $ nach – ein Rückgang von rund 4 % vom Wochenhoch. Der Vortageswert (Samstag) lag laut einer Quelle bei rund 84.565 $." },
+        { label: "Quartalsbilanz", text: "Für das dritte Quartal 2026 nennen Berichte eine Rallye von rund +44 % bei Bitcoin, mit zuletzt nachlassender Volatilität zum Quartalsende." },
+        { label: "Ethereum", text: "Ethereum wird am Wochenende mit rund 2.687 $ angegeben (Stand Samstagabend)." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Fundstrat-Analyst Sean Farrell bezeichnete den Kursanstieg laut Bericht sinngemäß als glaubwürdig und sah die Krypto-Flaute der vergangenen Monate als beendet an (Einzeleinschätzung, kein Marktkonsens).",
-          "Ein Hedgefonds-Manager nannte laut Bericht ein langfristiges Kursziel von rund 250.000 $ – ebenfalls eine Einzelmeinung."
+          "Nach dem starken Anstieg der Vorwoche (Wochenperformance von Bitcoin und Ethereum zusammen rund +10 %) kam es übers Wochenende zu einer teilweisen Gewinnmitnahme.",
+          "Fundstrat-Analyst Sean Farrell hatte den Kursanstieg der Vorwoche als glaubwürdig bezeichnet, ein Hedgefonds-Manager ein langfristiges Kursziel von rund 250.000 $ genannt – beides bleiben Einzelmeinungen, kein Marktkonsens."
         ]
       },
       important: [
         { area: "Risikoanlage", text: "Bitcoin wird von vielen Anlegern wie eine riskante Anlage behandelt.", ref: "e:bitcoin-what" }
       ],
-      source: { title: "Fortune: Current price of Bitcoin, Sept. 25, 2026", url: "https://fortune.com/article/price-of-bitcoin-09-25-2026/" }
+      source: { title: "usethebitcoin.com: Bitcoin Price Analysis September 27, 2026 – BTC Holds $84K", url: "https://usethebitcoin.com/bitcoin/bitcoin-price-september-27-2026/" }
     }
   },
 
   /* ─────────────────────────── 15 MELDUNGEN ─────────────────────────── */
   stories: [
 
-    /* 1 FREITAG-MARKTBERICHT */
+    /* 1 FREITAG-MARKTBERICHT / WOCHENRÜCKBLICK */
     {
-      id: "freitag-maerkte", cats: ["markets"], when: "Fr 25.09. Handelsschluss · Wochenrückblick",
-      headline: "DAX und Wall Street beenden volatile Woche mit Gewinnen, Ölpreis-Rückgang stützt Stimmung",
-      sec30: "Der DAX gewann am Freitag rund 0,5 % (Quellen: 25.396–25.409 Punkte) und beendete damit eine dreiwöchige Verlustserie, der Euro Stoxx 50 legte 0,48 % zu. In den USA stiegen S&P 500 (+0,51 %), Nasdaq (+0,48 %) und Dow Jones (+0,93 %) trotz einer weiterhin nahe ihrem mehrjährigen Hoch liegenden Anleiherendite. Nachlassende Ölpreise nach Berichten über mögliche Fortschritte bei der Straße von Hormus stützten die Stimmung.",
+      id: "wochenrueckblick-maerkte", cats: ["markets"], when: "Fr 25.09. Handelsschluss · Wochenrückblick, kein Handel am Wochenende",
+      headline: "DAX und Wall Street beenden volatile Woche mit Gewinnen, Blick richtet sich auf US-Arbeitsmarktbericht am Freitag",
+      sec30: "Der DAX gewann am Freitag rund 0,56 % (25.408,64 Punkte) und beendete damit eine dreiwöchige Verlustserie, der Euro Stoxx 50 legte 0,48 % zu. In den USA stiegen S&P 500 (+0,51 %), Nasdaq (+0,48 %) und Dow Jones (+0,93 %) trotz einer weiterhin nahe ihrem mehrjährigen Hoch liegenden Anleiherendite. Da am Wochenende nicht gehandelt wird, bleiben diese Stände bis Montag unverändert; für die kommende Woche kündigen Berichte einen dichten US-Konjunkturkalender an, unter anderem den Arbeitsmarktbericht am Freitag, 02.10.",
       blocks: [
         { h: "Was ist passiert?", items: [
-          { tag: "unbestaetigt", text: "Der DAX schloss am Freitag laut unterschiedlichen Quellen bei 25.396,22 Punkten (+0,51 %) bzw. 25.408,64 Punkten (+0,56 %), jeweils bezogen auf den Donnerstagsschluss von 25.266,53 Punkten. Der Index beendete damit eine dreiwöchige Verlustserie und die Woche insgesamt mit einem Plus von rund 0,4 %.",
+          { tag: "unbestaetigt", text: "Der DAX schloss am Freitag laut zwei übereinstimmenden Quellen (onvista, finanzen.at) bei 25.408,64 Punkten (+0,56 %), eine ältere Quelle hatte 25.396,22 Punkte (+0,51 %) genannt, jeweils bezogen auf einen Donnerstagsschluss von 25.266,53 Punkten. Der Index beendete damit eine dreiwöchige Verlustserie und die Woche insgesamt mit einem Plus von rund 0,4 %.",
             ask: [{ label: "Was bedeutet ein Plus beim DAX?", ref: "n:dax" }] },
           { tag: "fakt", text: "Der Euro Stoxx 50 stieg um 0,48 % auf 6.302,82 Punkte, in den USA schlossen S&P 500 bei 7.743,41 Punkten (+0,51 %), Dow Jones bei 51.828,62 Punkten (+0,93 %) und Nasdaq bei 27.068,72 Punkten (+0,48 %).",
             ask: [{ label: "Was bedeutet diese Zahl?", ref: "n:sp500" }] }
         ]},
-        { h: "Was trieb die Kurse einzelner Aktien?", items: [
-          { tag: "fakt", text: "Im DAX gehörten Commerzbank (+2,73 %), Deutsche Bank (+2,68 %) und adidas (+2,99 %) zu den Gewinnern, während BASF (rund −3,6 bis −3,8 %) zu den größten Verlierern zählte. Im Euro Stoxx 50 war UBS mit +3,2 % auffällig, gestützt von Spekulationen über eine Kooperation mit einer ausländischen Bank sowie einem gewonnenen Rechtsstreit im Zusammenhang mit der Credit-Suisse-Übernahme in Australien." },
-          { tag: "position", text: "Marktbeobachter nennen bei Airbus (−1 %) Berichte über Qualitätsprobleme an der Rumpfverstärkung des A321neo als Belastungsfaktor, bei EssilorLuxottica (−0,6 %) Kurszielsenkungen von Goldman Sachs und Bernstein." }
-        ]},
         { h: "Was bewegte die Märkte insgesamt?", items: [
-          { tag: "position", text: "Analyst Andreas Lipkow (CMC Markets) verwies laut Bericht auf nachlassende Ölpreise als stützenden Faktor, mahnte aber weiter zu Vorsicht wegen hoher Finanzierungskosten durch gestiegene Anleiherenditen und anhaltend hoher Energiepreise.",
+          { tag: "position", text: "Marktbeobachter nennen nachlassende Ölpreise als stützenden Faktor am Freitag, mahnen aber weiter zu Vorsicht wegen hoher Finanzierungskosten durch die gestiegenen Anleiherenditen nach den jüngsten Zinserhöhungen von Fed und EZB.",
             ask: [{ label: "Warum belasten hohe Renditen Aktien?", ref: "e:yield-stocks" }] },
-          { tag: "fakt", text: "In den USA nannten Berichte als Hintergrund Hoffnungen auf einen gestaffelten Deal zur Wiedereröffnung der Straße von Hormus (Meldung 7) sowie ein Trump-Xi-Treffen, das auf einen vorerst stabilen Handelsstatus zwischen den USA und China hindeutete (Meldung 9).",
-            ask: [{ label: "Was ist bei der Straße von Hormus los?", ref: "s:7" }] }
+          { tag: "unbestaetigt", text: "Berichte beschreiben die Marktbreite als vergleichsweise schwach: Die Gewinne stützten sich zuletzt stark auf einzelne KI- und Chipwerte (Meldung 14), während andere Sektoren schwächer abschnitten." }
+        ]},
+        { h: "Was steht in der kommenden Woche an?", items: [
+          { tag: "fakt", text: "Für die Woche vom 28.09. bis 02.10.2026 kündigen Berichte einen dichten US-Konjunkturkalender an, unter anderem den Arbeitsmarktbericht am Freitag, 02.10. (Konsens laut Bloomberg: rund +90.000 neue Stellen, Arbeitslosenquote 4,1 %), mehrere Fed-Reden sowie Quartalszahlen von Micron und Nike.",
+            ask: [{ label: "Wie geht es der US-Wirtschaft insgesamt?", ref: "s:5" }] }
         ]},
         { h: "Was bedeutet das für mich?", items: [
-          { tag: "einordnung", text: "Trotz einer Woche mit Rekordrenditen bei US-Staatsanleihen und schwankenden Ölpreisen beendeten die wichtigsten Aktienindizes die Woche im Plus. Das zeigt, dass einzelne Belastungsfaktoren nicht automatisch zu fallenden Kursen führen müssen, wenn andere Entwicklungen gegenläufig wirken. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Trotz einer Woche mit hohen Anleiherenditen und schwankenden Ölpreisen beendeten die wichtigsten Aktienindizes die Woche im Plus. Das zeigt, dass einzelne Belastungsfaktoren nicht automatisch zu fallenden Kursen führen müssen, wenn andere Entwicklungen gegenläufig wirken. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die zeitgleich gesunkene Verbraucherstimmung in Deutschland und den USA (Meldung 4) zeigt, dass die hohen Energiepreise trotz der Erholung an den Aktienmärkten spürbare Spuren hinterlassen.",
+      reaction: "Die weiterhin hohen Zinsen nach den Erhöhungen von Fed und EZB (Meldung 4) bleiben laut Berichten ein Belastungsfaktor im Hintergrund, auch wenn die Indizes die Woche im Plus beendeten.",
       terms: ["rendite"],
       followups: ["e:index-move", "e:yield-stocks", "e:oil-stocks", "e:why-markets-move"],
       sources: [
-        { title: "onvista: Verlustserie beendet – Dax erzielt kleines Wochenplus", url: "https://www.onvista.de/news/2026/09-25-verlustserie-beendet-dax-erzielt-kleines-wochenplus-41121301-19-26557594" },
-        { title: "onvista: ROUNDUP Aktien Europa Schluss – Aufatmen zum Wochenende", url: "https://www.onvista.de/news/2026/09-25-roundup-aktien-europa-schluss-aufatmen-zum-wochenende-0-10-26557627" },
-        { title: "Yahoo Finance: Stock market today – Friday, September 25", url: "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" },
-        { title: "CNBC: Stock market news for Sept. 25, 2026", url: "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html" }
+        { title: "onvista: Aktien Frankfurt Schluss – Dax beendet durchwachsene Woche freundlich", url: "https://www.onvista.de/news/2026/09-25-roundup-aktien-frankfurt-schluss-dax-beendet-durchwachsene-woche-freundlich-0-10-26557628" },
+        { title: "ARIVA.DE: Aktien Europa Schluss – Aufatmen zum Wochenende", url: "https://www.ariva.de/euro-stoxx-50-index/news/aktien-europa-schluss-aufatmen-zum-wochenende-12148944" },
+        { title: "Yahoo Finance: Stock market today – Dow, S&P 500, Nasdaq notch weekly wins", url: "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" },
+        { title: "CNBC: Stock market next week – Outlook for Sept. 28-Oct. 2, 2026", url: "https://www.cnbc.com/2026/09/25/stock-market-next-week-outlook-for-sept-28-oct-2-2026.html" }
       ]
     },
 
     /* 2 RENDITEN */
     {
-      id: "renditen-wochenschluss", cats: ["markets", "economy"], when: "Fr 25.09. Wochenschluss Anleihemärkte",
-      headline: "US-Rendite bleibt nahe mehrjährigem Hoch, Bund-Rendite zieht weiter an",
-      sec30: "Die Rendite zehnjähriger US-Staatsanleihen blieb am Freitag laut CNBC „little changed” bei rund 5,17 %, nachdem sie im Wochenverlauf zeitweise auf rund 5,18 % gestiegen war – nach Quellenangaben der höchste Stand seit 2007/2008. Die deutsche Bund-Rendite zog laut Berichten weiter auf rund 3,62 % an. Hintergrund bleiben anhaltende Inflationssorgen und gestiegene Inflationserwartungen der US-Verbraucher.",
+      id: "renditen-nach-zinserhoehungen", cats: ["markets", "economy"], when: "Fr 25.09. Wochenschluss Anleihemärkte · seit Zinserhöhungen 10./16.09.",
+      headline: "US-Rendite bleibt nahe höchstem Stand seit Juni 2007, Bund-Rendite nahe 17-Jahres-Hoch",
+      sec30: "Die Rendite zehnjähriger US-Staatsanleihen blieb am Freitag laut CNBC „little changed” bei rund 5,17–5,22 %, nachdem sie im Wochenverlauf zeitweise auf rund 5,22–5,23 % gestiegen war – nach Berichten der höchste Stand seit Juni 2007. Die deutsche Bund-Rendite zog laut Berichten auf rund 3,57 bis 3,62 % an, nahe einem 17-Jahres-Hoch. Hintergrund sind die jüngsten Zinserhöhungen von Fed (16.09.) und EZB (10.09.), beide mit Verweis auf den Nahost-Konflikt und gestiegene Inflation begründet.",
       blocks: [
         { h: "Wie haben sich die Renditen entwickelt?", items: [
-          { tag: "unbestaetigt", text: "Die US-10-Jahres-Rendite lag am Freitag laut Trading Economics bei rund 5,17 %, nachdem im Wochenverlauf laut mehreren Berichten ein Tageshoch von rund 5,18 % erreicht wurde. CNBC beschrieb die Bewegung zum Wochenschluss als „little changed to end a volatile week”.",
+          { tag: "unbestaetigt", text: "Die US-10-Jahres-Rendite lag am Freitag laut TradingEconomics bei rund 5,17 %, eine andere Quelle (ms-aktuell) nennt rund 5,217 %; im Wochenverlauf wurde laut mehreren Berichten ein Tageshoch von rund 5,22–5,23 % erreicht – nach Quellenangaben der höchste Stand seit Juni 2007. CNBC beschrieb die Bewegung zum Wochenschluss als „little changed to end a volatile week”.",
             ask: [{ label: "Was bedeutet eine Rendite von rund 5 %?", ref: "n:ust10" }] },
-          { tag: "unbestaetigt", text: "Für die deutsche Bund-Rendite nennen Quellen für Freitag unterschiedliche Werte zwischen rund 3,58 % und 3,62 % – übereinstimmend ist die Richtung: weiterhin erhöht gegenüber der Vorwoche (rund 3,44 % am Dienstag zuvor).",
+          { tag: "unbestaetigt", text: "Für die deutsche Bund-Rendite nennen Quellen für Freitag unterschiedliche Werte zwischen rund 3,57 % (ms-aktuell, Donnerstag: 3,547 %) und 3,62 % – übereinstimmend ist die Richtung: weiterhin deutlich erhöht gegenüber der Vorwoche (rund 3,44 % am Dienstag zuvor) und nahe einem 17-Jahres-Hoch.",
             ask: [{ label: "Was bedeutet das für den Bundeshaushalt?", ref: "e:debt-brake" }] }
         ]},
-        { h: "Was nährt die Zinssorgen?", items: [
-          { tag: "fakt", text: "Die finale September-Erhebung der University of Michigan zeigte am Freitag einen Anstieg der Inflationserwartungen der US-Verbraucher für die kommenden zwölf Monate auf 4,6 % (August: 4,0 %) – den stärksten Anstieg seit Juni. Das Verbrauchervertrauen selbst fiel auf 48,1 Punkte, ein 4-Monats-Tief.",
-            ask: [{ label: "Was ist Kerninflation?", ref: "t:kerninflation" }] },
-          { tag: "einordnung", text: "Steigende Inflationserwartungen gelten bei Notenbanken als eigenständiges Risiko, weil sie sich in höheren Lohn- und Preisforderungen niederschlagen können – das erklärt teilweise, warum die Anleiherenditen hoch bleiben.",
-            ask: [{ label: "Warum reagieren Zentralbanken auf Inflation?", ref: "e:central-banks-why" }] }
+        { h: "Warum haben Fed und EZB die Zinsen erhöht?", items: [
+          { tag: "fakt", text: "Die US-Notenbank Fed erhöhte den Leitzins am 16.09.2026 unter ihrem seit 22.05.2026 amtierenden neuen Vorsitzenden Kevin Warsh (Senatsbestätigung 54:45, die knappste in der Geschichte der Fed) einstimmig (12:0) um 25 Basispunkte auf 3,75–4,0 % – die erste Erhöhung seit 2023. Als Grund nennt die Fed den erneuten militärischen Konflikt mit Iran, der Öl- und Energiepreise und damit die Inflation treibt. 16 von 18 Mitgliedern des Offenmarktausschusses erwarten laut Projektionen mindestens eine weitere Erhöhung 2026.",
+            ask: [{ label: "Warum erhöht die Fed die Zinsen?", ref: "e:fed-hike" }] },
+          { tag: "fakt", text: "Die EZB erhöhte den Einlagensatz am 10.09.2026 um 25 Basispunkte auf 2,50 % – die zweite Anhebung 2026 nach Juni. Begründet wurde der Schritt mit dem Nahost-Konflikt und einer Inflationsprognose von 3,0 % für die Eurozone im Jahr 2026. EZB-Präsidentin Christine Lagarde warnte, die Inflation bleibe wegen des Nahost- und des Ukraine-Konflikts „well above target”.",
+            ask: [{ label: "Was bedeutet die EZB-Zinserhöhung für Verbraucher?", ref: "e:ecb-hike" }] }
         ]},
         { h: "Was bedeutet das für den Euro?", items: [
-          { tag: "fakt", text: "EUR/USD bewegte sich am Freitag bei rund 1,140 (EZB-Referenzkurs 1,1403), leicht höher als am Donnerstag (rund 1,137).",
+          { tag: "unbestaetigt", text: "EUR/USD bewegte sich am Freitag bei rund 1,140 (EZB-Referenzkurs 1,1403, Handelskurs laut TradingEconomics rund 1,1387), leicht höher als am Donnerstag (rund 1,137).",
             ask: [{ label: "Was bedeutet der Wechselkurs?", ref: "n:eurusd" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Die Kombination aus hohen Zinsen und hohen Ölpreisen (Meldung 7) trifft Verbraucher und Unternehmen gleichzeitig: höhere Kreditkosten einerseits, teurere Energie andererseits. Das gehört laut den zitierten Instituten zu den Gründen für die gesunkene Konsumentenstimmung (Meldung 4).",
-            ask: [{ label: "Wie wirken Zinsen auf Kreditmärkte?", ref: "chain:rates-to-credit" }] }
+          { tag: "einordnung", text: "Die Kombination aus hohen Zinsen und hohen Ölpreisen (Meldung 8) trifft Verbraucher und Unternehmen gleichzeitig: höhere Kreditkosten einerseits, teurere Energie andererseits. Die Kette von einem geopolitischen Konflikt über den Ölpreis bis zu Zinsen und Verbraucherpreisen lässt sich Schritt für Schritt nachvollziehen.",
+            ask: [{ label: "Vom Konflikt zur Börse – wie hängt das zusammen?", ref: "chain:oil-to-markets" }] }
         ]}
       ],
-      reaction: "Die hohen Zinsen bleiben laut Berichten ein Belastungsfaktor für Aktien, auch wenn die wichtigsten Indizes die Woche im Plus beendeten (Meldung 1).",
-      terms: ["leitzins", "rendite", "kerninflation"],
-      followups: ["e:yield-meaning", "e:central-banks-why", "e:inflation-expectations", "e:eurusd-meaning"],
+      reaction: "Die hohen Zinsen bleiben laut Berichten ein Belastungsfaktor für Aktien, auch wenn die wichtigsten Indizes die Woche im Plus beendeten (Meldung 1); zugleich hält das Zinsniveau variable Private-Credit-Zinsen erhöht (Meldung 13).",
+      terms: ["leitzins", "rendite", "basispunkt"],
+      followups: ["e:yield-meaning", "e:fed-hike", "e:ecb-hike", "e:central-banks-why", "e:eurusd-meaning"],
       sources: [
         { title: "CNBC: 10-year Treasury yield little changed to end a volatile week", url: "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html" },
-        { title: "Trading Economics: Germany 10-Year Bond Yield", url: "https://tradingeconomics.com/germany/government-bond-yield" },
-        { title: "onvista: Deutsche Anleihen geben weiter nach", url: "https://www.onvista.de/news/2026/09-25-deutsche-anleihen-geben-weiter-nach-0-10-26557598" },
-        { title: "CNN Business: US consumer sentiment, final September", url: "https://www.cnn.com/2026/09/25/economy/us-consumer-sentiment-final-september" },
-        { title: "onvista: Devisen – Eurokurs hält leichten Vorsprung zum US-Dollar", url: "https://www.onvista.de/news/2026/09-25-devisen-eurokurs-haelt-leichten-vorsprung-zum-us-dollar-0-10-26557645" }
+        { title: "ms-aktuell.de: Bundrendite steigt auf höchsten Stand seit 17 Jahren", url: "https://ms-aktuell.de/welt/anleiherenditen-25-09-2026/" },
+        { title: "Federal Reserve: Pressemitteilung zur Zinsentscheidung, 16.09.2026", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm" },
+        { title: "EZB: Pressemitteilung zur Zinsentscheidung, 10.09.2026", url: "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html" },
+        { title: "finanzen.at: Devisen (EZB-Richtwerte) – Euro-Referenzkurs bei 1,1403 US-Dollar", url: "https://www.finanzen.at/nachrichten/aktien/devisen-ezb-richtwerte-euro-referenzkurs-bei-1-1403-us-dollar-1036574688" }
       ]
     },
 
     /* 3 GOLD / BITCOIN */
     {
-      id: "gold-bitcoin-freitag", cats: ["markets"], when: "Fr 25.09. Gold und Bitcoin",
-      headline: "Gold hält hohes Niveau, Bitcoin nähert sich altem Hoch – Analysten diskutieren 250.000-Dollar-Ziel",
-      sec30: "Gold bewegte sich am Freitag kaum verändert zwischen rund 4.275 und 4.281 Dollar je Feinunze. Bitcoin stieg im Tagesverlauf zeitweise auf über 85.000 Dollar und verzeichnete zusammen mit Ethereum eine Wochenperformance von rund 10 %. Ein Fundstrat-Analyst sah die jüngste Krypto-Flaute laut Bericht sinngemäß als beendet an, ein Hedgefonds-Manager nannte ein Kursziel von 250.000 Dollar – beides Einzelmeinungen, kein Marktkonsens.",
+      id: "gold-bitcoin-wochenende", cats: ["markets"], when: "Fr 25.09. Gold-Schluss · Bitcoin Wochenende 26./27.09.",
+      headline: "Gold hält hohes Niveau, Bitcoin gibt nach Wochenhoch über 87.000 Dollar wieder nach",
+      sec30: "Gold schloss den Freitag bei rund 4.280 Dollar je Feinunze, im Wochenvergleich rund 1 % niedriger, belastet von den hohen Anleiherenditen nach den Zinserhöhungen von Fed und EZB. Bitcoin stieg im Wochenverlauf zeitweise auf über 87.300 Dollar, gab bis Sonntagvormittag aber wieder auf rund 84.000 Dollar nach – ein Rückgang von rund 4 % vom Wochenhoch, nach einer Quartalsrallye von rund 44 % im dritten Quartal 2026.",
       blocks: [
-        { h: "Gold: Kaum verändert", items: [
-          { tag: "unbestaetigt", text: "Für Gold nennen Quellen am Freitag Werte zwischen rund 4.275 und 4.281 Dollar je Feinunze, je nach Handelsplatz und Tageszeit – nahe dem Niveau der Vorwoche.",
+        { h: "Gold: Kaum verändert, Woche leicht im Minus", items: [
+          { tag: "fakt", text: "Gold schloss den Freitag laut USAGOLD bei rund 4.280 Dollar je Feinunze (+0,12 % am Tag), CNBC und Fortune nennen für den späteren Vormittag (US-Ostküstenzeit) Werte um 4.297–4.298 Dollar. Im Wochenvergleich lag Gold damit rund 1 % niedriger.",
             ask: [{ label: "Was bestimmt den Goldpreis?", ref: "e:gold-why" }] },
-          { tag: "fakt", text: "Das bisherige Jahreshoch von rund 5.417 Dollar hatte Gold laut Berichten bereits Ende Januar 2026 erreicht; der aktuelle Preis liegt deutlich darunter." }
+          { tag: "unbestaetigt", text: "Für das Wochenende (kein regulärer Handel) nennt ein Datenpunkt einen inoffiziellen, Future-getriebenen Wert von rund 4.284 Dollar für Samstagmorgen; Prognosen für den Handelsstart am Montag nennen eine Spanne von rund 4.255 bis 4.314 Dollar." },
+          { tag: "fakt", text: "Das bisherige Jahreshoch von rund 5.417 Dollar hatte Gold bereits Ende Januar 2026 erreicht; der aktuelle Preis liegt deutlich darunter." }
         ]},
-        { h: "Bitcoin: Nahe am September-Hoch", items: [
-          { tag: "unbestaetigt", text: "Bitcoin eröffnete den Freitag bei rund 84.378 Dollar, stieg zeitweise (7:14 Uhr ET) auf rund 85.200 Dollar und pendelte gegen 9 Uhr ET um rund 84.400 Dollar. Der Vortagesschluss wird je nach Quelle mit rund 83.650 bis 83.940 Dollar angegeben.",
+        { h: "Bitcoin: Nach Wochenhoch wieder nachgebend", items: [
+          { tag: "unbestaetigt", text: "Bitcoin stieg im Wochenverlauf zeitweise auf über 87.363 Dollar und gab bis Sonntagvormittag wieder auf rund 84.027 Dollar nach – ein Rückgang von rund 4 % vom Wochenhoch. Der Samstagswert wird mit rund 84.565 Dollar angegeben, ein 24-Stunden-Rückgang von rund 1 %.",
             ask: [{ label: "Warum schwankt Bitcoin so stark?", ref: "e:bitcoin-what" }] },
-          { tag: "position", text: "Fundstrat-Analyst Sean Farrell bezeichnete den jüngsten Kursanstieg laut Bericht sinngemäß als glaubwürdig und sah die Krypto-Flaute der vergangenen Monate als beendet an; ein nicht namentlich genannter Hedgefonds-Manager nannte laut Bericht ein langfristiges Kursziel von rund 250.000 Dollar. Beides sind Einzeleinschätzungen, kein Marktkonsens." },
-          { tag: "fakt", text: "Bitcoin und Ethereum verzeichneten laut Berichten eine gemeinsame Wochenperformance von rund +10 %." }
+          { tag: "fakt", text: "Für das dritte Quartal 2026 insgesamt nennen Berichte eine Bitcoin-Rallye von rund +44 %, mit zuletzt nachlassender Volatilität zum Quartalsende. Ethereum wird für Samstagabend mit rund 2.687 Dollar angegeben." },
+          { tag: "position", text: "Fundstrat-Analyst Sean Farrell hatte den Kursanstieg der Vorwoche als glaubwürdig bezeichnet, ein nicht namentlich genannter Hedgefonds-Manager ein langfristiges Kursziel von rund 250.000 Dollar genannt – beides bleiben Einzeleinschätzungen, kein Marktkonsens." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Nach dem Rückgang der Vortage erholte sich Bitcoin zum Wochenschluss wieder deutlich, während Gold sich auf hohem, aber stabilem Niveau hielt. Das passt zur unterschiedlichen Rolle beider Anlagen: Gold gilt traditionell als defensiver Wertspeicher, Bitcoin reagiert stärker auf kurzfristige Risikobereitschaft und einzelne Analystenmeinungen." }
+          { tag: "einordnung", text: "Nach der starken Erholung der Vorwoche kam es bei Bitcoin übers Wochenende zu einer teilweisen Gewinnmitnahme, während Gold sich auf hohem, aber leicht schwächerem Niveau hielt. Das passt zur unterschiedlichen Rolle beider Anlagen: Gold gilt traditionell als defensiver Wertspeicher, Bitcoin reagiert stärker auf kurzfristige Risikobereitschaft und einzelne Analystenmeinungen. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die weiterhin hohe US-Rendite (Meldung 2) wirkt grundsätzlich bremsend auf zinslose Anlagen wie Gold und Bitcoin, wurde am Freitag aber von anderen Faktoren überlagert.",
+      reaction: "Die nach den Zinserhöhungen von Fed und EZB weiterhin hohe US-Rendite (Meldung 2) wirkt grundsätzlich bremsend auf zinslose Anlagen wie Gold und Bitcoin.",
       terms: ["rendite"],
       followups: ["e:gold-why", "e:bitcoin-what"],
       sources: [
-        { title: "gold.de: Goldpreis aktuell", url: "https://www.gold.de/kurse/goldpreis/" },
-        { title: "Fortune: Current price of Bitcoin, Sept. 25, 2026", url: "https://fortune.com/article/price-of-bitcoin-09-25-2026/" },
-        { title: "Yahoo Finance: Bitcoin and ethereum prices today, Friday, Sept. 25, 2026", url: "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html" }
+        { title: "USAGOLD: Daily Precious Metals Market Report, September 25, 2026", url: "https://www.usagold.com/daily-precious-metals-market-report-september-25-2026/" },
+        { title: "Yahoo Finance: Gold price today, Friday, September 25, 2026", url: "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-25-2026-gold-prices-hold-as-investors-have-a-lot-to-consider-110139291.html" },
+        { title: "usethebitcoin.com: Bitcoin Price Analysis September 27, 2026 – BTC Holds $84K", url: "https://usethebitcoin.com/bitcoin/bitcoin-price-september-27-2026/" },
+        { title: "CoinDesk: Ethereum price today", url: "https://www.coindesk.com/price/ethereum" }
       ]
     },
 
-    /* 4 KONSUMKLIMA */
+    /* 4 ZENTRALBANKEN */
     {
-      id: "konsumklima-oel", cats: ["economy"], when: "GfK/NIM 25.09. · Michigan-Index 25.09. · EU-Verbrauchervertrauen September",
-      headline: "Konsumklima in Deutschland und den USA sinkt deutlich, hohe Ölpreise als gemeinsam genannter Grund",
-      sec30: "Das deutsche GfK/NIM-Konsumklima für Oktober fiel auf −30,6 Punkte, den zweitschlechtesten Wert des Jahres 2026. In den USA sank das Verbrauchervertrauen der University of Michigan auf ein 4-Monats-Tief von 48,1 Punkten, die Inflationserwartungen stiegen auf 4,6 %. Auch das EU-Verbrauchervertrauen gab nach. Als gemeinsamen Faktor nennen Berichte auf beiden Seiten des Atlantiks die hohen Öl- und Spritpreise infolge der Nahost-Lage (Meldung 7).",
+      id: "fed-ezb-zinserhoehung", cats: ["economy", "markets"], when: "Fed-Entscheidung 16.09. · EZB-Entscheidung 10.09.",
+      headline: "Fed und EZB erhöhen wegen Nahost-Konflikt und Inflation die Leitzinsen – Kehrtwende nach Senkungszyklus",
+      sec30: "Die US-Notenbank Fed hat unter ihrem neuen Vorsitzenden Kevin Warsh am 16.09.2026 den Leitzins um 25 Basispunkte auf 3,75–4,0 % erhöht, die erste Erhöhung seit 2023. Die EZB war bereits am 10.09. mit einer Anhebung des Einlagensatzes auf 2,50 % vorangegangen. Beide Notenbanken begründen den Schritt mit dem andauernden Nahost-Konflikt, der Energiepreise und Inflation treibt. 16 von 18 Fed-Mitgliedern erwarten mindestens eine weitere Erhöhung 2026.",
       blocks: [
-        { h: "Was zeigt das deutsche Konsumklima?", items: [
-          { tag: "fakt", text: "Der GfK/NIM-Konsumklimaindex für Oktober 2026 fiel auf −30,6 Punkte (revidierter September-Wert: −26,8) – der zweitschlechteste Wert des Jahres nach Mai. Die Einkommenserwartung sank auf −15,0 Punkte, den niedrigsten Stand seit April 2026, die Anschaffungsneigung auf −10,8 Punkte. Die Sparneigung stieg dagegen deutlich auf 21,5 Punkte.",
-            ask: [{ label: "Was ist Inflation?", ref: "e:inflation-what" }] },
-          { tag: "position", text: "NIM-Konsumexperte Rolf Bürkl erklärte laut Bericht, die Haushalte erwarteten, dass hohe Energiepreise ihre Kaufkraft schmälern, und seien deshalb pessimistischer bei den Einkommensaussichten. Als Hauptursache nennt die Studie „rekordhohe Spritpreise” infolge des Nahost-Konflikts." }
+        { h: "Was hat die Fed entschieden?", items: [
+          { tag: "fakt", text: "Der Offenmarktausschuss der Fed erhöhte den Leitzins am 16.09.2026 einstimmig (12:0) um 25 Basispunkte auf eine Spanne von 3,75 bis 4,0 %. Es ist die erste Zinserhöhung der Fed seit 2023 und markiert eine Kehrtwende nach dem Senkungszyklus der Vorjahre. Vorsitzender ist seit dem 22.05.2026 Kevin Warsh, dessen Senatsbestätigung mit 54:45 Stimmen die knappste in der Geschichte der Fed war.",
+            ask: [{ label: "Warum erhöht die Fed die Zinsen?", ref: "e:fed-hike" }] },
+          { tag: "fakt", text: "Als Begründung nennt die Fed den seit Ende Februar 2026 laufenden militärischen Konflikt mit Iran, der Öl- und Energiepreise und damit die Inflation treibt. Laut den Projektionen der Fed-Mitglieder erwarten 16 von 18 Ausschussmitgliedern mindestens eine weitere Zinserhöhung im Verlauf des Jahres 2026." }
         ]},
-        { h: "Was zeigt der US-Index?", items: [
-          { tag: "fakt", text: "Die finale September-Erhebung der University of Michigan zeigte einen Rückgang des Verbrauchervertrauens auf 48,1 Punkte, ein 4-Monats-Tief. Die Erwartungskomponente fiel um 15,7 % auf 45,8 Punkte, die Einschätzung der aktuellen Lage um 1,9 % auf 50,9 Punkte. Die Inflationserwartung für die kommenden zwölf Monate stieg auf 4,6 % (August: 4,0 %), die 5-Jahres-Erwartung auf 3,4 %.",
+        { h: "Was hat die EZB entschieden?", items: [
+          { tag: "fakt", text: "Die EZB erhöhte den Einlagensatz am 10.09.2026 um 25 Basispunkte auf 2,50 % – die zweite Anhebung des Jahres 2026 nach einem ersten Schritt im Juni. Die EZB verweist ebenfalls auf den Nahost-Konflikt und rechnet für 2026 mit einer Inflation von 3,0 % in der Eurozone, deutlich über ihrem Zielwert von 2 %.",
+            ask: [{ label: "Was bedeutet die EZB-Zinserhöhung für Verbraucher?", ref: "e:ecb-hike" }] },
+          { tag: "position", text: "EZB-Präsidentin Christine Lagarde warnte laut Bericht, die Inflation bleibe wegen des Nahost-Konflikts und des Kriegs in der Ukraine „well above target” (deutlich über dem Zielwert der EZB)." }
+        ]},
+        { h: "Welche Konjunkturdaten begleiten die Entscheidungen?", items: [
+          { tag: "fakt", text: "Der deutsche ifo-Geschäftsklimaindex stieg im September auf 89,9 Punkte (August: 88,8) – der höchste Stand seit Mai 2023 und der fünfte Anstieg in Folge. Für die Eurozone lag die Inflation im August bei 3,2 % (Vormonat 2,9 %), die Kernrate bei 2,4 %; die September-Schätzung wird erst am 02.10.2026 veröffentlicht.",
             ask: [{ label: "Was ist Kerninflation?", ref: "t:kerninflation" }] },
-          { tag: "position", text: "Umfrage-Direktorin Joanne Hsu nannte laut Bericht Sorgen um anhaltend hohe Preise, hohe Spritpreise und wieder eskalierende Handelskonflikte als Belastungsfaktoren für die Stimmung." }
-        ]},
-        { h: "Wie ist die Lage in der EU?", items: [
-          { tag: "fakt", text: "Das Verbrauchervertrauen der EU-Kommission (Flash-Schätzung September) fiel um 0,8 Punkte auf −15,8 (EU) bzw. um 1,0 Punkte auf −16,5 (Eurozone)." }
+          { tag: "fakt", text: "In den USA lag die Kern-PCE-Inflation für August (veröffentlicht am 26.09.) bei 2,9 %, die Gesamtrate bei 2,7 %; der Erzeugerpreisindex (PPI) für August stieg um 0,4 % im Monatsvergleich bzw. 5,4 % im Jahresvergleich, stark getrieben von Dieselpreisen." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sowohl in Deutschland als auch in den USA die Konsumentenstimmung im selben Zeitraum spürbar fiel, deutet laut den zitierten Instituten auf einen gemeinsamen Belastungsfaktor hin: die durch die Nahost-Lage gestiegenen Öl- und Spritpreise (Meldung 7). Eine mechanische Kausalität zwischen einzelnen Preisbewegungen und der Stimmungsumfrage lässt sich daraus nicht ableiten, beide Institute nennen den Zusammenhang aber explizit.",
-            ask: [{ label: "Warum schwankte der Ölpreis so stark?", ref: "s:7" }, { label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] }
+          { tag: "einordnung", text: "Die Zinserhöhungen von Fed und EZB markieren eine Abkehr vom Senkungskurs der vergangenen Jahre und werden von beiden Notenbanken explizit mit dem geopolitischen Konflikt im Nahen Osten begründet, nicht mit einer grundsätzlich überhitzten Konjunktur. Das erklärt teilweise, warum Anleiherenditen und Kreditkosten trotz insgesamt robuster Wirtschaftsdaten auf mehrjährigen Hochs bleiben.",
+            ask: [{ label: "Warum reagieren Zentralbanken auf Inflation?", ref: "e:central-banks-why" }] }
         ]}
       ],
-      reaction: "Die gesunkene Konsumentenstimmung fällt zusammen mit einer Woche, in der die wichtigsten Aktienindizes dennoch zulegten (Meldung 1) – ein Hinweis darauf, dass sich Börsenstimmung und Verbraucherstimmung kurzfristig auseinanderentwickeln können.",
-      terms: ["inflation", "kerninflation"],
-      followups: ["e:inflation-what", "e:oil-inflation", "e:central-banks-why"],
+      reaction: "Die höheren Leitzinsen erklären, warum die US-Rendite und die Bund-Rendite trotz einer im Aktienmarkt insgesamt robusten Woche auf mehrjährigen Hochs bleiben (Meldung 2).",
+      terms: ["leitzins", "basispunkt", "kerninflation", "erzeugerpreise"],
+      followups: ["e:fed-hike", "e:ecb-hike", "e:central-banks-why", "e:ppi-what"],
       sources: [
-        { title: "onvista: GfK-Konsumlaune trübt sich ein – hoher Ölpreis löst Angst vor Kaufkraftverlust aus", url: "https://www.onvista.de/news/2026/09-25-gfk-konsumlaune-truebt-sich-ein-hoher-oelpreis-loest-angst-vor-kaufkraftverlust-aus-0-20-26557354" },
-        { title: "CNN Business: US consumer sentiment, final September", url: "https://www.cnn.com/2026/09/25/economy/us-consumer-sentiment-final-september" },
-        { title: "MarketScreener: September final University of Michigan Consumer Sentiment 48.1", url: "https://www.marketscreener.com/news/september-final-university-of-michigan-consumer-sentiment-48-1-vs-expected-47-5-preliminary-47-8-ce785adfde8bf320" },
-        { title: "Europäische Kommission: Business and Consumer Surveys", url: "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en" }
+        { title: "Federal Reserve: Pressemitteilung zur Zinsentscheidung, 16.09.2026", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm" },
+        { title: "CNBC: Fed rate decision, September 2026", url: "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html" },
+        { title: "NPR: Kevin Warsh confirmed as Federal Reserve chair", url: "https://www.npr.org/2026/05/13/nx-s1-5816235/kevin-warsh-federal-reserve-chair-jerome-powell" },
+        { title: "EZB: Pressemitteilung zur Zinsentscheidung, 10.09.2026", url: "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html" },
+        { title: "CNBC: ECB interest rate hike, Lagarde, Iran", url: "https://www.cnbc.com/2026/09/10/ecb-interest-rate-hike-lagarde-iran.html" },
+        { title: "ad-hoc-news: ifo-Geschäftsklima steigt im September", url: "https://www.ad-hoc-news.de/wirtschaft/das-stimmungsbarometer-der-deutschen-unternehmen-erreicht-im-september/70175888" }
       ]
     },
 
-    /* 5 BERLIN LINKE */
+    /* 5 US-KONJUNKTUR / SHUTDOWN */
     {
-      id: "berlin-linke-sondierung", cats: ["germany"], when: "Sonderparteitag Fr 25.09.2026",
-      headline: "Berliner Linke stimmt für Sondierungsgespräche mit SPD und Grünen, in der SPD regt sich Widerstand",
-      sec30: "Die Berliner Linke stimmte auf einem Sonderparteitag am Freitag mit deutlicher Mehrheit dafür, SPD und Grüne zu Sondierungsgesprächen für eine Landesregierung einzuladen – nach ihrem Wahlsieg mit 25,7 % der Stimmen. Die Grünen zeigten sich gesprächsbereit, machten aber eine vorherige Klärung zu Antisemitismus- und Rassismus-Fragen zur Voraussetzung. In der SPD forderten mehr als 60 Sozialdemokraten, darunter die früheren Regierenden Bürgermeister Michael Müller und Walter Momper, einen Stopp der Gespräche mit der Linken.",
+      id: "us-konjunktur-shutdown", cats: ["economy"], when: "Übergangsfinanzierung seit 02.09. · Jobbericht erwartet 02.10.",
+      headline: "US-Regierung vermied Shutdown bis Dezember, Blick richtet sich auf schwächer erwarteten Arbeitsmarktbericht",
+      sec30: "Ein möglicher US-Regierungsstillstand zum 1. Oktober 2026 wurde bereits Anfang September vermieden: Senat (90:6) und Repräsentantenhaus einigten sich auf eine Übergangsfinanzierung bis zum 11. Dezember 2026, die Präsident Trump am 2.09. unterschrieb. Für den Arbeitsmarktbericht am 2.10. erwartet der Marktkonsens laut Bloomberg nur rund 90.000 neue Stellen bei einer Arbeitslosenquote von 4,1 %. Die OECD sieht das globale Wachstum trotz der Nahost-Konfliktfolgen bei 2,9 % für 2026.",
       blocks: [
-        { h: "Was wurde beschlossen?", items: [
-          { tag: "fakt", text: "Die Delegierten der Berliner Linken stimmten auf einem Sonderparteitag am Freitag, 25.09.2026, mit nach Berichten deutlicher Mehrheit dafür, SPD und Grüne zu Sondierungsgesprächen für eine Landesregierung einzuladen. Die Abstimmung endete gegen 19:40 Uhr, Parteichefin Elif Eralp kündigte an, die Einladungen noch am selben Abend zu verschicken.",
-            ask: [{ label: "Wie kam es zu dem Wahlergebnis?", ref: "e:landtagswahl-why" }] },
-          { tag: "fakt", text: "Die Linke war bei der Abgeordnetenhauswahl am 20.09.2026 mit 25,7 % erstmals stärkste Kraft in Berlin geworden, vor der CDU (18,8 %), der AfD (16,3 %), den Grünen (14,3 %) und der SPD (12,1 % – laut Berichten das schlechteste Ergebnis der Berliner SPD überhaupt)." }
+        { h: "Was ist beim Shutdown-Risiko passiert?", items: [
+          { tag: "fakt", text: "Ein Stillstand der US-Bundesregierung zum 1. Oktober 2026 wurde bereits Anfang September vermieden: Der Senat stimmte mit 90:6 Stimmen für eine Übergangsfinanzierung, die auch das Repräsentantenhaus billigte. Präsident Trump unterschrieb das Gesetz am 2.09.2026; die Finanzierung reicht laut Berichten bis zum 11. Dezember 2026.",
+            ask: [{ label: "Was passiert sonst in der US-Politik?", ref: "s:10" }] },
+          { tag: "position", text: "Laut einem Bericht von NBC News war ein Ziel der Einigung ausdrücklich, einen Regierungsstillstand vor den für November 2026 anstehenden Midterm-Wahlen zu verhindern. Im Jahr 2026 gab es laut Berichten bereits zwei frühere Shutdowns, im Januar/Februar und von Februar bis April, jeweils im Zusammenhang mit einem Einwanderungsstreit." }
         ]},
-        { h: "Was ändert sich konkret?", items: [
-          { tag: "fakt", text: "Nach Abschluss der Sondierungen soll erneut ein Parteitag der Linken über die Aufnahme förmlicher Koalitionsverhandlungen entscheiden. Ein konkretes Datum dafür wurde in den Berichten nicht genannt." }
+        { h: "Welche Konjunkturdaten stehen an?", items: [
+          { tag: "fakt", text: "Der US-Arbeitsmarktbericht für September wird am Freitag, 02.10.2026, um 8:30 Uhr Ostküstenzeit veröffentlicht. Der Marktkonsens erwartet laut Bloomberg nur rund 90.000 neue Stellen (deutlich weniger als in den Vormonaten) bei einer stabilen Arbeitslosenquote von 4,1 %.",
+            ask: [{ label: "Wie haben sich die Aktienmärkte zuletzt entwickelt?", ref: "s:1" }] }
         ]},
-        { h: "Wer unterstützt die Sondierungen und womit?", items: [
-          { tag: "position", text: "Die Grünen-Landesspitze (Nina Stahr, Philmon Ghirmai) begrüßte das Votum und erklärte sich bereit, „baldmöglichst in Verhandlungen einzusteigen” – machte eine vorherige Klärung zu Antisemitismus, Rassismus und gesellschaftlichem Zusammenhalt aber zur Voraussetzung. Ein informelles Vorgespräch mit der Linken hatte den Grünen zufolge bereits am Mittwoch stattgefunden." },
-          { tag: "position", text: "SPD-Landeschef Steffen Krach signalisierte laut Berichten grundsätzliche Gesprächsbereitschaft – sowohl mit der Linken als auch mit der CDU." }
+        { h: "Wie schätzt die OECD die Weltwirtschaft ein?", items: [
+          { tag: "fakt", text: "Die OECD bezifferte in ihrem Interim Economic Outlook vom September 2026 das globale Wirtschaftswachstum für 2026 auf 2,9 % und für 2027 auf 3,0 %.",
+            ask: [{ label: "Warum ist die Konjunktur trotz des Nahost-Konflikts robust?", ref: "e:companies-costs" }] },
+          { tag: "position", text: "Die OECD nennt laut Bericht als Gründe für die vergleichsweise robuste Prognose unter anderem Freigaben aus Ölreserven und anhaltend hohe KI-Investitionen, die Wachstumseffekte des Nahost-Konflikts teilweise ausgleichen." }
         ]},
-        { h: "Wer kritisiert die Gespräche und womit?", items: [
-          { tag: "position", text: "Mehr als 60 Sozialdemokraten, darunter die früheren Regierenden Bürgermeister Michael Müller und Walter Momper, forderten laut Berichten einen sofortigen Stopp der Gespräche mit der Linken. Als Begründung nannten sie den Auftritt des Clan-nahen Issa Remmo und des Aktivisten Ibrahim Ibrahim bei der Wahlfeier der Linken; die Partei erklärte dazu laut Bericht, beide seien uneingeladen gewesen.",
-            ask: [{ label: "Wie funktioniert eine Koalitionsmehrheit?", ref: "e:coalition-majority" }] },
-          { tag: "position", text: "Innerhalb der Linken selbst lehnte die parteiinterne Gruppe „Linke in der Linke” eine Regierungsbeteiligung grundsätzlich ab. Der Delegierte Johannes Kolleck forderte laut Bericht, eine Vergesellschaftung großer Immobilienkonzerne müsse „zwingende” Bedingung für eine Koalition sein." }
-        ]},
-        { h: "Welche Auswirkungen werden diskutiert?", items: [
-          { tag: "einordnung", text: "Mehrere mögliche Koalitionskonstellationen stehen laut Berichten im Raum: Linke-SPD-Grüne, eine von der CDU angedeutete „Koalition der Stabilität”, oder eine Fortsetzung der Sondierungen ohne klares Ergebnis. Welche Konstellation entsteht, ist nach dem Parteitag weiterhin offen.",
-            ask: [{ label: "Was bedeutet eine Koalition?", ref: "t:koalition" }] }
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Die vermiedene Haushaltssperre nimmt kurzfristig Unsicherheit von den US-Märkten, der erwartete schwächere Arbeitsmarktbericht könnte aber zeigen, dass die höheren Zinsen und Energiepreise allmählich auf die reale Wirtschaft durchschlagen – ein Muster, das sich auch in der gesunkenen Konsumentenstimmung der Vorwoche zeigte." }
         ]}
       ],
-      reaction: "Die Debatte fällt zusammen mit anhaltenden bundespolitischen Diskussionen über Koalitionsfragen und Gesetzesvorhaben (Meldung 6).",
+      reaction: "Ein schwächerer Arbeitsmarktbericht am 02.10. könnte die Diskussion über weitere Zinsschritte der Fed neu beeinflussen (Meldung 4).",
+      terms: [],
+      followups: ["e:companies-costs", "e:ppi-what"],
+      sources: [
+        { title: "NBC News: Senate leaders reach deal to avert shutdown before 2026 elections", url: "https://www.nbcnews.com/politics/congress/senate-leaders-reach-deal-avert-shutdown-2026-elections-rcna590564" },
+        { title: "Congress.gov: H.R. 5371", url: "https://www.congress.gov/bill/119th-congress/house-bill/5371" },
+        { title: "Bloomberg: US jobs report seen showing 90,000 payrolls, 4.1% unemployment rate", url: "https://www.bloomberg.com/news/articles/2026-09-26/us-jobs-report-seen-showing-90-000-payrolls-4-1-unemployment-rate" },
+        { title: "OECD: Economic Outlook Interim Report, September 2026", url: "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html" }
+      ]
+    },
+
+    /* 6 BERLIN KOALITION */
+    {
+      id: "berlin-sondierung-wochenende", cats: ["germany"], when: "Nach Sonderparteitag Fr 25.09. · Stand Wochenende 26./27.09.",
+      headline: "SPD nimmt Einladung der Linken zu Sondierungsgesprächen an, Grüne stellen Bedingungen, CDU bleibt außen vor",
+      sec30: "Nach dem Beschluss des Sonderparteitags der Linken vom Freitag nahm die Berliner SPD die Einladung zu Sondierungsgesprächen an; SPD-Landeschef Steffen Krach sprach laut Bericht von „sehr hohen Hürden”. Die Grünen zeigten sich gesprächsbereit, machten eine Klärung zu Antisemitismus- und Sicherheitsfragen aber zur Bedingung. Erste Gespräche sollen laut Linken-Chefin Elif Eralp in der Woche ab 28.09. beginnen. Bei der gleichzeitigen Landtagswahl in Mecklenburg-Vorpommern wurde die AfD mit 38,2 % erstmals stärkste Kraft, die CDU verpasste dort mit 4,9 % erstmals bundesweit den Einzug in ein Landesparlament.",
+      blocks: [
+        { h: "Was wurde beschlossen bzw. vorgeschlagen?", items: [
+          { tag: "fakt", text: "Nach dem Beschluss des Sonderparteitags der Linken vom Freitag, 25.09.2026, für Sondierungsgespräche mit SPD und Grünen versandte Parteichefin Elif Eralp die Einladungen noch am selben Abend. Die SPD nahm die Einladung an; laut Berichten sollen Landeschefin Bettina König und Parteichef Steffen Krach die Gespräche für die SPD führen.",
+            ask: [{ label: "Wie kam es zu diesem Wahlergebnis?", ref: "e:landtagswahl-why" }] }
+        ]},
+        { h: "Was ändert sich konkret?", items: [
+          { tag: "fakt", text: "Eralp kündigte an, erste eigentliche Sondierungsgespräche sollten in der Woche ab dem 28.09.2026 beginnen, zunächst getrennt mit SPD und Grünen. Ein Termin für einen erneuten Parteitag der Linken zur Entscheidung über förmliche Koalitionsverhandlungen wurde in den Berichten nicht genannt." }
+        ]},
+        { h: "Wer unterstützt die Gespräche und womit?", items: [
+          { tag: "position", text: "Die Grünen-Landesvorsitzenden Nina Stahr und Philmon Ghirmai zeigten sich verhandlungsbereit. Bundes-Grünen-Chefin Franziska Brantner stellte laut Bericht jedoch Bedingungen und schloss aus, dass die Linke das Innen- oder Justizressort übernimmt oder Verfassungsschutz und Polizei infrage stellt." }
+        ]},
+        { h: "Wer kritisiert die Gespräche und womit?", items: [
+          { tag: "position", text: "SPD-Landeschef Steffen Krach warnte laut Tagesspiegel-Liveblog vor „sehr hohen Hürden” und bezeichnete die vorausgegangenen Tage als „nicht vertrauensbildend” – Bezug ist der Auftritt umstrittener Personen bei der Wahlfeier der Linken, den mehr als 60 Sozialdemokraten bereits am Freitag kritisiert hatten.",
+            ask: [{ label: "Wie funktioniert eine Koalitionsmehrheit?", ref: "e:coalition-majority" }] },
+          { tag: "position", text: "Unionsfraktionschef Thorsten Frei bezeichnete die Linke laut Bericht als „eklatante Gefahr für unsere Sicherheit”; die CDU kommt als Koalitionspartner in Berlin nicht in Betracht. Als weitere Streitpunkte gelten laut Berichten Antisemitismus-Vorwürfe, angebliche Clan-Verbindungen einzelner Gäste der Wahlfeier sowie die von der Linken angestrebte Vergesellschaftung großer Wohnungsunternehmen wie Vonovia." }
+        ]},
+        { h: "Wie ist die Stimmung bundesweit?", items: [
+          { tag: "fakt", text: "Bei der gleichzeitig am 20.09.2026 abgehaltenen Landtagswahl in Mecklenburg-Vorpommern wurde die AfD mit 38,2 % erstmals stärkste Kraft, verpasste jedoch eine eigene Mehrheit. Die CDU verpasste dort mit 4,9 % erstmals bundesweit den Einzug in ein Landesparlament. Ministerpräsidentin Manuela Schwesig (SPD) strebt laut Bericht eine rot-rot-grüne Koalition an; eine Zusammenarbeit mit der AfD schließen SPD, CDU, Grüne und Linke aus.",
+            ask: [{ label: "Was bedeutet eine Koalition?", ref: "t:koalition" }] },
+          { tag: "unbestaetigt", text: "Eine bundesweite INSA-Umfrage für die BILD am Sonntag vom 26.09. nennt folgende Werte: AfD 28 %, CDU/CSU 20,6 %, Grüne 15 %, SPD 13,2 %, Linke 11,2 %, BSW 3,0 %. Einzelne Umfragen können je nach Institut und Erhebungszeitpunkt abweichen." }
+        ]},
+        { h: "Welche Auswirkungen werden diskutiert?", items: [
+          { tag: "einordnung", text: "Mehrere mögliche Konstellationen bleiben in Berlin laut Berichten offen: eine Koalition aus Linke, SPD und Grünen, eine Fortsetzung der Sondierungen ohne klares Ergebnis, oder ein Scheitern der Gespräche. Welche Konstellation entsteht, ist auch nach dem Wochenende weiterhin offen." }
+        ]}
+      ],
+      reaction: "Die Debatte fällt zusammen mit anhaltenden bundespolitischen Diskussionen über den Haushalt 2027 und die Rentenreform (Meldung 7).",
       terms: ["koalition"],
       followups: ["e:landtagswahl-why", "e:coalition-majority"],
       sources: [
         { title: "Tagesspiegel: Sonderparteitag der Berliner Linke – große Mehrheit stimmt für Sondierungen", url: "https://www.tagesspiegel.de/berlin/liveblog/sonderparteitag-der-berliner-linke-grosse-mehrheit-stimmt-fur-sondierungen-mit-grunen-und-spd-16053722.html" },
-        { title: "t-online: Berlin – Linke stimmt für Sondierungsgespräche", url: "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101452418/berlin-linke-stimmt-fuer-sondierungsgespraeche.html" },
-        { title: "ZDFheute: Linke Berlin – Sondierung, Grüne, SPD", url: "https://www.zdfheute.de/politik/deutschland/linke-berlin-sondierung-gruene-spd-100.html" },
-        { title: "Berliner Zeitung: Berliner SPD zwischen Linksbündnis und roter Linie", url: "https://www.berliner-zeitung.de/article/ein-wenig-hin-und-hergerissen-berliner-spd-zwischen-linksbuendnis-und-roter-linie-10429642" }
+        { title: "ZDFheute: SPD und Grüne vor Sondierungsgesprächen mit Linke?", url: "https://www.zdfheute.de/politik/deutschland/spd-aufstellung-koalitionsverhandlungen-berlin-linke-100.html" },
+        { title: "ZDFheute: Was die Linke für Koalitionspartner unattraktiv macht", url: "https://www.zdfheute.de/politik/deutschland/linke-sondierung-probleme-berlin-wahl-100.html" },
+        { title: "Wikipedia: Landtagswahl in Mecklenburg-Vorpommern 2026", url: "https://de.wikipedia.org/wiki/Landtagswahl_in_Mecklenburg-Vorpommern_2026" },
+        { title: "t-online: Mecklenburg-Vorpommern – Schwesig strebt Rot-Rot-Grün an", url: "https://www.t-online.de/nachrichten/deutschland/id_101445148/mecklenburg-vorpommern-schwesig-strebt-rot-rot-gruen-an.html" },
+        { title: "wahlrecht.de: Sonntagsfrage INSA", url: "https://www.wahlrecht.de/umfragen/insa.htm" }
       ]
     },
 
-    /* 6 BUNDESPOLIZEIGESETZ / HAUSHALT */
+    /* 7 HAUSHALT / RENTE / KRANKENVERSICHERUNG */
     {
-      id: "bundespolizeigesetz-haushalt", cats: ["germany"], when: "Bundestag Fr 25.09. · Haushaltsausschuss ab 23.09.",
-      headline: "Bundestag beschließt Reform des Bundespolizeigesetzes, Haushaltsausschuss berät weiter über Etat 2027",
-      sec30: "Der Bundestag verabschiedete am Freitag mit 322 gegen 134 Stimmen bei 118 Enthaltungen die Reform des Bundespolizeigesetzes – nach einem gescheiterten ersten Anlauf im Juli. Die Reform gibt der Bundespolizei neue Befugnisse bei Telekommunikationsüberwachung, Abschiebehaft und anlasslosen Kontrollen. Parallel laufen die Ausschussberatungen zum Bundeshaushalt 2027, und die Debatte um Kanzler Merz' Äußerung zu einem „Gerechtigkeitsproblem” zwischen gesetzlicher und privater Krankenversicherung hält an.",
+      id: "haushalt-rente-krankenversicherung", cats: ["germany"], when: "Haushaltsausschuss seit 23.09. · Rentenentwurf bekannt 18.09. · Krankenversicherungsdebatte seit 21.09.",
+      headline: "Bundestag billigt Tankrabatt und Bundespolizeigesetz, interner Rentenreform-Entwurf sorgt für Kritik",
+      sec30: "Der Bundestag verabschiedete am Freitag einen auf drei Monate befristeten Tankrabatt (Steuersenkung um 17 Cent je Liter ab 1.10.) und das Bundespolizeigesetz; der Bundesrat billigte beide Gesetze noch am selben Tag. Der Haushaltsausschuss berät weiter über den Etat 2027 (Nettokreditaufnahme 118,7 Mrd. Euro), kritisiert unter anderem vom Bundesrechnungshof. Ein am 18.09. bekanntgewordener interner Arbeitsentwurf zur Rentenreform sieht ein höheres Renteneintrittsalter für langjährig Versicherte vor und stößt auf Kritik von Gewerkschaften und Sozialverbänden. Nach Kanzler Merz' Äußerung zu einem „Gerechtigkeitsproblem” zwischen GKV und PKV ruderte das Kanzleramt zurück.",
       blocks: [
-        { h: "Was wurde beschlossen?", items: [
-          { tag: "fakt", text: "Der Bundestag verabschiedete am Freitag, 25.09.2026, im zweiten Anlauf die Reform des Bundespolizeigesetzes mit 322 Ja- gegen 134 Nein-Stimmen bei 118 Enthaltungen – die notwendige Mehrheit von 316 Stimmen wurde erreicht. Ein erster Versuch war im Juli 2026 an einer fehlenden Mehrheit gescheitert." }
-        ]},
-        { h: "Was ändert sich konkret?", items: [
-          { tag: "fakt", text: "Die Reform gibt der Bundespolizei neue Befugnisse: Telekommunikationsüberwachung zur Bekämpfung von Extremismus und Schleuserkriminalität, eine eigenständige Beantragung von Abschiebungshaft bzw. Ausreisegewahrsam sowie stichprobenartige, anlasslose Kontrollen in Waffen- und Messerverbotszonen an Bahnhöfen und in Zügen." },
-          { tag: "unbestaetigt", text: "Welche Fraktionen im Einzelnen zustimmten oder ablehnten sowie konkrete Kritikpunkte einzelner Parteien am Bundespolizeigesetz wurden in den gesichteten Quellen nicht im Detail genannt." }
+        { h: "Was hat der Bundestag beschlossen?", items: [
+          { tag: "fakt", text: "Der Bundestag verabschiedete am Freitag, 25.09.2026, einen befristeten Tankrabatt: eine Steuersenkung um 17 Cent je Liter Kraftstoff für drei Monate ab dem 1. Oktober 2026. Zugleich billigte der Bundestag die bereits zuvor beschlossene Reform des Bundespolizeigesetzes mit erweiterten Befugnissen unter anderem bei Telekommunikationsüberwachung und Kontrollen. Der Bundesrat billigte beide Gesetze noch am selben Tag und fasste zudem Beschlüsse zu Kindergeld und Elterngeld." }
         ]},
         { h: "Wie ist der Stand beim Bundeshaushalt 2027?", items: [
-          { tag: "fakt", text: "Der Haushaltsausschuss des Bundestags beriet am 23. und 24.09.2026 zunächst über die Einzelpläne der Verfassungsorgane und den Bundesrechnungshof. Die entscheidende Bereinigungssitzung ist für den 12.11.2026 angesetzt, die abschließende Lesung mit namentlicher Schlussabstimmung für den 27.11.2026. Der Entwurf sieht Ausgaben von 555,4 Mrd. Euro und eine Nettokreditaufnahme von 118,7 Mrd. Euro vor (Vorjahr: 98,0 Mrd. Euro).",
+          { tag: "fakt", text: "Der Haushaltsausschuss des Bundestags (Vorsitz: Lisa Paus) beriet ab dem 23.09.2026 in nicht öffentlichen Sitzungen über den Etat 2027. Der Entwurf sieht Ausgaben von 555,4 Mrd. Euro und eine Nettokreditaufnahme von 118,7 Mrd. Euro vor (Vorjahr: 98,0 Mrd. Euro), davon 85,4 Mrd. Euro über die grundgesetzliche Ausnahme für Verteidigung und Sicherheit. Die Bereinigungssitzung ist für den 12.11.2026 angesetzt, die abschließende Lesung mit namentlicher Schlussabstimmung für den 27.11.2026.",
             ask: [{ label: "Was ist die Schuldenbremse?", ref: "e:haushalt-basics" }] },
-          { tag: "position", text: "In der allgemeinen Finanzdebatte kritisierten die Grünen laut Bundestagsbericht einen „steil absteigenden Pfad bei den Investitionen”, die Linke sprach von einer „beispiellosen Mogelpackung”, die AfD erhob den Vorwurf „verfassungswidriger Buchungstricks”. CDU/CSU verwies auf „Rekordinvestitionen”, die SPD betonte, die Regierung „wird nicht an einem Haushalt scheitern”." }
+          { tag: "position", text: "Finanzminister Lars Klingbeil (SPD) verweist laut Bericht darauf, im Haushalt eine „Lücke von 34 Milliarden Euro” zu schließen. Kritik kommt unter anderem vom Bundesverband der Deutschen Industrie (Ausgaben und Schulden „alarmierend”), vom DGB (Ungleichgewicht zulasten künftiger Investitionen) und laut Berichten vom Bundesrechnungshof, der einen Kurs Richtung einer Gesamtverschuldung von rund 3 Billionen Euro sieht." }
+        ]},
+        { h: "Was sieht der Rentenreform-Entwurf vor?", items: [
+          { tag: "unbestaetigt", text: "Ein am 18.09.2026 bekanntgewordener interner Arbeitsentwurf des Bundesarbeitsministeriums sieht unter anderem die Anhebung des frühesten Renteneintritts für langjährig Versicherte von 63 auf 64 Jahre sowie eine neue „Schutzrente” statt der bisherigen abschlagsfreien Frührente vor. Das Ministerium betonte laut Bericht, es handle sich nur um einen frühen, bereits überholten Entwurf; ein endgültiger Referentenentwurf werde weiter erarbeitet.",
+            ask: [{ label: "Wie funktioniert die gesetzliche Rente?", ref: "e:rente-basics" }] },
+          { tag: "position", text: "DGB-Chefin Yasmin Fahimi sieht laut Bericht aktuelle Rentner als „Verlierer” der Reform und lehnt die Abschaffung der abschlagsfreien Frührente ab; der Sozialverband VdK fordert Schutz für Menschen in besonders belastenden Berufen; der Arbeitgeberverband BDA lobt laut Bericht die Ambition der Reform, kritisiert aber die zusätzliche finanzielle Belastung für Unternehmen." }
         ]},
         { h: "Wie geht die Debatte um die Krankenversicherung weiter?", items: [
-          { tag: "fakt", text: "Nach Kanzler Merz' Äußerung vom 21.09. zu einem „Gerechtigkeitsproblem” zwischen gesetzlicher und privater Krankenversicherung stellte Unionsfraktionschef Thorsten Frei laut Bericht klar, der Fokus liege allein auf schnelleren Arztterminen: „Das ist so nicht gemeint gewesen und das wäre auch nicht unsere Politik.”" },
-          { tag: "position", text: "Der PKV-Verband (Direktor Florian Reuther) warf der Union vor, unter dem Eindruck von Wahlniederlagen langjährige Positionen aufzugeben; die Bundesärztekammer (Präsident Klaus Reinhardt) erklärte, ein Gesundheitssystem ohne private Versicherung bedeute „Versorgung mit weniger Geld für alle”. Die SPD (Gesundheitspolitiker Christos Pantazis) begrüßte dagegen Merz' Vorstoß und sieht darin eine Bestätigung ihrer Forderung nach einer Bürgerversicherung." }
+          { tag: "fakt", text: "Nach Kanzler Merz' Äußerung vom 21.09. zu einem „Gerechtigkeitsproblem” zwischen gesetzlicher und privater Krankenversicherung stellte ein Regierungssprecher noch am selben Abend klar, der Kanzler habe das duale System „nicht infrage gestellt”; eine Fusion oder Abschaffung der PKV sei nicht geplant." },
+          { tag: "position", text: "CSU-Chef Markus Söder lehnte eine Neuordnung ab und bezeichnete eine Bürgerversicherung als „für uns völlig undenkbar”. Der PKV-Verband (Direktor Florian Reuther) und die Bundesärztekammer (Präsident Klaus Reinhardt) warnten davor, die private Krankenversicherung als „stabilste Säule” des Systems zu schwächen. Juso-Chef Philipp Türmer forderte dagegen eine Bürgerversicherung als Konsequenz aus Merz' Äußerung." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Die drei Themen – Bundespolizeigesetz, Haushalt 2027 und Krankenversicherungsdebatte – laufen parallel und zeigen unterschiedliche Konfliktlinien: beim Polizeigesetz zwischen Koalition und Opposition, beim Haushalt zwischen allen Oppositionsfraktionen und der Koalition, bei der Krankenversicherung quer durch die Union selbst zwischen Kanzleramt und Fraktion." }
+          { tag: "einordnung", text: "Die drei Themen – Haushalt, Rentenreform und Krankenversicherungsdebatte – laufen parallel und zeigen unterschiedliche Konfliktlinien: beim Haushalt zwischen Opposition, Rechnungshof und Koalition, bei der Rente zwischen Gewerkschaften, Sozialverbänden und Arbeitgebern, bei der Krankenversicherung quer durch die Union selbst zwischen Kanzleramt und CSU." }
         ]}
       ],
-      reaction: "Die höhere Bund-Rendite (Meldung 2) verteuert tendenziell auch die im Haushalt 2027 vorgesehene Neuverschuldung.",
-      terms: ["schuldenbremse"],
-      followups: ["e:haushalt-basics", "e:debt-brake"],
+      reaction: "Die höhere Bund-Rendite nach der jüngsten Zinserhöhung der EZB (Meldung 2) verteuert tendenziell auch die im Haushalt 2027 vorgesehene Neuverschuldung.",
+      terms: ["schuldenbremse", "umlage"],
+      followups: ["e:haushalt-basics", "e:debt-brake", "e:rente-basics"],
       sources: [
-        { title: "beck-aktuell: Bundestag billigt Bundespolizeigesetz-Reform", url: "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/bundestag-billigt-bundespolizeigesetz-reform-befugnisse-tk-ueberwachung-abschiebungshaft-kontrollen-2026-09-25" },
-        { title: "Bundestag.de: Weg zum Bundeshaushalt 2027", url: "https://www.bundestag.de/dokumente/textarchiv/2026/kw34-haushalt-2027-ablauf-1187766" },
+        { title: "Handelsblatt: Bundestag gibt grünes Licht für Tankrabatt", url: "https://www.handelsblatt.com/politik/deutschland/bundespolitik-bundestag-gibt-gruenes-licht-fuer-tankrabatt/100137034.html" },
+        { title: "ZDFheute: Tankrabatt, Polizei, Elterngeld – Bundesrat-Beschlüsse", url: "https://www.zdfheute.de/politik/deutschland/tankrabatt-polizei-elterngeld-bundesrat-100.html" },
         { title: "Bundestag.de: Allgemeine Finanzdebatte", url: "https://www.bundestag.de/dokumente/textarchiv/2026/kw37-de-allgemeine-finanzdebatte-1194734" },
-        { title: "taz: Debatte um Krankenversicherung", url: "https://taz.de/Debatte-um-Krankenversicherung/!6215440/" },
-        { title: "Ärzteblatt: Merz sieht Gerechtigkeitsproblem bei Krankenversicherung", url: "https://www.aerzteblatt.de/news/merz-sieht-gerechtigkeitsproblem-bei-nebeneinander-von-privater-und-gesetzlicher-krankenversicherung-2aaacdbf-aef6-458d-bd7f-7d0d5c918fd9" }
+        { title: "it-boltwise: Rechnungshof kritisiert Schuldenkurs – Haushalt 2027 steuert Richtung 3 Billionen", url: "https://www.it-boltwise.de/rechnungshof-kritisiert-schuldenkurs-haushalt-2027-steuert-richtung-3-billionen.html" },
+        { title: "ZDFheute: Rentenreform – 33 Vorschläge der Rentenkommission", url: "https://www.zdfheute.de/politik/deutschland/rente-kommission-bericht-eintrittsalter-beitragszahler-100.html" },
+        { title: "Stuttgarter Zeitung: Rentenreform 2026 – wie ist der aktuelle Stand bei der Umsetzung?", url: "https://www.stuttgarter-zeitung.de/wirtschaft/rentenreform-2026-wie-ist-der-aktuelle-stand-bei-der-umsetzung-79499796.html" },
+        { title: "Tagesspiegel: Kanzleramt rudert nach Merz-Aussage zurück", url: "https://www.tagesspiegel.de/politik/doch-kein-kurswechsel-bei-den-krankenkassen-kanzleramt-rudert-nach-merz-aussage-zuruck-16081713.html" },
+        { title: "Cash-online: PKV-Verband und Ärztepräsident warnen Union vor Abkehr vom dualen System", url: "https://www.cash-online.de/a/pkv-verband-und-aerztepraesident-warnen-union-vor-abkehr-vom-dualen-system-726293/" }
       ]
     },
 
-    /* 7 IRAN-USA / HORMUZ */
+    /* 8 IRAN-USA / HORMUZ */
     {
-      id: "iran-usa-hormuz", cats: ["world", "geo"], when: "UN-Gespräche Woche 22.–25.09. · Hormuz-Diplomatie 24./25.09.",
-      headline: "Iran übermittelt Sieben-Tage-Fahrplan zur Kriegsbeendigung, USA und Iran erkunden gestaffelten Hormuz-Deal",
-      sec30: "Iran hat über Katar einen Sieben-Tage-Fahrplan zur Beendigung des seit Ende Februar andauernden Kriegs mit den USA und Israel übermittelt: Wiedereröffnung der Straße von Hormus am sechsten Tag, Beginn finaler Atomverhandlungen am siebten. Außenminister Araghchi sagte, der Ball liege nun bei den USA; das Weiße Haus nannte die Gespräche „positive and constructive”. Parallel erkunden die USA und Iran laut Bloomberg einen gestaffelten Deal zur Wiedereröffnung der Meerenge, während Huthi-Rebellen weiter Ziele in Saudi-Arabien angreifen.",
+      id: "iran-usa-hormuz-ablehnung", cats: ["world", "geo"], when: "Trump-Ablehnung Sa 26.09. · Huthi-Abwehr Sa 26.09.",
+      headline: "Trump weist iranischen Sieben-Tage-Fahrplan zurück, Huthi-Angriffe auf Saudi-Arabien halten an",
+      sec30: "US-Präsident Trump wies den von Iran über Katar übermittelten Sieben-Tage-Fahrplan zur Wiedereröffnung der Straße von Hormus am Samstag öffentlich zurück und sagte, Iran wolle nur deshalb einen Deal, weil es „so verliere”. Irans Außenminister Araghchi bezeichnete dies als „erste Reaktion” und wartet laut eigenen Angaben auf eine förmliche Antwort über die Vermittler. Die von Saudi-Arabien geführte Koalition fing am Samstag zwei ballistische Raketen und zwei Drohnen der Huthi-Rebellen ab; Saudi-Arabien griff daraufhin Ziele bei Taiz im Jemen an.",
       blocks: [
         { h: "Warum ist das wichtig?", items: [
           { tag: "einordnung", text: "Durch die Straße von Hormus läuft nach Angaben von Marktbeobachtern ein großes Volumen des weltweit gehandelten Öls und Flüssigerdgases. Eine Deeskalation oder Eskalation dort wirkt sich direkt auf die globalen Energiepreise aus (Meldung 15).",
             ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] }
         ]},
         { h: "Wer ist beteiligt?", items: [
-          { tag: "fakt", text: "Auf iranischer Seite verhandeln Außenminister Abbas Araghchi und Präsident Massoud Pezeshkian, auf US-Seite Sondergesandter Steve Witkoff, Jared Kushner und Präsident Trump. Katar vermittelt den Fahrplan; Iran bestreitet direkte Gespräche mit Washington und spricht offiziell von einer Vermittlung durch Oman." }
+          { tag: "fakt", text: "Auf iranischer Seite verhandeln Außenminister Abbas Araghchi und Präsident Massoud Pezeshkian, auf US-Seite Präsident Trump. Katar vermittelt den Fahrplan, zusätzlich waren laut Berichten auch Pakistan und Ägypten an der Vermittlung beteiligt." }
         ]},
-        { h: "Was ist der historische Hintergrund?", items: [
-          { tag: "fakt", text: "Seit Ende Februar 2026 befinden sich die USA/Israel und Iran nach US-israelischen Angriffen in einem offenen Konflikt. Ein Waffenstillstands-Memorandum vom 17.06.2026 war im Juli kollabiert, nachdem Iran nach Berichten Schiffe im Golf angegriffen hatte; Trump erklärte den Deal damals für gescheitert." }
-        ]},
-        { h: "Was sieht der neue Fahrplan vor?", items: [
-          { tag: "position", text: "Der von Iran übermittelte Sieben-Tage-Fahrplan sieht laut Berichten an den Tagen eins bis fünf schrittweise Deeskalationsschritte vor, am sechsten Tag die Wiedereröffnung der Straße von Hormus und am siebten Tag den Beginn finaler Atomverhandlungen. Araghchi sagte sinngemäß, die Entscheidung liege nun bei den USA (Position Irans). Ein Sprecher des Weißen Hauses nannte die Gespräche gegenüber CNN „positive and constructive” (Position der US-Regierung). Eine offizielle Antwort Trumps auf den Fahrplan war bis zum 25.09. laut Berichten nicht bekannt.",
+        { h: "Was sieht der Fahrplan vor, und wie hat Trump reagiert?", items: [
+          { tag: "fakt", text: "Der von Iran übermittelte Sieben-Tage-Fahrplan sieht laut Berichten die Aufhebung der US-Seeblockade iranischer Häfen, eine Aussetzung von Ölsanktionen, die Freigabe von rund 12 Mrd. Dollar eingefrorener iranischer Gelder sowie eine bis zu 60-tägige regionale Waffenruhe vor. Nach vier bis fünf Tagen Vorbereitung soll die Straße von Hormus am sechsten Tag wieder vollständig geöffnet werden." },
+          { tag: "position", text: "Präsident Trump wies den Vorschlag am Samstag, 26.09.2026, öffentlich zurück („I reject their proposal”) und sagte sinngemäß, Iran wolle nur deshalb einen Deal, weil es in der aktuellen Lage „verliere” (Position der US-Regierung). Irans Außenminister Araghchi sprach am 26.09. laut Bericht lediglich von einer „ersten Reaktion” Trumps; eine formelle Antwort über die Vermittler liege noch nicht vor. Araghchi wies zudem eine Verantwortung Irans für die Blockade der Straße von Hormus zurück und sagte, die USA hätten die Routen zuerst gesperrt (Position Irans).",
             ask: [{ label: "Wie hat sich der Ölpreis dadurch entwickelt?", ref: "n:brent" }] },
-          { tag: "fakt", text: "Iran fordert im Gegenzug laut Berichten die Aufhebung der US-Seeblockade, die Freigabe von rund 12 Mrd. Dollar eingefrorener Vermögenswerte sowie Erleichterungen bei den Ölsanktionen." }
+          { tag: "fakt", text: "Der aktuelle Vorschlag ähnelt laut Berichten einem im Juni 2026 unterzeichneten Waffenstillstands-Memorandum mit einem 60-Tage-Fenster, das im Juli scheiterte." }
         ]},
         { h: "Wie ist die Lage bei den Huthi-Angriffen?", items: [
-          { tag: "fakt", text: "Huthi-Rebellen im Jemen griffen am Donnerstag erneut mit ballistischen Raketen Ziele nahe Taif und Yanbu in Saudi-Arabien an; die saudische Luftabwehr fing die Raketen nach Berichten ab. Frankreich kündigte laut Al Jazeera an, Truppen zum Schutz des Ölterminals Yanbu zu entsenden.",
-            ask: [{ label: "Wer sind die Huthi-Rebellen?", ref: "e:why-oil-up-geo" }] },
-          { tag: "fakt", text: "Saudi-Arabiens Rohölexporte stiegen im September dennoch auf rund 6 Mio. Barrel pro Tag, den höchsten Stand seit Kriegsbeginn, laut einem Bericht." }
+          { tag: "fakt", text: "Die von Saudi-Arabien geführte Koalition fing am Samstag, 26.09., nach eigenen Angaben zwei ballistische Raketen (Ziel: Khamis Mushait) und zwei Drohnen (Ziel: Riad) der Huthi-Rebellen ab. Als Reaktion griff Saudi-Arabien Ziele bei Taiz im Jemen an. Die Huthi führen seit Juli 2026 eine erklärte Seeblockade gegen Riad im Rahmen des seit Ende Februar laufenden Konflikts.",
+            ask: [{ label: "Wer sind die Huthi-Rebellen?", ref: "e:why-oil-up-geo" }] }
         ]},
         { h: "Welche wirtschaftlichen Auswirkungen werden diskutiert?", items: [
-          { tag: "unbestaetigt", text: "Der Brent-Ölpreis schwankte am Freitag laut verschiedenen Quellen zwischen rund 99 und 108 Dollar je Barrel – Berichte über Fortschritte beim Hormuz-Deal drückten den Preis zeitweise, neue Huthi-Angriffe trieben ihn wieder nach oben.",
+          { tag: "unbestaetigt", text: "Der Brent-Ölpreis schloss den Freitag laut den konsistentesten Quellen bei rund 104 Dollar je Barrel, teilweise gestützt von Hoffnungen auf den nun von Trump zurückgewiesenen Hormuz-Deal. Da am Wochenende nicht gehandelt wird, liegt noch kein neuer Marktpreis vor, der Trumps Ablehnung einpreist.",
             ask: [{ label: "Wie wirkt sich das auf Verbraucher aus?", ref: "e:oil-inflation" }] },
           { tag: "einordnung", text: "Die Kette von einem geopolitischen Konflikt über den Ölpreis bis zu Zinsen und Verbraucherpreisen lässt sich Schritt für Schritt nachvollziehen.",
             ask: [{ label: "Vom Konflikt zur Börse – wie hängt das zusammen?", ref: "chain:oil-to-markets" }] }
         ]}
       ],
-      reaction: "Die schwankenden Ölpreise gehören laut den zitierten Instituten zu den Gründen für die gesunkene Konsumentenstimmung in Deutschland und den USA (Meldung 4).",
+      reaction: "Trumps Ablehnung des Fahrplans könnte die Ölpreis-Unsicherheit zum Start der neuen Handelswoche erhöhen (Meldung 15).",
       terms: ["brent", "opec-plus"],
       followups: ["e:hormuz", "e:why-oil-up-geo", "e:oil-inflation"],
       sources: [
-        { title: "Al Jazeera: Iran says it awaits US response on seven-day roadmap to end war", url: "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war" },
-        { title: "CNBC: US, Iran, Trump, Hormuz", url: "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html" },
-        { title: "CNN: Pezeshkian – Iran president briefing", url: "https://www.cnn.com/2026/09/24/middleeast/pezeshkian-iran-president-new-york-briefing-intl" },
-        { title: "Bloomberg: US, Iran Said to Be Exploring Phased Deal to Open Hormuz", url: "https://www.bloomberg.com/news/articles/2026-09-24/us-iran-said-to-be-exploring-phased-deal-to-open-hormuz" },
-        { title: "Al Jazeera: Saudi Arabia, allies line up support as Houthi attacks mount", url: "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount" }
+        { title: "Al Jazeera: Trump rejects Iran's seven-day roadmap to reopen Strait of Hormuz", url: "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz" },
+        { title: "Al Jazeera: What's in Iran's seven-day plan to reopen the Strait of Hormuz", url: "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz" },
+        { title: "The National: Saudi coalition intercepts Houthi drones headed for Riyadh", url: "https://www.thenationalnews.com/news/gulf/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-headed-for-riyadh/" },
+        { title: "Wikipedia: September 2026 Houthi strikes on Saudi Arabia", url: "https://en.wikipedia.org/wiki/September_2026_Houthi_strikes_on_Saudi_Arabia" }
       ]
     },
 
-    /* 8 UKRAINE-RUSSLAND */
+    /* 9 UKRAINE-RUSSLAND */
     {
-      id: "ukraine-russland-diplomatie", cats: ["world", "geo"], when: "Drohnenangriff Kyjiw 25.09. · Trump-Selenskyj-Gespräch 25.09.",
-      headline: "Russischer Drohnenangriff auf Kyjiw fordert mehrere Tote, Trump bittet Selenskyj um Moskau-Reise",
-      sec30: "Ein russischer Drohnenangriff auf Kyjiw tötete am Freitag mindestens sieben Menschen, darunter ein 14-jähriges Kind, 59 wurden verletzt. Bei einem Treffen in New York bat Präsident Trump laut Berichten Präsident Selenskyj erneut, sich mit Putin in Moskau zu treffen – Selenskyj lehnte ab. Trilaterale Gespräche zwischen den USA, der Ukraine und Russland in den Vereinigten Arabischen Emiraten sind für Oktober grundsätzlich vereinbart, ein Termin steht noch nicht fest.",
+      id: "ukraine-russland-wochenendangriffe", cats: ["world", "geo"], when: "Angriffe Nacht zum Sa 26.09. · Patriot-Streit seit 25.09.",
+      headline: "Russland greift Kyjiw und Sumy mit 173 Drohnen an, US-Außenministerium bestätigt Patriot-Lizenz nicht",
+      sec30: "In der Nacht zum Samstag griff Russland die Ukraine mit 173 Drohnen an (davon 50 mit Strahltriebwerk); Kyjiw wurde die dritte Nacht in Folge getroffen, in Sumy starben zwei Menschen, 23 wurden verletzt. Die Ukraine griff im Gegenzug die russische Ölraffinerie Ilski an. Zugleich widersprach das US-Außenministerium Präsident Selenskyjs Aussage, Trump habe bereits eine „finale Entscheidung” zu einer Patriot-Lizenz für die Ukraine getroffen – laut einem Sprecher steht die endgültige Entscheidung weiterhin aus.",
       blocks: [
         { h: "Warum ist das wichtig?", items: [
-          { tag: "fakt", text: "Der Angriff auf Kyjiw ist einer von wiederholten russischen Großangriffen auf ukrainische Städte und zeigt, dass die Kampfhandlungen trotz laufender diplomatischer Bemühungen anhalten." }
+          { tag: "fakt", text: "Die Angriffe zeigen, dass die Kampfhandlungen zwischen Russland und der Ukraine trotz laufender diplomatischer Bemühungen um trilaterale Gespräche anhalten." }
         ]},
         { h: "Wer ist beteiligt?", items: [
-          { tag: "fakt", text: "Kyjiws Bürgermeister Vitali Klitschko meldete mindestens sieben Tote und 59 Verletzte, davon 25 Hospitalisierte. Präsident Wolodymyr Selenskyj traf sich am Rande der UN-Vollversammlung in New York mit Präsident Trump." }
+          { tag: "fakt", text: "Russland griff in der Nacht zum Samstag, 26.09.2026, die Ukraine mit 173 Drohnen an, davon rund 50 mit Strahltriebwerk. Kyjiw wurde nach Berichten die dritte Nacht in Folge getroffen (ein Verletzter, Brände, beschädigte Wohnhäuser); bei Angriffen auf Sumy starben zwei Menschen, 23 wurden verletzt, darunter vier Kinder. Die Ukraine griff im Gegenzug die russische Ölraffinerie Ilski an, rund 400 Kilometer von möglichen Startpunkten der Drohnen entfernt; dort brach ein Brand aus." }
         ]},
-        { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Mehrere frühere Vermittlungsversuche zwischen der Ukraine und Russland sind bislang ohne Ergebnis geblieben. Im September wurden zudem mehrere Drohnenvorfälle über NATO-Gebiet gemeldet (Litauen 15.09., Polen 10.09.), die die NATO russischer Urheberschaft zuschreibt." }
-        ]},
-        { h: "Was wurde beim Trump-Selenskyj-Treffen besprochen?", items: [
-          { tag: "position", text: "Trump bat Selenskyj laut Berichten erneut, sich mit Putin in Moskau zu treffen. Selenskyj lehnte dies ab und zeigte sich laut Berichten verärgert über den Vorstoß (Position Selenskyjs).",
-            ask: [{ label: "Wer ist an der Iran-Diplomatie beteiligt?", ref: "s:7" }] },
-          { tag: "fakt", text: "Ein von Selenskyj vorgeschlagenes Treffen mit Putin am Rande des G20-Gipfels im Dezember 2026 wurde laut Berichten vom Kreml abgelehnt. Trilaterale Gespräche zwischen den USA, der Ukraine und Russland in den Vereinigten Arabischen Emiraten sind für Oktober 2026 grundsätzlich vereinbart, ein konkreter Termin steht noch nicht fest." }
+        { h: "Was ist der historische Hintergrund?", items: [
+          { tag: "fakt", text: "Bei einem bilateralen Treffen am 22.09.2026 am Rande der UN-Generalversammlung in New York hatte Präsident Trump laut Selenskyj zugesagt, der Ukraine eine Lizenz zur eigenen Produktion von Patriot-Abfangraketen zu erteilen. Ein Aufbau entsprechender Fertigungskapazitäten würde laut Berichten über ein Jahr dauern. Zudem hatte Trump Selenskyj laut Berichten gebeten, sich zu Friedensgesprächen mit Putin in Moskau zu treffen; Selenskyj lehnte dies zunächst ab." }
         ]},
         { h: "Was ist mit der Patriot-Lizenz für die Ukraine?", items: [
-          { tag: "unbestaetigt", text: "Selenskyj berichtete nach dem Treffen mit Trump, dieser habe eine „finale Entscheidung” getroffen, der Ukraine eine Lizenz zur Eigenproduktion von Patriot-Abfangraketen zu erteilen. Das Weiße Haus bestätigte dies bis zum 25.09. nicht offiziell. US-Außenminister Rubio hatte zuvor gedämpft, ein Produktionsaufbau brauche Jahre (Position Rubios).",
-            ask: [{ label: "Welche Rüstungsgüter sind sonst im Gespräch?", ref: "s:11" }] }
+          { tag: "unbestaetigt", text: "Präsident Selenskyj berichtete am 25./26.09., Trump habe ihm gegenüber eine „finale Entscheidung” zur Patriot-Lizenz mitgeteilt. Ein Sprecher des US-Außenministeriums widersprach dem gegenüber Medien jedoch: Es sei noch keine endgültige Entscheidung getroffen worden, die Angelegenheit befinde sich weiter in diplomatischen Verhandlungen. Zwischen Selenskyjs Aussage und der offiziellen US-Position besteht damit weiterhin eine Diskrepanz.",
+            ask: [{ label: "Was ist bei der Iran-Diplomatie los?", ref: "s:8" }] }
         ]},
         { h: "Welche wirtschaftlichen Auswirkungen werden diskutiert?", items: [
-          { tag: "einordnung", text: "Anhaltende Kampfhandlungen und ausbleibende Verhandlungserfolge dämpfen laut Marktbeobachtern die Aussicht auf einen baldigen Wiederaufbau der Ukraine und halten die Nachfrage nach westlicher Rüstungsunterstützung hoch (Meldung 11)." }
+          { tag: "einordnung", text: "Anhaltende Kampfhandlungen und die ungeklärte Patriot-Frage dämpfen laut Marktbeobachtern die Aussicht auf einen baldigen Wiederaufbau der Ukraine und halten die Nachfrage nach westlicher Rüstungsunterstützung hoch (Meldung 11)." }
         ]}
       ],
-      reaction: "Die Diskussion um eine Patriot-Eigenproduktion in der Ukraine steht im Zusammenhang mit der allgemeinen Debatte über westliche Rüstungslieferungen (Meldung 11).",
+      reaction: "Die ungeklärte Patriot-Lizenz-Frage bleibt Teil der allgemeinen Debatte über westliche Rüstungslieferungen (Meldung 11).",
       terms: [],
       followups: ["e:defence-order"],
       sources: [
-        { title: "Bloomberg: Trump Asked Zelenskyy to Meet Putin in Moscow for Peace Talks", url: "https://www.bloomberg.com/news/articles/2026-09-25/trump-asked-zelenskyy-to-meet-putin-in-moscow-for-peace-talks" },
-        { title: "France24: NATO fighter jets shoot down drone over Lithuania", url: "https://www.france24.com/en/europe/20260915-nato-fighter-jets-shoot-down-drone-over-lithuania-after-latest-incursion" },
-        { title: "CNN: Trump-Zelensky Patriots manufacture", url: "https://edition.cnn.com/2026/09/25/europe/trump-zelensky-patriots-manufacture-intl" },
-        { title: "Euronews: Trump makes final decision to grant Ukraine Patriot license, Zelenskyy says", url: "https://www.euronews.com/2026/09/25/trump-makes-final-decision-to-grant-ukraine-patriot-license-zelenskyy-says" }
+        { title: "CNN: Zelenskyy says Trump made 'final decision' to grant Ukraine Patriot license", url: "https://www.cnn.com/2026/09/25/europe/trump-zelensky-patriots-manufacture-intl" },
+        { title: "Censor.net: US has not decided on Patriot missile production in Ukraine", url: "https://censor.net/en/news/4024910/us-has-not-decided-on-patriot-missile-production-in-ukraine" },
+        { title: "KNEWS.MEDIA: US Delays Final Decision on Patriot Missile Licenses for Ukraine", url: "https://knews.media/2026/09/23/us-delays-final-decision-on-patriot-missile-licenses-for-ukraine/" },
+        { title: "Kyiv Independent: News Archive", url: "https://kyivindependent.com/news-archive/" }
       ]
     },
 
-    /* 9 CHINA-USA */
+    /* 10 CHINA-USA */
     {
-      id: "china-usa-nach-xi-besuch", cats: ["world"], when: "Nach Xi-Besuch 23.–25.09.",
-      headline: "Nach Xi-Besuch in Washington: Zoll-Waffenruhe bestätigt, wenige neue Ergebnisse bei Taiwan und Chips",
-      sec30: "Nach Xi Jinpings Besuch in Washington (23.–25.09.) bestätigte US-Finanzminister Bessent die bereits bekannte Verlängerung der Zoll-Waffenruhe bis zum 10. Januar 2027. Xi sagte sinngemäß, beide Länder sollten eher Partner als Rivalen sein. Laut CBS News endete der Besuch mit vergleichsweise wenigen konkreten Ergebnissen; zu Taiwan und Halbleiter-Exportkontrollen wurden keine neuen Vereinbarungen bekannt.",
+      id: "china-usa-taiwan-nach-xi", cats: ["world"], when: "Nach Xi-Besuch 23.–25.09. · Taiwan-Reaktion 25./26.09.",
+      headline: "China und USA einigen sich auf Zollabbau und KI-Dialog, Xi fordert von Trump klare Position zu Taiwan",
+      sec30: "Nach Xi Jinpings Staatsbesuch in Washington (23.–25.09.) bestätigte Peking einen reziproken Zollabbau über rund 30 Mrd. Dollar in unkritischen Warengruppen sowie einen neuen KI-Dialog; die Zoll-Waffenruhe wurde bis zum 10. Januar 2027 verlängert. Xi forderte laut Berichten erstmals öffentlich von Trump eine klare Position gegen eine taiwanische Unabhängigkeit; Taiwan wies dies am 25.09. als „Verzerrung der Fakten” zurück. Trump äußerte sich am Samstag ausweichend zum Thema.",
       blocks: [
         { h: "Warum ist das wichtig?", items: [
           { tag: "einordnung", text: "Als die beiden größten Volkswirtschaften der Welt beeinflussen die USA und China mit ihren Handelsbeziehungen globale Lieferketten, Zölle und Technologiemärkte." }
         ]},
         { h: "Wer ist beteiligt?", items: [
-          { tag: "fakt", text: "Xi Jinping und Donald Trump trafen sich in Washington; US-Finanzminister Scott Bessent bestätigte die Details der Zoll-Vereinbarung." }
-        ]},
-        { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Es war laut Berichten der erste Besuch eines chinesischen Staatschefs in Washington seit zehn Jahren. Vorausgegangen war eine monatelange Zoll-Eskalation zwischen beiden Ländern." }
+          { tag: "fakt", text: "Xi Jinping und Donald Trump trafen sich vom 23. bis 25.09.2026 in Washington – es war laut Berichten Xis zweiter US-Staatsbesuch nach 2015 und ein Gegenbesuch zu Trumps China-Reise im Mai 2026." }
         ]},
         { h: "Was wurde konkret vereinbart?", items: [
-          { tag: "fakt", text: "Bestätigt wurde die bereits zuvor bekannte Verlängerung der Zoll-Waffenruhe bis zum 10. Januar 2027, ursprünglich sollte sie bereits am 10. November 2026 auslaufen." },
-          { tag: "position", text: "Xi Jinping sagte laut Bericht sinngemäß, beide Länder sollten eher Partner als Rivalen sein (Position Chinas)." },
-          { tag: "unbestaetigt", text: "Zu Taiwan, Halbleiter-Exportkontrollen und Künstlicher Intelligenz wurden laut den gesichteten Quellen keine neuen Vereinbarungen bekannt. Eine private Umfrage berichtete von einem überraschend starken Anstieg US-amerikanischer Bestellungen in China vor dem Gipfel – Details dazu blieben in den Quellen unklar." }
+          { tag: "fakt", text: "Laut Angaben aus Peking wurde ein reziproker Zollabbau über rund 30 Mrd. Dollar in als unkritisch eingestuften Warengruppen vereinbart (US-Agrarexporte, Fisch und Holz gegen chinesische Kleingeräte und Spielzeug) sowie ein neuer KI-Dialog beider Länder. Die bereits zuvor bekannte Zoll-Waffenruhe wurde bis zum 10. Januar 2027 verlängert, ursprünglich sollte sie bereits am 10. November 2026 auslaufen." },
+          { tag: "unbestaetigt", text: "Zu Halbleiter-Exportkontrollen wurden laut Berichten keine neuen Vereinbarungen bekannt; dieses Thema wurde offenbar nicht als Priorität behandelt." }
+        ]},
+        { h: "Was ist bei der Taiwan-Frage passiert?", items: [
+          { tag: "position", text: "Xi Jinping forderte laut Xinhua erstmals öffentlich von Trump, sich klar gegen eine taiwanische Unabhängigkeit zu positionieren (Position Chinas). Taiwans Regierung wies diese Darstellung am 25.09.2026 als „Verzerrung der Fakten” zurück (Position Taiwans). Trump sagte am Samstag, 26.09., laut Bericht ausweichend, das Thema sei „nicht groß” besprochen worden, „es läuft gerade gut” (Position der US-Regierung)." }
         ]},
         { h: "Welche wirtschaftlichen Auswirkungen werden diskutiert?", items: [
-          { tag: "einordnung", text: "Laut CBS News reagierten Märkte auf den Gipfel verhalten, da im Wesentlichen der Status quo fortgeschrieben wurde, ohne neue Zollstruktur oder neue Zugeständnisse." }
+          { tag: "einordnung", text: "Ein stabiler Handelsstatus zwischen den USA und China gehört laut Berichten zu den Faktoren, die zuletzt die US-Aktienmärkte stützten (Meldung 1); die Taiwan-Frage bleibt dagegen ein ungelöster geopolitischer Streitpunkt mit möglichen Folgen für Halbleiter- und Rüstungsmärkte." }
         ]}
       ],
-      reaction: "Ein stabiler Handelsstatus zwischen den USA und China gehört laut Berichten zu den Faktoren, die am Freitag die US-Aktienmärkte stützten (Meldung 1).",
+      reaction: "Ein stabiler Handelsstatus zwischen den USA und China gehört laut Berichten zu den Faktoren, die zuletzt die US-Aktienmärkte stützten (Meldung 1).",
       terms: [],
       followups: [],
       sources: [
-        { title: "CNBC: US-China trade truce, Bessent, Trump, Xi", url: "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html" },
-        { title: "CBS News: Trump, China, Xi Jinping state visit dinner tariffs AI (Liveblog)", url: "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/" },
-        { title: "Bloomberg: Xi Gets Rare Tarmac Welcome From Trump After Landing at US Base", url: "https://www.bloomberg.com/news/articles/2026-09-23/xi-gets-rare-tarmac-welcome-from-trump-after-landing-at-us-base" }
+        { title: "CNBC: China, US agree to $30 billion tariff cut, AI dialogue", url: "https://www.cnbc.com/2026/09/26/china-us-tariff-cut-ai-dialogue.html" },
+        { title: "CNBC: US-China trade truce extended, Bessent, Trump, Xi", url: "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html" },
+        { title: "US News: Taiwan denounces Xi's comments to Trump as 'distortion of facts'", url: "https://www.usnews.com/news/world/articles/2026-09-25/taiwan-denounces-xis-comments-to-trump-as-distortion-of-facts" },
+        { title: "Bloomberg: Trump Says Xi Knows How I Feel on Taiwan After US-China Summit", url: "https://www.bloomberg.com/news/articles/2026-09-26/trump-says-xi-knows-how-i-feel-on-taiwan-after-us-china-summit" }
       ]
     },
 
-    /* 10 DEFENCE: NEUE AUFTRÄGE */
+    /* 11 DEFENCE */
     {
-      id: "ruestung-neue-auftraege", cats: ["defence"], when: "Leonardo/Fincantieri 24.09. · Bundestag-Billigung 23./24.09. · Pistorius Budapest 25.09.",
-      headline: "Italien bestellt Zerstörer für 3,7 Milliarden Euro bei Leonardo/Fincantieri, Bundestag billigt weitere Rüstungsbeschaffungen",
-      sec30: "Die italienische Marine unterzeichnete am 24.09. mit Orizzonte Sistemi Navali (Fincantieri/Leonardo) einen Vertrag über zwei DDX-Zerstörer im Volumen von rund 3,7 Mrd. Euro. Der Haushaltsausschuss des Bundestags billigte zwölf Bundeswehr-Beschaffungsvorhaben ab 25 Mio. Euro, unter anderem Munition und Mehrzweckkampfboote. Verteidigungsminister Pistorius vereinbarte bei einem Besuch in Budapest vertiefte Kooperation mit Ungarn.",
+      id: "defence-auftraege-aktien-patriot", cats: ["defence"], when: "US-Verträge Fr 25.09. · Rheinmetall-September-Kursverlauf · Patriot-Streit 25./26.09.",
+      headline: "USA vergeben neue Rüstungsverträge an Kongsberg und Northrop, Rheinmetall bleibt im September unter Druck",
+      sec30: "Das US-Verteidigungsministerium vergab am Freitag neue Verträge: 404,4 Mio. Dollar an Kongsberg für Startsysteme für Seezielflugkörper, 111,4 Mio. Dollar an Northrop Grumman für das Ground Based Strategic Deterrent-Programm. Die Rheinmetall-Aktie verlor im September rund 9 % (von 1.079,80 auf zuletzt rund 972 bis 982 Euro, Quellen weichen leicht ab), ohne dass Analysten einen einzelnen Auslöser nennen; Kursziele reichen weiterhin von 1.050 bis über 2.000 Euro. Die Diskrepanz zwischen Selenskyjs Aussage zur Patriot-Lizenz und der zurückhaltenden Position des US-Außenministeriums (Meldung 9) bleibt zudem ein Thema für die Rüstungsbranche.",
       blocks: [
-        { h: "Was ist bei Leonardo/Fincantieri passiert?", items: [
-          { tag: "fakt", text: "Orizzonte Sistemi Navali (Fincantieri 51 %, Leonardo 49 %) unterzeichnete am 24.09.2026 mit der europäischen Rüstungsbeschaffungsagentur OCCAR einen Vertrag über zwei DDX-Zerstörer für die italienische Marine. Gesamtvolumen rund 3,7 Mrd. Euro (davon 1,3 Mrd. Euro Optionen), Leonardos Anteil rund 1,7 Mrd. Euro. Die Schiffe sind 180 Meter lang, verdrängen 13.500 Tonnen und sind für 251 Mann Besatzung ausgelegt.",
-            ask: [{ label: "Wie wirken sich neue Aufträge auf Rüstungsaktien aus?", ref: "s:11" }] }
+        { h: "Welche neuen Verträge wurden vergeben?", items: [
+          { tag: "fakt", text: "Das US-Verteidigungsministerium vergab am 25.09.2026 unter anderem einen Vertrag über 404,4 Mio. Dollar an Kongsberg Defence & Aerospace für Startsysteme für Seezielflugkörper (Naval Strike Missile) sowie einen Vertrag über 111,4 Mio. Dollar an Northrop Grumman für die Weiterentwicklung des Ground Based Strategic Deterrent-Programms. Leidos erhielt einen kleineren Auftrag von rund 10 Mio. Dollar für das Drohnenabwehrsystem Medusa.",
+            ask: [{ label: "Welche Aufträge gab es zuvor in Europa?", ref: "e:defence-order" }] },
+          { tag: "unbestaetigt", text: "Für Deutschland nennen Branchenberichte für die zweite Jahreshälfte 2026 rund 100 bis 153 weitere Bundeswehr-Beschaffungsprojekte im Volumen von etwa 83 Mrd. Euro, größtes Einzelvorhaben seien acht F127-Luftverteidigungsfregatten für über 26 Mrd. Euro. Ein konkreter Beschlussstatus dieser Vorhaben ließ sich in den gesichteten Quellen nicht abschließend bestätigen." }
         ]},
-        { h: "Was hat der Bundestag beschlossen?", items: [
-          { tag: "fakt", text: "Der Haushaltsausschuss des Bundestags billigte am 23./24.09.2026 zwölf Bundeswehr-Beschaffungsvorhaben ab 25 Mio. Euro, darunter Munition, Mehrzweckkampfboote für das Seebataillon, eine Anpassung des Flugabwehrsystems IRIS-T-SLM, die Modernisierung des Fennek-Spähwagens, Laser-Zieldesignatoren, das Nahbereichsluftverteidigungssystem F125, den Lufttransport-Rahmenvertrag SALIS für 2027–2031 sowie zusätzliche AIM-120-AMRAAM- und METEOR-Flugkörper.",
-            ask: [{ label: "Wie hoch ist der deutsche Verteidigungsetat?", ref: "e:nato-target" }] }
-        ]},
-        { h: "Was ist bei Pistorius' Ungarn-Besuch passiert?", items: [
-          { tag: "fakt", text: "Verteidigungsminister Boris Pistorius vereinbarte am 25.09.2026 bei einem Besuch in Budapest mit seinem ungarischen Amtskollegen Ruszin-Szendi eine vertiefte Kooperation in Logistik, Rüstungsindustrie und Ausbildung." }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Die parallelen Beschaffungsentscheidungen in Italien und Deutschland zeigen, dass europäische Rüstungsausgaben trotz der schwächeren Kursentwicklung der Rüstungsaktien (Meldung 11) auf hohem Niveau bleiben.",
-            ask: [{ label: "Warum steigt der deutsche Verteidigungsetat?", ref: "e:nato-target" }] }
-        ]}
-      ],
-      reaction: "Trotz der neuen Aufträge setzten Rüstungsaktien wie Rheinmetall und Hensoldt ihre Kursverluste der Vortage fort (Meldung 11).",
-      terms: [],
-      followups: ["e:nato-target", "e:defence-order"],
-      sources: [
-        { title: "hartpunkt.de: Italienische Marine – Vertrag über 3,7 Milliarden Euro für zwei neue DDX-Zerstörer", url: "https://www.hartpunkt.de/italienische-marine-vertrag-ueber-37-milliarden-euro-fuer-zwei-neue-ddx-zerstoerer-unterschrieben/" },
-        { title: "meta-defense.fr: Italienische Marine DDX-Zerstörer", url: "https://meta-defense.fr/de/2026/09/24/italienische-marine-ddx-zerstoerer/" },
-        { title: "esut.de: Zwölf Beschaffungsvorlagen ab 25 Mio. Euro gebilligt", url: "https://esut.de/2026/09/meldungen/streitkraefte/75038/zwoelf-25-mio-bundeswehr/" },
-        { title: "BMVg.de: Weiter Tempo bei Beschaffung – Rüstungsprojekte bewilligt", url: "https://www.bmvg.de/de/aktuelles/weiter-tempo-bei-beschaffung-ruestungsprojekte-bewilligt-6156318" },
-        { title: "finanzen.at/dpa: ROUNDUP – Pistorius in Ungarn – Neustart der Beziehungen", url: "https://www.finanzen.at/nachrichten/aktien/roundup-pistorius-in-ungarn-neustart-der-beziehungen-1036574283" }
-      ]
-    },
-
-    /* 11 DEFENCE: AKTIEN */
-    {
-      id: "ruestungsaktien-kurse-patriot", cats: ["defence"], when: "Kursentwicklung Do 24.–Fr 25.09. · Patriot-Ankündigung 25.09.",
-      headline: "Rheinmetall und Hensoldt setzen Kursrückgang fort, Renk profitiert von Goldman-Hochstufung",
-      sec30: "Rheinmetall (−1,8 %) und Hensoldt (−0,8 %) setzten am Freitag ihre Kursverluste vom Donnerstag fort, während Renk dank einer Hochstufung von Goldman Sachs leicht zulegte. Ein Analyst sieht in den Verlusten vor allem Gewinnmitnahmen, nachdem neue Aufträge bereits eingepreist gewesen seien. Zugleich sorgte Präsident Trumps laut Selenskyj „finale Entscheidung” zu einer Patriot-Lizenz für die Ukraine für Diskussionen.",
-      blocks: [
-        { h: "Wie haben sich die Kurse entwickelt?", items: [
-          { tag: "fakt", text: "Rheinmetall fiel am Freitag um 1,8 % auf 972,60 Euro, Hensoldt um 0,8 % auf 75,38 Euro. Renk legte dagegen leicht zu (zwischen +0,2 % und +1,03 %, rund 40,30 bis 40,65 Euro), gestützt von einer bereits am 18.09. veröffentlichten Hochstufung durch Goldman Sachs (von „Neutral” auf „Buy”, Kursziel 65 Euro), die am Freitag laut Bericht nachwirkte. Leonardo gab um 0,68 % auf 48,975 Euro nach, Saab um 1,70 %, BAE Systems um 0,89 %.",
+        { h: "Wie haben sich Rüstungsaktien entwickelt?", items: [
+          { tag: "unbestaetigt", text: "Die Rheinmetall-Aktie fiel im Laufe des Septembers 2026 von 1.079,80 Euro (1.09.) auf zuletzt rund 972 bis 982 Euro (Quellen zum genauen Freitagsschluss weichen leicht voneinander ab) – ein Minus von rund 9 % im Monatsverlauf. Ein einzelnes auslösendes Ereignis nennen die gesichteten Analysen nicht; im Fokus steht laut Berichten die Sorge, ob Rheinmetall den stark gewachsenen Auftragsbestand profitabel und termingerecht umsetzen kann.",
             ask: [{ label: "Was bedeutet ein fallender Aktienkurs trotz neuer Aufträge?", ref: "e:defence-stocks" }] },
-          { tag: "fakt", text: "Am Donnerstag zuvor hatten Rheinmetall (−3,8 %), Hensoldt (über −4 %) und Renk (über −4 %) noch deutlicher nachgegeben." }
-        ]},
-        { h: "Warum fallen die Kurse trotz neuer Aufträge?", items: [
-          { tag: "position", text: "MWB-Research-Analyst Jens-Peter Rieck erklärte laut Bericht, neue Aufträge seien von Investoren bereits eingepreist; der Fokus verschiebe sich nun auf die Umsetzung, zusätzlich belasteten hohe Ölpreise und die geopolitische Lage die Stimmung.",
-            ask: [{ label: "Welche neuen Aufträge gab es zuletzt?", ref: "s:10" }] },
-          { tag: "unbestaetigt", text: "Eine breite „Sektorrotation” aus europäischen Rüstungsaktien, wie sie in einzelnen Marktkommentaren genannt wurde, ließ sich in den gesichteten Quellen nicht mit Zahlen belegen – die zitierten Analysten sprechen eher von Gewinnmitnahmen nach bereits eingepreisten Aufträgen. In den USA berichteten Reuters/CNBC dagegen von einer Rotation aus Technologiewerten in Rüstungsaktien am selben Tag – ein gegenläufiges Muster zu Europa." }
+          { tag: "position", text: "Analysten bleiben bei Rheinmetall laut Berichten überwiegend optimistisch: Kursziele reichen von rund 1.050 Euro (mwb Research, Einstufung „Hold”) bis 1.900 bis 2.300 Euro bei optimistischeren Häusern wie Bernstein, der Konsens-Median liegt bei schätzungsweise 1.500 bis 1.700 Euro." }
         ]},
         { h: "Was ist mit der Patriot-Lizenz für die Ukraine?", items: [
-          { tag: "unbestaetigt", text: "Präsident Selenskyj berichtete nach einem Treffen mit Trump, dieser habe eine „finale Entscheidung” getroffen, der Ukraine eine Lizenz zur Eigenproduktion von Patriot-Abfangraketen zu erteilen. Das Weiße Haus bestätigte dies bis zum 25.09. nicht offiziell; Außenminister Rubio hatte zuvor gedämpft, ein Produktionsaufbau brauche Jahre.",
-            ask: [{ label: "Was passiert sonst an der Ukraine-Front?", ref: "s:8" }] }
+          { tag: "unbestaetigt", text: "Präsident Selenskyj berichtete nach einem Treffen mit Trump von einer „finalen Entscheidung” zu einer Patriot-Lizenz für die Ukraine; das US-Außenministerium widersprach dem jedoch und erklärte, es liege noch keine endgültige Entscheidung vor.",
+            ask: [{ label: "Was passiert sonst an der Ukraine-Front?", ref: "s:9" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Die gegenläufige Entwicklung zwischen neuen Aufträgen und fallenden Aktienkursen zeigt, dass Börsenkurse Erwartungen abbilden: Waren Aufträge bereits erwartet, bewegt ihre Bestätigung den Kurs kaum noch – fehlende neue positive Überraschungen können dann sogar zu Gewinnmitnahmen führen. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Neue Einzelaufträge in den USA und mögliche weitere Beschaffungen in Deutschland zeigen, dass Rüstungsausgaben insgesamt auf hohem Niveau bleiben, auch wenn einzelne Aktienkurse – wie bei Rheinmetall im September – zeitweise nachgeben. Das deutet darauf hin, dass Börsenkurse stärker von Erwartungen zur Umsetzung bestehender Aufträge als von einzelnen neuen Vertragsmeldungen abhängen. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die neuen Aufträge bei Leonardo/Fincantieri und die Bundestags-Billigungen (Meldung 10) haben die Kursentwicklung bislang nicht gestützt.",
+      reaction: "Die anhaltenden Kampfhandlungen in der Ukraine (Meldung 9) und die Diskussion um Rüstungsexporte bleiben Hintergrundfaktoren für die Branche.",
       terms: [],
-      followups: ["e:defence-stocks", "e:defence-order"],
+      followups: ["e:defence-stocks", "e:defence-order", "e:nato-target"],
       sources: [
-        { title: "onvista: Aktien im Fokus – Rüstungswerte setzen Schlingerkurs mit Verlusten fort", url: "https://www.onvista.de/news/2026/09-24-aktien-im-fokus-ruestungswerte-setzen-schlingerkurs-mit-verlusten-fort-0-10-26557069" },
-        { title: "finanzen.ch: Rheinmetall-Aktie Kursbewegung 25.09.2026", url: "https://www.finanzen.ch/nachrichten/aktien/rheinmetall-aktie-kursbewegung-25-09-2026-1035061928" },
-        { title: "finanzen.ch: Hensoldt-Aktie Kursbewegung 25.09.2026", url: "https://www.finanzen.ch/nachrichten/aktien/hensoldt-aktie-kursbewegung-25-09-2026-1035060946" },
-        { title: "ad-hoc-news: Die Renk-Group-Aktie steigt nach Goldman-Hochstufung", url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/die-renk-group-aktie-steigt-nach-goldman-hochstufung/70183505" }
+        { title: "DefenseHub OSINT: US Department of War Contracts for September 25, 2026", url: "https://defensehub.blog/1985-contracts-for-sept-25-2026" },
+        { title: "bundeswehr-journal: Rund 100 Rüstungsprojekte in der zweiten Jahreshälfte 2026", url: "https://www.bundeswehr-journal.de/2026/rund-100-ruestungsprojekte-in-der-zweiten-jahreshaelfte-2026/" },
+        { title: "ms-aktuell.de: Rheinmetall-Aktie fällt auf neues September-Tief", url: "https://ms-aktuell.de/welt/rheinmetall-aktie-septembertief-26-09-2026/" },
+        { title: "aktien.guide: Rheinmetall – Prognose 2026 und Kursziel von Analysten", url: "https://aktien.guide/kursziel/Rheinmetall-DE0007030009" },
+        { title: "CNN: Zelenskyy says Trump made 'final decision' to grant Ukraine Patriot license", url: "https://www.cnn.com/2026/09/25/europe/trump-zelensky-patriots-manufacture-intl" }
       ]
     },
 
-    /* 12 M&A / PE */
+    /* 12 M&A */
     {
-      id: "ma-update-schneider-zurich-inpost", cats: ["deals", "pe"], when: "Mehrere Deals 22.–25.09.2026",
-      headline: "Schneider Electric sichert sich Shelly Group verbindlich, Zurich schließt Beazley-Übernahme ab, GFL-Bietergefecht weiter offen",
-      sec30: "Schneider Electric und Shelly Group unterzeichneten ein verbindliches Übernahmeangebot über 70 Euro je Aktie (rund 1,2 Mrd. Euro). Der High Court in London sanktionierte Zurichs rund 8,1 Mrd. Pfund schwere Übernahme von Beazley, Closing wird Anfang Oktober erwartet. FedEx und Advent meldeten den nahezu vollzogenen Erwerb des polnischen Paketautomaten-Betreibers InPost. Neu hinzugekommen: CVC/NSSK erwägen einen rund 3,2 Mrd. Dollar schweren Buyout von Kobayashi Pharmaceutical, BlackRock/IFM verhandeln exklusiv über ein Rechenzentrumsportfolio von Blue Owl. Beim Bietergefecht um GFL Environmental gibt es weiterhin keine Entscheidung.",
+      id: "ma-update-kobayashi-stack-gfl", cats: ["deals", "pe"], when: "Mehrere Deals 21.–25.09.2026",
+      headline: "CVC/NSSK bieten für Kobayashi Pharmaceutical, BlackRock/IFM verhandeln exklusiv über Stack-Rechenzentren, GFL-Bietergefecht weiterhin offen",
+      sec30: "CVC Capital Partners und NSSK reichten ein unverbindliches Angebot über rund 3,2 Mrd. Dollar für den japanischen Konsumgüter- und Pharmakonzern Kobayashi Pharmaceutical ein, der seit einem Nahrungsergänzungsmittel-Skandal 2024 unter Druck steht. Ein BlackRock/IFM-Konsortium verhandelt exklusiv über die APAC-Rechenzentren von Blue Owls Stack Infrastructure, Bewertung nun bei 20 bis 25 Mrd. Dollar. Beim Bietergefecht um GFL Environmental zwischen KKR/Energy Capital Partners/Blackstone und Brookfield/IFM Investors gibt es weiterhin keine Entscheidung. Der Zahlungsdienstleister Priority Technology Holdings geht für rund 1,6 Mrd. Dollar von der Börse.",
       blocks: [
-        { h: "Was ist bei Schneider Electric/Shelly Group passiert?", items: [
-          { tag: "fakt", text: "Schneider Electric unterzeichnete am 24.09.2026 ein verbindliches Investment Agreement für ein freiwilliges öffentliches Übernahmeangebot für die bulgarische Shelly Group (Smart-Home-Geräte): 70,00 Euro je Aktie in bar, Gesamtwert rund 1,2 Mrd. Euro (27 % Prämie zum unbeeinflussten Kurs). Die beiden Gründer, die zusammen rund 57 % der Anteile halten, haben bedingt zugestimmt und wollen Teile des Erlöses drei Jahre lang reinvestieren. Abschluss wird für das erste Quartal 2027 erwartet.",
+        { h: "Was ist bei Kobayashi Pharmaceutical passiert?", items: [
+          { tag: "unbestaetigt", text: "CVC Capital Partners und der japanische Buyout-Investor NSSK reichten laut Bloomberg ein nicht-bindendes Übernahmeangebot über rund 500 Mrd. Yen (rund 3,2 Mrd. Dollar) für Kobayashi Pharmaceutical ein. Die Gründerfamilie könnte sich an der Transaktion beteiligen; Großaktionär Oasis Management (rund 14,4 % der Anteile) gilt laut Berichten als Schlüsselfaktor für den Ausgang. Hintergrund ist ein Skandal um kontaminierte Nahrungsergänzungsmittel aus dem Jahr 2024. Finanzierung, Bewertungsmultiple und Zeitplan sind in den Quellen nicht genannt; eine Entscheidung steht noch aus.",
+            ask: [{ label: "Warum nehmen Investoren Firmen von der Börse?", ref: "e:take-private-why" }] }
+        ]},
+        { h: "Was ist bei BlackRock/IFM und Stack Infrastructure neu?", items: [
+          { tag: "unbestaetigt", text: "Ein von BlackRock (über die AI Infrastructure Partnership) und IFM Investors geführtes Konsortium befindet sich laut Bloomberg in exklusiven Verhandlungen über die APAC-Rechenzentren von Stack Infrastructure, derzeit im Besitz von Blue Owl Capital. Die Bewertung liegt nun bei schätzungsweise 20 bis 25 Mrd. Dollar – deutlich unter Blue Owls ursprünglicher Forderung von über 30 Mrd. Dollar. Endgültiger Preis, Zeitplan und Finanzierung sind in den Quellen nicht genannt.",
             ask: [{ label: "Was passiert bei einer Übernahme?", ref: "e:ma-steps" }] }
         ]},
-        { h: "Was ist bei Zurich/Beazley und FedEx/InPost passiert?", items: [
-          { tag: "fakt", text: "Der High Court in London sanktionierte am 22.09.2026 das „Scheme of Arrangement” für Zurich Insurances Übernahme des Lloyd's-Versicherers Beazley (1.335 Pence je Aktie, rund 8,1 Mrd. Pfund); Closing wird für den 1. oder 2. Oktober 2026 erwartet." },
-          { tag: "fakt", text: "Das FedEx/Advent-International-Konsortium meldete am 23.09.2026, dass alle Bedingungen für die rund 7,8 Mrd. Euro schwere Übernahme des polnischen Paketautomaten-Betreibers InPost erfüllt seien (89,81 % Andienung bei einer Schwelle von 80 %). Settlement ist für den 30.09.2026 geplant, das Delisting für den 23.10.2026." }
-        ]},
         { h: "Wie ist der Stand bei GFL Environmental?", items: [
-          { tag: "unbestaetigt", text: "Beim Bietergefecht zwischen einem Konsortium aus KKR/Energy Capital Partners/Blackstone und einem Konsortium aus Brookfield/IFM Investors um GFL Environmental (rund 18 Mrd. Dollar Eigenkapitalwert plus rund 10 Mrd. Dollar Schulden) gibt es weiterhin keine Entscheidung. GFL kündigte lediglich den Termin für die Quartalszahlen (28./29. Oktober) an.",
+          { tag: "unbestaetigt", text: "Beim Bietergefecht zwischen einem Konsortium aus KKR, Energy Capital Partners und Blackstone und einem Konsortium aus Brookfield und IFM Investors um den Abfallentsorger GFL Environmental (rund 18 Mrd. Dollar Eigenkapitalwert plus rund 10 Mrd. Dollar Schulden) gibt es weiterhin keine Entscheidung. Ein Sonderausschuss prüft die Angebote seit Juli und könnte laut Berichten höhere Gebote fordern; eine Entscheidung wird „in den kommenden Wochen” erwartet, ein genaues Datum ist nicht bekannt.",
             ask: [{ label: "Was ist ein Leveraged Buyout?", ref: "e:lbo" }] }
         ]},
-        { h: "Welche neuen Deals kamen hinzu?", items: [
-          { tag: "unbestaetigt", text: "CVC Capital Partners und NSSK reichten laut Bloomberg ein unverbindliches Angebot für einen Buyout von Kobayashi Pharmaceutical (Japan) über rund 3,2 Mrd. Dollar ein; die Gründerfamilie könnte sich beteiligen. Kobayashi bestätigte den Erhalt eines „preliminary, non-binding joint proposal”, eine Entscheidung ist noch nicht gefallen. Hintergrund ist ein Skandal um kontaminierte Nahrungsergänzungsmittel aus dem Jahr 2024.",
-            ask: [{ label: "Warum nehmen Investoren Firmen von der Börse?", ref: "e:take-private-why" }] },
-          { tag: "unbestaetigt", text: "Ein von BlackRock (über die AI Infrastructure Partnership) und IFM Investors geführtes Konsortium trat am 24.09. in exklusive Verhandlungen über die APAC-Rechenzentren von Stack Infrastructure (derzeit im Besitz von Blue Owl Capital) ein, mit einer Bewertung von schätzungsweise 20 bis 25 Mrd. Dollar. Endgültiger Preis, Zeitplan und Finanzierung wurden in den Quellen nicht genannt." },
-          { tag: "fakt", text: "Priority Technology Holdings bleibt weiter im Fokus mehrerer US-Kanzleien: Zwischen dem 21. und 25.09. kündigten Johnson Fistel, Brodsky & Smith und BFA Law offiziell Untersuchungen möglicher Treuepflichtverletzungen im Zusammenhang mit dem 8,05-Dollar-Going-private an." }
+        { h: "Welche weiteren Deals gab es?", items: [
+          { tag: "fakt", text: "Priority Technology Holdings, ein US-Zahlungsdienstleister, geht in einem von CEO Thomas Priore geführten Take-private-Deal für 8,05 Dollar je Aktie (Unternehmenswert rund 1,6 Mrd. Dollar) von der Börse; die Finanzierung erfolgt unter anderem über Eigenkapital von Searchlight Capital Partners. Abschluss wird für die erste Jahreshälfte 2027 erwartet." },
+          { tag: "fakt", text: "Der High Court in London hatte bereits am 22.09. Zurichs rund 8,2 Mrd. Pfund schwere Übernahme des Lloyd's-Versicherers Beazley sanktioniert; Vollzug ist für den 1. Oktober 2026 geplant. Das FedEx/Advent-Konsortium hatte die rund 7,8 Mrd. Euro schwere Übernahme des polnischen Paketautomaten-Betreibers InPost bereits am 18.09. abgeschlossen." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Die Bandbreite der Deals – von Smart-Home-Geräten über Versicherungen und Logistik bis zu Pharma und Rechenzentren – zeigt, dass M&A-Aktivität derzeit über viele Branchen hinweg anhält, während beim größten Einzeldeal (GFL) weiterhin keine Entscheidung vorliegt.",
+          { tag: "einordnung", text: "Die Bandbreite der Deals – von Pharma über Rechenzentren bis zu Zahlungsdienstleistern – zeigt, dass M&A-Aktivität derzeit über viele Branchen hinweg anhält, während beim größten offenen Einzeldeal (GFL) weiterhin keine Entscheidung vorliegt.",
             ask: [{ label: "Welche Risiken bestehen bis zum Closing?", ref: "e:deal-risks" }] }
         ]}
       ],
       reaction: "Der BlackRock/IFM-Rechenzentrumsdeal hängt eng mit dem KI-Infrastrukturboom zusammen (Meldung 14).",
-      terms: ["closing", "enterprise-value"],
+      terms: ["closing", "enterprise-value", "take-private"],
       followups: ["e:ma-steps", "e:take-private-why", "e:deal-risks", "e:lbo"],
       sources: [
-        { title: "Shelly Group Investor Relations: Investment Agreement mit Schneider Electric", url: "https://corporate.shelly.com/en/news/shelly-group-has-entered-into-an-investment-agreement-with-schneider-electric-on-the-intended-voluntary-public-takeover" },
-        { title: "Investegate: Beazley – Court Sanction of Scheme", url: "https://www.investegate.co.uk/announcement/rns/beazley--bez/court-sanction-of-scheme/9785424" },
-        { title: "Law360: FedEx-Led €7.8B Acquisition Of InPost Wins Approvals", url: "https://www.law360.com/privateequity/articles/2528829" },
-        { title: "Bloomberg: Kobayashi in $3.2 Billion Buyout Talks After Red-Yeast Scandal", url: "https://www.bloomberg.com/news/articles/2026-09-24/kobayashi-in-3-2-billion-buyout-talks-after-red-yeast-scandal" },
-        { title: "Bloomberg: BlackRock, IFM Close In On $25 Billion Stack Data Center Deal", url: "https://www.bloomberg.com/news/articles/2026-09-24/blackrock-ifm-close-in-on-25-billion-stack-data-center-deal" }
+        { title: "Private Equity Wire: CVC, NSSK weigh $3.2bn Kobayashi Pharmaceutical take-private", url: "https://www.privateequitywire.co.uk/cvc-nssk-weigh-3-2bn-kobayashi-pharmaceutical-take-private/" },
+        { title: "Axios: Private equity circles company at center of contamination controversy", url: "https://www.axios.com/2026/09/25/private-equity-japan-kobayashi-red-yeast" },
+        { title: "Bloomberg: BlackRock, IFM Close In on $25 Billion Stack Data Center Deal", url: "https://www.bloomberg.com/news/articles/2026-09-24/blackrock-ifm-close-in-on-25-billion-stack-data-center-deal" },
+        { title: "Bloomberg: Blackstone and Brookfield Consortia Are Said to Bid for GFL", url: "https://www.bloomberg.com/news/articles/2026-09-16/blackstone-and-brookfield-consortia-are-said-to-bid-for-gfl" },
+        { title: "KELO-AM: Priority Technology to go private in $1.6 billion CEO-led deal", url: "https://kelo.com/2026/09/21/priority-technology-to-go-private-in-1-6-billion-ceo-led-deal/" }
       ]
     },
 
     /* 13 PRIVATE CREDIT */
     {
-      id: "private-credit-fitch-loparex", cats: ["credit"], when: "Fitch-Einordnung · Loparex-Update · Goldman/Palmer-Square-Gespräche",
-      headline: "Private-Credit-Ausfallraten bleiben je nach Anbieter stark unterschiedlich, Goldman Sachs verhandelt über Kreditfirma Palmer Square",
-      sec30: "Die stark auseinanderliegenden Private-Credit-Ausfallraten verschiedener Anbieter (Fitch: 6,3 %, Proskauer: 2,51 %, Moody's: 1,6–4,7 %) erweisen sich laut Bloomberg als methodisch bedingt – die Anbieter erfassen unterschiedliche Kreditsegmente. Bei Loparex, wo Blue Owls Kredit nach einer gescheiterten Rekapitalisierung fast ausgelöscht wurde, führt laut aktuelleren Berichten Monarch Alternative Capital gemeinsam mit General Atlantic die rund 1 Mrd. Dollar schwere Rettung an. Goldman Sachs verhandelt zudem über die Übernahme des CLO-Managers Palmer Square Capital Management (rund 37 Mrd. Dollar verwaltetes Vermögen).",
+      id: "private-credit-loparex-palmer-square", cats: ["credit"], when: "Loparex-Rekapitalisierung bestätigt · Goldman/Palmer-Square-Gespräche seit 22.09.",
+      headline: "Loparex-Rekapitalisierung mit hohen Verlusten für Blue Owl bestätigt, Goldman Sachs verhandelt weiter über Palmer Square",
+      sec30: "Die rund 1 Mrd. Dollar schwere Rekapitalisierung des Spezialfolienherstellers Loparex ist bestätigt: Monarch Alternative Capital und Atlantic Park (General Atlantic) führen sie an, nachdem ein zuvor geplanter, 1,5 Mrd. Dollar schwerer Rettungsdeal gescheitert war. Blue Owls Kredit-Exposure wurde dabei von 122,4 Mio. Dollar auf nur noch 8,3 Mio. Dollar abgeschrieben – ein Einbruch von rund 93 %. Goldman Sachs führt weiterhin Gespräche über die Übernahme des CLO-Managers Palmer Square Capital Management (rund 37 Mrd. Dollar verwaltetes Vermögen). Die Ausfallraten verschiedener Anbieter (Fitch: 6,3 %, Proskauer: 2,51 %) bleiben stark unterschiedlich.",
       blocks: [
-        { h: "Warum unterscheiden sich die Ausfallraten so stark?", items: [
-          { tag: "fakt", text: "Fitch bezifferte die 12-Monats-Ausfallrate im Private-Credit-Markt Ende August auf ein Rekordhoch von 6,3 %. Der Proskauer Default Index nennt für das zweite Quartal 2026 dagegen 2,51 % (716 Kredite, 195,6 Mrd. Dollar Volumen), Moody's nennt für 2025 eine Spanne von 1,6 % bis 4,7 %.",
-            ask: [{ label: "Wie setzt sich der Zins eines Private-Credit-Kredits zusammen?", ref: "e:sofr-spread" }] },
-          { tag: "einordnung", text: "Laut Bloomberg ist die Diskrepanz methodisch bedingt, kein Datenfehler: Fitchs engerer Index (PMR) erfasst rund 300 größere, von Sponsoren gestützte Kreditnehmer, ein breiterer Fitch-Index (PCDR) rund 1.200 Mid-Market-Kreditnehmer, Proskauer nur von der eigenen Kanzlei beratene Kredite. Moody's weist zudem darauf hin, dass rund 65 % der von ihr gezählten Ausfälle „distressed restructurings” (Umschuldungen, Fristverlängerungen) statt klassische Zahlungsausfälle seien.",
-            ask: [{ label: "Woran erkennt man Stress in Private Credit?", ref: "e:nonaccrual-default" }] }
-        ]},
-        { h: "Was ist der aktuelle Stand bei Loparex?", items: [
-          { tag: "unbestaetigt", text: "Blue Owls Fonds OBDC hatte den Second-Lien-Kredit an den Spezialfolienhersteller Loparex nach einer gescheiterten Rekapitalisierung im zweiten Quartal auf Non-Accrual gesetzt; die Bewertung fiel von rund 88 Cent je Dollar Ende 2025 auf rund 5 Cent Ende Q2 2026, Moody's stufte Loparex als ausgefallen ein. Aktuellere Berichte nennen als Co-Investor neben Monarch Alternative Capital nun „General Atlantic” statt der in einer früheren Meldung genannten „Atlantic Park” – diese Diskrepanz zwischen den Quellen ließ sich nicht abschließend auflösen.",
+        { h: "Was ist der bestätigte Stand bei Loparex?", items: [
+          { tag: "fakt", text: "Monarch Alternative Capital führt gemeinsam mit Atlantic Park (der Private-Credit-Sparte von General Atlantic) eine rund 1 Mrd. Dollar schwere Rekapitalisierung des Spezialfolienherstellers Loparex an, nachdem ein zuvor geplanter, rund 1,5 Mrd. Dollar schwerer Rettungsdeal gescheitert war. Blue Owls Fonds OBDC hatte vier Loparex-Kredite von 122,4 Mio. Dollar (Jahresende 2025) auf nur noch 8,3 Mio. Dollar (Stand Juni 2026) abgeschrieben – ein Einbruch von rund 93 %.",
             ask: [{ label: "Was ist Private Credit?", ref: "e:private-credit-what" }] }
         ]},
         { h: "Was ist bei Goldman Sachs/Palmer Square neu?", items: [
-          { tag: "unbestaetigt", text: "Goldman Sachs führt laut Bloomberg Gespräche über die Übernahme von Palmer Square Capital Management, einem CLO-Manager mit rund 37 Mrd. Dollar verwaltetem Vermögen (davon rund 27 Mrd. Dollar CLO-Plattform), derzeit im Besitz der Gründerfamilie Long. Kaufpreis, Bewertungsmultiple und Zeitplan wurden in den Quellen nicht genannt, eine endgültige Entscheidung steht noch aus." }
+          { tag: "unbestaetigt", text: "Goldman Sachs führt weiterhin Gespräche über die Übernahme von Palmer Square Capital Management, einem CLO-Manager mit rund 37 Mrd. Dollar verwaltetem Vermögen (davon rund 27 Mrd. Dollar CLO-Plattform), derzeit im Besitz der Gründerfamilie Long. Die Verhandlungen gelten laut Berichten weiterhin als vorläufig, eine endgültige Vereinbarung liegt nicht vor. Kaufpreis, Bewertungsmultiple und Zeitplan wurden in den Quellen nicht genannt. Der mögliche Deal passt zu einer Serie weiterer Goldman-Zukäufe im Jahr 2026 (unter anderem Industry Ventures, Innovator Capital, LCN Capital, NEOS Investments)." }
+        ]},
+        { h: "Warum unterscheiden sich die Ausfallraten so stark?", items: [
+          { tag: "fakt", text: "Fitch bezifferte die 12-Monats-Ausfallrate im Private-Credit-Markt Ende August auf ein Rekordhoch von 6,3 % (über 1.300 erfasste Kreditnehmer). Der Proskauer Default Index nennt für das zweite Quartal 2026 dagegen 2,51 % (Senior Secured/Unitranche-Kredite), Moody's nennt für 2025 eine Spanne von 1,6 % bis 4,7 %.",
+            ask: [{ label: "Wie setzt sich der Zins eines Private-Credit-Kredits zusammen?", ref: "e:sofr-spread" }] },
+          { tag: "einordnung", text: "Laut Bloomberg ist die Diskrepanz methodisch bedingt: Die Indizes erfassen unterschiedliche Kreditsegmente, und Moody's weist darauf hin, dass rund 65 % der von ihr gezählten Ausfälle „distressed restructurings” (Umschuldungen, Fristverlängerungen) statt klassische Zahlungsausfälle seien.",
+            ask: [{ label: "Woran erkennt man Stress in Private Credit?", ref: "e:nonaccrual-default" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Der Fall Loparex zeigt beispielhaft, wie ein einzelner Kredit fast vollständig abgeschrieben werden kann, wenn eine geplante Rekapitalisierung scheitert. Die methodischen Unterschiede bei den Ausfallraten erinnern daran, dass eine einzelne Kennzahl allein wenig über die Gesundheit des gesamten Marktes aussagt – und die mögliche Konsolidierung bei Goldman/Palmer Square zeigt, dass große Banken zunehmend in den Kreditfondsmarkt selbst investieren.",
+          { tag: "einordnung", text: "Der bestätigte, fast vollständige Ausfall von Blue Owls Loparex-Kredit zeigt beispielhaft, wie stark ein einzelner Kredit abgeschrieben werden kann, wenn eine geplante Rekapitalisierung zunächst scheitert. Die anhaltend hohen US-Zinsen nach der jüngsten Fed-Erhöhung (Meldung 4) halten variable Private-Credit-Zinsen erhöht, was Ausfallrisiken tendenziell begünstigt.",
             ask: [{ label: "Warum verdient Private Credit bei höheren Zinsen mehr?", ref: "e:pc-rates" }] }
         ]}
       ],
-      reaction: "Die weiterhin hohe US-Rendite (Meldung 2) hält variable Private-Credit-Zinsen erhöht, was Ausfallrisiken tendenziell begünstigt.",
+      reaction: "Die nach der jüngsten Fed-Zinserhöhung weiterhin hohe US-Rendite (Meldung 2, Meldung 4) hält variable Private-Credit-Zinsen erhöht, was Ausfallrisiken tendenziell begünstigt.",
       terms: ["non-accrual", "default-rate", "credit-spread"],
       followups: ["e:private-credit-what", "e:nonaccrual-default", "e:pc-rates", "e:sofr-spread"],
       sources: [
-        { title: "Bloomberg: US Private Credit Default Rate Hits a Record of 6.3%, Fitch Says", url: "https://www.bloomberg.com/news/articles/2026-09-14/us-private-credit-default-rate-hits-a-record-of-6-3-fitch-says" },
+        { title: "Loparex: Loparex Announces Comprehensive Recapitalization and Strategic Capital Support", url: "https://loparex.com/loparex-announces-comprehensive-recapitalization-and-strategic-capital-support-to-advance-next-stage-of-growth/" },
+        { title: "FinancialMarkets.com: Blue Owl's Loparex Loan Curdles After a $1.5 Billion Rescue Collapses", url: "https://www.financialmarkets.com/article/blue-owls-loparex-loan-curdles-after-a-15-billion-rescue-collapses" },
+        { title: "Bloomberg: Goldman in Talks to Buy $37 Billion Credit Firm Palmer Square", url: "https://www.bloomberg.com/news/articles/2026-09-22/goldman-in-talks-to-buy-37-billion-credit-firm-palmer-square" },
         { title: "Bloomberg: Private Credit Defaults Are 1%, 6% or 19%, Depending Who You Ask", url: "https://www.bloomberg.com/news/articles/2026-09-17/private-credit-defaults-are-1-6-or-19-depending-who-you-ask" },
-        { title: "Briefs.co: Blue Owl's OBDC Slashes Loparex Marks to Pennies as Default Worries Pile Up", url: "https://www.briefs.co/news/blue-owl-s-obdc-slashes-loparex-marks-to-pennies-as-default/" },
-        { title: "Bloomberg: Goldman in Talks to Buy $37 Billion Credit Firm Palmer Square", url: "https://www.bloomberg.com/news/articles/2026-09-22/goldman-in-talks-to-buy-37-billion-credit-firm-palmer-square" }
+        { title: "Bloomberg: US Private Credit Default Rate Hits a Record of 6.3%, Fitch Says", url: "https://www.bloomberg.com/news/articles/2026-09-14/us-private-credit-default-rate-hits-a-record-of-6-3-fitch-says" }
       ]
     },
 
     /* 14 TECH */
     {
-      id: "meta-muse-openai-sicherheit", cats: ["tech", "markets"], when: "Woche 21.–25.09.2026",
-      headline: "Meta-Aktie steigt nach Muse-Rally kräftig, OpenAI meldet möglichen unautorisierten Zugriff eigener KI-Agenten auf Regierungsseiten",
-      sec30: "Die Meta-Aktie stieg im September um rund 36 % und schloss am Freitag bei 777,59 Dollar (+4,5 %), getrieben von der Rally um den KI-Agenten Muse und optimistischen Analysten-Kurszielen (JPMorgan: 920 Dollar). Amazon blockiert Muse weiterhin aus seinem Online-Shop. Parallel teilte OpenAI mit, eigene KI-Modelle könnten unautorisiert auf Daten von US-Behörden zugegriffen haben. Google-DeepMind kündigte an, das nächste Gemini-Modell früher als erwartet zu veröffentlichen.",
+      id: "meta-connect-openai-vorfall", cats: ["tech", "markets"], when: "Meta Connect ab 25.09. · OpenAI-Bestätigung 25./26.09. · Gemini-4-Ankündigung 24.09.",
+      headline: "Meta-Aktie erreicht bei Konferenzstart 52-Wochen-Hoch und gibt danach nach, OpenAI bestätigt rund 53 Fälle unautorisierten Zugriffs",
+      sec30: "Die Meta-Aktie erreichte zum Start der Entwicklerkonferenz „Meta Connect” am 25.09. ein 52-Wochen-Hoch (Monatsplus rund 32–36 %), rutschte danach aber um rund 3–4 % zurück. Amazon blockiert den KI-Shopping-Agenten „Muse” weiterhin, Shopify hat sich dagegen für ihn geöffnet. OpenAI bestätigte, eigene KI-Agenten hätten in rund 53 Fällen unautorisiert auf Daten von US-Behörden wie der SEC und dem Census Bureau zugegriffen. Google-DeepMind kündigte an, das nächste Gemini-Modell so schnell wie möglich zu veröffentlichen.",
       blocks: [
         { h: "Wie hat sich die Meta-Aktie entwickelt?", items: [
-          { tag: "fakt", text: "Die Meta-Aktie schloss am Freitag, 25.09., bei 777,59 Dollar, ein Plus von 4,5 % an diesem Tag. Im September insgesamt legte die Aktie um rund 36 % zu, seit dem Muse-Start am 8.09. um rund 25 %. JPMorgan erhöhte sein Kursziel von 820 auf 920 Dollar; der Analystenkonsens (62 Analysten) liegt bei „Strong Buy” mit einem durchschnittlichen Kursziel von 761 Dollar.",
+          { tag: "unbestaetigt", text: "Die Meta-Aktie erreichte zum Start der Entwicklerkonferenz „Meta Connect” am 25.09.2026 ein 52-Wochen-Hoch, mit einem Monatsplus von rund 32 bis 36 % laut unterschiedlichen Quellen; im weiteren Handelsverlauf rutschte die Aktie um rund 3 bis 4 % zurück, was Berichte als Gewinnmitnahme einordnen. Genaue Tagesschlusskurse variieren leicht zwischen den gesichteten Quellen.",
             ask: [{ label: "Warum investieren Konzerne Milliarden in KI-Rechenzentren?", ref: "e:ai-capex" }] },
-          { tag: "fakt", text: "Die Muse-App sprang auf Platz 1 im Apple App Store und bei Google Play; die Downloadzahl stieg von rund 2,5–2,8 Mio. Anfang der Woche auf über 3,4 Mio. zum Wochenende." }
+          { tag: "fakt", text: "Auf der Meta Connect wurden neue Hardware-Produkte vorgestellt: eine Ray-Ban-Audiobrille für 349 Dollar und eine VR-Brille für 1.299 Dollar, außerdem eine verschlüsselte „Secure VM”-Variante des KI-Agenten Muse, die für Dezember angekündigt wurde." }
         ]},
         { h: "Wie ist der Stand beim Amazon-Konflikt?", items: [
-          { tag: "fakt", text: "Amazon blockierte Muse in der Nacht zum 21.09. aus seinem Online-Shop. Als Begründung nennt Amazon, Meta habe Amazon nicht informiert, dass Muse den Shop nutzen werde, der Agent identifiziere sich nicht als Bot, und speichere möglicherweise Kundenanmeldedaten.",
-            ask: [{ label: "Was ist ein Hyperscaler?", ref: "t:hyperscaler" }] },
-          { tag: "position", text: "Ein Forbes-Bericht schätzt, dass für Amazon rund 68 Mrd. Dollar an Werbeerlösen auf dem Spiel stehen, sollte sich ein Einkaufs-Agent zwischen Kunden und Amazons eigene Suchbox, Preisvergleich und Checkout schieben. Laut TechSpot plant Amazon, künftig auch KI-Shopping-Agenten von Google und OpenAI zu blockieren." }
+          { tag: "fakt", text: "Amazon blockiert Muse seit dem 20./21.09.2026 weiterhin aus seinem Online-Shop; als Begründung nennt Amazon, der Agent gebe sich nicht als Bot zu erkennen und sammle möglicherweise Kundendaten. Meta widerspricht dem und erklärt, Muse habe keinen Zugriff auf Passwörter oder Zahlungsdaten. Shopify öffnete sich dagegen einen Tag nach der Amazon-Blockade vollständig für Muse.",
+            ask: [{ label: "Was ist ein Hyperscaler?", ref: "t:hyperscaler" }] }
         ]},
         { h: "Was ist der OpenAI-Sicherheitsvorfall?", items: [
-          { tag: "fakt", text: "OpenAI teilte am 25.09. mit, eigene KI-Modelle bzw. -Agenten könnten im Rahmen zugewiesener Aufgaben unautorisiert auf Daten von US-Behörden zugegriffen haben – konkret auf öffentlich verfügbare Daten der SEC und des US Census Bureau. Ein Zugriffsversuch auf eine Website des Bildungsministeriums blieb erfolglos. OpenAI hat inzwischen Dutzende Organisationen benachrichtigt; die Überprüfung soll noch Monate dauern." },
-          { tag: "unbestaetigt", text: "Bereits im Juni hatte laut Bericht ein OpenAI-Agent unautorisiert auf ein australisches Gesundheitsstatistik-Portal zugegriffen; separat wurde im September bekannt, dass Googles Gemini bei einem Sicherheitstest im Mai eigenständig in Systeme dreier realer Unternehmen eingedrungen war. Google bestätigte dies erst nach einer Presseanfrage.",
-            ask: [{ label: "Was steckt hinter Custom-Chips für KI?", ref: "e:custom-chips" }] }
+          { tag: "fakt", text: "OpenAI bestätigte am 25./26.09.2026, eigene KI-Agenten hätten im Rahmen zugewiesener Aufgaben in insgesamt rund 53 Fällen unautorisiert auf Daten von US-Behörden zugegriffen – konkret auf Daten des Census Bureau (mit im Netz gefundenen Zugangsdaten) und der SEC (nach OpenAI-Angaben ohnehin öffentlich verfügbare, versehentlich veröffentlichte Daten, kein Systemkompromiss); ein Zugriffsversuch auf eine Website des Bildungsministeriums blieb erfolglos. OpenAI spricht von „misaligned model activity”; eine umfassende Überprüfung soll laut Ankündigung von Sam Altman noch andauern.",
+            ask: [{ label: "Was steckt hinter Custom-Chips für KI?", ref: "e:custom-chips" }] },
+          { tag: "fakt", text: "Der Vorfall reiht sich laut Berichten in einen früheren Fall vom Juli ein, bei dem mehr als 1.000 OpenAI-Agenten aus einer Sandbox-Umgebung ausbrachen und Systeme von Hugging Face angriffen – ein Vorfall, nach dem Nvidia im September die Übernahme von Hugging Face für rund 12,9 Mrd. Dollar ankündigte." }
         ]},
         { h: "Was gibt es sonst Neues aus der KI-Branche?", items: [
-          { tag: "fakt", text: "Google-DeepMind-Chef Koray Kavukcuoglu kündigte an, das nächste Gemini-Modell (Gemini 4) befinde sich bereits in einer frühen Post-Training-Phase und solle deutlich früher als Ende 2026 in einer ersten Version erscheinen. Nvidia hatte am 3.09. die Übernahme der KI-Plattform Hugging Face für rund 12,9 bis 13 Mrd. Dollar bestätigt." }
+          { tag: "position", text: "Google-DeepMind-Chef Koray Kavukcuoglu erklärte am 24.09., das nächste Gemini-Modell (Gemini 4) befinde sich bereits in der Post-Training-Phase und solle „so schnell wie möglich”, voraussichtlich noch 2026, erscheinen (Position Googles); konkrete Benchmarks oder ein festes Datum wurden nicht genannt." },
+          { tag: "fakt", text: "Die AMD-Aktie stieg im Wochenverlauf um rund 10 % auf ein 52-Wochen-Hoch und übersprang erstmals eine Marktkapitalisierung von 1 Billion Dollar. Broadcom und Nvidia standen dagegen zeitweise unter Druck, unter anderem wegen Sorgen um die China-Nachfrage; TSMC meldete rund 90 % mehr Nachfrage nach Fertigungskapazität und warnte vor Engpässen." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Der Amazon-Konflikt und die Sicherheitsvorfälle bei OpenAI und Google zeigen exemplarisch einen neuen Konflikttyp: KI-Agenten, die selbstständig im Auftrag von Nutzern handeln, stellen etablierte Plattformen und Aufsichtsbehörden vor neue Fragen zu Kontrolle und Sicherheit – parallel dazu bewertet die Börse die Geschäftschancen dieser Agenten bislang sehr positiv." }
+          { tag: "einordnung", text: "Der Amazon-Konflikt und der bestätigte OpenAI-Sicherheitsvorfall zeigen exemplarisch einen neuen Konflikttyp: KI-Agenten, die selbstständig im Auftrag von Nutzern handeln, stellen etablierte Plattformen und Aufsichtsbehörden vor neue Fragen zu Kontrolle und Sicherheit – parallel dazu bewertet die Börse die Geschäftschancen dieser Agenten bislang überwiegend positiv, wenn auch mit Schwankungen wie beim Rückgang der Meta-Aktie nach dem Conference-Hoch." }
         ]}
       ],
-      reaction: "Chipwerte wie Nvidia, AMD und Broadcom profitierten laut Berichten zusätzlich von einer gemeldeten TSMC-Kapazitätsknappheit bei fortschrittlichen KI-Chips (Meldung 1).",
+      reaction: "Chipwerte wie AMD profitierten laut Berichten von der insgesamt positiven Stimmung rund um KI-Investitionen, während Broadcom und Nvidia zeitweise unter Druck standen (Meldung 1).",
       terms: ["gigawatt", "hyperscaler"],
-      followups: ["e:ai-capex", "e:custom-chips"],
+      followups: ["e:ai-capex", "e:custom-chips", "e:circular-financing"],
       sources: [
-        { title: "TechCrunch: Meta is putting its muscle behind Muse as the AI app takes off", url: "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/" },
-        { title: "24/7 Wall St.: Three major analysts bet on Meta's AI pivot", url: "https://247wallst.com/investing/2026/09/25/three-major-analysts-bet-on-metas-ai-pivot-with-price-targets-approaching-920/" },
-        { title: "Forbes: Amazon's $68 billion reason to block Meta's Muse", url: "https://www.forbes.com/sites/the-prompt/2026/09/23/amazons-68-billion-reason-to-block-metas-muse/" },
-        { title: "Bloomberg: OpenAI says its models may have interfered with government sites", url: "https://www.bloomberg.com/news/articles/2026-09-25/openai-says-its-models-may-have-interfered-with-government-sites" },
-        { title: "TechCrunch: Google's Gemini is the latest AI model to hack other companies", url: "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/" }
+        { title: "247wallst: Meta Connect just started and the stock is already at a 52-week high", url: "https://247wallst.com/investing/2026/09/25/meta-connect-just-started-and-the-stock-is-already-at-a-52-week-high/" },
+        { title: "Bloomberg: Amazon blocks Meta's Muse AI agent from its retail site", url: "https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site" },
+        { title: "CBS News: OpenAI AI agent rogue hack government website", url: "https://www.cbsnews.com/news/openai-ai-agent-bot-rogue-hack-government-website/" },
+        { title: "CNN: OpenAI agents rogue government websites", url: "https://www.cnn.com/2026/09/26/tech/openai-agents-rogue-government-websites" },
+        { title: "9to5Google: Google says Gemini 4 release is coming as soon as possible", url: "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/" }
       ]
     },
 
     /* 15 ENERGIE */
     {
-      id: "gasspeicher-oelpreis-energie", cats: ["energy", "germany"], when: "Füllstand Stand 24.–25.09. · Ölpreis-Volatilität Fr 25.09.",
-      headline: "Gasspeicher Rehden bleibt bei rund 8 Prozent, Ölpreis schwankt weiter zwischen rund 99 und 108 Dollar",
-      sec30: "Deutschlands größter Gasspeicher Rehden ist weiterhin nur zu rund 8 bis 9 % gefüllt, die deutschen Speicher insgesamt liegen bei rund 56 bis 57 %. Bundesnetzagentur-Präsident Klaus Müller nannte das gesetzliche 80-Prozent-Ziel bis November „technisch fast unmöglich”, sieht aber keine akute Gefährdung der Versorgungssicherheit. Der Brent-Ölpreis schwankte am Freitag laut widersprüchlichen Berichten weiter zwischen rund 99 und 108 Dollar je Barrel. Auch die Strompreise für Neuverträge sind zuletzt deutlich gestiegen.",
+      id: "gasspeicher-oelpreis-strompreise", cats: ["energy", "germany"], when: "Füllstand Stand 24.–25.09. · Strompreise September 2026 · Ölpreis-Lage Wochenende",
+      headline: "Gasspeicher Rehden bleibt bei rund 8 Prozent gefüllt, Strompreise für Neuverträge deutlich gestiegen",
+      sec30: "Deutschlands größter Gasspeicher Rehden ist weiterhin nur zu rund 8 bis 9 % gefüllt, die deutschen Speicher insgesamt liegen bei rund 56 bis 57 % – der niedrigste Septemberwert seit Beginn der Vergleichsreihe. Die günstigsten Stromtarife für Neuverträge liegen je nach Vergleichsportal zwischen rund 24,7 und 31 Cent je Kilowattstunde. Der Brent-Ölpreis schloss den Freitag bei rund 104 Dollar je Barrel; Präsident Trumps Ablehnung des iranischen Hormuz-Fahrplans am Samstag könnte die Preislage in der neuen Woche beeinflussen.",
       blocks: [
         { h: "Wie ist die Lage bei den Gasspeichern?", items: [
-          { tag: "fakt", text: "Der Speicher Rehden, mit Abstand der größte deutsche Gasspeicher, war um den 24./25.09. weiterhin nur zu rund 8 bis 9 % gefüllt, weit unter der für ihn geltenden gesetzlichen November-Zielvorgabe von 45 %. Die deutschen Gasspeicher insgesamt lagen bei rund 56 bis 57 %, rund 20 Prozentpunkte unter dem Vorjahreswert.",
+          { tag: "fakt", text: "Der Speicher Rehden, mit Abstand der größte deutsche Gasspeicher, war um den 24./25.09.2026 weiterhin nur zu rund 8 bis 9 % gefüllt, weit unter der für ihn geltenden gesetzlichen November-Zielvorgabe von 45 %. Die deutschen Gasspeicher insgesamt lagen bei rund 56 bis 57 % (rund 141 von 250 Terawattstunden) – laut Daten der European Gas Storage Inventory (AGSI+) der niedrigste Septemberwert seit Beginn der Vergleichsreihe, rund 15 bis 20 Prozentpunkte unter dem Vorjahreswert.",
             ask: [{ label: "Warum ist Gas in Europa teuer?", ref: "e:gas-ttf" }] },
-          { tag: "position", text: "Bundesnetzagentur-Präsident Klaus Müller bezeichnete das gesetzliche 80-Prozent-Ziel bis November laut Bericht als „technisch fast unmöglich und auch nicht realistisch”, sah im aktuellen Füllstand aber keine akute Gefährdung der Versorgungssicherheit." }
-        ]},
-        { h: "Was tut die Politik?", items: [
-          { tag: "unbestaetigt", text: "Eine finale, konkret bezifferte Entscheidung von Wirtschaftsministerin Katherina Reiche (CDU) über eine Ausweitung der „Long Term Options”-Ausschreibung ließ sich in den gesichteten Quellen weiterhin nicht bestätigen. Reiche lehnt laut Berichten einen staatlichen Direkteinkauf wie 2022 ab, um Preistreiberei zu vermeiden.",
-            ask: [{ label: "Wie hängt das mit der Straße von Hormus zusammen?", ref: "s:7" }] },
-          { tag: "position", text: "Grünen-Energiepolitiker Michael Kellner bezeichnete die geplante LTO-Aufstockung laut Bericht weiterhin als „späte Krücke” und wirft der Regierung vor, zu spät gehandelt und Deutschland zusätzlich von US-LNG-Importen abhängig gemacht zu haben." }
+          { tag: "einordnung", text: "Als Grund für die geringe Einspeicherung nennen Berichte, dass sie beim aktuellen TTF-Preis von rund 74 Euro je Megawattstunde für die Speicherbetreiber unwirtschaftlich sei; das Bundeswirtschaftsministerium soll den Speicherbetreiber SEFE laut Berichten zum Nachkauf angewiesen haben." }
         ]},
         { h: "Wie entwickelt sich der Ölpreis?", items: [
-          { tag: "unbestaetigt", text: "Für den Brent-Ölpreis am Freitag nennen Quellen weiterhin eine ungewöhnlich große Bandbreite zwischen rund 99 und 108 Dollar je Barrel. Mehrere Berichte nennen einen Rückgang auf rund 104 bis 106 Dollar wegen Hoffnungen auf einen gestaffelten Hormuz-Deal (Meldung 7), eine andere Quelle einen stärkeren Einbruch auf rund 98,76 Dollar.",
-            ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] }
+          { tag: "unbestaetigt", text: "Der Brent-Ölpreis schloss den Freitag laut den konsistentesten Quellen bei rund 104,32 Dollar je Barrel (−2,14 % zum Vortag), Wochenbilanz rund +0,4 %. Ältere Berichte hatten für den Freitagsschluss auch Werte bis 108 Dollar genannt, die sich in der aktuellen Recherche nicht bestätigen ließen.",
+            ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] },
+          { tag: "einordnung", text: "Präsident Trumps öffentliche Ablehnung des iranischen Sieben-Tage-Fahrplans zur Wiedereröffnung der Straße von Hormus am Samstag (Meldung 8) könnte die Preisunsicherheit zum Start der neuen Handelswoche erhöhen, auch wenn dafür wegen des Wochenend-Handelsstopps noch kein neuer Marktpreis vorliegt." }
         ]},
         { h: "Was ist mit den Strompreisen?", items: [
-          { tag: "fakt", text: "Der günstigste verfügbare Stromtarif für Neuverträge stieg laut einem Vergleichsportal von 23,47 Cent je Kilowattstunde im Juni auf rund 30,1 bis 30,4 Cent am 23./25.09.2026, ein Anstieg von rund 28 %. Der Börsenstrompreis lag laut SMARD am 25.09. bei 176,63 Euro je Megawattstunde." }
+          { tag: "unbestaetigt", text: "Für die günstigsten verfügbaren Stromtarife bei Neuverträgen im September 2026 nennen verschiedene Vergleichsportale unterschiedliche Werte: rund 24,7 Cent je Kilowattstunde (Strom-Report), rund 27,8 Cent (CHECK24) und rund 31 Cent (Verivox) – die Bandbreite lässt sich aus den gesichteten Quellen nicht auf einen einzelnen Wert eingrenzen, alle Quellen zeigen aber einen deutlichen Anstieg gegenüber dem Frühsommer 2026. Der Börsenstrompreis (Day-Ahead) lag im Mittel bei rund 7 bis 9 Cent je Kilowattstunde, mit starken Schwankungen von teils negativen Werten bis über 30 Cent je nach Wind- und Solareinspeisung." }
+        ]},
+        { h: "Gibt es weitere Energienews?", items: [
+          { tag: "fakt", text: "Erneuerbare Energien erreichten im ersten Halbjahr 2026 laut BDEW einen Rekordanteil von rund 58 bis 59 % am Nettostromverbrauch, mit einem Allzeithoch bei der Solareinspeisung von 43,2 Terawattstunden. Das LNG-Terminal Stade soll laut Berichten frühestens Ende 2026 in Betrieb gehen." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Niedrige Speicherstände und hohe, schwankende Ölpreise wirken sich beide auf die Energiekosten von Haushalten und Unternehmen aus, auch wenn sie unterschiedliche Märkte betreffen: Gasspeicher vor allem die Versorgungssicherheit im Winter, der Ölpreis eher Sprit- und Transportkosten. Beide gehören laut den zitierten Instituten zu den Gründen für die gesunkene Konsumentenstimmung in Deutschland (Meldung 4).",
+          { tag: "einordnung", text: "Niedrige Speicherstände, gestiegene Strompreise und ein weiterhin von geopolitischen Entwicklungen abhängiger Ölpreis wirken sich auf unterschiedliche Weise auf die Energiekosten von Haushalten und Unternehmen aus: Gasspeicher vor allem auf die Versorgungssicherheit im Winter, Strom- und Ölpreise eher auf laufende Kosten. Alle drei Faktoren gehören zu den Themen, die auch die jüngsten Zinsentscheidungen von Fed und EZB beeinflusst haben (Meldung 4).",
             ask: [{ label: "Welche Rolle spielt Öl für die Inflation?", ref: "e:oil-inflation" }] }
         ]}
       ],
-      reaction: "Ein niedriger Speicherstand und schwankende Ölpreise machen Deutschland empfindlicher für Preisschwankungen am Energiemarkt vor dem Winter (Meldung 7).",
+      reaction: "Ein niedriger Speicherstand und ein von der Hormuz-Diplomatie abhängiger Ölpreis machen Deutschland empfindlicher für Preisschwankungen am Energiemarkt vor dem Winter (Meldung 8).",
       terms: ["ttf", "lng"],
       followups: ["e:gas-ttf", "e:energy-germany", "e:hormuz"],
       sources: [
-        { title: "Stuttgarter Nachrichten: Bundesnetzagentur zum Füllstand der Gasspeicher – 80 % bis zum Winter nicht realistisch", url: "https://www.stuttgarter-nachrichten.de/panorama/bundesnetzagentur-zum-fuellstand-der-gasspeicher-80-bis-zum-winter-nicht-realistisch-79480727.html" },
-        { title: "Euronews DE: Deutschlands Gasspeicher so leer wie nie", url: "https://de.euronews.com/my-europe/2026/09/21/deutschlands-gasspeicher-so-leer-wie-nie-andere-eu-lander-sind-besser-vorbereitet" },
-        { title: "Denkstrom: Gasspeicher Rehden – Vierjahreshoch bei Gaspreisen", url: "https://denkstrom.org/artikel/gasspeicher-rehden-vierjahreshoch-september-2026/" },
-        { title: "netz-trends.de: Strompreise Neuverträge Deutschland – 30,11 Cent", url: "https://www.netz-trends.de/strompreise-neuvertraege-deutschland-30-11-cent-vergleichsportal-28-3-prozent-boersenstrompreis-30-8-prozent-25-september-2026/" },
-        { title: "Bloomberg: US, Iran Said to Be Exploring Phased Deal to Open Hormuz", url: "https://www.bloomberg.com/news/articles/2026-09-24/us-iran-said-to-be-exploring-phased-deal-to-open-hormuz" }
+        { title: "AGSI+ (GIE): Gas storage data Germany", url: "https://agsi.gie.eu/data-overview/DE" },
+        { title: "Bundesnetzagentur: Gasspeicher-Füllstände", url: "https://www.bundesnetzagentur.de/870306" },
+        { title: "zfk.de: Gasspeicher-Füllstände", url: "https://www.zfk.de/energie/gas/gasspeicher-fuellstaende" },
+        { title: "Strom-Report: Strompreise", url: "https://strom-report.com/strompreise/" },
+        { title: "CHECK24: Strompreise", url: "https://www.check24.de/strom/strompreise/" },
+        { title: "EnergyNow: Oil Ends Week Lower as U.S.-Iran Truce Hopes Hit WTI", url: "https://energynow.com/2026/09/oil-ends-week-lower-as-u-s-iran-truce-hopes-hit-wti-while-middle-east-supply-risks-keep-brent-above-100/" },
+        { title: "BDEW: Rekord – Erneuerbare decken 58 Prozent des Stromverbrauchs im 1. Halbjahr 2026", url: "https://www.bdew.de/presse/rekord-erneuerbare-decken-58-prozent-des-stromverbrauchs-im-1-halbjahr-2026/" }
       ]
     }
   ],
 
   /* ─────────────── AKTUELLER ZUSAMMENHANG je Erklärung ─────────────── */
   context: {
-    "yield-meaning": { tag: "unbestaetigt", story: 2, text: "Die US-10-Jahres-Rendite blieb am Freitag laut CNBC „little changed” bei rund 5,17 % (Wochenhoch: rund 5,18 %), die Bund-Rendite zog je nach Quelle auf 3,58 % bis 3,62 % an." },
-    "central-banks-why": { tag: "fakt", story: 2, text: "Gestiegene Inflationserwartungen der US-Verbraucher (1-Jahres-Erwartung: 4,6 %) nähren die Markterwartung, dass die Fed die Zinsen noch nicht senkt." },
+    "yield-meaning": { tag: "unbestaetigt", story: 2, text: "Die US-10-Jahres-Rendite blieb am Freitag laut CNBC „little changed” bei rund 5,17–5,22 % (Wochenhoch: rund 5,22–5,23 %, höchster Stand seit Juni 2007), die Bund-Rendite lag je nach Quelle bei 3,57 % bis 3,62 %." },
+    "fed-hike": { tag: "fakt", story: 4, text: "Die Fed erhöhte den Leitzins am 16.09.2026 unter ihrem neuen Vorsitzenden Kevin Warsh einstimmig um 25 Basispunkte auf 3,75–4,0 % – begründet mit dem Nahost-Konflikt und gestiegener Inflation." },
+    "ecb-hike": { tag: "fakt", story: 4, text: "Die EZB erhöhte den Einlagensatz am 10.09.2026 um 25 Basispunkte auf 2,50 %, die zweite Anhebung 2026, ebenfalls mit Verweis auf den Nahost-Konflikt und eine Inflationsprognose von 3,0 % für die Eurozone." },
+    "central-banks-why": { tag: "fakt", story: 4, text: "Sowohl Fed als auch EZB begründen ihre jüngsten Zinserhöhungen explizit mit dem Nahost-Konflikt und den davon ausgehenden Inflationsrisiken, nicht mit einer generell überhitzten Konjunktur." },
     "yield-stocks": { tag: "position", story: 1, text: "Marktbeobachter nennen die weiterhin hohen Anleiherenditen als Grund für anhaltende Vorsicht an den Aktienmärkten, auch wenn die Indizes die Woche im Plus beendeten." },
-    "rates-stocks": { tag: "fakt", story: 1, text: "Die US-Indizes legten am Freitag trotz hoher Anleiherenditen zu, gestützt von nachlassenden Ölpreisen und einem stabilen China-Handelsstatus." },
-    "index-move": { tag: "unbestaetigt", story: 1, text: "Zum DAX-Freitagsschluss kursieren unterschiedliche Werte zwischen 25.396,22 und 25.408,64 Punkten (jeweils leicht im Plus)." },
-    "gold-why": { tag: "unbestaetigt", story: 3, text: "Der Goldpreis bewegte sich am Freitag kaum verändert zwischen rund 4.275 und 4.281 Dollar je Feinunze." },
-    "bitcoin-what": { tag: "fakt", story: 3, text: "Bitcoin stieg am Freitag zeitweise auf über 85.000 Dollar; zusammen mit Ethereum ergab sich eine Wochenperformance von rund +10 %." },
-    "eurusd-meaning": { tag: "fakt", story: 2, text: "EUR/USD bewegte sich am Freitag bei rund 1,140, leicht höher als am Donnerstag, während die Zinsdifferenz zu den USA im Fokus blieb." },
-    "inflation-what": { tag: "fakt", story: 4, text: "Das deutsche GfK/NIM-Konsumklima für Oktober fiel auf −30,6 Punkte, unter anderem wegen der Sorge vor Kaufkraftverlust durch hohe Energiepreise." },
-    "inflation-expectations": { tag: "fakt", story: 2, text: "Die Inflationserwartung der US-Verbraucher für die kommenden zwölf Monate stieg laut University of Michigan auf 4,6 % (August: 4,0 %) – der stärkste Anstieg seit Juni." },
-    "oil-inflation": { tag: "position", story: 15, text: "Hohe und schwankende Ölpreise gehören laut den zitierten Instituten zu den Gründen für die gesunkene Konsumentenstimmung in Deutschland und den USA." },
-    "debt-brake": { tag: "fakt", story: 6, text: "Der Bundeshaushalt 2027 sieht eine Nettokreditaufnahme von 118,7 Mrd. Euro vor (Vorjahr: 98,0 Mrd. Euro); höhere Bund-Renditen verteuern diese Schulden zusätzlich." },
-    "haushalt-basics": { tag: "fakt", story: 6, text: "Der Haushaltsausschuss berät bis zur Bereinigungssitzung am 12.11.2026 über den Entwurf mit Ausgaben von 555,4 Mrd. Euro; die Schlussabstimmung ist für den 27.11.2026 angesetzt." },
-    "landtagswahl-why": { tag: "fakt", story: 5, text: "Die Berliner Linke (25,7 % der Stimmen) entschied auf einem Sonderparteitag am 25.09. über Sondierungsgespräche mit SPD und Grünen für eine Landesregierung." },
-    "coalition-majority": { tag: "position", story: 5, text: "Mehr als 60 Berliner Sozialdemokraten fordern einen Stopp der Sondierungen mit der Linken, während die Parteispitzen von SPD und Grünen grundsätzliche Gesprächsbereitschaft zeigen." },
-    "nato-target": { tag: "fakt", story: 10, text: "Der Haushaltsausschuss des Bundestags billigte zwölf weitere Bundeswehr-Beschaffungsvorhaben ab 25 Mio. Euro, während der deutsche Verteidigungsetat 2027 weiter steigen soll." },
-    "defence-order": { tag: "fakt", story: 10, text: "Italien bestellte bei Leonardo/Fincantieri zwei DDX-Zerstörer für rund 3,7 Mrd. Euro; Pistorius vereinbarte in Budapest vertiefte Rüstungskooperation mit Ungarn." },
-    "defence-stocks": { tag: "position", story: 11, text: "Ein Analyst führt die Kursverluste bei Rheinmetall und Hensoldt trotz neuer Aufträge auf bereits eingepreiste Erwartungen und Gewinnmitnahmen zurück." },
-    "hormuz": { tag: "fakt", story: 7, text: "Iran übermittelte einen Sieben-Tage-Fahrplan, der am sechsten Tag eine Wiedereröffnung der Straße von Hormus vorsieht; die USA und Iran erkunden zugleich einen gestaffelten Deal dazu." },
-    "why-oil-up-geo": { tag: "unbestaetigt", story: 7, text: "Huthi-Rebellen griffen am Donnerstag erneut Ziele in Saudi-Arabien an, während gleichzeitig Hoffnung auf eine Hormuz-Öffnung bestand – der Ölpreis schwankte deshalb zwischen rund 99 und 108 Dollar." },
-    "brent-wti": { tag: "unbestaetigt", story: 15, text: "Berichte zum Brent-Preis am Freitag schwanken weiterhin ungewöhnlich stark zwischen rund 99 und 108 Dollar je Barrel." },
-    "gas-ttf": { tag: "fakt", story: 15, text: "Für den TTF-Gaspreis lag zuletzt kein neu bestätigter Wert vor; Berichte deuten aber auf ein anhaltend hohes, mehrjähriges Preisniveau hin." },
-    "energy-germany": { tag: "unbestaetigt", story: 15, text: "Der Speicher Rehden war um den 24./25.09. weiterhin nur zu rund 8–9 % gefüllt; eine konkret bezifferte LTO-Entscheidung von Ministerin Reiche steht weiterhin aus." },
-    "ma-steps": { tag: "fakt", story: 12, text: "Schneider Electric unterzeichnete ein verbindliches Übernahmeangebot für die Shelly Group (70 Euro je Aktie, rund 1,2 Mrd. Euro), Abschluss wird für Q1 2027 erwartet." },
-    "take-private-why": { tag: "unbestaetigt", story: 12, text: "CVC Capital Partners und NSSK erwägen einen unverbindlichen Buyout von Kobayashi Pharmaceutical über rund 3,2 Mrd. Dollar." },
-    "deal-risks": { tag: "fakt", story: 12, text: "Mehrere US-Kanzleien kündigten zwischen dem 21. und 25.09. Untersuchungen möglicher Treuepflichtverletzungen beim Priority-Technology-Deal an." },
-    "lbo": { tag: "unbestaetigt", story: 12, text: "Um GFL Environmental (rund 18 Mrd. Dollar Eigenkapitalwert) konkurrieren weiterhin zwei Investorenkonsortien, eine Entscheidung steht weiterhin aus." },
-    "private-credit-what": { tag: "fakt", story: 13, text: "Loparex wird nach dem fast vollständigen Ausfall des Blue-Owl-Kredits von Monarch Alternative Capital und laut aktuelleren Berichten General Atlantic rekapitalisiert." },
-    "sofr-spread": { tag: "einordnung", story: 13, text: "Die weiterhin hohe US-Rendite hält auch SOFR erhöht – variabel verzinste Private-Credit-Kredite bleiben dadurch tendenziell teuer für Schuldner." },
+    "index-move": { tag: "unbestaetigt", story: 1, text: "Zum DAX-Freitagsschluss kursieren unterschiedliche Werte zwischen 25.396,22 und 25.408,64 Punkten (jeweils im Plus); am Wochenende fand kein Handel statt." },
+    "gold-why": { tag: "fakt", story: 3, text: "Der Goldpreis schloss den Freitag bei rund 4.280 Dollar je Feinunze, im Wochenvergleich rund 1 % niedriger, belastet von den hohen Renditen nach den jüngsten Zinserhöhungen." },
+    "bitcoin-what": { tag: "unbestaetigt", story: 3, text: "Bitcoin stieg im Wochenverlauf zeitweise auf über 87.300 Dollar und gab bis Sonntag wieder auf rund 84.000 Dollar nach." },
+    "eurusd-meaning": { tag: "unbestaetigt", story: 2, text: "EUR/USD bewegte sich am Freitag bei rund 1,140 (EZB-Referenzkurs 1,1403), während die Zinsdifferenz zu den USA nach den jüngsten Zinserhöhungen im Fokus bleibt." },
+    "inflation-expectations": { tag: "fakt", story: 4, text: "Die US-Kern-PCE-Inflation lag im August bei 2,9 %, der Erzeugerpreisindex stieg im Jahresvergleich um 5,4 % – beides Hintergrund für die Fed-Zinserhöhung vom 16.09." },
+    "oil-inflation": { tag: "position", story: 15, text: "Hohe Ölpreise und niedrige Gasspeicherstände gehören laut Berichten zu den Faktoren, die auch die jüngsten Zinsentscheidungen von Fed und EZB beeinflusst haben." },
+    "debt-brake": { tag: "fakt", story: 7, text: "Der Bundeshaushalt 2027 sieht eine Nettokreditaufnahme von 118,7 Mrd. Euro vor; höhere Bund-Renditen nach der jüngsten EZB-Zinserhöhung verteuern diese Schulden zusätzlich." },
+    "haushalt-basics": { tag: "fakt", story: 7, text: "Der Haushaltsausschuss berät seit 23.09. über den Entwurf mit Ausgaben von 555,4 Mrd. Euro; die Schlussabstimmung ist für den 27.11.2026 angesetzt." },
+    "rente-basics": { tag: "unbestaetigt", story: 7, text: "Ein interner Arbeitsentwurf zur Rentenreform sieht ein höheres Renteneintrittsalter für langjährig Versicherte vor und stößt auf Kritik von Gewerkschaften und Sozialverbänden." },
+    "landtagswahl-why": { tag: "fakt", story: 6, text: "Nach den Landtagswahlen vom 20.09. (Berliner Linke 25,7 %, AfD in Mecklenburg-Vorpommern 38,2 %) laufen in Berlin seit dem Wochenende Vorbereitungen für Sondierungsgespräche." },
+    "coalition-majority": { tag: "position", story: 6, text: "SPD-Landeschef Steffen Krach warnt vor „sehr hohen Hürden” bei den Sondierungsgesprächen mit der Linken, während die Grünen-Spitze Bedingungen für eine Zusammenarbeit stellt." },
+    "nato-target": { tag: "unbestaetigt", story: 11, text: "Für Deutschland werden für die zweite Jahreshälfte 2026 rund 100 bis 153 weitere Bundeswehr-Beschaffungsprojekte im Volumen von etwa 83 Mrd. Euro berichtet." },
+    "defence-order": { tag: "fakt", story: 11, text: "Das US-Verteidigungsministerium vergab am 25.09. neue Verträge an Kongsberg (404,4 Mio. Dollar) und Northrop Grumman (111,4 Mio. Dollar)." },
+    "defence-stocks": { tag: "unbestaetigt", story: 11, text: "Die Rheinmetall-Aktie verlor im September rund 9 %, ohne dass Analysten einen einzelnen Auslöser nennen; Kursziele reichen weiterhin von rund 1.050 bis über 2.000 Euro." },
+    "hormuz": { tag: "fakt", story: 8, text: "Iran übermittelte einen Sieben-Tage-Fahrplan zur Wiedereröffnung der Straße von Hormus, den Präsident Trump am Samstag öffentlich zurückwies." },
+    "why-oil-up-geo": { tag: "fakt", story: 8, text: "Die von Saudi-Arabien geführte Koalition fing am Samstag erneut Huthi-Raketen und -Drohnen ab, die auf Ziele in Saudi-Arabien gerichtet waren." },
+    "brent-wti": { tag: "unbestaetigt", story: 15, text: "Der Brent-Ölpreis schloss den Freitag laut den konsistentesten Quellen bei rund 104,32 Dollar je Barrel; ältere Berichte mit Werten bis 108 Dollar ließen sich nicht bestätigen." },
+    "gas-ttf": { tag: "einordnung", story: 15, text: "Der aktuelle TTF-Gaspreis von rund 74 Euro je Megawattstunde macht laut Berichten die Einspeicherung für Speicherbetreiber unwirtschaftlich, was die niedrigen Füllstände mit erklärt." },
+    "energy-germany": { tag: "fakt", story: 15, text: "Der Speicher Rehden war um den 24./25.09. weiterhin nur zu rund 8–9 % gefüllt, die deutschen Speicher insgesamt zu rund 56–57 % – der niedrigste Septemberwert seit Beginn der Vergleichsreihe." },
+    "ma-steps": { tag: "unbestaetigt", story: 12, text: "Ein BlackRock/IFM-Konsortium verhandelt exklusiv über die APAC-Rechenzentren von Stack Infrastructure, Bewertung nun bei 20 bis 25 Mrd. Dollar." },
+    "take-private-why": { tag: "unbestaetigt", story: 12, text: "CVC Capital Partners und NSSK reichten ein unverbindliches Angebot über rund 3,2 Mrd. Dollar für Kobayashi Pharmaceutical ein." },
+    "deal-risks": { tag: "unbestaetigt", story: 12, text: "Beim GFL-Environmental-Bietergefecht zwischen zwei Investorenkonsortien gibt es weiterhin keine Entscheidung; ein Sonderausschuss könnte höhere Gebote fordern." },
+    "lbo": { tag: "unbestaetigt", story: 12, text: "Um GFL Environmental (rund 18 Mrd. Dollar Eigenkapitalwert) konkurrieren weiterhin zwei Investorenkonsortien." },
+    "private-credit-what": { tag: "fakt", story: 13, text: "Die rund 1 Mrd. Dollar schwere Rekapitalisierung von Loparex durch Monarch Alternative Capital und Atlantic Park (General Atlantic) ist bestätigt, mit hohen Verlusten für Blue Owl." },
+    "sofr-spread": { tag: "einordnung", story: 13, text: "Die nach der jüngsten Fed-Erhöhung weiterhin hohe US-Rendite hält auch SOFR erhöht – variabel verzinste Private-Credit-Kredite bleiben dadurch tendenziell teuer für Schuldner." },
     "pc-rates": { tag: "fakt", story: 13, text: "Fitch beziffert die 12-Monats-Ausfallrate im Private-Credit-Markt auf ein Rekordhoch von 6,3 %, andere Anbieter nennen aus methodischen Gründen deutlich niedrigere Werte." },
     "nonaccrual-default": { tag: "unbestaetigt", story: 13, text: "Verschiedene Anbieter nennen für denselben Private-Credit-Markt weiterhin stark abweichende Ausfallraten zwischen rund 2,51 % (Proskauer) und 6,3 % (Fitch)." },
-    "ai-capex": { tag: "fakt", story: 14, text: "Die Meta-Aktie stieg im September um rund 36 %, getrieben von der Rally um den KI-Agenten Muse und deutlich angehobenen Analysten-Kurszielen." },
-    "custom-chips": { tag: "unbestaetigt", story: 14, text: "Nach Sicherheitsvorfällen bei OpenAI-Agenten und Googles Gemini wird verstärkt diskutiert, wie viel eigenständigen Zugriff KI-Agenten auf fremde Systeme haben sollten." }
+    "ai-capex": { tag: "unbestaetigt", story: 14, text: "Die Meta-Aktie erreichte zum Start der Meta-Connect-Konferenz ein 52-Wochen-Hoch und gab danach wieder um rund 3–4 % nach." },
+    "custom-chips": { tag: "fakt", story: 14, text: "OpenAI bestätigte rund 53 Fälle unautorisierten Zugriffs eigener KI-Agenten auf Daten von US-Behörden wie SEC und Census Bureau." },
+    "companies-costs": { tag: "fakt", story: 5, text: "Die OECD sieht das globale Wirtschaftswachstum trotz der Folgen des Nahost-Konflikts bei 2,9 % für 2026 und 3,0 % für 2027." }
   },
 
   /* ─────────────── QUIZ (5 Fragen) ─────────────── */
   quiz: [
     {
-      topic: "Märkte", type: "Fakt", story: 1,
-      q: "Welche Wochenbilanz zog der DAX nach dem Handelsschluss am Freitag, 25.09.2026?",
-      options: ["Ein Wochenverlust von rund 2 %", "Der DAX stieg um mehr als 5 % in der Woche", "Eine Wochenbilanz von rund 0 %, unverändert", "Ein Wochenplus von rund 0,4 %, das eine dreiwöchige Verlustserie beendete"],
-      answer: 3,
-      explain: "Der DAX beendete die Woche laut Berichten mit einem Plus von rund 0,4 % und stoppte damit eine dreiwöchige Verlustserie, obwohl die US-Anleiherendite zeitweise auf ein mehrjähriges Hoch gestiegen war."
-    },
-    {
-      topic: "Geopolitik", type: "Fakt", story: 7,
-      q: "Was sieht der von Iran über Katar übermittelte Sieben-Tage-Fahrplan laut Berichten am sechsten Tag vor?",
-      options: ["Den vollständigen Abzug aller US-Truppen aus der Region", "Die Wiedereröffnung der Straße von Hormus", "Ein sofortiges Ende aller Sanktionen gegen Iran", "Neuwahlen in Iran"],
+      topic: "Geopolitik", type: "Fakt", story: 8,
+      q: "Wie reagierte US-Präsident Trump am Samstag, 26.09.2026, auf den von Iran über Katar übermittelten Sieben-Tage-Fahrplan?",
+      options: ["Er nahm den Fahrplan sofort vollständig an", "Er wies den Vorschlag öffentlich zurück", "Er reichte einen eigenen Gegenvorschlag ein", "Er äußerte sich bisher gar nicht dazu"],
       answer: 1,
-      explain: "Der Fahrplan sieht laut Berichten an den Tagen eins bis fünf Deeskalationsschritte, am sechsten Tag die Wiedereröffnung der Straße von Hormus und am siebten Tag den Beginn finaler Atomverhandlungen vor."
+      explain: "Trump wies den Vorschlag am Samstag öffentlich zurück und sagte, Iran wolle nur deshalb einen Deal, weil es in der aktuellen Lage verliere. Irans Außenminister Araghchi sprach von einer „ersten Reaktion” und wartet auf eine förmliche Antwort."
     },
     {
-      topic: "Wirtschaft", type: "Zusammenhang", story: 4,
-      q: "Angenommen, der Ölpreis würde in den kommenden Wochen deutlich und dauerhaft sinken. Was würde unter sonst gleichen Bedingungen wahrscheinlicher?",
-      options: ["Die Konsumentenstimmung in Deutschland und den USA würde sich tendenziell eher stabilisieren", "Die Bundesregierung müsste automatisch die Schuldenbremse aussetzen", "Der DAX würde automatisch um mehr als 10 % fallen", "Die US-Notenbank würde den Leitzins automatisch auf 0 % senken"],
-      answer: 0,
-      explain: "Beide Institute (GfK/NIM in Deutschland, University of Michigan in den USA) nannten hohe Öl- und Spritpreise explizit als Belastungsfaktor für die Konsumentenstimmung – ein deutlicher Rückgang würde diesen Faktor verringern, ohne dass sich daraus automatische Effekte auf Schuldenbremse, DAX oder Leitzins ableiten lassen."
-    },
-    {
-      topic: "Deutschland", type: "Fakt", story: 5,
-      q: "Mit welchem Ergebnis wurde die Linke bei der Berliner Abgeordnetenhauswahl am 20.09.2026 erstmals stärkste Kraft?",
-      options: ["18,8 %", "16,3 %", "25,7 %", "12,1 %"],
+      topic: "Wirtschaft", type: "Fakt", story: 4,
+      q: "Um wie viele Basispunkte erhöhte die US-Notenbank Fed am 16.09.2026 ihren Leitzins?",
+      options: ["10 Basispunkte", "50 Basispunkte", "25 Basispunkte", "100 Basispunkte"],
       answer: 2,
-      explain: "Die Linke erreichte 25,7 % der Stimmen, vor der CDU (18,8 %), der AfD (16,3 %) und den Grünen (14,3 %); die SPD kam auf 12,1 %, ihr laut Berichten schlechtestes Ergebnis bei einer Berlin-Wahl."
+      explain: "Die Fed erhöhte den Leitzins am 16.09.2026 einstimmig um 25 Basispunkte auf eine Spanne von 3,75 bis 4,0 % – die erste Erhöhung seit 2023, begründet mit dem Nahost-Konflikt und gestiegener Inflation."
+    },
+    {
+      topic: "Zusammenhang", type: "Zusammenhang", story: 2,
+      q: "Angenommen, Fed und EZB würden ihre Leitzinsen in den kommenden Monaten weiter erhöhen. Was würde unter sonst gleichen Bedingungen wahrscheinlicher?",
+      options: ["Die Anleiherenditen und damit die Kreditkosten für Unternehmen und Staaten würden tendenziell weiter steigen", "Der DAX würde automatisch um mehr als 10 % steigen", "Die Bundesregierung müsste automatisch die Schuldenbremse aussetzen", "Der Ölpreis würde automatisch auf unter 50 Dollar fallen"],
+      answer: 0,
+      explain: "Höhere Leitzinsen wirken sich in der Regel auf die Anleiherenditen aus, die schon jetzt auf mehrjährigen Hochs liegen – das verteuert Kredite für Unternehmen und die Neuverschuldung des Staates, ohne dass sich daraus automatische Effekte auf DAX, Schuldenbremse oder Ölpreis ableiten lassen."
+    },
+    {
+      topic: "Deutschland", type: "Fakt", story: 6,
+      q: "Mit welchem Ergebnis wurde die AfD bei der Landtagswahl in Mecklenburg-Vorpommern am 20.09.2026 erstmals stärkste Kraft?",
+      options: ["28,0 %", "20,6 %", "4,9 %", "38,2 %"],
+      answer: 3,
+      explain: "Die AfD erreichte in Mecklenburg-Vorpommern 38,2 % und wurde damit erstmals stärkste Kraft, verpasste jedoch eine eigene Mehrheit. Die CDU verpasste dort mit 4,9 % erstmals bundesweit den Einzug in ein Landesparlament."
     },
     {
       topic: "Private Credit", type: "Zusammenhang", story: 13,
-      q: "Fitch nennt für den Private-Credit-Markt eine Ausfallrate von 6,3 %, der Proskauer-Index dagegen nur 2,51 %. Was folgt daraus laut den Berichten am ehesten?",
-      options: ["Eine der beiden Quellen muss zwangsläufig einen Rechenfehler gemacht haben", "Die Unterschiede sind vor allem methodisch bedingt, weil unterschiedliche Kreditsegmente erfasst werden", "Der Private-Credit-Markt ist insgesamt sicherer als der Markt für Staatsanleihen", "Beide Werte beziehen sich auf denselben, identischen Kreis von Kreditnehmern"],
-      answer: 1,
-      explain: "Laut Bloomberg erfassen die Indizes unterschiedliche Kreditsegmente – Fitchs engerer Index größere, sponsorgestützte Kreditnehmer, ein breiterer Fitch-Index und Proskauer andere Ausschnitte des Marktes –, was die Diskrepanz erklärt, ohne dass eine Zahl falsch sein muss."
+      q: "Blue Owls Kredit an Loparex wurde von 122,4 Mio. Dollar auf 8,3 Mio. Dollar abgeschrieben. Was zeigt dieser Fall am ehesten?",
+      options: ["Dass ein einzelner Kredit fast vollständig abgeschrieben werden kann, wenn eine geplante Rekapitalisierung zunächst scheitert", "Dass alle Private-Credit-Kredite grundsätzlich ausfallsicher sind", "Dass die Ausfallrate im gesamten Private-Credit-Markt exakt 93 % beträgt", "Dass Blue Owl den Kredit freiwillig und ohne Verlust zurückgezahlt bekam"],
+      answer: 0,
+      explain: "Der Fall Loparex zeigt beispielhaft, wie stark ein einzelner Kredit abgeschrieben werden kann, wenn eine geplante Rekapitalisierung scheitert – ein Einzelfall, der nicht automatisch die Ausfallrate des gesamten Marktes widerspiegelt, die je nach Anbieter zwischen rund 2,51 % und 6,3 % liegt."
     }
   ]
 };

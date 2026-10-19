@@ -2,16 +2,16 @@
 // Verweise: "e:ID" Erklärung, "n:ID" Zahl, "t:ID" Fachbegriff, "chain:ID" Kette, "s:N" Meldung Nr. N (ab 1).
 // Tags an Aussagen: fakt | einordnung | position | unbestaetigt
 window.EDITION = {
-  date: "2026-10-18",
-  dateLabel: "Sonntag, 18. Oktober 2026",
-  updatedLabel: "Recherchestand 18.10.2026",
-  marketNote: "Diese Ausgabe entsteht am Sonntagmorgen, 18.10.2026. Die Börsen in Europa und den USA sind am Wochenende geschlossen, deshalb gilt für DAX, Euro Stoxx 50, Dow Jones, S&P 500 und Nasdaq weiterhin der Schlussstand von Freitag, 16.10. Während DAX (+0,94 %) und Euro Stoxx 50 (+0,58 %) von Rüstungswerten wie Rheinmetall und einer Erholung bei ASML gestützt wurden, fielen S&P 500 (−1,1 %) und vor allem der technologienahe Nasdaq Composite (−2,1 %) weiter wegen anhaltender Sorgen um eine mögliche Überbewertung von KI-Investitionen. Die US-Anleiherendite blieb mit rund 5,08 bis 5,10 % weitgehend unverändert; für die Bund-Rendite ließ sich auch für diese Ausgabe kein über mehrere Quellen hinweg übereinstimmender Freitagswert ermitteln (Spanne rund 3,42 bis 3,46 %). Brent-Rohöl schloss am Freitag laut mehreren Quellen bei rund 109,86 Dollar je Barrel (zeitweise über 110 Dollar, höchster Stand seit Mai); am Samstag, 17.10., meldete die iranische Revolutionsgarde zusätzlich, ein Supertanker sei in der Straße von Hormus auf eine Seemine gelaufen und habe Feuer gefangen – eine unabhängig nicht bestätigte Angabe, die den Ölpreis am Montag weiter bewegen könnte. Bitcoin handelt auch am Wochenende weiter und lag Sonntagvormittag bei rund 81.700 Dollar, nur leicht über dem Freitagsniveau.",
+  date: "2026-10-19",
+  dateLabel: "Montag, 19. Oktober 2026",
+  updatedLabel: "Recherchestand 19.10.2026",
+  marketNote: "Diese Ausgabe entsteht am Montagmorgen, 19.10.2026, vor Eröffnung des europäischen Kassahandels. Für DAX, Euro Stoxx 50, Dow Jones, S&P 500 und Nasdaq gilt deshalb weiterhin der Schlussstand von Freitag, 16.10. Asiatische Märkte fielen am Montag bereits deutlich: Nikkei und Kospi gaben zeitweise mehr als 2 bzw. 3 % ab, nachdem der chinesische KI-Anbieter DeepSeek am Wochenende ein neues, speichereffizienteres Modell vorgestellt hatte, was erneut Sorgen um die Nachfrage nach Speicherchips schürte (Meldung 13) – das deutet auf einen schwächeren Handelsstart in Europa und den USA hin. Devisen-, Gold-, Öl- und Bitcoin-Kurse handeln dagegen durchgehend und zeigen bereits aktuellere Montagswerte: Brent-Rohöl fiel am Montagvormittag um rund 1,9 % auf etwa 107,85 Dollar, nachdem Präsident Trump eine Anordnung unterzeichnet hatte, die neue Russland-Sanktionen vorerst aussetzt (Meldung 14).",
 
   top: [
-    { text: "Am Freitag, 16.10., schlossen S&P 500 (−1,1 % auf 7.659,44) und vor allem der Nasdaq Composite (−2,1 % auf 26.140,03, Wochenverlust rund −4,5 %) im Minus, weil die Sorge um eine mögliche Überbewertung von KI-Investitionen anhielt. DAX (+0,94 % auf 25.622,61 Punkte) und Euro Stoxx 50 (+0,58 % auf 6.204,23) legten dagegen zu, gestützt von Rüstungswerten wie Rheinmetall und einer Erholung bei ASML. Asiatische Speicherchip-Werte erholten sich am Freitag teilweise von ihrem Einbruch vom Donnerstag.", ref: "s:1" },
-    { text: "Am Samstag, 17.10., meldete die iranische Revolutionsgarde, ein Supertanker mit mehr als 2 Mio. Barrel Rohöl sei in der Straße von Hormus auf eine Seemine gelaufen und habe Feuer gefangen; die Angabe ist unabhängig nicht bestätigt. Zugleich meldete die britische Seefahrtsbehörde UKMTO zwei weitere Angriffe auf Handelsschiffe vor der saudischen Küste. Der Flughafen Riad blieb auch nach Ablauf der ursprünglichen Sperrfrist am 17.10. ohne bestätigten Wiedereröffnungstermin geschlossen.", ref: "s:9" },
-    { text: "Die Sondierungsgespräche von SPD, Grünen und Die Linke für eine künftige Berliner Landesregierung wurden am 17.10. abgeschlossen; die drei Parteien einigten sich auf ein gemeinsames Sondierungspapier mit dem Titel „Mehr gemeinsam, mehr Berlin” und empfehlen ihren Gremien, in Koalitionsverhandlungen einzutreten. Ein fertiger Koalitionsvertrag liegt noch nicht vor; der SPD-Landesvorstand soll am 21.10. entscheiden, die Linke hat ihren Parteitag auf den 31.10. verschoben.", ref: "s:6" },
-    { text: "Der EU-Gipfel in Brüssel endete am 16.10. erneut ohne Entscheidung über die Nutzung von rund 185 bis 210 Mrd. Euro eingefrorener russischer Zentralbankgelder für die Ukraine-Finanzierung; Belgiens Premierminister De Wever verlangte weiterhin rechtlich bindende Garantien aller EU-Staaten für die gesamte Darlehenssumme. Die Ukraine bezifferte die Finanzierungslücke für 2027 auf rund 78 Mrd. US-Dollar.", ref: "s:8" }
+    { text: "Asiatische Aktienmärkte fielen am Montag, 19.10., deutlich: Der Nikkei gab zeitweise mehr als 2 % ab, der Kospi öffnete rund 1,7 % niedriger und fiel zeitweise um bis zu 3,2 %, Samsung und SK Hynix verloren zeitweise über 4 %. Hintergrund ist laut Berichten ein neues, speichereffizienteres KI-Modell des chinesischen Anbieters DeepSeek, das erneut Sorgen um die künftige Nachfrage nach Speicherchips weckte – nach einer Woche, in der S&P 500 (−1,1 %) und vor allem der Nasdaq Composite (−2,1 %, Wochenverlust rund −4,5 %) bereits wegen KI-Bewertungssorgen gefallen waren, während DAX (+0,94 %) und Euro Stoxx 50 (+0,58 %) dank Rüstungswerten zulegten.", ref: "s:1" },
+    { text: "Der Ölpreis fiel am Montagvormittag um rund 1,9 % auf etwa 107,85 Dollar je Barrel (Brent), nachdem US-Präsident Trump am 16./17.10. eine Anordnung unterzeichnet hatte, die neue Russland-Sanktionen vorerst aussetzt. Gleichzeitig hält die Lage in der Straße von Hormus an: Die iranische Revolutionsgarde meldete inzwischen zwei Supertanker, die auf Minen gelaufen seien; die US-Streitkräfte (CENTCOM) wiesen das als „yet another IRGC attempt to intimidate regional commercial shipping through disinformation” zurück.", ref: "s:14" },
+    { text: "In Berlin entscheiden SPD und Grüne am Abend des 19.10. darüber, ob sie mit der Linken in Koalitionsverhandlungen eintreten; die Grünen tagen dafür auf einem kleinen Parteitag um 20 Uhr, der SPD-Landesvorstand stimmt digital ab. 20 SPD-Bundestagsabgeordnete sprachen sich zuvor öffentlich gegen ein Bündnis ihrer Partei mit der Linken aus; die Linke selbst entscheidet erst am 31.10. auf einem Parteitag. Bundeskanzler Merz äußerte sich kritisch zu den Plänen.", ref: "s:5" },
+    { text: "Die Ukraine startete in der Nacht zum 18.10. einen ihrer größten Drohnenangriffe des Jahres auf Russland (laut russischen Angaben über 1.000 Drohnen, Ziel unter anderem ein Öl-Terminal in St. Petersburg); in der Nacht zum 19.10. traf ein russischer Angriff mit Raketen und Drohnen Kiew, beschädigte eine U-Bahn-Station und ein Wohnhaus, eine Frau wurde getötet. Der EU-Gipfel vom 16.10. hatte zuvor erneut keine Entscheidung über die Nutzung eingefrorener russischer Vermögenswerte für die Ukraine-Finanzierung gebracht.", ref: "s:7" }
   ],
 
   strip: ["dax", "eurostoxx50", "sp500", "nasdaq", "eurusd", "ust10", "bund10", "gold", "brent", "bitcoin"],
@@ -22,25 +22,25 @@ window.EDITION = {
       label: "DAX", value: "25.622,61", change: "+0,94 % (+239,99 Pkt., Fr-Schluss)", dir: "up", asof: "Schluss Fr 16.10.26", story: 1,
       means: "Der DAX bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Der Punktestand ist ein Vergleichswert ohne Einheit. Entscheidend ist die Veränderung: ein Plus heißt, die 40 Firmen wurden zusammen höher bewertet als am Vortag.",
       compare: [
-        { label: "Vortag", text: "Am Donnerstag, 15.10., hatte der DAX bei 25.382,62 Punkten geschlossen (+0,33 %); am Freitag legte er weiter zu." }
+        { label: "Montag-Indikation", text: "Da der Kassahandel am Montagmorgen noch nicht begonnen hat, bleibt der Freitagsschluss der gültige Stand; asiatische Märkte fielen am Montag bereits deutlich, was auf einen schwächeren Start hindeuten könnte." }
       ],
       moved: {
         intro: "Als Hintergrund für Freitag nennen Berichte:",
         items: [
-          "Rüstungswerte wie Rheinmetall stützten den Index, nach Analystenerwartungen weiterer Aufträge aus dem Bundeshaushalt zum Jahresende; mehr dazu in Meldung 10.",
-          "Da über das Wochenende keine neuen Handelsdaten vorliegen, bleibt der Freitagsschluss bis Montag der gültige Stand."
+          "Rüstungswerte wie Rheinmetall stützten den Index, nach Analystenerwartungen weiterer Aufträge aus dem Bundeshaushalt zum Jahresende; mehr dazu in Meldung 9.",
+          "Asiatische Märkte fielen am Montag wegen eines neuen KI-Modells des chinesischen Anbieters DeepSeek, das Sorgen um die Chip-Nachfrage schürte (Meldung 13)."
         ]
       },
       important: [
-        { area: "Rüstung", text: "Mehr zu neuen Rüstungsaufträgen und zur Rheinmetall-Aktie in Meldung 10.", ref: "s:10" }
+        { area: "Rüstung", text: "Mehr zu neuen Rüstungsaufträgen und zur Rheinmetall-Aktie in Meldung 9.", ref: "s:9" }
       ],
-      source: { title: "onvista/dpa-AFX: Dax schüttelt Zins- und KI-Sorgen ab", url: "https://www.onvista.de/news/2026/10-16-roundup-aktien-frankfurt-schluss-dax-schuettelt-zins-und-ki-sorgen-ab-0-10-26565010" }
+      source: { title: "ms-aktuell.de: DAX-Schluss 16.10.2026", url: "https://ms-aktuell.de/welt/dax-schluss-16-10-2026/" }
     },
     "eurostoxx50": {
       label: "Euro Stoxx 50", value: "6.204,23", change: "+0,58 % (+36 Pkt., Fr-Schluss)", dir: "up", asof: "Schluss Fr 16.10.26", story: 1,
       means: "Der Euro Stoxx 50 bildet 50 große Unternehmen aus dem Euroraum ab, nicht nur aus Deutschland. Die Richtung der Veränderung zeigt, ob diese Unternehmen zusammen höher oder niedriger bewertet wurden als am Vortag.",
       compare: [
-        { label: "Vortag", text: "Am Donnerstag hatte der Euro Stoxx 50 bei 6.171,15 Punkten geschlossen (−0,3 %); am Freitag legte er zu." }
+        { label: "Vortag", text: "Am Donnerstag hatte der Euro Stoxx 50 bei rund 6.168 Punkten geschlossen; am Freitag legte er zu, gestützt von Rheinmetall und einer ASML-Erholung." }
       ],
       moved: {
         intro: "Als Hintergrund nennen Berichte:",
@@ -52,24 +52,24 @@ window.EDITION = {
       important: [
         { area: "Zinsen", text: "Fed-Chef Warsh gab bei seiner IWF-Rede keine klare Richtung für die Sitzung am 27./28.10. vor; mehr dazu in Meldung 2.", ref: "s:2" }
       ],
-      source: { title: "ad-hoc-news.de: Euro Stoxx 50 closes 0.6 percent higher as ASML rebounds", url: "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-0-6-percent-higher-as-asml-rebounds/70345171" }
+      source: { title: "ad-hoc-news.de: Euro Stoxx 50 closes 36 points higher as Rheinmetall leads", url: "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-36-points-higher-as-rheinmetall-leads/70342765" }
     },
     "sp500": {
       label: "S&P 500", value: "7.659,44", change: "−1,1 % (−84,62 Pkt., Fr-Schluss); Wochenverlust rund −1,9 %", dir: "down", asof: "Schluss Fr 16.10.26", story: 1,
       means: "Der S&P 500 bildet 500 große US-Unternehmen ab und gilt als wichtigster Gradmesser des US-Aktienmarkts.",
       compare: [
-        { label: "Dow Jones", text: "Freitagsschluss: 52.002,41 Punkte (−0,3 %, −175,28 Pkt.) – weniger stark im Minus als S&P 500 und Nasdaq Composite." },
-        { label: "Nasdaq Composite", text: "Freitagsschluss: 26.140,03 Punkte (−2,1 %, −572,99 Pkt.); der Nasdaq 100 verlor rund 2,50 % auf 29.187,55 Punkte (−748,04 Pkt.)." }
+        { label: "Dow Jones", text: "Freitagsschluss: 52.002,41 Punkte (−0,3 %, −175,28 Pkt.) – weniger stark im Minus, da im Dow weniger Technologiewerte stecken." },
+        { label: "Nasdaq Composite", text: "Freitagsschluss: 26.140,03 Punkte (−2,1 %, −572,99 Pkt.); der Nasdaq 100 verlor rund 2,50 % auf 29.187,55 Punkte." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund für Freitag:",
         items: [
           "Anhaltende Sorgen um eine mögliche Überbewertung von KI-Investitionen belasteten vor allem Technologie- und Chipwerte.",
-          "Die US-Anleiherendite blieb im Tagesverlauf weitgehend unverändert bei rund 5,08 bis 5,10 %."
+          "Am Montag verschärfte ein neues Modell des chinesischen KI-Anbieters DeepSeek die Sorgen um die Speicherchip-Nachfrage zusätzlich (Meldung 13)."
         ]
       },
       important: [
-        { area: "Technologie", text: "Mehr zum anhaltenden KI-Ausverkauf und zu CoreWeave in Meldung 14.", ref: "s:14" }
+        { area: "Technologie", text: "Mehr zum anhaltenden KI-Ausverkauf und zu CoreWeave in Meldung 13.", ref: "s:13" }
       ],
       source: { title: "ABC News/AP: How major US stock indexes fared Friday", url: "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951" }
     },
@@ -77,57 +77,57 @@ window.EDITION = {
       label: "Nasdaq Composite", value: "26.140,03", change: "−2,1 % (−572,99 Pkt., Fr-Schluss); Wochenverlust rund −4,5 %", dir: "down", asof: "Schluss Fr 16.10.26", story: 1,
       means: "Die Nasdaq Composite umfasst alle an der Nasdaq gehandelten Aktien und wird stark von Technologiefirmen geprägt. Sie ist nicht identisch mit dem enger gefassten Nasdaq 100.",
       compare: [
-        { label: "Nasdaq 100", text: "Der stärker technologielastige Nasdaq 100 verlor am Freitag rund 2,50 % (−748,04 Punkte) auf 29.187,55 Punkte und verzeichnete laut einer Quelle die schlechteste Woche seit rund 18 Monaten." }
+        { label: "Nasdaq 100", text: "Der stärker technologielastige Nasdaq 100 verlor am Freitag rund 2,50 % (−748,04 Punkte) auf 29.187,55 Punkte und lag damit rund 6,52 % unter seinem Hoch vom 6.10." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Chipwerte wie Intel (−5,8 %), Micron (−5,6 %), AMD (−6,0 %) und Broadcom (−4,5 %) fielen weiter; der Philadelphia-Halbleiterindex SOX fiel den achten Tag in Folge – die erste solche Serie seit Oktober 2008 (Meldung 14).",
-          "Zunehmende Sorgen um die Kreditwürdigkeit von KI-Cloud-Anbietern wie CoreWeave belasteten zusätzlich."
+          "Der Philadelphia-Halbleiterindex SOX fiel am Freitag um 3,83 % auf 11.137,29 Punkte – der achte Verlusttag in Folge, die erste solche Serie seit Oktober 2008 (Meldung 13).",
+          "Zunehmende Sorgen um die Kreditwürdigkeit von KI-Cloud-Anbietern wie CoreWeave belasteten zusätzlich; am Montag kam die Sorge um ein neues, speichereffizienteres KI-Modell von DeepSeek hinzu."
         ]
       },
       important: [
         { area: "Zinsen", text: "Warum reagiert die Nasdaq oft stärker auf Zins- und Chipnachrichten als Dow und S&P 500? Die Kette zeigt es Schritt für Schritt.", ref: "chain:nasdaq-why" }
       ],
-      source: { title: "ABC News/AP: How major US stock indexes fared Friday", url: "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951" }
+      source: { title: "Nasdaq.com: Nasdaq posts worst weekly drop in months, Dow edges narrow gain", url: "https://www.nasdaq.com/press-release/nasdaq-posts-worst-weekly-drop-months-dow-edges-narrow-gain-2026-10-16" }
     },
     "eurusd": {
-      label: "EUR/USD", value: "≈ 1,1253 (EZB-Referenzkurs Fr)", change: "+0,40 % ggü. Do (1,1208)", dir: "up", asof: "EZB-Referenzkurs Fr 16.10.26", story: 3,
-      means: "1 Euro kostet etwa 1,13 US-Dollar. Steigt der Kurs, wird der Euro im Verhältnis zum Dollar etwas stärker.",
+      label: "EUR/USD", value: "≈ 1,1230 (Devisenmarkt Mo-vormittag)", change: "leicht schwächer als EZB-Referenzkurs Fr (1,1253)", dir: "down", asof: "Devisenmarkt Mo 19.10.26 vormittags", story: 3,
+      means: "1 Euro kostet etwa 1,12 US-Dollar. Steigt der Kurs, wird der Euro im Verhältnis zum Dollar etwas stärker.",
       compare: [
-        { label: "Woche", text: "Der EZB-Referenzkurs stieg von 1,1181 Dollar am Montag über 1,1195 (Mittwoch) und 1,1208 (Donnerstag) auf 1,1253 Dollar am Freitag – der fünfte Anstieg in Folge." }
+        { label: "Woche bis Freitag", text: "Der EZB-Referenzkurs war von 1,1181 Dollar am Montag der Vorwoche über 1,1208 (Donnerstag) auf 1,1253 Dollar am Freitag gestiegen – der fünfte Anstieg in Folge; die EZB veröffentlicht ihren Referenzkurs für Montag erst am Nachmittag." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die US-Anleiherendite blieb am Freitag weitgehend unverändert, was Dollar-Anlagen nicht zusätzlich stützte."
+          "Die US-Anleiherendite bewegte sich am Freitag nach heißen September-Inflationsdaten, blieb im Tagesverlauf aber weitgehend unverändert."
         ]
       },
       important: [
         { area: "Zinsen", text: "Fed-Chef Warsh gab bei seiner IWF-Rede keine klare Richtung vor; mehr dazu in Meldung 2.", ref: "s:2" }
       ],
-      source: { title: "finanzen.at: Devisen – EZB-Richtwerte, Euro-Referenzkurs bei 1,1253 US-Dollar", url: "https://www.finanzen.at/nachrichten/aktien/devisen-ezb-richtwerte-euro-referenzkurs-bei-1-1253-us-dollar-1036634676" }
+      source: { title: "investing.com: EUR/USD Kurs", url: "https://de.investing.com/currencies/eur-usd" }
     },
     "ust10": {
-      label: "10Y US Treasury", value: "≈ 5,08–5,10 %", change: "weitgehend unverändert ggü. Donnerstag", dir: "flat", asof: "Stand Fr 16.10.26", story: 2, whyRef: "e:yield-meaning",
+      label: "10Y US Treasury", value: "≈ 5,08–5,10 % (Fr); Mo-Indikation ≈ 5,06–5,07 %", change: "leicht niedriger als Freitag", dir: "flat", asof: "Stand Fr 16.10.26 / Mo-Indikation 19.10.26", story: 2, whyRef: "e:yield-meaning",
       means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 5,1 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 5,1 % Zinsen pro Jahr.",
       compare: [
-        { label: "Hintergrund", text: "Das Niveau von rund 5,1 % gilt laut Berichten weiterhin als strukturell erhöht, unter anderem wegen Sorgen um das hohe US-Haushaltsdefizit." }
+        { label: "Hintergrund", text: "Das Niveau von rund 5,1 % gilt laut Berichten weiterhin als strukturell erhöht; am Freitag bewegte eine heißer als erwartet ausgefallene September-Inflationszahl die Rendite zusätzlich." }
       ],
       moved: {
-        intro: "Berichte nennen als Hintergrund für Freitag:",
+        intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Fed-Chef Warsh gab bei seiner IWF-Rede in Bangkok keine klare Richtung für die Sitzung am 27./28.10. vor.",
-          "Nach CME-FedWatch-Daten lag die eingepreiste Wahrscheinlichkeit für eine Zinserhöhung im Oktober am 17.10. bei rund 14 bis 16 % (Hold rund 84 bis 87 %), nach rund 13 bis 15 % direkt nach Warshs Rede – kaum verändert."
+          "Fed-Chef Warsh gab bei seiner IWF-Rede in Bangkok am 16.10. keine klare Richtung für die Sitzung am 27./28.10. vor; seit 17.10. gilt die FOMC-Blackout-Periode bis zum 29.10.",
+          "Nach mehreren Markterwartungs-Plattformen (CME FedWatch, Kalshi, Polymarket) lag die eingepreiste Wahrscheinlichkeit für eine Zinserhöhung im Oktober zuletzt überwiegend zwischen rund 13 und 16 %, mit vereinzelten höheren Einzelwerten – die Werte schwanken je Quelle und Zeitpunkt deutlich."
         ]
       },
       important: [
         { area: "Fed", text: "Mehr zu Warshs Auftritt und zur Markterwartung in Meldung 2.", ref: "s:2" }
       ],
-      source: { title: "Trading Economics: United States Government Bond 10Y", url: "https://tradingeconomics.com/united-states/government-bond-yield" }
+      source: { title: "CNBC: US Treasury yields – investors weigh hot inflation data", url: "https://www.cnbc.com/2026/10/16/us-treasury-yields-investors-hot-inflation-data-.html" }
     },
     "bund10": {
-      label: "Bund Yield (10 J.)", value: "≈ 3,42–3,46 % (kein einheitlicher Fr-Wert verfügbar)", change: "keine über mehrere Quellen übereinstimmende Freitagsangabe", dir: "flat", asof: "Stand Fr 16.10.26 (Quellen uneinheitlich)", story: 2, whyRef: "e:yield-meaning",
+      label: "Bund Yield (10 J.)", value: "≈ 3,42–3,46 % (keine einheitliche Mo-Angabe verfügbar)", change: "keine über mehrere Quellen übereinstimmende neue Angabe seit Freitag", dir: "flat", asof: "Stand Fr 16.10.26 (Quellen uneinheitlich)", story: 2, whyRef: "e:yield-meaning",
       means: "Die Rendite zehnjähriger Bundesanleihen ist der Richtwert für Zinsen in Deutschland.",
       compare: [
         { label: "US-Rendite", text: "Die US-10-Jahres-Rendite liegt mit rund 5,08 bis 5,10 % weiterhin deutlich über der Bund-Rendite von rund 3,42 bis 3,46 %." }
@@ -136,19 +136,19 @@ window.EDITION = {
         intro: "Berichte nennen als Hintergrund:",
         items: [
           "Die EZB hält ihren Einlagensatz unverändert bei 2,50 %; die nächste Zinsentscheidung fällt am 29.10.",
-          "Mehrere Ökonomen erwarten laut einer Reuters-Umfrage inzwischen eine EZB-Zinserhöhung im Dezember, nachdem die Eurozonen-Inflation im September auf 3,8 % gestiegen war (Meldung 5)."
+          "Die Bewerbungsfrist für die Nachfolge von Isabel Schnabel im EZB-Direktorium läuft am 28.10. ab (Meldung 4)."
         ]
       },
       important: [
-        { area: "Zentralbank", text: "Mehr zur EZB-Position von Lagarde und zur Schnabel-Nachfolge in Meldung 5.", ref: "s:5" }
+        { area: "Zentralbank", text: "Mehr zur EZB-Position und zur Schnabel-Nachfolge in Meldung 4.", ref: "s:4" }
       ],
-      source: { title: "Trading Economics: Germany Government Bond Yield", url: "https://tradingeconomics.com/germany/government-bond-yield" }
+      source: { title: "kagels-trading.de: Zinsentwicklung und Prognose", url: "https://www.kagels-trading.de/zinsentwicklung-prognose/" }
     },
     "gold": {
-      label: "Gold", value: "≈ 4.170–4.180 $", change: "+0,2 % ggü. Donnerstagabend", dir: "up", asof: "Stand Fr 16.10.26", story: 3, whyRef: "e:gold-why",
-      means: "Gold kostet etwa 4.170 bis 4.180 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
+      label: "Gold", value: "≈ 4.170,60 $ (Mo-Vormittag)", change: "nahezu unverändert ggü. Freitag (≈ 4.170–4.180 $)", dir: "flat", asof: "Stand Mo 19.10.26 vormittags", story: 3, whyRef: "e:gold-why",
+      means: "Gold kostet etwa 4.170 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
       compare: [
-        { label: "Quellenlage", text: "Mehrere Quellen nennen für Freitag Werte zwischen rund 4.156 und 4.180 Dollar je Feinunze, je nach Erfassungszeitpunkt (Londoner Fixing vs. Spotpreis)." }
+        { label: "Woche", text: "Gold war zur Wochenmitte auf rund 4.073 Dollar gefallen (Spekulation auf höhere US-Zinsen nach heißen Inflationsdaten) und hat sich seither bei rund 4.170 Dollar stabilisiert." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
@@ -160,44 +160,44 @@ window.EDITION = {
       important: [
         { area: "Zinsen", text: "Mehr zu Warshs Rede und zur Markterwartung in Meldung 2.", ref: "s:2" }
       ],
-      source: { title: "goldprice.org: Gold Price on 16 October 2026", url: "https://goldprice.org/gold-price-today/2026-10-16" }
+      source: { title: "gold.de: Goldpreis-Entwicklung", url: "https://www.gold.de/kurse/goldpreis/entwicklung/" }
     },
     "brent": {
-      label: "Brent Oil", value: "≈ 109,86 $ (Fr-Schluss)", change: "+3,7 % (Tag), +4,9 % (Woche); zeitweise über 110 $ – höchster Stand seit Mai", dir: "up", asof: "Schluss Fr 16.10.26", story: 15, whyRef: "e:why-oil-up-geo",
-      means: "Brent ist die wichtigste internationale Ölsorte. Rund 110 Dollar je Fass (159 Liter) sind etwa 69 bis 70 US-Cent je Liter Rohöl, ohne Raffinerie, Transport und Steuern.",
+      label: "Brent Oil", value: "≈ 107,85 $ (Mo-Vormittag)", change: "−1,9 % ggü. Freitagsschluss (109,86 $)", dir: "down", asof: "Stand Mo 19.10.26 vormittags", story: 14, whyRef: "e:why-oil-up-geo",
+      means: "Brent ist die wichtigste internationale Ölsorte. Rund 108 Dollar je Fass (159 Liter) sind etwa 68 US-Cent je Liter Rohöl, ohne Raffinerie, Transport und Steuern.",
       compare: [
-        { label: "WTI", text: "Die US-Ölsorte WTI wird für Freitag uneinheitlich mit rund 97 bis 101 Dollar je Barrel angegeben; die Quellen weichen hier stärker als sonst voneinander ab." }
+        { label: "WTI", text: "Die US-Ölsorte WTI wird für Montag uneinheitlich mit rund 97 bis 101 Dollar je Barrel angegeben; die Quellen weichen hier weiterhin stärker als sonst voneinander ab." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Fortgesetzte Lieferstörungen rund um die Straße von Hormus und Angriffe auf Tanker vor Saudi-Arabien (Meldung 9).",
-          "Am Samstag, 17.10., meldete die iranische Revolutionsgarde einen weiteren, unabhängig nicht bestätigten Zwischenfall (Seemine), der den Ölpreis am Montag zusätzlich bewegen könnte."
+          "Präsident Trump unterzeichnete am 16./17.10. eine Anordnung, die neue Russland-Sanktionen (darunter Strafzölle von bis zu 500 % auf russisches Öl und Gas) vorerst aussetzt, was mehr Angebot erwarten lässt und die Preise drückte.",
+          "Gegenläufig hält die Lage in der Straße von Hormus an: Die iranische Revolutionsgarde meldet inzwischen zwei auf Minen gelaufene Supertanker, was die US-Streitkräfte (CENTCOM) als Desinformation zurückweisen (Meldung 14)."
         ]
       },
       important: [
-        { area: "Geopolitik", text: "Mehr zu den Tankerangriffen und zur Lage am Golf in Meldung 9.", ref: "s:9" },
+        { area: "Geopolitik", text: "Mehr zur Lage am Golf in Meldung 14.", ref: "s:14" },
         { area: "Inflation", text: "Öl verteuert Sprit, Heizen und Transport.", ref: "e:oil-inflation" }
       ],
-      source: { title: "Bloomberg: Brent Oil Surges Above $110 as Supply Risks Intensify", url: "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows" }
+      source: { title: "tradingkey.com: Brent crude oil drops as Trump waives sanctions on Russia", url: "https://tradingkey.com/de/analysis/commodities/oil/262222951-brent-crude-oil-drops-trump-waives-sanctions-russia-tradingkey" }
     },
     "bitcoin": {
-      label: "Bitcoin", value: "≈ 81.700 $", change: "nahezu unverändert ggü. Freitagmorgen (81.437 $)", dir: "up", asof: "Stand So 18.10.26 vormittags", story: 3, whyRef: "e:bitcoin-what",
-      means: "Ein Bitcoin kostet rund 81.700 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
+      label: "Bitcoin", value: "≈ 82.000–82.800 $", change: "+rund 0,9 % ggü. Wochenende (≈ 81.700 $)", dir: "up", asof: "Stand Mo 19.10.26 vormittags", story: 3, whyRef: "e:bitcoin-what",
+      means: "Ein Bitcoin kostet rund 82.000 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
       compare: [
-        { label: "Wochenende", text: "Zwischen Freitagmorgen (rund 81.437 Dollar) und Sonntagvormittag (rund 81.685 bis 81.737 Dollar) bewegte sich Bitcoin in einer Spanne von rund 80.655 bis 81.961 Dollar – ein insgesamt ruhiges Wochenende." }
+        { label: "Allzeithoch", text: "Bitcoin liegt damit weiterhin rund 35 % unter seinem Allzeithoch von etwa 126.080 Dollar." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die anhaltenden Sorgen um KI-nahe Werte wie CoreWeave belasteten zwischenzeitlich auch Kryptowährungen (Meldung 14).",
-          "Nach dem kurzen Rückgang unter 80.000 Dollar in der Vorwoche blieb der Kurs über das Wochenende weitgehend stabil."
+          "Die anhaltenden Sorgen um KI-nahe Werte wie CoreWeave und der Montags-Ausverkauf bei asiatischen Chipwerten belasteten zwischenzeitlich auch Kryptowährungen (Meldung 13).",
+          "Nach dem ruhigen Wochenende (Spanne rund 80.655 bis 81.961 Dollar) zog der Kurs am Montagvormittag leicht an."
         ]
       },
       important: [
         { area: "Risikoanlage", text: "Bitcoin wird von vielen Anlegern wie eine riskante Anlage behandelt.", ref: "e:bitcoin-what" }
       ],
-      source: { title: "cryptoticker.io: Bitcoin-Kurs 81.685 Dollar", url: "https://cryptoticker.io/de/bitcoin-kurs-netzgebuehr-mempool-18-oktober-2026/" }
+      source: { title: "interactivecrypto.com: Bitcoin/USD – 34,95 % unter dem Allzeithoch", url: "https://www.interactivecrypto.com/de/bitcoin-usd-btc-34-95-unter-dem-allzeithoch-trotz-stabilisierung-bei-82-000-usd" }
     }
   },
 
@@ -205,637 +205,643 @@ window.EDITION = {
   stories: [
     /* 1 MÄRKTE */
     {
-      id: "maerkte-freitag-schluss-chip-erholung-10-18", cats: ["markets", "tech"], when: "Schluss Fr 16.10.2026 (Europa/USA) · Asien-Handel Fr 16.10.2026",
-      headline: "S&P 500 und Nasdaq fallen am Freitag weiter, DAX und Euro Stoxx 50 legen dank Rüstungswerten und ASML zu",
-      sec30: "Am Freitag, 16.10., schlossen S&P 500 (−1,1 % auf 7.659,44, Wochenverlust rund −1,9 %) und vor allem der Nasdaq Composite (−2,1 % auf 26.140,03, Wochenverlust rund −4,5 %) im Minus, weil die Sorge um eine mögliche Überbewertung von KI-Investitionen anhielt und US-Chipwerte wie Intel (−5,8 %) und Micron (−5,6 %) erneut nachgaben. Der Dow Jones gab dagegen nur 0,3 % ab. DAX (+0,94 % auf 25.622,61 Punkte) und Euro Stoxx 50 (+0,58 % auf 6.204,23) legten zu, gestützt von Rüstungswerten wie Rheinmetall und einer Erholung bei ASML. Die am Donnerstag schwer getroffenen asiatischen Speicherchip-Werte erholten sich am Freitag teilweise: Der Kospi legte rund 2 % zu, der Nikkei rund 1,4 %.",
+      id: "maerkte-freitag-schluss-deepseek-montag-selloff-10-19", cats: ["markets", "tech"], when: "Schluss Fr 16.10.2026 (Europa/USA) · Asien-Handel Mo 19.10.2026",
+      headline: "S&P 500 und Nasdaq schließen die Woche im Minus, DAX und Euro Stoxx 50 legen zu – am Montag fallen asiatische Chipwerte nach neuem DeepSeek-Modell erneut deutlich",
+      sec30: "Am Freitag, 16.10., schlossen S&P 500 (−1,1 % auf 7.659,44, Wochenverlust rund −1,9 %) und vor allem der Nasdaq Composite (−2,1 % auf 26.140,03, Wochenverlust rund −4,5 %) im Minus, weil die Sorge um eine mögliche Überbewertung von KI-Investitionen anhielt. Der Philadelphia-Halbleiterindex SOX fiel den achten Tag in Folge. DAX (+0,94 % auf 25.622,61 Punkte) und Euro Stoxx 50 (+0,58 % auf 6.204,23) legten dagegen zu, gestützt von Rüstungswerten wie Rheinmetall und einer Erholung bei ASML. Am Montag, 19.10., fielen asiatische Märkte erneut deutlich: Der Nikkei gab zeitweise mehr als 2 % ab, der Kospi öffnete rund 1,7 % niedriger und verlor zeitweise bis zu 3,2 %, nachdem der chinesische KI-Anbieter DeepSeek am Wochenende ein neues, speichereffizienteres Modell vorgestellt hatte.",
       blocks: [
         { h: "Wie haben sich die US-Indizes am Freitag entwickelt?", items: [
-          { tag: "fakt", text: "Der Dow Jones fiel um 0,3 % (−175,28 Punkte) auf 52.002,41 Punkte, der S&P 500 um 1,1 % (−84,62 Punkte) auf 7.659,44 Punkte – die schlechteste Woche seit Juni mit rund −1,9 %. Der Nasdaq Composite verlor 2,1 % (−572,99 Punkte) auf 26.140,03 Punkte; der Nasdaq 100 verlor rund 2,50 % und verzeichnete laut einer Quelle die schlechteste Woche seit rund 18 Monaten.",
+          { tag: "fakt", text: "Der Dow Jones fiel um 0,3 % (−175,28 Punkte) auf 52.002,41 Punkte, der S&P 500 um 1,1 % (−84,62 Punkte) auf 7.659,44 Punkte – die schlechteste Woche seit Juni mit rund −1,9 %. Der Nasdaq Composite verlor 2,1 % (−572,99 Punkte) auf 26.140,03 Punkte; der Nasdaq 100 verlor rund 2,50 % auf 29.187,55 Punkte und lag damit rund 6,52 % unter seinem Hoch vom 6.10.",
             ask: [{ label: "Was bedeutet eine Indexbewegung?", ref: "n:sp500" }] },
-          { tag: "fakt", text: "Der Philadelphia-Halbleiterindex SOX fiel laut Berichten den achten Tag in Folge – die erste solche Verlustserie seit Oktober 2008. AMD gab 6,0 % ab, Broadcom 4,5 %.",
-            ask: [{ label: "Mehr zum Chip-Ausverkauf und CoreWeave", ref: "s:14" }] }
+          { tag: "fakt", text: "Der Philadelphia-Halbleiterindex SOX fiel am Freitag um 3,83 % auf 11.137,29 Punkte – der achte Verlusttag in Folge, die erste solche Serie seit Oktober 2008, mit einem Rückgang von rund 16 % seit dem 6.10.",
+            ask: [{ label: "Mehr zum Chip-Ausverkauf und CoreWeave", ref: "s:13" }] }
         ]},
         { h: "Warum legten DAX und Euro Stoxx 50 dagegen zu?", items: [
           { tag: "fakt", text: "Der DAX stieg um 0,94 % (+239,99 Punkte) auf 25.622,61 Punkte, der Euro Stoxx 50 um 0,58 % (+36 Punkte) auf 6.204,23 Punkte." },
           { tag: "einordnung", text: "Als Hintergrund nennen Berichte vor allem Rüstungswerte wie Rheinmetall, gestützt von Analystenerwartungen weiterer Aufträge aus dem Bundeshaushalt zum Jahresende, sowie eine Erholung des Chipausrüsters ASML.",
-            ask: [{ label: "Mehr zu den Rüstungsaufträgen", ref: "s:10" }] }
+            ask: [{ label: "Mehr zu den Rüstungsaufträgen", ref: "s:9" }] }
         ]},
-        { h: "Wie ist die Lage bei den asiatischen Speicherchip-Werten?", items: [
-          { tag: "fakt", text: "Nach dem Einbruch vom Donnerstag (Kospi −7,57 % auf 5.554 Punkte, siebter Verlusttag in Folge) erholte sich der Kospi am Freitag um rund 2,05 bis 2,15 % auf etwa 5.674 Punkte, blieb aber für die Woche rund 14,46 % im Minus. Der Nikkei legte 1,39 % auf 65.324 Punkte zu (Wochenverlust rund 5,37 %); Samsung gewann 2,62 %, SK Hynix 0,79 %, gaben im Tagesverlauf aber einen Teil der Gewinne wieder ab.",
-            ask: [{ label: "Mehr zum Hintergrund des Chip-Ausverkaufs", ref: "s:14" }] }
+        { h: "Was geschah am Montag in Asien, und warum?", items: [
+          { tag: "fakt", text: "Der Nikkei fiel am Montag, 19.10., zeitweise um mehr als 2 % auf unter 64.000 Punkte, der Kospi öffnete rund 1,7 % tiefer bei 5.572,10 Punkten und verlor zeitweise bis zu 3,2 %; Samsung und SK Hynix gaben zeitweise über 4 % ab, grenzten die Verluste im Tagesverlauf aber etwas ein.",
+            ask: [{ label: "Mehr zu DeepSeek und dem Chip-Ausverkauf", ref: "s:13" }] },
+          { tag: "einordnung", text: "Als Hintergrund nennen Berichte ein neues, nach eigenen Angaben deutlich speichereffizienteres KI-Modell des chinesischen Anbieters DeepSeek, das Sorgen vor einem möglichen Rückgang der Speicherchip-Nachfrage erneut schürte – nach einer Vorwoche, in der Samsung und SK Hynix bereits ihre schlechteste Woche seit 2008 verzeichnet hatten." }
         ]},
         { h: "Was bedeutet das für mich?", items: [
-          { tag: "einordnung", text: "Dass US-Indizes und europäische Indizes am selben Tag in entgegengesetzte Richtungen liefen, zeigt, wie unterschiedlich Rüstungs- und Technologiewerte derzeit auf die Nachrichtenlage reagieren. Da über das Wochenende nicht gehandelt wird, bleibt dieser Stand bis Montag gültig – ein am Samstag gemeldeter Zwischenfall in der Straße von Hormus (Meldung 9) könnte den Handel am Montag zusätzlich beeinflussen. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass US-Indizes und europäische Indizes am Freitag in entgegengesetzte Richtungen liefen und sich der Ausverkauf bei asiatischen Chipwerten am Montag fortsetzte, zeigt, wie unterschiedlich Rüstungs- und Technologiewerte derzeit auf die Nachrichtenlage reagieren. Da der europäische Kassahandel am Montagmorgen noch nicht begonnen hat, bleibt der Freitagsschluss bis zur Eröffnung gültig. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die Hintergründe des Chip-Ausverkaufs werden in Meldung 14 vertieft, die Fed-Rede in Meldung 2, die Rüstungsaufträge in Meldung 10, die Lage am Golf in Meldung 9.",
+      reaction: "Die Hintergründe des Chip-Ausverkaufs werden in Meldung 13 vertieft, die Fed-Rede in Meldung 2, die Rüstungsaufträge in Meldung 9, der Ölpreis in Meldung 14.",
       terms: ["rendite"],
       followups: ["e:index-move", "e:why-markets-move", "chain:nasdaq-why"],
       sources: [
         { title: "ABC News/AP: How major US stock indexes fared Friday", url: "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951" },
-        { title: "onvista/dpa-AFX: Dax schüttelt Zins- und KI-Sorgen ab", url: "https://www.onvista.de/news/2026/10-16-roundup-aktien-frankfurt-schluss-dax-schuettelt-zins-und-ki-sorgen-ab-0-10-26565010" },
-        { title: "ad-hoc-news.de: Euro Stoxx 50 closes 0.6 percent higher as ASML rebounds", url: "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-0-6-percent-higher-as-asml-rebounds/70345171" },
-        { title: "KED Global: Kospi's forward P/E ratio hits 26-year low", url: "https://www.kedglobal.com/korean-stock-market/newsView/ked202610160008" },
-        { title: "Stocktwits: Nasdaq 100 Records Worst Week In 18 Months", url: "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-records-worst-week-in-18-months/cZxK0vGRBt2" }
+        { title: "ms-aktuell.de: DAX-Schluss 16.10.2026", url: "https://ms-aktuell.de/welt/dax-schluss-16-10-2026/" },
+        { title: "ad-hoc-news.de: Euro Stoxx 50 closes 36 points higher as Rheinmetall leads", url: "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-36-points-higher-as-rheinmetall-leads/70342765" },
+        { title: "247wallst.com: A 2.1% drop at the Tokyo open sets the tone for the Asia session", url: "https://247wallst.com/cards/a-2-1-drop-at-the-tokyo-open-sets-the-tone-for-the-asia-ses-n225-market-bell-01m58s8kqz6jcqsh9kx6bbzhsr" },
+        { title: "Korea Herald: Seoul stocks open sharply lower after US tech sell-off", url: "https://www.koreaherald.com/article/10906650" },
+        { title: "kucoin.com: Asian chip stocks drop amid AI funding concerns and DeepSeek model update", url: "https://www.kucoin.com/news/flash/asian-chip-stocks-drop-amid-ai-funding-concerns-and-deepseek-model-update" }
       ]
     },
 
-    /* 2 MÄRKTE/WIRTSCHAFT: FED WARSH BANGKOK */
+    /* 2 MÄRKTE/WIRTSCHAFT: FED WARSH BLACKOUT */
     {
-      id: "fed-warsh-bangkok-zinserwartung-blackout-10-18", cats: ["markets", "economy"], when: "Warsh-Auftritt IWF-Bangkok 16.10. · FOMC-Blackout 17.–29.10. · FOMC-Sitzung 27./28.10.2026",
-      headline: "Fed-Chef Warsh gibt bei IWF-Auftritt in Bangkok kein Signal zum Zinspfad, Markterwartung bleibt seit dem Wochenende kaum verändert",
-      sec30: "Fed-Chef Kevin Warsh trat am 16.10. bei einem von IWF-Chefin Georgieva moderierten Gespräch auf der IWF-Jahrestagung in Bangkok auf und machte laut Berichten keine Aussage zur Geldpolitik oder zum Wirtschaftsausblick, außer der allgemeinen Formel, die Fed werde „price stability” liefern. Er warnte, der Weg der Künstlichen Intelligenz werde „very bumpy”. Die FOMC-Blackout-Periode, in der sich Fed-Mitglieder nicht öffentlich äußern, begann am 17.10. und dauert bis nach der Sitzung am 27./28.10. Nach CME-FedWatch-Daten lag die eingepreiste Wahrscheinlichkeit für eine Zinserhöhung im Oktober am 17.10. bei rund 14 bis 16 % (Hold rund 84 bis 87 %) – gegenüber rund 13 bis 15 % direkt nach Warshs Rede kaum verändert. Kalshi nennt für den 17.10. eine Erhöhungswahrscheinlichkeit von rund 15 %, zwei Prozentpunkte niedriger als eine Woche zuvor.",
+      id: "fed-warsh-blackout-zinswetten-10-19", cats: ["markets", "economy"], when: "Warsh-Auftritt IWF-Bangkok 16.10. · FOMC-Blackout 17.–29.10. · FOMC-Sitzung 27./28.10.2026",
+      headline: "Fed bleibt in der Blackout-Periode vor der Oktober-Sitzung, Marktwetten zeigen weiterhin überwiegend eine Zinspause – mit großen Abweichungen zwischen den Quellen",
+      sec30: "Fed-Chef Kevin Warsh hatte am 16.10. bei einem von IWF-Chefin Georgieva moderierten Gespräch in Bangkok keine Aussage zur Geldpolitik gemacht, außer der allgemeinen Formel, die Fed werde „price stability” liefern; seit 17.10., 0 Uhr Eastern Time, gilt die FOMC-Blackout-Periode bis zum 29.10., einen Tag nach der Sitzung am 27./28.10. Marktplattformen wie CME FedWatch, Kalshi und Polymarket preisen überwiegend eine Zinspause im Oktober ein, mit Werten für die Erhöhungswahrscheinlichkeit zwischen rund 13 und 16 %; einzelne Quellen nennen davon abweichende, teils deutlich höhere Werte bis zu 42 %, was die Unsicherheit in der Markteinschätzung zeigt. Ein möglicher Regierungsshutdown wurde bereits im September abgewendet, die US-Haushaltsfinanzierung läuft bis zum 11.12.; reguläre Konjunkturdaten erschienen deshalb im Oktober planmäßig.",
       blocks: [
         { h: "Was sagte Fed-Chef Warsh in Bangkok?", items: [
-          { tag: "position", text: "Kevin Warsh machte am 16.10. in Bangkok laut mehreren Quellen keine Aussage zur Geldpolitik oder zum Wirtschaftsausblick vor der Sitzung am 27./28.10., außer der allgemeinen Formel: „At the Federal Reserve, we made very clear that we would deliver price stability.”",
-            ask: [{ label: "Warum reagieren Zentralbanken auf Inflation?", ref: "e:central-banks-why" }] },
-          { tag: "position", text: "Zur Künstlichen Intelligenz sagte Warsh laut Berichten, sie werde mittelfristig Produktivität und Wohlstand steigern, der Weg dorthin werde aber „very bumpy” (sehr holprig).",
-            ask: [{ label: "Was treibt die KI-Investitionen?", ref: "e:ai-capex" }] }
+          { tag: "position", text: "Kevin Warsh machte am 16.10. in Bangkok laut mehreren Quellen keine Aussage zur Geldpolitik vor der Sitzung am 27./28.10. und sagte laut einer Quelle sinngemäß, er wolle Sitzungen nicht vorab festlegen; zur Künstlichen Intelligenz sagte er, sie werde mittelfristig Produktivität und Wohlstand steigern, der Weg dorthin werde aber „very bumpy” (sehr holprig). Er sprach zudem von einer „synchronous tightening” der Notenbanken weltweit.",
+            ask: [{ label: "Warum reagieren Zentralbanken auf Inflation?", ref: "e:central-banks-why" }] }
         ]},
         { h: "Was bedeutet die FOMC-Blackout-Periode?", items: [
-          { tag: "fakt", text: "Die Blackout-Periode, in der sich Fed-Mitglieder nicht mehr öffentlich zur Geldpolitik äußern, begann am 17.10., 00:00 Uhr Eastern Time, und dauert laut übereinstimmenden Quellen bis zum 29.10., einen Tag nach der Sitzung am 27./28.10.; regulär geplante Wirtschaftsdatenveröffentlichungen sind davon nicht betroffen." }
+          { tag: "fakt", text: "Die Blackout-Periode, in der sich Fed-Mitglieder nicht mehr öffentlich zur Geldpolitik äußern, begann am 17.10., 0 Uhr Eastern Time, und dauert bis zum 29.10., einen Tag nach der Sitzung am 27./28.10.; regulär geplante Wirtschaftsdatenveröffentlichungen sind davon nicht betroffen." }
         ]},
-        { h: "Wie hat sich die Markterwartung für die Sitzung am 27./28.10. seit dem Wochenende verändert?", items: [
-          { tag: "unbestaetigt", text: "Nach CME-FedWatch-Daten lag die eingepreiste Erhöhungswahrscheinlichkeit für Oktober am 16.10. bei rund 12,7 bis 13 %, am 17.10. bei rund 14 bis 16 % – also kaum verändert. Kalshi nennt für den 17.10. eine Erhöhungswahrscheinlichkeit von rund 15 % (zwei Prozentpunkte niedriger als eine Woche zuvor), Polymarket eine Hold-Wahrscheinlichkeit von rund 82,5 bis 86,5 % je nach Zeitpunkt der Abfrage. Für die im Vorbericht genannte Dezember-Erhöhungswahrscheinlichkeit von rund 89 % liegt keine aktualisierte Bestätigung für dieses Wochenende vor.",
+        { h: "Wie schätzen Marktplattformen die Oktober-Sitzung ein?", items: [
+          { tag: "unbestaetigt", text: "Nach Angaben von CME FedWatch, Kalshi und Polymarket lag die eingepreiste Wahrscheinlichkeit für eine Zinserhöhung im Oktober zuletzt überwiegend zwischen rund 13 und 16 % (Halten entsprechend rund 84 bis 87 %); eine einzelne Quelle nennt davon deutlich abweichend rund 42 % Erhöhungswahrscheinlichkeit nach der heißen September-Inflationszahl. Diese Diskrepanz lässt sich aus den verfügbaren Quellen nicht auflösen und wird hier als unsicher gekennzeichnet.",
             ask: [{ label: "Was bedeutet eine Rendite von rund 5 %?", ref: "n:ust10" }] }
         ]},
-        { h: "Wie reagierte die US-Anleiherendite?", items: [
-          { tag: "fakt", text: "Die Rendite zehnjähriger US-Staatsanleihen blieb am Freitag weitgehend unverändert bei rund 5,08 bis 5,10 % – ein Niveau, das laut Berichten weiterhin als strukturell erhöht gilt, unter anderem wegen Sorgen um das hohe US-Haushaltsdefizit.",
-            ask: [{ label: "Was bedeutet eine Rendite von rund 5 %?", ref: "n:ust10" }] }
+        { h: "Gibt es neue US-Konjunkturdaten, und läuft ein Regierungsshutdown?", items: [
+          { tag: "fakt", text: "Ein möglicher Shutdown zum 1.10. wurde bereits durch eine Übergangsfinanzierung abgewendet, die am 2.9. unterschrieben wurde und bis zum 11.12. läuft; dadurch erschienen US-Konjunkturdaten im Oktober planmäßig, etwa die September-Einzelhandelsumsätze am 15.10. Spezifisch neue Arbeitsmarkt- oder Inflationsdaten seit dem 17.10. wurden in der Recherche nicht gefunden; die nächsten regulären Veröffentlichungen fallen in die laufende Blackout-Periode." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sich die Markterwartung für die Oktober-Sitzung seit Warshs bewusst unverbindlichem Auftritt über das gesamte Wochenende kaum verändert hat, deutet darauf hin, dass sich die Anleger bereits vor der Blackout-Periode auf ein wahrscheinliches Halten der Zinsen eingestellt haben." }
+          { tag: "einordnung", text: "Dass die Markterwartung für die Oktober-Sitzung je nach Plattform und Zeitpunkt zwischen rund 13 und 42 % für eine Zinserhöhung schwankt, zeigt, wie unterschiedlich Anleger die Lage nach der heißen September-Inflationszahl und Warshs bewusst unverbindlichem Auftritt einschätzen; die Mehrheit der Quellen geht weiterhin von einer Zinspause aus." }
         ]}
       ],
-      reaction: "Die Marktreaktion wird in Meldung 1 behandelt, die EZB-Seite in Meldung 5, die US-Konjunkturdaten in Meldung 4.",
+      reaction: "Die Marktreaktion wird in Meldung 1 behandelt, die EZB-Seite in Meldung 4, die US-Renditen in den Zahlen oben.",
       terms: ["leitzins", "basispunkt", "rendite"],
       followups: ["e:fed-hike", "e:central-banks-why", "e:yield-meaning"],
       sources: [
-        { title: "Euronews: Fed's Warsh sees AI boosting productivity but gives no signal on next rate hike", url: "https://www.euronews.com/2026/10/16/feds-warsh-sees-ai-boosting-productivity-but-gives-no-signal-on-next-rate-hike" },
-        { title: "FXStreet: Fed's Warsh says he would deliver price stability, but won't pre-judge meetings", url: "https://www.fxstreet.com/news/breaking-feds-warsh-says-he-would-deliver-price-stability-but-wont-pre-judge-meetings-202610160346" },
-        { title: "Phemex: Fed Enters Blackout Ahead of October Meeting", url: "https://phemex.com/news/article/fed-enters-blackout-ahead-of-october-meeting-as-us-earnings-season-accelerates-100277" },
-        { title: "predictionmarketspicks.com: Fed Rate Odds Today – 84% Hold, 15% Hike at the Oct 28 FOMC", url: "https://predictionmarketspicks.com/tools/fed-rate-tracker" }
+        { title: "CNBC: Fed's Warsh sees AI boosting productivity but gives no signal on next rate hike", url: "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html" },
+        { title: "Axios: Warsh signals steady Fed outlook despite inflation jump", url: "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates" },
+        { title: "eco3min.fr: Fed Blackout Period – Calendar and Exact Rule", url: "https://eco3min.fr/en/fed-blackout-period-calendar/" },
+        { title: "predictionmarketspicks.com: Fed Rate Odds for October 2026", url: "https://predictionmarketspicks.com/articles/fed-rate-october-2026-odds-warsh-kalshi-polymarket-futures" },
+        { title: "Yahoo Finance: Traders give Warsh a 42% chance", url: "https://finance.yahoo.com/economy/policy/articles/traders-warsh-42-chance-doing-082651946.html" },
+        { title: "leadingage.org: Averting shutdown, Congress passes funding measure through December 11", url: "https://leadingage.org/averting-shutdown-congress-passes-funding-measure-through-december-11/" }
       ]
     },
 
     /* 3 MÄRKTE: GOLD/BITCOIN/EUR-USD */
     {
-      id: "gold-bitcoin-eurusd-10-18", cats: ["markets"], when: "Stand Fr 16.10./So-Vormittag 18.10.2026",
-      headline: "Euro legt auf EZB-Referenzkurs weiter zu, Gold bleibt nahe Mehrjahreshoch, Bitcoin hält sich über das Wochenende stabil bei rund 81.700 Dollar",
-      sec30: "Der EZB-Referenzkurs stieg von 1,1208 Dollar am Donnerstag auf 1,1253 Dollar am Freitag – der fünfte Anstieg in Folge. Gold lag am Freitag weiter nahe seinem Mehrjahreshoch bei rund 4.170 bis 4.180 Dollar je Feinunze, gestützt von der weitgehend unveränderten US-Rendite und der Erwartung einer Fed-Zinspause. Bitcoin, das auch am Wochenende weiterhandelt, bewegte sich zwischen Freitagmorgen (rund 81.437 Dollar) und Sonntagvormittag (rund 81.700 Dollar) in einer engen Spanne von rund 80.655 bis 81.961 Dollar – ein insgesamt ruhiges Wochenende nach dem kurzen Rückgang unter 80.000 Dollar in der Vorwoche.",
+      id: "gold-bitcoin-eurusd-10-19", cats: ["markets"], when: "Stand Fr 16.10./Mo-Vormittag 19.10.2026",
+      headline: "Euro gibt am Montag leicht nach, Gold stabilisiert sich nahe 4.170 Dollar, Bitcoin legt nach ruhigem Wochenende leicht zu",
+      sec30: "Der Euro handelte am Montagvormittag mit rund 1,1230 Dollar etwas schwächer als der EZB-Referenzkurs vom Freitag (1,1253 Dollar, der fünfte Anstieg in Folge). Gold war zur Wochenmitte wegen Spekulation auf höhere US-Zinsen nach heißen Inflationsdaten auf rund 4.073 Dollar gefallen und hat sich seither bei rund 4.170 Dollar je Feinunze stabilisiert. Bitcoin, das auch am Wochenende weiterhandelt, bewegte sich nach einem ruhigen Wochenende (Spanne rund 80.655 bis 81.961 Dollar) am Montagvormittag leicht aufwärts auf rund 82.000 bis 82.800 Dollar – weiterhin rund 35 % unter seinem Allzeithoch von etwa 126.080 Dollar.",
       blocks: [
         { h: "Wie hat sich der Euro entwickelt?", items: [
-          { tag: "fakt", text: "Der EZB-Referenzkurs stieg von 1,1208 Dollar am Donnerstag auf 1,1253 Dollar am Freitag – der fünfte Anstieg in Folge seit Montag (1,1181 Dollar).",
-            ask: [{ label: "Was bedeutet ein EUR/USD-Kurs von rund 1,13?", ref: "e:eurusd-meaning" }] }
+          { tag: "fakt", text: "Der EZB-Referenzkurs stieg von 1,1208 Dollar am Donnerstag auf 1,1253 Dollar am Freitag – der fünfte Anstieg in Folge; am Montagvormittag handelte der Euro am freien Devisenmarkt mit rund 1,1230 Dollar etwas schwächer. Die EZB veröffentlicht ihren offiziellen Referenzkurs für Montag erst am Nachmittag.",
+            ask: [{ label: "Was bedeutet ein EUR/USD-Kurs von rund 1,12?", ref: "e:eurusd-meaning" }] }
         ]},
         { h: "Wie hat sich Gold entwickelt?", items: [
-          { tag: "fakt", text: "Gold lag am Freitag je nach Quelle und Erfassungszeitpunkt bei rund 4.156 bis 4.180 Dollar je Feinunze, rund 0,2 % über dem Donnerstagabend-Niveau.",
+          { tag: "fakt", text: "Gold war zur Wochenmitte auf rund 4.073 Dollar je Feinunze gefallen, wegen Spekulation auf höhere US-Zinsen nach einer heißer als erwartet ausgefallenen September-Inflationszahl, und hat sich seither bei rund 4.170 Dollar stabilisiert.",
             ask: [{ label: "Was bestimmt den Goldpreis?", ref: "e:gold-why" }] },
-          { tag: "einordnung", text: "Als Hintergrund nennen Berichte die weitgehend unveränderte US-Rendite, die die Opportunitätskosten des zinslosen Goldes niedrig hielt, sowie die anhaltende Erwartung einer Fed-Zinspause im Oktober." }
+          { tag: "einordnung", text: "Als Hintergrund für die Stabilisierung nennen Berichte die weitgehend unveränderte US-Rendite und die anhaltende Erwartung einer Fed-Zinspause im Oktober." }
         ]},
-        { h: "Wie hält sich Bitcoin über das Wochenende?", items: [
-          { tag: "unbestaetigt", text: "Bitcoin bewegte sich zwischen Freitagmorgen (rund 81.437 Dollar) und Sonntagvormittag (rund 81.685 bis 81.737 Dollar) in einer Spanne von rund 80.655 bis 81.961 Dollar – nahezu unverändert und deutlich ruhiger als in der Vorwoche, als der Kurs zwischenzeitlich unter 80.000 Dollar gefallen war.",
+        { h: "Wie entwickelt sich Bitcoin?", items: [
+          { tag: "unbestaetigt", text: "Nach einem ruhigen Wochenende in einer Spanne von rund 80.655 bis 81.961 Dollar zog Bitcoin am Montagvormittag leicht an auf rund 82.000 bis 82.800 Dollar, je nach Quelle; eine Quelle beschreibt den Kurs dagegen als weiterhin bei rund 81.000 Dollar „klebend” – die Angaben weichen leicht voneinander ab.",
             ask: [{ label: "Warum schwankt Bitcoin so stark?", ref: "e:bitcoin-what" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Euro und Gold weiter nahe ihren jüngsten Hochs liegen, während Bitcoin über das Wochenende in einer engen Spanne verharrte, passt zu einer Phase, in der sich die Markterwartung für die Fed-Politik seit Freitag kaum verändert hat. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass Gold sich nach dem Rückgang zur Wochenmitte stabilisiert hat und Bitcoin leicht zulegt, während der Euro minimal nachgibt, passt zu einer Phase, in der sich die Markterwartung für die Fed-Politik seit Freitag kaum verändert hat. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die zugrundeliegende Zinsentwicklung wird in Meldung 2 behandelt, die Sorgen um KI-nahe Werte in Meldung 14.",
+      reaction: "Die zugrundeliegende Zinsentwicklung wird in Meldung 2 behandelt, die Sorgen um KI-nahe Werte in Meldung 13.",
       terms: ["rendite"],
       followups: ["e:gold-why", "e:bitcoin-what", "e:eurusd-meaning"],
       sources: [
-        { title: "finanzen.at: Devisen – EZB-Richtwerte, Euro-Referenzkurs bei 1,1253 US-Dollar", url: "https://www.finanzen.at/nachrichten/aktien/devisen-ezb-richtwerte-euro-referenzkurs-bei-1-1253-us-dollar-1036634676" },
-        { title: "goldprice.org: Gold Price on 16 October 2026", url: "https://goldprice.org/gold-price-today/2026-10-16" },
-        { title: "cryptoticker.io: Bitcoin-Kurs 81.685 Dollar", url: "https://cryptoticker.io/de/bitcoin-kurs-netzgebuehr-mempool-18-oktober-2026/" }
+        { title: "investing.com: EUR/USD Kurs", url: "https://de.investing.com/currencies/eur-usd" },
+        { title: "gold.de: Goldpreis-Entwicklung", url: "https://www.gold.de/kurse/goldpreis/entwicklung/" },
+        { title: "interactivecrypto.com: Bitcoin/USD – 34,95 % unter dem Allzeithoch", url: "https://www.interactivecrypto.com/de/bitcoin-usd-btc-34-95-unter-dem-allzeithoch-trotz-stabilisierung-bei-82-000-usd" },
+        { title: "wallstreet-online.de: Bitcoin-Prognose Oktober 2026", url: "https://www.wallstreet-online.de/nachricht/21543524-bitcoin-prognose-oktober-2026-kaufen-wale-2-75-milliarden-dollar-kurs-81-000-dollar-klebt" }
       ]
     },
 
-    /* 4 WIRTSCHAFT: US-KONJUNKTURDATEN/IWF-ABSCHLUSS */
+    /* 4 WIRTSCHAFT: EZB/SCHNABEL-NACHFOLGE/FRANKREICH */
     {
-      id: "us-konjunktur-iwf-bangkok-abschluss-10-18", cats: ["economy"], when: "Michigan-Verbraucherstimmung vorläufig 09.10. · Industrieproduktion veröffentlicht 16.10. · IMFC-Pressekonferenz 17.10. · IWF-Jahrestagung Bangkok bis 18.10.2026",
-      headline: "US-Verbraucherstimmung fällt auf Mehrmonatstief, IWF-Jahrestagung in Bangkok endet mit Warnung vor Lieferketten- und Schuldenrisiken",
-      sec30: "Die vorläufige Verbraucherstimmung der University of Michigan für Oktober fiel auf 46,3 Punkte (−3,7 % ggü. September, 5-Monats-Tief); der Teilindex zur aktuellen Lage fiel auf ein Allzeittief von 44,7 Punkten, die Inflationserwartungen liegen bei 4,7 % (1 Jahr) bzw. 3,5 % (5 Jahre). Die Industrieproduktion stieg im September dagegen stärker als erwartet (+0,7 %, vor allem Halbleiter). Die IWF-Jahrestagung in Bangkok (12.–18.10.) endete mit einer IMFC-Pressekonferenz am 17.10.: IMFC-Vorsitzender Al-Jadaan warnte vor „keiner Komplazenz”, IWF-Chefin Georgieva sprach von „Optimismus und Sorge” und mahnte, einkommensschwache Länder wendeten inzwischen 8 bis 14 % ihrer Einnahmen für Schuldendienst auf. Ein G20-Finanzministertreffen am 15.10. endete ohne gemeinsame Abschlusserklärung.",
+      id: "ezb-schnabel-nachfolge-frankreich-haushalt-10-19", cats: ["economy"], when: "Bewerbungsfrist Schnabel-Nachfolge 28.10. · nächste EZB-Zinsentscheidung 29.10. · Nationalversammlung-Debatte seit 13.10.2026",
+      headline: "Bewerbungsfrist für Schnabel-Nachfolge im EZB-Direktorium läuft bis 28.10., Frankreichs Haushaltsdebatte bleibt umstritten",
+      sec30: "Die Bewerbungsfrist für die Nachfolge von Isabel Schnabel im EZB-Direktorium läuft am 28.10. ab; Schnabel wechselt zum 4.1.2027 zum IWF, ihr EZB-Austritt wird am 3.1.2027 wirksam. Bundesfinanzminister Klingbeil hat noch keinen deutschen Kandidaten benannt, will aber laut Berichten „bald” einen Personalvorschlag machen. Die EZB hält ihren Einlagensatz seit der Erhöhung im September unverändert bei 2,50 %; Einschätzungen zur Sitzung am 29.10. gehen auseinander. In Frankreich debattiert die Nationalversammlung weiter über den Haushalt 2027 von Ministerpräsident Lecornu; der Finanzausschuss lehnte den Entwurf bereits vorab mehrheitlich ab, Lecornu schließt den Einsatz von Verordnungen bei anhaltender Blockade nicht aus.",
       blocks: [
-        { h: "Wie ist die Stimmung der US-Verbraucher?", items: [
-          { tag: "fakt", text: "Die vorläufige Verbraucherstimmung der University of Michigan für Oktober fiel auf 46,3 Punkte (−3,7 % ggü. September, ein 5-Monats-Tief); der Teilindex zur aktuellen Lage (Current Conditions) fiel auf 44,7 Punkte, ein Allzeittief, während der Erwartungsindex leicht auf 47,3 Punkte stieg (+2,2 %). Die Inflationserwartungen liegen bei 4,7 % für ein Jahr und 3,5 % für fünf Jahre.",
-            ask: [{ label: "Was ist Inflation?", ref: "t:inflation" }] },
-          { tag: "position", text: "Umfragedirektorin Joanne Hsu kommentierte: „Frustration over cost-of-living continues to mount, as consumers across the political spectrum believe that the trajectory of the economy has weakened since the beginning of the year.”" }
-        ]},
-        { h: "Was zeigt die US-Industrieproduktion für September?", items: [
-          { tag: "fakt", text: "Die Industrieproduktion stieg im Monatsvergleich um 0,7 % – deutlich über der Erwartung von 0,4 %. Die Halbleiterproduktion legte um 2,1 % (m/m) bzw. 19,9 % (Jahresvergleich) zu, die Kfz-Produktion fiel dagegen um 3,0 %. Die Kapazitätsauslastung stieg auf 76,9 %." }
-        ]},
-        { h: "Wie ist die IWF-Jahrestagung in Bangkok zu Ende gegangen?", items: [
-          { tag: "position", text: "Bei der Abschluss-Pressekonferenz am 17.10. warnte IMFC-Vorsitzender Mohammed Al-Jadaan (Saudi-Arabiens Finanzminister) vor „keiner Komplazenz”, da eskalierende Konflikte und Handelsspannungen kritische Handelsrouten weiter stören und die Energie- und Ernährungssicherheit verschlechtern könnten; er rief die Finanzbehörden auf, fiskalische Puffer wieder aufzubauen.",
-            ask: [{ label: "Mehr zur EZB-Position", ref: "s:5" }] },
-          { tag: "position", text: "IWF-Chefin Kristalina Georgieva bezeichnete die Stimmung der Tagung als geprägt von „optimism and worry”; höhere globale Zinsen bedeuteten, dass einkommensschwache Länder inzwischen 8 bis 14 % ihrer Einnahmen für Schuldendienst aufwenden müssten." },
-          { tag: "unbestaetigt", text: "Laut einer einzelnen Quelle verließen Delegierte demonstrativ den Saal, als ein russischer Vertreter bei der IMFC-Sitzung sprach; ein unabhängiger zweiter Beleg dafür liegt nicht vor." },
-          { tag: "fakt", text: "Ein G20-Finanzministertreffen am Rande der Tagung (15.10.) endete ohne gemeinsame Abschlusserklärung; US-Finanzminister Bessent nahm wegen „inländischer Termine” nicht teil." }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass die Industrieproduktion deutlich stärker ausfiel als erwartet, während die Verbraucherstimmung zugleich auf einem Allzeittief bei der aktuellen Lage verharrt, liefert gemischte Signale für die Einschätzung der US-Konjunktur kurz vor der Fed-Entscheidung am 27./28.10." }
-        ]}
-      ],
-      reaction: "Die Fed-Reaktion wird in Meldung 2 behandelt, die EZB-Seite in Meldung 5.",
-      terms: ["leitzins", "inflation"],
-      followups: ["e:inflation-what", "e:central-banks-why"],
-      sources: [
-        { title: "Bloomberg: US Consumer Sentiment Falls to Five-Month Low in October", url: "https://www.bloomberg.com/news/articles/2026-10-09/us-consumer-sentiment-falls-to-five-month-low-in-october" },
-        { title: "verifiedinvesting.com: UMich Sentiment October 2026 – Index Falls to 46.3", url: "https://verifiedinvesting.com/blogs/us-economic-metrics/umich-sentiment-october-2026" },
-        { title: "The Spokesman-Review: US factory production rebounds on semiconductors", url: "https://www.spokesman.com/stories/2026/oct/16/us-factory-production-rebounds-on-semiconductors-s/" },
-        { title: "CNBC: IMFC chair says global economy resilient; delegates walk out on Russian official", url: "https://www.cnbc.com/2026/10/17/imf-members-call-for-more-support-amid-war-shocks-advanced-intelligence-risks.html" },
-        { title: "Kuwait Times: IMF chief cites 'optimism and worry' as Bangkok meetings close", url: "https://kuwaittimes.com/article/51756/business/imf-chief-cites-optimism-and-worry-as-bangkok-meetings-close/amp/" }
-      ]
-    },
-
-    /* 5 WIRTSCHAFT: EZB/FRANKREICH */
-    {
-      id: "ezb-lagarde-frankreich-schnabel-nachfolge-eurozone-inflation-10-18", cats: ["economy"], when: "Lagarde-Äußerungen IWF-Bangkok 14./17.10. · Eurostat-Inflation September final 16.10. · Bewerbungsfrist Schnabel-Nachfolge 28.10. · nächste EZB-Zinsentscheidung 29.10.2026",
-      headline: "Eurozonen-Inflation steigt im September final auf 3,8 Prozent, Lagarde sieht keine Zweitrundeneffekte, deutscher Kandidat für Schnabel-Nachfolge weiter offen",
-      sec30: "Eurostat bestätigte am 16.10. die Inflation der Eurozone für September final mit 3,8 % (nach 3,2 % im August) – der höchste Stand seit September 2023, getrieben vor allem von Energie (+18,8 bis 18,9 %); die Kerninflation stieg von 2,4 auf 2,5 %. EZB-Präsidentin Lagarde sagte am 14.10. in Bangkok, man sehe bislang keine Zweitrundeneffekte, verfolge aber Lohnforderungen über Tarifverträge; zu Frankreichs Fiskallage sagte sie, die Lösung liege „zuerst in Frankreich selbst”. Eine Reuters-Umfrage unter 73 Ökonomen sieht die EZB am 29.10. mehrheitlich bei einer unveränderten Zinsentscheidung, erwartet aber inzwischen von einer Mehrheit eine Zinserhöhung im Dezember. Bundesfinanzminister Klingbeil hat für die Schnabel-Nachfolge im EZB-Direktorium (Bewerbungsfrist 28.10.) noch keinen deutschen Kandidaten benannt. In Frankreich debattiert die Nationalversammlung seit dem 13.10. den Haushalt 2027 von Ministerpräsident Lecornu.",
-      blocks: [
-        { h: "Wie hoch ist die Inflation in der Eurozone?", items: [
-          { tag: "fakt", text: "Eurostat bestätigte am 16.10. final eine Inflation von 3,8 % für September (nach 3,2 % im August) – der höchste Stand seit September 2023. Energie trieb die Teuerung mit 18,8 bis 18,9 % (nach 14,3 % im August); die Kerninflation (ohne Energie und Nahrungsmittel) stieg von 2,4 auf 2,5 %.",
-            ask: [{ label: "Was ist Kerninflation?", ref: "t:kerninflation" }] }
-        ]},
-        { h: "Was sagte EZB-Präsidentin Lagarde?", items: [
-          { tag: "position", text: "Lagarde sagte am 14.10. in Bangkok: „We are not seeing any second-round effects yet. We cannot wait until they are fully visible, but we can anticipate them and look for signs. In Europe, one sees expectations of wage increases through collective agreements, we are tracking these points.”",
-            ask: [{ label: "Was sind Zweitrundeneffekte?", ref: "e:inflation-what" }] },
-          { tag: "position", text: "Zur französischen Fiskallage sagte Lagarde: „On French debt, the primary and first solution lies in French fiscal policy. Growth is not brilliant, but growth of 1.1% in 2026 is not bad.”" }
-        ]},
-        { h: "Was erwarten Ökonomen für die EZB-Sitzung am 29.10.?", items: [
-          { tag: "unbestaetigt", text: "Eine Reuters-Umfrage unter 73 Ökonomen (5.–8.10.) sieht die überwiegende Mehrheit bei einem unveränderten Einlagensatz von 2,50 % am 29.10.; 64 der 73 Befragten erwarten inzwischen eine Zinserhöhung im Dezember, 58 % sehen den Einlagensatz dann bei 2,75 %, 24 von 73 bei 3,00 %.",
-            ask: [{ label: "Was bedeutet ein Leitzins von 2,50 %?", ref: "t:leitzins" }] }
-        ]},
         { h: "Wie ist der Stand bei der Schnabel-Nachfolge?", items: [
-          { tag: "fakt", text: "Bewerbungen für die Nachfolge von Isabel Schnabel im EZB-Direktorium können bis zum 28.10. eingereicht werden; die Eurogruppe will die Bewerbungen im November beraten. Bundesfinanzminister Klingbeil sagte, er kläre „gerade mit dem Kanzler”, mit welchem Namen Deutschland antritt – ein Kandidat ist weiterhin nicht benannt." }
+          { tag: "fakt", text: "Die Bewerbungsfrist für die Nachfolge von Isabel Schnabel im EZB-Direktorium wurde von den Euro-Finanzministern auf den 28.10. festgelegt; eine Entscheidung soll bei einem Treffen im November fallen. Schnabel wechselt zum 4.1.2027 zum IWF, wo sie die Abteilung für Geld- und Kapitalmärkte leiten wird; ihr EZB-Austritt wird am 3.1.2027 wirksam.",
+            ask: [{ label: "Was ist ein Leitzins von 2,50 %?", ref: "t:leitzins" }] },
+          { tag: "fakt", text: "Bundesfinanzminister Klingbeil hat bislang keinen deutschen Kandidaten für den Posten benannt; laut Berichten plant er „bald” einen Personalvorschlag." }
+        ]},
+        { h: "Wie ist der Stand bei der EZB-Zinsentscheidung am 29.10.?", items: [
+          { tag: "fakt", text: "Die EZB hält ihren Einlagensatz seit der Erhöhung im September bei 2,50 %. Im Oktober werden keine neuen EZB-Gesamtwirtschaftsprojektionen veröffentlicht." },
+          { tag: "unbestaetigt", text: "Einschätzungen zur Sitzung am 29.10. gehen in den verfügbaren Quellen auseinander: Eine Einschätzung erwartet vorerst keine weitere Zinsanhebung, eine andere nennt (Stand 24.9.) rund 60 % Wahrscheinlichkeit für eine weitere Erhöhung. Lagarde hatte Ende September zu „maßvollen Zinserhöhungen” aufgerufen." }
         ]},
         { h: "Wie ist der Stand beim französischen Haushalt 2027?", items: [
-          { tag: "fakt", text: "Die Regierung Lecornu hatte am 1.10. ein Konsolidierungspaket von rund 54 Mrd. Euro vorgelegt, um das Defizit 2027 auf 5,0 % des BIP zu senken; der Finanzausschuss der Nationalversammlung strich davon rund 10 Mrd. Euro an Steuererhöhungen. Die Plenardebatte zum Einnahmenteil läuft seit dem 13.10." },
-          { tag: "position", text: "Rassemblement National und La France insoumise drohen mit einem Misstrauensantrag, sollte der Haushalt nicht ihren Vorstellungen entsprechen; Lecornu schließt den Einsatz von Verordnungen bei anhaltender Blockade nicht aus." }
+          { tag: "fakt", text: "Die Regierung Lecornu hatte am 1.10. ein Konsolidierungspaket von rund 54 Mrd. Euro vorgelegt, um das Defizit 2027 auf 5,0 % des BIP zu senken; der Finanzausschuss der Nationalversammlung lehnte den Entwurf bereits vorab mit klarer Mehrheit ab. Die Plenardebatte zum Einnahmenteil läuft seit dem 13.10. weiter." },
+          { tag: "position", text: "Lecornu, der im Parlament keine absolute Mehrheit hat, schließt den Einsatz von Verordnungen (Ordonnances) bei anhaltender Blockade nicht aus; Widerstand kommt vor allem von linken Abgeordneten gegen Kürzungen bei Sozialausgaben und Renten." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass die Eurozonen-Inflation auf den höchsten Stand seit drei Jahren gestiegen ist und sich die Ökonomenerwartung in Richtung einer Dezember-Zinserhöhung verschoben hat, während Lagarde zugleich keine Dringlichkeit signalisiert, zeigt eine schwierige Abwägung zwischen Preisstabilität und wirtschaftlicher Erholung kurz vor der Sitzung am 29.10." }
+          { tag: "einordnung", text: "Dass sowohl die EZB-Personalfrage als auch die französische Haushaltsdebatte noch offen sind, während die EZB-Zinsentscheidung am 29.10. kurz nach der Fed-Sitzung folgt, zeigt, wie viele europäische Wirtschaftsfragen Ende Oktober zusammenlaufen." }
         ]}
       ],
-      reaction: "Die Fed-Seite wird in Meldung 2 behandelt, die US-Konjunkturdaten in Meldung 4.",
-      terms: ["leitzins", "inflation", "kerninflation", "schuldenbremse"],
+      reaction: "Die Fed-Seite wird in Meldung 2 behandelt, der deutsche Haushalt in Meldung 6.",
+      terms: ["leitzins", "inflation", "schuldenbremse"],
       followups: ["e:ecb-hike", "e:inflation-what", "e:central-banks-why"],
       sources: [
-        { title: "Eurostat: Annual inflation up to 3.8% in the euro area", url: "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap" },
-        { title: "FXStreet: Lagarde speech – We're not seeing any second round effects yet", url: "https://www.fxstreet.com/news/lagarde-speech-were-not-seeing-any-second-round-effects-yet-202610140236" },
-        { title: "RTE: ECB to hike rates again in December as inflation almost doubles 2% target – Reuters poll", url: "https://www.rte.ie/news/business/2026/1008/1594593-ecb-interest-rates-poll/" },
-        { title: "Handelsblatt: Rennen um EZB-Spitze – Klingbeil plant bald Personalvorschlag", url: "https://www.handelsblatt.com/politik/deutschland/europaeische-zentralbank-rennen-um-ezb-spitze-klingbeil-plant-bald-personalvorschlag/100262803.html" },
-        { title: "nachrichten.fr: Haushalt 2027 setzt Lecornus Regierung unter Druck", url: "https://nachrichten.fr/haushalt-2027-setzt-lecornus-regierung-unter-druck" }
+        { title: "onvista: Frist für Vorschläge zur Nachfolge von EZB-Direktorin Schnabel bis 28. Oktober", url: "https://www.onvista.de/news/2026/10-09-frist-fuer-vorschlaege-zur-nachfolge-von-ezb-direktorin-schnabel-bis-28-oktober-0-20-26562225" },
+        { title: "Handelsblatt: Nachfolge EZB – Nominierungsfrist für Schnabel-Nachfolge steht", url: "https://www.handelsblatt.com/finanzen/nachfolge-ezb-nominierungsfrist-fuer-schnabel-nachfolge-steht/100260974.html" },
+        { title: "wz.de: Rennen um EZB-Spitze – Klingbeil plant bald Personalvorschlag", url: "https://www.wz.de/wirtschaft/rennen-um-ezb-spitze-klingbeil-plant-bald-personalvorschlag_aid-156683347" },
+        { title: "finanztip.de: Zinsentwicklung", url: "https://www.finanztip.de/zinsentwicklung/" },
+        { title: "IndexBox: France's 2027 budget – Lecornu targets €54bn in cuts as deficit fight looms", url: "https://www.indexbox.io/blog/frances-2027-budget-lecornu-targets-54bn-in-cuts-as-deficit-fight-looms/" },
+        { title: "nachrichten.fr: Lecornu hält Verordnungen für den Haushalt 2027 offen", url: "https://nachrichten.fr/lecornu-halt-verordnungen-fur-den-haushalt-2027-offen/" }
       ]
     },
 
-    /* 6 DEUTSCHLAND: BERLIN-KOALITION */
+    /* 5 DEUTSCHLAND: BERLIN-KOALITION ENTSCHEIDUNG */
     {
-      id: "berlin-sondierung-ergebnis-spd-gruene-linke-10-18", cats: ["germany"], when: "Sondierungsabschluss 17.10. · SPD-Landesvorstand entscheidet 21.10. · Linke-Parteitag verschoben auf 31.10.2026",
-      headline: "SPD, Grüne und Linke einigen sich in Berlin auf Sondierungspapier und empfehlen Koalitionsverhandlungen",
-      sec30: "SPD, Grüne und Die Linke haben ihre Sondierungsgespräche für eine künftige Berliner Landesregierung am 17.10. abgeschlossen und sich auf ein gemeinsames Papier mit dem Titel „Mehr gemeinsam, mehr Berlin” verständigt. Die Parteien empfehlen ihren Gremien, in Koalitionsverhandlungen einzutreten; ein fertiger Koalitionsvertrag liegt noch nicht vor. Das Papier sieht unter anderem vor, private Wohnungsunternehmen mit mehr als 10.000 Wohnungen oberhalb dieser Grenze gegen Entschädigung in eine öffentlich-rechtliche Anstalt zu überführen (rund 160.000 Wohnungen), einen Mietendeckel von 2 % sowie 100.000 neue Wohnungen. Der SPD-Landesvorstand soll am 21.10. entscheiden, die Linke hat ihren Parteitag auf den 31.10. verschoben. CDU-Landeschef Evers kritisierte das Ergebnis als „massenhaft ungedeckte Ausgabenversprechen”.",
+      id: "berlin-koalition-entscheidung-spd-gruene-linke-10-19", cats: ["germany"], when: "Grüne-Parteitag und SPD-Landesvorstand entscheiden 19.10. abends · Linke-Parteitag 31.10.2026",
+      headline: "SPD und Grüne entscheiden am Montagabend über Koalitionsverhandlungen mit der Linken in Berlin, 20 SPD-Abgeordnete sprechen sich zuvor dagegen aus",
+      sec30: "Nach dem Abschluss der Sondierungsgespräche am 17.10. entscheiden die Berliner Grünen am Montagabend auf einem kleinen Parteitag (20 Uhr) und der SPD-Landesvorstand per Digitalabstimmung darüber, ob sie mit der Linken in Koalitionsverhandlungen eintreten. Zuvor hatten sich 20 SPD-Bundestagsabgeordnete in einer gemeinsamen Erklärung gegen ein Bündnis ihrer Partei mit der Linken ausgesprochen. Die Linke selbst entscheidet wegen der zweiwöchigen Berliner Herbstferien erst am 31.10. auf einem Parteitag; bei Zustimmung aller drei Parteien könnten die eigentlichen Koalitionsverhandlungen frühestens Anfang November beginnen. CDU-Landeschef Evers und Bundeskanzler Merz kritisierten die Pläne.",
       blocks: [
         { h: "Was wurde beschlossen oder vorgeschlagen?", items: [
-          { tag: "fakt", text: "SPD, Grüne und Die Linke verständigten sich am 17.10. auf ein gemeinsames Sondierungspapier mit dem Titel „Mehr gemeinsam, mehr Berlin” und empfehlen ihren Parteigremien, in Koalitionsverhandlungen einzutreten. Ein fertiger Koalitionsvertrag liegt noch nicht vor – das ist erst der nächste Schritt." }
-        ]},
-        { h: "Was würde sich konkret ändern?", items: [
-          { tag: "fakt", text: "Das Papier sieht vor, private Wohnungsunternehmen mit mehr als 10.000 Wohnungen oberhalb dieser Grenze gegen Entschädigung in eine öffentlich-rechtliche Anstalt zu überführen – dadurch sollen rund 160.000 Wohnungen in öffentliches Eigentum kommen. Weitere Punkte: ein Mietendeckel von 2 %, ein günstigeres Sozialticket für den ÖPNV und 100.000 neue Wohnungen.",
+          { tag: "fakt", text: "SPD, Grüne und Die Linke hatten sich am 17.10. auf ein gemeinsames Sondierungspapier mit dem Titel „Mehr gemeinsam, mehr Berlin” verständigt. Am Montagabend, 19.10., entscheiden die Grünen auf einem eigens einberufenen kleinen Parteitag (20 Uhr) und der SPD-Landesvorstand per Digitalabstimmung darüber, ob sie in Koalitionsverhandlungen eintreten.",
             ask: [{ label: "Was ist eine Koalition?", ref: "t:koalition" }] }
         ]},
+        { h: "Was würde sich konkret ändern?", items: [
+          { tag: "fakt", text: "Das Sondierungspapier sieht vor, private Wohnungsunternehmen mit mehr als 10.000 Wohnungen oberhalb dieser Grenze gegen Entschädigung in eine öffentlich-rechtliche Anstalt zu überführen – betroffen wären laut Linke-Fraktionsco-Chefin Elif Eralp fünf große Wohnungsunternehmen, darunter Vonovia, mit zusammen rund 160.000 Wohnungen. Weitere Punkte sind ein Mietendeckel von 2 % und 100.000 neue Wohnungen." }
+        ]},
         { h: "Warum wird das vorgeschlagen?", items: [
-          { tag: "einordnung", text: "Die drei Parteien begründen die Vorschläge mit der angespannten Lage auf dem Berliner Wohnungsmarkt; zusätzlich genannte Schwerpunkte des Papiers sind Sicherheit, insbesondere für jüdische Menschen in Berlin, und ein saubereres Stadtbild." }
+          { tag: "position", text: "Eralp begründete die geplante Vergesellschaftung so: „Unser Ziel ist, dass durch die Vergesellschaftung die Mieten nicht weiter steigen.” Die drei Parteien verweisen zudem auf die angespannte Lage auf dem Berliner Wohnungsmarkt." }
         ]},
-        { h: "Wer unterstützt das Ergebnis, und womit begründet er das?", items: [
-          { tag: "position", text: "SPD, Grüne und Die Linke stellen das Sondierungsergebnis selbst als Grundlage für eine Zusammenarbeit (Senatsbildung „Rot-Grün-Rot”) dar und verweisen auf die oben genannten Wohnungsmarkt- und Sicherheitsziele." }
-        ]},
-        { h: "Wer kritisiert das Ergebnis, und womit begründet er das?", items: [
-          { tag: "position", text: "CDU-Landeschef Stefan Evers bezeichnete das Sondierungsergebnis als „massenhaft ungedeckte Ausgabenversprechen” und als „Kapitulationserklärung von SPD und Grünen vor einer radikalen, in Teilen antisemitischen Linkspartei”. Sein Argument: Für die Vergesellschaftung von Wohnungen würden Milliarden ausgegeben, ohne dass eine einzige neue Wohnung entstehe; Investoren würden abgeschreckt und neue Bürokratie aufgebaut, was die Wohnungsknappheit verschärfe statt sie zu lösen." }
+        { h: "Wer unterstützt die Pläne, und wer kritisiert sie?", items: [
+          { tag: "position", text: "SPD, Grüne und Die Linke stellen das Sondierungsergebnis als Grundlage für eine Zusammenarbeit dar. Dagegen sprachen sich 20 SPD-Bundestagsabgeordnete in einer gemeinsamen Erklärung gegen ein Bündnis ihrer Partei mit der Linken aus." },
+          { tag: "position", text: "CDU-Landeschef Stefan Evers bezeichnete das Ergebnis als „Kapitulationserklärung” von SPD und Grünen; Bundeskanzler Friedrich Merz sagte: „Wer die politische Mitte stärken will, darf nicht mit Linksradikalen verhandeln”, und forderte die Parteien auf, diesen Weg zu beenden." }
         ]},
         { h: "Welche nächsten Schritte und Auswirkungen werden diskutiert?", items: [
-          { tag: "fakt", text: "Der SPD-Landesvorstand soll am 21.10. über das Sondierungsergebnis entscheiden; die Linke hat ihren ursprünglich für den 18.10. geplanten Parteitag auf den 31.10. verschoben. Bei Zustimmung aller drei Parteien könnten die eigentlichen Koalitionsverhandlungen frühestens Anfang November beginnen." }
+          { tag: "fakt", text: "Die Linke entscheidet wegen der zweiwöchigen Berliner Herbstferien erst am 31.10. auf einem Parteitag über die Sondierungsergebnisse. Stimmen alle drei Parteien zu, könnten die eigentlichen Koalitionsverhandlungen frühestens Anfang November beginnen." }
         ]}
       ],
-      reaction: "Die Bundesebene wird in Meldung 7 behandelt.",
+      reaction: "Die Bundesebene wird in Meldung 6 behandelt.",
       terms: ["koalition"],
       followups: ["e:landtagswahl-why", "e:coalition-majority"],
       sources: [
-        { title: "ZDFheute: Sondierung in Berlin beendet – Linke, Grüne und SPD einig", url: "https://www.zdfheute.de/politik/deutschland/sondierungen-berlin-linke-gruene-spd-100.html" },
-        { title: "Berliner Zeitung: Durchbruch in Berlin – Linke, Grüne und SPD wollen koalieren und 160.000 Wohnungen vergesellschaften", url: "https://www.berliner-zeitung.de/article/durchbruch-in-berlin-linke-gruene-und-spd-wollen-koalieren-und-160000-wohnungen-vergesellschaften-10505209" },
-        { title: "Tagesspiegel/dpa: Regierungsbildung – Rot-Grün-Rot in Berlin rückt näher, Kritik der CDU", url: "https://www.tagesspiegel.de/politik/dpa-regierungsbildung-rot-grun-rot-in-berlin-ruckt-naher-kritik-der-cdu-16173557.html" },
-        { title: "Tagesspiegel: Berliner Linke verschiebt für Freitag geplanten Parteitag", url: "https://www.tagesspiegel.de/berlin/abstimmung-uber-koalitionsverhandlungen-berliner-linke-verschiebt-fur-freitag-geplanten-parteitag-16155393.html" }
+        { title: "Abendzeitung München: Zwei Parteien in Berlin entscheiden über Koalitionsgespräche", url: "https://www.abendzeitung-muenchen.de/politik/zwei-parteien-in-berlin-entscheiden-ueber-koalitionsgespraeche-art-1166678" },
+        { title: "infranken.de: Rot-Grün-Rot in Berlin rückt näher – Kritik der CDU", url: "https://www.infranken.de/deutschland/rot-gruen-rot-in-berlin-rueckt-naeher-kritik-der-cdu-art-6404255" },
+        { title: "news.de: Merz geht auf SPD und Grüne wegen möglichem Linksbündnis los", url: "https://www.news.de/politik/860102806/merz-geht-auf-spd-und-gruene-wegen-moeglichem-linksbuendnis-los-rot-gruen-rot-in-berlin-rueckt-naeher-kritik-der-cdu/1/" },
+        { title: "ZDFheute: Sondierung in Berlin beendet – Linke, Grüne und SPD einig", url: "https://www.zdfheute.de/politik/deutschland/sondierungen-berlin-linke-gruene-spd-100.html" }
       ]
     },
 
-    /* 7 DEUTSCHLAND: BUND HAUSHALT/RENTE/KOALITIONSDEBATTE */
+    /* 6 DEUTSCHLAND: BUND HAUSHALT/RENTE/RECHNUNGSHOF */
     {
-      id: "bund-haushalt-rente-koalitionsdebatte-umfragen-10-18", cats: ["germany"], when: "Haushaltsausschuss-Anhörung 12.10. · Merz bei der Jungen Union 17.10. · Umfragen INSA 17.10., Forsa 13.10., Ipsos 08.10.2026",
-      headline: "Bundeshaushalt 2027 sieht 118,7 Milliarden Euro neue Schulden vor, Sozialverbände warnen vor Kürzungen bei Wohngeld und Rente",
-      sec30: "Bundesfinanzminister Klingbeil stellte am 12.10. den Haushaltsentwurf 2027 vor: Die Nettokreditaufnahme soll um 20,7 Mrd. auf 118,7 Mrd. Euro steigen, davon 85,4 Mrd. über die grundgesetzliche Ausnahme für Verteidigungsausgaben. Der Bundeszuschuss zur Rentenversicherung soll zwar auf 132,04 Mrd. Euro steigen, der geplante Zuwachs soll aber um weitere 1 Mrd. Euro gekürzt werden. Ein Bündnis aus VdK, SoVD, DGB, Caritas, Diakonie, AWO, Der Paritätische, ver.di, IG Metall und dem Mieterbund warnt vor Einschnitten bei Wohngeld, Elterngeld und den Rentenzuschüssen. Bundeskanzler Merz bekräftigte am 17.10. beim Deutschlandtag der Jungen Union, die Koalition solle „nicht um jeden Preis” fortgesetzt werden und bestand auf vollständiger Umsetzung der Rentenreform. Der neue Arbeitsminister Schweitzer lehnte vollständige Leistungssanktionen bei der Grundsicherung ab. Aktuelle Umfragen sehen die AfD weiterhin bei rund 27 bis 29 %.",
+      id: "bund-haushalt-rente-rechnungshof-pflegereform-10-19", cats: ["germany"], when: "Haushaltseckpunkte Bundestag 12.10. · Bundesrechnungshof-Kritik 17.10. · VdK-Kritik Pflegereform Oktober 2026",
+      headline: "Bundeshaushalt 2027 sieht 118,7 Milliarden Euro neue Schulden vor, Bundesrechnungshof und Sozialverbände kritisieren Finanzplanung und Rentenzuschuss-Kürzung",
+      sec30: "Bundesfinanzminister Klingbeil legte am 12.10. den Haushaltsentwurf 2027 vor: Gesamtausgaben von 555,4 Mrd. Euro, eine Nettokreditaufnahme von 118,7 Mrd. Euro und ein Verteidigungsetat von rund 109,7 Mrd. Euro – ein Drittel mehr als 2026. Der Bundesrechnungshof verschärfte im Oktober seine Kritik an der Schuldenpolitik und weist für die Haushaltsplanung bis 2030 einen Konsolidierungsbedarf von 108 Mrd. Euro aus. Klingbeil plant zudem, den Bundeszuschuss zur Rentenversicherung um 4 Mrd. Euro zu kürzen; nach Berechnungen der Rentenversicherung könnte das den Beitragssatz bereits ab Juli 2027 um 0,2 Punkte steigen lassen. Der VdK kritisiert zusätzlich eine im Rahmen der Pflegereform geplante Begrenzung zusätzlicher Rentenpunkte für pflegende Angehörige.",
       blocks: [
         { h: "Was wurde beim Bundeshaushalt 2027 vorgeschlagen?", items: [
-          { tag: "fakt", text: "Die Nettokreditaufnahme des Bundes soll 2027 um 20,7 Mrd. Euro auf 118,7 Mrd. Euro steigen; davon entfallen 33,4 Mrd. Euro auf die reguläre Schuldenregel, 85,4 Mrd. Euro auf die grundgesetzliche Ausnahme für Verteidigungs- und sicherheitspolitische Ausgaben. Für den Sozialetat sind 201 Mrd. Euro vorgesehen.",
+          { tag: "fakt", text: "Der Haushaltsentwurf 2027 sieht Gesamtausgaben von 555,4 Mrd. Euro vor; die Nettokreditaufnahme soll auf 118,7 Mrd. Euro steigen. Der Verteidigungsetat soll auf rund 109,7 Mrd. Euro steigen – ein Drittel mehr als 2026.",
             ask: [{ label: "Was ist die Schuldenbremse?", ref: "t:schuldenbremse" }] }
         ]},
         { h: "Was würde sich bei der Rente konkret ändern?", items: [
-          { tag: "fakt", text: "Der Bundeszuschuss zur Rentenversicherung soll 2027 auf 132,04 Mrd. Euro steigen (2026: 127,42 Mrd. Euro); zugleich plant die Bundesregierung, den Zuwachs um eine weitere Milliarde Euro zu kürzen – zusammen mit früheren Maßnahmen ein Kürzungsvolumen von insgesamt 2,2 Mrd. Euro. Das betrifft die Finanzierungsstruktur der Rentenversicherung, nicht unmittelbar die Höhe laufender Renten.",
-            ask: [{ label: "Wie finanziert sich die Rente?", ref: "e:rente-basics" }] }
+          { tag: "fakt", text: "Klingbeil plant, den Bundeszuschuss zur gesetzlichen Rentenversicherung im kommenden Jahr um 4 Mrd. Euro zu kürzen. Nach Berechnungen der Rentenversicherung könnte dies den Beitragssatz bereits ab Juli 2027 um 0,2 Prozentpunkte steigen lassen, statt erst Mitte 2028 wie bisher erwartet.",
+            ask: [{ label: "Wie finanziert sich die Rente?", ref: "e:rente-basics" }] },
+          { tag: "fakt", text: "Zusätzlich plant die Pflegereform, die Zahl zusätzlicher Rentenpunkte für pflegende Angehörige im Rentenalter ab 2027 zu begrenzen; nach VdK-Angaben wären davon rund 39.000 Personen pro Jahr betroffen, bei einem Einsparvolumen von rund 150 Mio. Euro." }
         ]},
         { h: "Warum werden diese Schritte vorgeschlagen?", items: [
-          { tag: "einordnung", text: "Die Bundesregierung begründet die Haushaltsplanung mit gestiegenen Verteidigungsausgaben und der Notwendigkeit, den Bundeshaushalt insgesamt zu konsolidieren." } ]},
-        { h: "Wer unterstützt die Pläne, und womit begründet er das?", items: [
-          { tag: "position", text: "Bundeskanzler Merz sagte am 17.10. beim Deutschlandtag der Jungen Union, er wolle einen „straffen Reformkurs” und bestehe auf vollständiger Umsetzung der Rentenreform; die Koalition solle „nicht um jeden Preis” fortgesetzt werden. Die Union strebt noch dieses Jahr einen Kabinettsbeschluss zur Rentenreform mit erster Lesung 2026 an." },
-          { tag: "position", text: "Der neue Bundesarbeitsminister Alexander Schweitzer (SPD) sagte zu Leistungssanktionen bei der Grundsicherung: „Leistungen komplett zu streichen geht nicht.” Laut Statistik waren 2024 rund 0,6 % bzw. etwa 23.000 Personen von Leistungsminderungen wegen Arbeitsverweigerung betroffen." }
+          { tag: "einordnung", text: "Die Bundesregierung begründet die Haushaltsplanung mit gestiegenen Verteidigungsausgaben und der Notwendigkeit, den Bundeshaushalt insgesamt zu konsolidieren." }
         ]},
         { h: "Wer kritisiert die Pläne, und womit begründet er das?", items: [
-          { tag: "position", text: "Ein Bündnis aus VdK, SoVD, DGB, Caritas, Diakonie, AWO, Der Paritätische, ver.di, IG Metall und dem Deutschen Mieterbund warnt vor Einschnitten bei Wohngeld, Elterngeld sowie bei den Bundeszuschüssen zur Renten- und Krankenversicherung: „Wer an sozialen Leistungen spart, gefährdet das Fundament unserer Demokratie.” Der Sozialverband SoVD bezeichnete die geplante Kürzung des Rentenzuschusses als „versteckte Rentenkürzung”." }
+          { tag: "position", text: "Der Bundesrechnungshof verschärfte im Oktober seine Kritik an der Schuldenpolitik und weist für die Haushaltsplanung bis 2030 einen Konsolidierungsbedarf von 108 Mrd. Euro aus." },
+          { tag: "position", text: "Grünen-Haushaltspolitiker Sebastian Schäfer kritisierte: „Dieses Land hat einen besseren Haushalt verdient. Dieses Land hat eine bessere Regierung verdient.”" },
+          { tag: "position", text: "VdK-Präsidentin Verena Bentele bezeichnete die geplante Begrenzung der Rentenpunkte für pflegende Angehörige angesichts des geringen Einsparvolumens als „hochgradig unsolidarisch”. Arbeitgeber, Gewerkschaften und die Rentenversicherung warnen zudem vor einer wachsenden Belastung der Beitragszahler durch die Kürzung des Bundeszuschusses." }
         ]},
         { h: "Welche Auswirkungen werden diskutiert?", items: [
-          { tag: "fakt", text: "Bärbel Bas war Anfang Oktober aus persönlichen Gründen von ihren Ämtern als SPD-Co-Vorsitzende und Bundesarbeitsministerin zurückgetreten; Schweitzer wurde ihr Nachfolger. SPD-Chef Klingbeil kündigte eine komplette Neuwahl der SPD-Führung auf einem Bundesparteitag „um den Jahreswechsel” an." },
-          { tag: "unbestaetigt", text: "Aktuelle Umfragen zeigen weiterhin deutliche Unterschiede zwischen den Instituten: INSA (17.10.) sieht die AfD bei 29 %, CDU/CSU bei 18 %, Grüne bei 14 %, SPD bei 13 %, Linke bei 11 %; Forsa (13.10.) sieht die AfD bei 26 %, CDU/CSU bei 19 %, Grüne bei 17 %, SPD bei 14 %; Ipsos (8.10.) sieht die AfD bei 28 %, CDU/CSU bei 20 %.",
+          { tag: "unbestaetigt", text: "Aktuelle Wahlumfragen zeigen weiterhin Unterschiede zwischen den Instituten: INSA (17.10.) sieht die AfD bei 29 %, CDU/CSU bei 18 %, Grüne bei 14 %, SPD bei 13 %, Linke bei 11 %; Forsa (6.10.) sieht die AfD bei 26 %, CDU/CSU bei 19 %, Grüne bei 17 %, SPD bei 14 %. Der Institutsmittelwert (Stand 17.10.) liegt bei AfD 27,6 %, CDU/CSU 19,6 %, Grüne 15,4 %, SPD 13,2 %.",
             ask: [{ label: "Warum weichen Umfragen voneinander ab?", ref: "e:coalition-majority" }] }
         ]}
       ],
-      reaction: "Die Berliner Koalitionsbildung wird in Meldung 6 behandelt.",
+      reaction: "Die Berliner Koalitionsbildung wird in Meldung 5 behandelt.",
       terms: ["schuldenbremse", "koalition"],
       followups: ["e:haushalt-basics", "e:rente-basics", "e:debt-brake", "e:coalition-majority"],
       sources: [
-        { title: "ad-hoc-news: Bundeshaushalt 2027 – 118,7 Milliarden Euro Kreditaufnahme geplant", url: "https://www.ad-hoc-news.de/wirtschaft/bundeshaushalt-2027-118-7-milliarden-euro-kreditaufnahme-geplant/70026208" },
-        { title: "Versicherungsbote: Rentenversicherung – Bundeszuschuss wird gekürzt", url: "https://www.versicherungsbote.de/id/4915131/Rentenversicherung-Bundeszuschuss-wird-gekurzt/" },
-        { title: "it-boltwise.de: Merz stellt Koalition mit SPD vor Grenzen – Rentenpaket bleibt Priorität", url: "https://www.it-boltwise.de/merz-stellt-koalition-mit-spd-vor-grenzen-rentenpaket-bleibt-prioritaet.html" },
-        { title: "leinetal24.de: Grundsicherungs-Streit – Schweitzer lehnt Totalsanktionen ab", url: "https://www.leinetal24.de/wirtschaft/grundsicherung-neuer-arbeitsminister-bremst-bei-totalsanktionen-zr-94540675.html" },
-        { title: "dawum.de: Bundestagswahl-Umfragen im Wahltrend", url: "https://dawum.de/Bundestag/" }
+        { title: "ZDFheute: Klingbeil legt Etatpläne 2027 im Bundestag vor – die Eckpunkte", url: "https://www.zdfheute.de/politik/deutschland/haushalt-entwurf-2027-eckpunkte-klingbeil-100.html" },
+        { title: "ZDFheute: Klingbeils Haushaltsentwurf überzeugt Opposition nicht", url: "https://www.zdfheute.de/politik/deutschland/haushaltsentwurf-2027-bundestag-klingbeil-kritik-opposition-100.html" },
+        { title: "klamm.de: Bundesrechnungshof kritisiert wachsende Finanzlücke", url: "https://www.klamm.de/news/bundesrechnungshof-kritisiert-wachsende-finanzluecke-21N179217469033.html" },
+        { title: "Versicherungsbote: Rentenversicherung – Kritik an Kürzung der Bundeszuschüsse wächst", url: "https://www.versicherungsbote.de/id/4949770/Rentenversicherung-Kritik-an-Kuerzung-der-Bundeszuschuesse-waechst-/" },
+        { title: "ad-hoc-news: Pflegereform – VdK kritisiert Kürzung für 39.000 Rentner", url: "https://www.ad-hoc-news.de/politik/pflegereform-vdk-kritisiert-kuerzung-fuer-39-000-rentner/70271160" },
+        { title: "dawum.de: Bundestagswahl-Umfragen im Wahltrend", url: "https://dawum.de/" }
       ]
     },
 
-    /* 8 INTERNATIONAL/GEOPOLITIK: EU-GIPFEL/UKRAINE */
+    /* 7 INTERNATIONAL/GEOPOLITIK: EU-GIPFEL/UKRAINE/DIPLOMATIE */
     {
-      id: "eu-gipfel-russische-vermoegen-ukraine-finanzierungsluecke-10-18", cats: ["world", "geo"], when: "EU-Gipfel Brüssel 15./16.10. ohne Entscheidung · Russischer Großangriff Nacht 16./17.10. · Ukrainischer Gegenangriff Nacht 16./17.10.2026",
-      headline: "EU-Gipfel endet erneut ohne Entscheidung über russische Vermögenswerte, Russland greift ukrainische Energieinfrastruktur am Wochenende massiv an",
-      sec30: "Der EU-Gipfel in Brüssel endete am 16.10. ohne Entscheidung über die Nutzung von rund 185 bis 210 Mrd. Euro eingefrorener russischer Zentralbankgelder für die Ukraine; Belgiens Premierminister De Wever verlangt rechtlich bindende Garantien aller EU-Staaten für die gesamte Darlehenssumme. Schweden, die Niederlande, Spanien, Polen und die baltischen Staaten befürworten die Nutzung, Belgien, Italien und Frankreich leisten Widerstand. Die Ukraine bezifferte die Finanzierungslücke für 2027 auf rund 78 Mrd. US-Dollar. In der Nacht zum 17.10. führte Russland laut Präsident Selenskyj einen der größten Angriffe auf die ukrainische Energieinfrastruktur mit mindestens 8 Toten und Stromausfällen für über eine Million Menschen; die Ukraine konterte mit einem Drohnenangriff auf die Region Moskau und einem Schlag gegen eine Drohnenfabrik in der Oblast Rostow.",
+      id: "eu-gipfel-ukraine-drohnenangriffe-trump-selenskyj-putin-xi-10-19", cats: ["world", "geo"], when: "EU-Gipfel 15./16.10. ohne Entscheidung · ukrainischer Großangriff Nacht 17./18.10. · russischer Angriff auf Kiew Nacht 18./19.10.2026",
+      headline: "EU-Gipfel bleibt ohne Entscheidung über russische Vermögenswerte, Ukraine und Russland greifen sich gegenseitig massiv an, Putin schlägt Dreier-Gipfel mit Trump und Xi vor",
+      sec30: "Der EU-Gipfel in Brüssel endete am 16.10. erneut ohne Entscheidung über die Nutzung von rund 185 bis 210 Mrd. Euro eingefrorener russischer Zentralbankgelder; die Staats- und Regierungschefs beauftragten die EU-Kommission, bis zum nächsten Gipfel Vorschläge zur Deckung der ukrainischen Finanzierungslücke für 2027 (rund 78,1 Mrd. Dollar) vorzulegen. In der Nacht zum 18.10. startete die Ukraine einen ihrer größten Drohnenangriffe des Jahres auf Russland (laut russischen Angaben mehr als 1.000 Drohnen, Ziel unter anderem ein Öl-Terminal in St. Petersburg); Präsident Trump kritisierte das scharf, da die Ukraine damit eine von ihm vermittelte Energie-Waffenruhe gebrochen habe. In der Nacht zum 19.10. traf ein russischer Angriff Kiew, tötete eine Frau und beschädigte eine U-Bahn-Station. Laut Berichten schlug Kreml-Chef Putin zudem einen möglichen Dreier-Gipfel mit Trump und Chinas Staatschef Xi am Rande des APEC-Treffens im November vor – ohne Beteiligung der Ukraine.",
       blocks: [
         { h: "Warum ist das wichtig?", items: [
-          { tag: "fakt", text: "Der EU-Gipfel in Brüssel endete am 16.10. ohne Einigung über die Nutzung von rund 185 bis 210 Mrd. Euro eingefrorener russischer Vermögenswerte; eine Entscheidung wurde erneut vertagt.",
-            ask: [{ label: "Mehr zur Lage am Golf", ref: "s:9" }] }
+          { tag: "fakt", text: "Der EU-Gipfel endete am 16.10. ohne Einigung über die Nutzung der eingefrorenen russischen Vermögenswerte; die EU-Kommission wurde beauftragt, bis zum nächsten Europäischen Rat Vorschläge zur Deckung der ukrainischen Finanzierungslücke für 2027 vorzulegen. Ein konkreter neuer Gipfeltermin für eine endgültige Entscheidung war zum Redaktionsschluss nicht auffindbar.",
+            ask: [{ label: "Mehr zur Lage am Golf", ref: "s:14" }] }
         ]},
         { h: "Wer ist beteiligt, und welche Positionen vertreten die Seiten?", items: [
-          { tag: "position", text: "Belgiens Premierminister Bart De Wever sagte: „This wasn't even done during World War II” und verlangte vollständiges gegenseitiges Risiko-Teilen: „I want full mutual risk-sharing, because there is a big risk. We will suffer under enormous claims. So if you want to do this, we must do it together.”" },
-          { tag: "fakt", text: "Schweden, die Niederlande, Spanien und Polen – unterstützt von den baltischen Staaten – befürworten die Nutzung der eingefrorenen Vermögen; Belgien, Italien und Frankreich leisten Widerstand. Die Ukraine gibt die Finanzierungslücke für 2027 mit rund 78 Mrd. US-Dollar an." },
-          { tag: "position", text: "EU-Kommissionspräsidentin von der Leyen und Ratspräsident Costa sicherten Präsident Selenskyj weitere europäische Hilfe zu; Costa sagte: „Now is not the time to withdraw support for Ukraine. Now is not the time to relax sanctions against Russia.”" }
+          { tag: "position", text: "Belgiens Premierminister Bart De Wever hält an seinem Veto fest und verlangt vollständige Mutualisierung der rechtlichen und finanziellen Risiken durch alle EU-Staaten, um Belgien vor möglichen russischen Vergeltungsmaßnahmen zu schützen. Bundeskanzler Merz hatte Belgien bereits angeboten, dass Deutschland 25 % des Gesamtdarlehens absichert – bislang ohne Durchbruch." },
+          { tag: "fakt", text: "Die Ukraine benötigt für 2027 zusätzlich rund 78,1 Mrd. Dollar, davon rund 45,3 Mrd. Dollar für Verteidigungsausgaben und rund 32,8 Mrd. Dollar für laufende Staatsausgaben." }
         ]},
-        { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Die Idee eines zinslosen „Reparationsdarlehens” wurde bereits im Oktober 2025 diskutiert: Die eingefrorenen russischen Reserven blieben dabei rechtlich im Besitz Russlands, Euroclear würde das gegen sie gehaltene Guthaben in null-verzinste EU-Anleihen umwandeln; eine Rückzahlung würde erst fällig, falls Russland im Rahmen eines künftigen Friedensabkommens Reparationen leistet. Belgien war schon beim damaligen Vorstoß der prominenteste Gegner." }
+        { h: "Was geschah bei den gegenseitigen Angriffen am Wochenende?", items: [
+          { tag: "fakt", text: "In der Nacht zum 18.10. setzte die Ukraine nach russischen Angaben mehr als 1.000 Drohnen gegen Russland ein, Ziele waren unter anderem ein Öl-Terminal in St. Petersburg, ein Logistikzentrum und ein Rechenzentrum; Russlands Verteidigungsministerium meldete, 1.015 Drohnen abgeschossen zu haben, eine Person sei getötet worden." },
+          { tag: "fakt", text: "In der Nacht zum 19.10. beschädigte ein russischer Angriff mit ballistischen Raketen, Marschflugkörpern und Drohnen eine U-Bahn-Station am linken Dnipro-Ufer in Kiew sowie ein 25-stöckiges Wohnhaus; laut Bürgermeister Klitschko wurde eine 21-jährige Frau getötet, drei weitere Personen wurden verletzt." },
+          { tag: "position", text: "Präsident Selenskyj erklärte, Russland habe seit der von Trump verkündeten Energie-Waffenruhe bereits 76 Mal gezielt die ukrainische Energie-, Öl- und Gasinfrastruktur angegriffen, mit dem Ziel, die Ukraine vor dem Winter ohne Heizung und Strom zu lassen." }
         ]},
-        { h: "Welche wirtschaftlichen und militärischen Entwicklungen gab es am Wochenende?", items: [
-          { tag: "fakt", text: "In der Nacht zum 17.10. führte Russland laut Präsident Selenskyj „einen der größten Angriffe” auf die ukrainische Energieinfrastruktur: Mehr als 15 Strom- und Übertragungsanlagen wurden getroffen, mindestens 8 Menschen starben, 60 wurden verletzt, zwei Einkaufszentren wurden getroffen, über eine Million Menschen verloren vorübergehend Strom; in der Region Wolhynien waren rund 370.000 Haushalte betroffen." },
-          { tag: "fakt", text: "Die Ukraine griff im Gegenzug eine russische Drohnenfabrik in der Oblast Rostow an (Produktion der Drohnentypen Sarytsch und Klin) und setzte in der Nacht zum 17.10. rund 144 Drohnen gegen die Region Moskau ein, was zu Einschränkungen an Moskauer Flughäfen führte." },
-          { tag: "unbestaetigt", text: "Russlands geschätzte Gesamtverluste an Kampfpersonal seit Kriegsbeginn beliefen sich laut ukrainischen/westlichen Schätzungen zum 17.10. auf rund 1.562.970 – eine Zahl, die unabhängig nicht überprüfbar ist." }
+        { h: "Welche diplomatischen Entwicklungen gab es?", items: [
+          { tag: "position", text: "Präsident Trump kritisierte den ukrainischen Großangriff, nachdem er zuvor ukrainische Angriffe auf russische Ölraffinerien als „disgrace” bezeichnet hatte; Berichten zufolge will das Weiße Haus steigende Öl- und Dieselpreise vor den Zwischenwahlen am 3.11. dämpfen." },
+          { tag: "fakt", text: "Präsident Selenskyj sprach am 18.10. mit Trumps Gesandten Steve Witkoff und Jared Kushner über ein mögliches neues Treffen zur Friedensdiplomatie, möglicherweise noch in dieser Woche." },
+          { tag: "unbestaetigt", text: "Laut Berichten schlug Kreml-Chef Putin einen Dreier-Gipfel mit Trump und Chinas Staatschef Xi Jinping vor, möglicherweise am Rande des APEC-Gipfels am 18./19.11. in Shenzhen – ohne Beteiligung Selenskyjs. Ein US-Vertreter erklärte, Trump habe dem noch nicht zugestimmt, stehe dem Vorschlag aber offen gegenüber; ein offizieller Termin liegt nicht vor." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass die EU die Entscheidung über die russischen Gelder erneut vertagte, während sich zugleich die gegenseitigen Angriffe auf Energieinfrastruktur am Wochenende fortsetzten, zeigt, wie eng die Finanzierungsfrage für die Ukraine mit dem anhaltenden militärischen Konflikt verbunden ist." }
+          { tag: "einordnung", text: "Dass die EU die Entscheidung über die russischen Gelder erneut vertagte, während sich zugleich die gegenseitigen Angriffe fortsetzten und ein möglicher Trump-Putin-Xi-Gipfel ohne die Ukraine im Raum steht, zeigt, wie eng die Finanzierungsfrage für die Ukraine mit dem anhaltenden militärischen und diplomatischen Geschehen verbunden ist." }
         ]}
       ],
-      reaction: "Die Lage am Golf wird in Meldung 9 vertieft, die deutsche Verteidigungspolitik in Meldung 10.",
+      reaction: "Die Lage am Golf wird in den Meldungen 14 und 15 vertieft, die deutsche Verteidigungspolitik in Meldung 9.",
       terms: [],
       followups: ["e:defence-order", "e:why-oil-up-geo"],
       sources: [
-        { title: "eurointegration.com.ua: Belgian PM explains why EU summit did not move on frozen Russian assets", url: "https://www.eurointegration.com.ua/eng/news/2026/10/16/7247864/" },
-        { title: "Latin Times: Belgium won't move on Russia's $249B frozen assets", url: "https://www.latintimes.com/belgium-blocks-eur185-billion-deal-ukraine-faces-78-billion-funding-cliff-next-year-600258" },
-        { title: "Kyiv Independent: Russia launches 'one of its largest attacks' on Ukraine's energy grid", url: "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/" },
-        { title: "Al Jazeera: Russian attacks in Ukraine kill at least 8, cut power to 1 million", url: "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million" },
-        { title: "onvista: Von der Leyen und Costa versichern Selenskyj auf EU-Gipfel weitere Hilfe", url: "https://www.onvista.de/news/2026/10-16-von-der-leyen-und-costa-versichern-selenskyj-auf-eu-gipfel-weitere-hilfe-0-20-26564818" }
+        { title: "inkl.com: Belgium blocks €185 billion deal as Ukraine faces a $78 billion funding cliff", url: "https://www.inkl.com/news/belgium-blocks-eu185-billion-deal-as-ukraine-faces-a-78-billion-funding-cliff-in-next-year" },
+        { title: "CNN: Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year", url: "https://edition.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl" },
+        { title: "Deccan Herald: Russian strike kills woman, hits Kyiv subway station, mayor says", url: "https://www.deccanherald.com/world/russia/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-4187713" },
+        { title: "Kyiv Independent: Russian ballistic missiles slam Kyiv right as air raid alarms sound", url: "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-right-as-air-raid-alarms-sound/" },
+        { title: "Bloomberg: Zelenskyy says speaking to Witkoff, Kushner about peace meeting", url: "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-speaking-to-witkoff-kushner-about-peace-meeting" },
+        { title: "CNBC: Putin floats Trump-Xi summit on Ukraine war, energy", url: "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html" }
       ]
     },
 
-    /* 9 GEOPOLITIK: HORMUZ/RIAD/ADEN */
+    /* 8 GEOPOLITIK: HORMUZ/RIAD */
     {
-      id: "hormuz-seemine-houthi-aden-riad-flughafen-10-18", cats: ["geo"], when: "Seeminen-Vorfall 17.10. (unbestätigt) · Houthi-Angriff Aden 16.10. · Flughafen Riad NOTAM-Ablauf 17.10., 21:00 Uhr UTC, Wiedereröffnung unbestätigt",
-      headline: "Iran meldet Seeminen-Vorfall an Supertanker in der Straße von Hormus, Flughafen Riad bleibt ohne bestätigten Wiedereröffnungstermin",
-      sec30: "Die iranische Revolutionsgarde (IRGC) meldete am 17.10., ein Supertanker mit mehr als 2 Mio. Barrel Rohöl sei beim Befahren einer „nicht genehmigten Route” in der Straße von Hormus auf eine Seemine gelaufen; es habe eine Explosion und einen Großbrand gegeben. Die Angabe ist unabhängig nicht bestätigt. Die britische Seefahrtsbehörde UKMTO meldete zusätzlich zwei weitere Angriffe auf Handelsschiffe vor der saudischen Küste nahe Jubail. Die USA (CENTCOM) und Iran erhoben am 17.10. gegensätzliche Kontrollansprüche über die Straße von Hormus. Der Flughafen Riad blieb auch nach Ablauf der ursprünglichen NOTAM-Sperrfrist (17.10., 21:00 Uhr UTC) ohne bestätigten Wiedereröffnungstermin geschlossen. Am 16.10. hatten Houthi-Kräfte den Präsidentenpalast in Aden mit fünf Raketen angegriffen (5 Tote, 16 Verletzte); der UN-Sicherheitsrat verurteilte die Eskalation.",
+      id: "hormuz-iran-centcom-riad-wiedereroeffnung-10-19", cats: ["geo"], when: "Iranische Minen-Meldung 17./18.10. · CENTCOM-Dementi 17./18.10. · Flughafen Riad wiedereröffnet 18.10.2026",
+      headline: "Iran meldet zwei weitere Tanker-Zwischenfälle in der Straße von Hormus, US-Streitkräfte weisen die Minen-Darstellung als Desinformation zurück – Flughafen Riad wiedereröffnet",
+      sec30: "Die iranische Revolutionsgarde (IRGC) meldete am 17./18.10., gleich zwei Supertanker mit jeweils rund 2 Mio. Barrel Rohöl seien in ihrer „Sperrzone” im Golf von Oman auf Minen gelaufen und in Brand geraten; die IRGC behauptete zudem, die Schiffe hätten ihre Navigationssysteme abgeschaltet und seien „mit US-Unterstützung” gefahren. Die US-Streitkräfte (CENTCOM) widersprachen ausdrücklich: Kein Schiff sei auf eine Mine gelaufen, es handle sich um „yet another IRGC attempt to intimidate regional commercial shipping through disinformation”. Unabhängig bestätigt sind dagegen zwei separate Tanker-Zwischenfälle vor der saudischen Küste bei Al-Jubail, die die britische Seefahrtsbehörde UKMTO meldete. Der Flughafen Riad wurde am 18.10. nach der Schließung infolge der Angriffe vom 10./11.10. wiedereröffnet; mehrere Fluggesellschaften setzen ihre Streckenaussetzungen aber bis in den späteren Oktober fort.",
       blocks: [
         { h: "Warum ist das wichtig?", items: [
-          { tag: "unbestaetigt", text: "Die iranische Revolutionsgarde meldete am 17.10., ein Supertanker mit mehr als 2 Mio. Barrel Rohöl sei in der Straße von Hormus auf eine Seemine gelaufen, es habe eine Explosion und einen Großbrand gegeben. Diese Angabe stammt von einer Konfliktpartei und ist unabhängig nicht bestätigt.",
+          { tag: "unbestaetigt", text: "Die iranische Revolutionsgarde meldete am 17./18.10., zwei Supertanker seien in der Straße von Hormus auf Minen gelaufen und in Brand geraten; diese Angabe stammt von einer Konfliktpartei.",
             ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] },
-          { tag: "fakt", text: "Die britische Seefahrtsbehörde UKMTO meldete zusätzlich zwei weitere Angriffe auf Handelsschiffe vor der saudischen Küste nahe Jubail: Ein Schiff wurde von einem unbekannten Projektil getroffen, ein zweiter Tanker von einem kleinen Boot aus mit einer Panzerfaust am Heck beschossen; in beiden Fällen blieb die Besatzung nach bisherigen Angaben unverletzt." }
+          { tag: "position", text: "Die US-Streitkräfte (CENTCOM) erklärten dagegen ausdrücklich: „No ships have hit mines in the Strait of Hormuz”, es handle sich um „yet another IRGC attempt to intimidate regional commercial shipping through disinformation”." }
         ]},
-        { h: "Wer ist beteiligt, und welche Positionen vertreten die Seiten?", items: [
-          { tag: "position", text: "US-Streitkräfte (CENTCOM) erklärten am 17.10., „amerikanische Streitkräfte und regionale Partner” kontrollierten die Straße von Hormus eindeutig, während Iran erklärte, die Straße werde „nicht öffnen, bis unsere sieben Bedingungen basierend auf dem Islamabad-Memorandum erfüllt sind”." },
-          { tag: "fakt", text: "Houthi-Kräfte griffen am 16.10. den Präsidentenpalast in Aden mit fünf Raketen an; nach Angaben des jemenitischen Gesundheitsministers wurden mindestens 5 Menschen getötet und 16 verletzt. Die jemenitische Regierung erklärte, sie werde trotz der Sicherheitslage weiter von Aden aus arbeiten." },
-          { tag: "fakt", text: "Der UN-Sicherheitsrat verurteilte in einer gemeinsamen Erklärung die „eskalierenden” Houthi-Angriffe auf Saudi-Arabien und bekräftigte das Recht Saudi-Arabiens auf Selbstverteidigung; die jemenitische Regierung begrüßte diese Positionierung." }
+        { h: "Was ist unabhängig bestätigt?", items: [
+          { tag: "fakt", text: "Die britische Seefahrtsbehörde UKMTO bestätigte zwei separate Zwischenfälle vor der saudischen Küste bei Al-Jubail: ein Tanker wurde rund 78 Seemeilen nordöstlich von Al-Jubail von einem Boot aus mit einer Panzerfaust beschossen, ein weiterer von einem unbekannten Projektil getroffen; die Besatzungen blieben jeweils unverletzt oder wurden evakuiert." }
         ]},
-        { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Laut Berichten war der Oktober bislang der Monat mit den meisten Schiffsangriffen seit Beginn des Konflikts am 28. Februar: Von 12 bestätigt angegriffenen Schiffen erreichte die Hälfte ihr Ziel, eines sank, zwei wurden manövrierunfähig. Der Flughafen Riad war bereits seit Angriffen am 10./11.10. geschlossen; die NOTAM-Sperrfrist lief am 17.10., 21:00 Uhr UTC, formal aus, ohne dass die saudische Luftfahrtbehörde GACA eine Wiedereröffnung bestätigt hat." }
+        { h: "Wie ist der Stand beim Flughafen Riad?", items: [
+          { tag: "fakt", text: "Der King Khalid International Airport in Riad wurde am Sonntag, 18.10., wiedereröffnet, nachdem er seit den Angriffen vom 10./11.10. gesperrt war. Mehrere Fluggesellschaften setzen ihre Streckenaussetzungen aber noch fort: Etihad bis 19.10., Oman Air bis 22.10., SalamAir bis 31.10., Air France bis 24.10." }
         ]},
         { h: "Welche wirtschaftlichen Auswirkungen werden diskutiert?", items: [
-          { tag: "fakt", text: "Im Oktober flossen durchschnittlich nur noch rund 11,62 Mio. Barrel pro Tag durch die Straße von Hormus – rund 68 % des Referenzwerts von 17,15 Mio. Barrel; Frachtraten für Supertanker sind laut Berichten binnen zwölf Monaten um mehr als 800 % gestiegen.",
-            ask: [{ label: "Mehr zum Ölpreis und zur OPEC+", ref: "s:15" }] }
+          { tag: "unbestaetigt", text: "Laut Branchenberichten brach der Ölfluss durch die Straße von Hormus von rund 20,8 Mio. Barrel am 8.10. auf rund 2,9 Mio. Barrel am 11.10. ein; diese Angabe ist nicht amtlich verifiziert, wird aber mehrfach zitiert. Ein Live-Tracker zählte die Sperrung am 19.10. als „Tag 232”.",
+            ask: [{ label: "Mehr zum Ölpreis und zur OPEC+", ref: "s:14" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sowohl der unbestätigte Seeminen-Vorfall als auch weitere Tanker- und Houthi-Angriffe anhalten, während ein Wiedereröffnungstermin für den Flughafen Riad weiterhin unklar ist, zeigt, wie sich mehrere Krisenherde am Golf gegenseitig verstärken." }
+          { tag: "einordnung", text: "Dass Iran nun von zwei Minen-Zwischenfällen spricht, während CENTCOM dem ausdrücklich widerspricht und nur die separaten UKMTO-Meldungen unabhängig bestätigt sind, zeigt, wie unübersichtlich die Informationslage am Golf bleibt – auch wenn der Flughafen Riad bereits wieder geöffnet hat." }
         ]}
       ],
-      reaction: "Die Lage um die Ukraine und den EU-Gipfel wird in Meldung 8 behandelt, die Ölpreis-Einordnung in Meldung 15.",
+      reaction: "Die Lage um die Ukraine und den EU-Gipfel wird in Meldung 7 behandelt, der Jemen in Meldung 15, der Ölpreis in Meldung 14.",
       terms: ["brent"],
       followups: ["e:hormuz", "e:why-oil-up-geo", "chain:oil-to-markets"],
       sources: [
-        { title: "euronews: Tanker brennt nach Minentreffer in der Straße von Hormus", url: "https://de.euronews.com/2026/10/17/tanker-brennt-nach-minentreffer-in-der-strasse-von-hormus" },
-        { title: "Al Jazeera: US and Iran both claim control of Strait of Hormuz amid attacks on vessels", url: "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels" },
-        { title: "Al Jazeera: Houthis strike Yemen's Aden – what that means", url: "https://www.aljazeera.com/news/2026/10/17/iran-backed-houthis-strike-yemens-aden-what-that-means" },
-        { title: "aerocorner.com: Riyadh Airport Closure NOTAM Ends Oct 17", url: "https://aerocorner.com/news/riyadh-airport-reopen-notam-october-17-air-india-indigo-akasa/" },
-        { title: "Yemen Monitor: Yemen Welcomes UN Security Council's Position on Houthi Attacks", url: "https://www.yemenmonitor.com/en/Details/ArtMID/908/ArticleID/185034" }
+        { title: "Al Jazeera: Iran says two tankers catch fire after hitting mines in Strait of Hormuz", url: "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz" },
+        { title: "Kurdistan24: CENTCOM denies Iran claim that tanker hit mines in Strait of Hormuz", url: "https://www.kurdistan24.net/en/story/936328/centcom-denies-iran-claim-that-tanker-hit-mines-in-strait-of-hormuz" },
+        { title: "Al Arabiya: Tanker hit off Saudi's Gulf coast, crew evacuated – UKMTO", url: "https://english.alarabiya.net/News/middle-east/2026/10/17/tanker-hit-off-saudi-s-gulf-coast-crew-evacuated-ukmto" },
+        { title: "The National: Riyadh airport reopens – which airlines are still cancelling flights to Saudi Arabia", url: "https://www.thenationalnews.com/travel/2026/10/18/riyadh-airport-reopens-which-airlines-are-still-cancelling-flights-to-saudi-arabia/" },
+        { title: "CNN: How the US-Iran war upended two critical global trade routes", url: "https://www.cnn.com/2026/10/17/economy/us-iran-war-shipping-trade-hormuz-bab-el-mandab-strait-intl-vis" }
       ]
     },
 
-    /* 10 DEFENCE */
+    /* 9 DEFENCE: RHEINMETALL/ARMINIUS/EU */
     {
-      id: "defence-auftraege-rtx-anduril-rheinmetall-10-18", cats: ["defence"], when: "RTX-Verträge 01.–08.10. · Anduril-Verträge ca. 12.10. · Rheinmetall-Kursanstieg Fr 16.10.2026",
-      headline: "RTX und Anduril erhalten weitere Milliardenaufträge, Rheinmetall-Aktie erholt sich deutlich vom Monatstief",
-      sec30: "RTX/Raytheon erhielt im Oktober einen Vertrag über bis zu 24,4 Mrd. Dollar für SM-6-Abfangraketen der US Navy (1.10.) und einen weiteren über bis zu 6,3 Mrd. Dollar für SM-3-Block-IB-Abfangraketen mit der Missile Defense Agency (8.10.). Anduril erhielt neue Militärverträge im Gesamtwert von bis zu 4,7 Mrd. Dollar, wenige Tage nachdem Mitgründer Palmer Luckey am 12.10. in ein Gremium der Trump-Administration zur Kriegsplanung berufen worden war. Die Rheinmetall-Aktie legte am Freitag, 16.10., um rund 4,5 bis 5,9 % zu, gestützt von Analystenerwartungen weiterer Aufträge aus dem Bundeshaushalt zum Jahresende – bleibt damit aber weiterhin deutlich unter ihrem Rekordhoch von rund 2.008 Euro aus dem Oktober 2025.",
+      id: "defence-rheinmetall-arminius-edip-uk-10-19", cats: ["defence"], when: "Rheinmetall-Kursplus Woche bis 18.10. · EDIP-Förderung 14.10. · UK-Haubitzenauftrag Oktober 2026",
+      headline: "Rheinmetall-Aktie legt binnen einer Woche fast 16 Prozent zu, Arminius-Großauftrag rückt näher, EU fördert Rüstungsindustrie mit 168 Millionen Euro",
+      sec30: "Die Rheinmetall-Aktie stieg bis Sonntagabend, 18.10., auf 1.083,40 Euro – ein Wochenplus von rund 15,8 %, allein am Freitag plus 6,26 %. Laut Konzernchef Papperger rückt das Arminius-Programm näher, das größte Rüstungsbeschaffungsprojekt der Bundeswehr: bis zu 3.000 zusätzliche Boxer-Fahrzeuge inklusive 561 Skyranger-30-Flugabwehrpanzern, Gesamtvolumen bis zu 40 Mrd. Euro; der Vertrag ist aber noch nicht final unterzeichnet. Großbritannien bestellte zudem 72 Haubitzen vom Typ RCH 155 von Rheinmetall/KNDS für rund 1 Mrd. Pfund. Die EU-Kommission stellte am 14.10. 168,2 Mio. Euro für acht Projekte zur Stärkung der europäischen Rüstungsindustrie bereit und zahlte zugleich 2,86 Mrd. Euro zur Deckung des operativen Verteidigungsbedarfs der Ukraine aus.",
       blocks: [
-        { h: "Welche neuen Großaufträge erhielt RTX/Raytheon?", items: [
-          { tag: "fakt", text: "RTX/Raytheon erhielt einen Vertrag über bis zu 24,4 Mrd. Dollar für SM-6-Abfangraketen der US Navy (fünf Jahre plus zwei Optionsjahre, angekündigt 1.10.) sowie einen Vertrag über bis zu 6,3 Mrd. Dollar für SM-3-Block-IB-Abfangraketen mit der Missile Defense Agency (8.10.), da das Pentagon seine Raketenabwehr-Bestände wieder auffüllen will." }
-        ]},
-        { h: "Was macht Anduril?", items: [
-          { tag: "fakt", text: "Anduril erhielt Militärverträge im Gesamtwert von bis zu 4,7 Mrd. Dollar, wenige Tage nachdem Mitgründer Palmer Luckey am 12.10. in ein Gremium der Trump-Administration zur Kriegsplanung berufen worden war." }
-        ]},
         { h: "Wie entwickelte sich die Rheinmetall-Aktie?", items: [
-          { tag: "fakt", text: "Die Rheinmetall-Aktie stieg am Freitag, 16.10., um rund 4,5 bis 5,9 % auf rund 1.076 bis 1.089 Euro, laut Berichten getrieben von Analystenerwartungen weiterer Aufträge aus dem Bundeshaushalt zum Jahresende.",
-            ask: [{ label: "Mehr zur DAX-Entwicklung am Freitag", ref: "n:dax" }] },
-          { tag: "einordnung", text: "Das ist eine deutliche Erholung von den Tiefs, die die Aktie Anfang Oktober erreicht hatte, bleibt aber weiterhin rund die Hälfte unter dem bisherigen Rekordhoch von rund 2.008 Euro aus dem Oktober 2025." }
+          { tag: "fakt", text: "Die Rheinmetall-Aktie stieg bis Sonntagabend, 18.10., auf 1.083,40 Euro – ein Wochenplus von rund 15,8 %, allein am Freitag plus 6,26 % auf 1.090,20 Euro. Mehrere Analysten bestätigten Kaufempfehlungen, der durchschnittliche Kursschnitt liegt laut Berichten bei rund 1.570 Euro, die Deutsche Bank nennt 1.800 Euro als Kursziel.",
+            ask: [{ label: "Mehr zur DAX-Entwicklung am Freitag", ref: "n:dax" }] }
+        ]},
+        { h: "Was ist der Stand beim Arminius-Programm?", items: [
+          { tag: "fakt", text: "Das Arminius-Programm, das größte Rüstungsbeschaffungsprojekt der Bundeswehr, sieht bis zu 3.000 zusätzliche Boxer-Fahrzeuge inklusive 561 Skyranger-30-Flugabwehrpanzern vor, mit einem Gesamtvolumen von bis zu 40 Mrd. Euro." },
+          { tag: "position", text: "Rheinmetall-Chef Armin Papperger gab laut Berichten ein Update, wonach der Vertrag noch nicht final unterzeichnet sei; eine Verzögerung gefährde das Lieferziel 2029." }
+        ]},
+        { h: "Welche weiteren Aufträge und Förderungen gibt es?", items: [
+          { tag: "fakt", text: "Großbritannien bestellte 72 Haubitzen vom Typ RCH 155 (Rheinmetall/KNDS) für rund 1 Mrd. Pfund, mit Lieferstart ab 2028. Rheinmetall verdoppelte zudem am 8.10. seine syndizierte Kreditlinie vorzeitig von 750 Mio. auf 1,5 Mrd. Euro." },
+          { tag: "fakt", text: "Die EU-Kommission stellte am 14.10. 168,2 Mio. Euro für acht Projekte der Säule „Industrielle Stärkung” des Europäischen Verteidigungsindustrieprogramms bereit, was 1,26 Mrd. Euro industrielle Investitionen mobilisieren soll; Ziel ist es, Fertigungszeiten ab 2027 um bis zu 90 % zu verkürzen. Zusätzlich zahlte die EU am 14.10. 2,86 Mrd. Euro zur Deckung des operativen Verteidigungsbedarfs der Ukraine aus." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sowohl amerikanische als auch europäische Rüstungskonzerne weiterhin neue Großaufträge erhalten, spiegelt die anhaltend hohe sicherheitspolitische Priorität dieses Bereichs wider." }
+          { tag: "einordnung", text: "Dass Rheinmetalls Aktie binnen einer Woche deutlich zulegte und zugleich neue Aufträge aus Großbritannien sowie EU-Fördermittel für die Rüstungsindustrie hinzukommen, spiegelt die anhaltend hohe sicherheitspolitische Priorität dieses Bereichs wider – die Aktie bleibt aber weiterhin unter ihrem Rekordhoch von Oktober 2025." }
         ]}
       ],
-      reaction: "Die Hintergründe des Ukraine-Kriegs werden in Meldung 8 behandelt, der deutsche Haushalt in Meldung 7.",
+      reaction: "Die Hintergründe des Ukraine-Kriegs werden in Meldung 7 behandelt, weitere US-Rüstungsaufträge in Meldung 10.",
       terms: [],
       followups: ["e:defence-order"],
       sources: [
-        { title: "US News: RTX's Raytheon Wins up to $6.3 Billion US Missile Contract", url: "https://www.usnews.com/news/top-news/articles/2026-10-08/rtxs-raytheon-wins-up-to-6-3-billion-us-missile-contract" },
-        { title: "USNI News: Navy Contracts RTX for $24.4B Standard Missile-6 Deal", url: "https://news.usni.org/2026/10/02/navy-contracts-rtx-for-24-4b-standard-missile-6-deal" },
-        { title: "Orange County Business Journal: Anduril Lands $4.7B in New Military Contracts", url: "https://www.ocbj.com/uncategorized/anduril-lands-4-7b-in-new-military-contracts/" },
-        { title: "ms-aktuell.de: Rheinmetall-Aktie – fast 52 Prozent unter dem Rekordhoch", url: "https://ms-aktuell.de/welt/rheinmetall-aktie-kursrutsch-29-09-2026/" }
+        { title: "boerse-express.com: Rheinmetall-Aktie – knapp 16 % in einer Woche, Großauftrag Arminius rückt näher", url: "https://www.boerse-express.com/news/articles/rheinmetall-aktie-knapp-16-in-einer-woche-grossauftrag-arminius-rueckt-naeher-954217" },
+        { title: "hartpunkt.de: Arminius – Rheinmetall-CEO gibt Update zu Boxer-Riesenauftrag", url: "https://www.hartpunkt.de/arminius-rheinmetall-ceo-gibt-update-zu-boxer-riesenauftrag/" },
+        { title: "DER AKTIONÄR: Rheinmetall und KNDS erhalten Aufträge aus Großbritannien", url: "https://www.deraktionaer.de/artikel/aktien/rheinmetall-und-knds-erhaelt-auftraege-aus-grossbritannien-20392711.html" },
+        { title: "Europäische Kommission: Kommission unterstützt europäische Rüstungsproduktion mit über 168 Millionen Euro", url: "https://germany.representation.ec.europa.eu/nachrichten-und-veranstaltungen/pressemitteilungen/kommission-unterstutzt-europaische-rustungsproduktion-mit-uber-168-millionen-euro-2026-10-14_de" },
+        { title: "Europäische Kommission: Ukraine-Verteidigung – EU-Kommission zahlt 2,86 Milliarden Euro aus", url: "https://germany.representation.ec.europa.eu/nachrichten-und-veranstaltungen/pressemitteilungen/ukraine-verteidigung-eu-kommission-zahlt-286-milliarden-euro-aus-2026-10-14_de" }
       ]
     },
 
-    /* 11 DEALS: BUMBLE/CCC */
+    /* 10 DEFENCE: RTX/ANDURIL */
     {
-      id: "deal-bumble-ithaca-ccc-gtcr-elliott-10-18", cats: ["deals", "pe"], when: "Bumble-Ankündigung 13.10. · CCC-Ankündigung 16.10. · Closing Bumble erwartet Q4 2026, CCC erwartet Q1 2027",
-      headline: "Ithaca Holdings übernimmt Bumble für 1,3 Milliarden Dollar, GTCR und Elliott kaufen CCC Intelligent Solutions für 6,1 Milliarden Dollar",
-      sec30: "Bumble Inc. – die Dating-App-Gruppe hinter Bumble, Badoo und BFF – kündigte am 13.10. an, von Ithaca Holdings (geführt von Ravi Gupta und John Hegeman) für rund 1,3 Mrd. Dollar in bar übernommen zu werden, 6,05 Dollar je Aktie, eine Prämie von 138 % gegenüber dem Schlusskurs vom 9.10.; Closing wird für das vierte Quartal 2026 erwartet. Separat einigten sich GTCR und der Finanzinvestor Elliott Investment Management am 16.10. darauf, den Versicherungs-Software-Anbieter CCC Intelligent Solutions für rund 6,1 Mrd. Dollar Unternehmenswert (7,75 Dollar je Aktie, 44 % Prämie) von der Börse zu nehmen; Closing wird ohne Finanzierungsvorbehalt für das erste Quartal 2027 erwartet.",
+      id: "defence-rtx-anduril-luckey-pentagon-10-19", cats: ["defence"], when: "Anduril-Navy-Vertrag 6.10. · Anduril-Army-Vertrag 30.9. · Luckey-Berufung Project Meridian 12.10.2026",
+      headline: "Anduril erhält Milliardenaufträge für U-Boot-Werft und Kommandosystem, Mitgründer Palmer Luckey ins Pentagon-Zukunftswaffengremium berufen",
+      sec30: "Anduril erhielt im Oktober Militärverträge im Gesamtwert von bis zu 4,7 Mrd. Dollar, darunter einen Navy-Auftrag über bis zu 2,9 Mrd. Dollar für eine neue U-Boot-Werft (6.10.) verbunden mit 3,7 Mrd. Dollar Eigeninvestition in eine neue Werft in Sparrows Point bei Baltimore (Start 2030, rund 3.100 Arbeitsplätze) sowie einen Army-Vertrag über bis zu 1,8 Mrd. Dollar für das Kommandosystem NGC2 (30.9.). Mitgründer Palmer Luckey wurde am 12.10. in das Pentagon-Zukunftswaffengremium „Project Meridian” berufen, was Fragen zu möglichen Interessenkonflikten aufwarf. RTX/Raytheon hatte zuvor bereits Verträge über bis zu 24,4 Mrd. Dollar (SM-6) und bis zu 6,3 Mrd. Dollar (SM-3 Block IB) für Raketenabwehr erhalten.",
       blocks: [
-        { h: "Was wurde bei Bumble angekündigt?", items: [
-          { tag: "fakt", text: "Ithaca Holdings übernimmt Bumble Inc. für rund 1,3 Mrd. Dollar in bar, 6,05 Dollar je Aktie – eine Prämie von 138 % gegenüber dem Schlusskurs vom 9.10.",
-            ask: [{ label: "Was ist ein Take-private?", ref: "t:take-private" }] },
-          { tag: "fakt", text: "Ravi Gupta und John Hegeman werden Co-CEOs; Closing wird für das vierte Quartal 2026 erwartet." }
+        { h: "Welche neuen Großaufträge erhielt Anduril?", items: [
+          { tag: "fakt", text: "Anduril erhielt am 6.10. einen Navy-Auftrag über bis zu 2,9 Mrd. Dollar für den Bau einer U-Boot-Werft, verbunden mit einer eigenen Investition von 3,7 Mrd. Dollar in eine neue Werft in Sparrows Point bei Baltimore, die ab 2030 rund 3.100 Arbeitsplätze schaffen soll. Am 30.9. erhielt Anduril zudem einen Army-Vertrag über bis zu 1,8 Mrd. Dollar für das Kommandosystem NGC2. Insgesamt summieren sich die neuen Anduril-Verträge im Oktober auf bis zu 4,7 Mrd. Dollar." }
         ]},
-        { h: "Was wurde bei CCC Intelligent Solutions angekündigt?", items: [
-          { tag: "fakt", text: "GTCR und der Finanzinvestor Elliott Investment Management einigten sich am 16.10. darauf, CCC Intelligent Solutions, einen Anbieter von Software für Versicherungsschäden, für rund 6,1 Mrd. Dollar Unternehmenswert (7,75 Dollar je Aktie, 44 % Prämie gegenüber dem Kurs vor Aufkommen von Verkaufsgerüchten) in bar von der Börse zu nehmen; der Deal enthält keine Finanzierungsbedingung, Closing wird für das erste Quartal 2027 erwartet.",
-            ask: [{ label: "Was ist Enterprise Value?", ref: "t:enterprise-value" }] },
-          { tag: "unbestaetigt", text: "Angaben zu einem EV/EBITDA-Bewertungsmultiplikator oder zu beratenden Banken nennen die verfügbaren Quellen nicht.",
-            ask: [{ label: "Was ist EBITDA?", ref: "t:ebitda" }] }
+        { h: "Was ist an der Berufung von Palmer Luckey bemerkenswert?", items: [
+          { tag: "fakt", text: "Anduril-Mitgründer Palmer Luckey wurde am 12.10. in ein Gremium der Trump-Administration zur Kriegsplanung berufen, genannt „Project Meridian”; Beobachter werfen Fragen zu möglichen Interessenkonflikten auf, da Anduril zugleich neue Milliardenaufträge vom Pentagon erhält." }
+        ]},
+        { h: "Welche Aufträge erhielt RTX/Raytheon zuvor?", items: [
+          { tag: "fakt", text: "RTX/Raytheon erhielt einen Vertrag über bis zu 24,4 Mrd. Dollar für SM-6-Abfangraketen der US Navy (angekündigt 1.10.) sowie einen Vertrag über bis zu 6,3 Mrd. Dollar für SM-3-Block-IB-Abfangraketen mit der Missile Defense Agency (8.10.), da das Pentagon seine Raketenabwehr-Bestände wieder auffüllen will." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass gleich zwei Unternehmen innerhalb weniger Tage mit Rückendeckung von Finanzinvestoren von der Börse genommen werden, passt zu einer anhaltenden Welle von Take-private-Deals in Konsum- und Versicherungstechnologie." }
+          { tag: "einordnung", text: "Dass sowohl etablierte Rüstungskonzerne wie RTX als auch jüngere Unternehmen wie Anduril weiterhin neue Großaufträge erhalten, während zugleich ein Mitgründer in ein Pentagon-Planungsgremium berufen wird, spiegelt die anhaltend hohe sicherheitspolitische Priorität und die engen Verbindungen zwischen Industrie und Verteidigungsministerium in den USA wider." }
         ]}
       ],
-      deal: { value: "1,3 Mrd. $ (Bumble) / 6,1 Mrd. $ (CCC Intelligent Solutions)", buyer: "Ithaca Holdings (Bumble) · GTCR & Elliott Investment Management (CCC)", target: "Bumble Inc. · CCC Intelligent Solutions", sector: "Dating-Apps / Versicherungs-Software", type: "Take-private" },
-      reaction: "Weitere Deals und der Stand im Private-Credit-Markt werden in Meldung 13 behandelt.",
+      reaction: "Die deutsche und europäische Rüstungsindustrie wird in Meldung 9 behandelt, der Ukraine-Krieg in Meldung 7.",
+      terms: [],
+      followups: ["e:defence-order"],
+      sources: [
+        { title: "CNBC: Anduril lands $2.9 billion Navy submarine shipyard contract", url: "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html" },
+        { title: "US News: RTX's Raytheon wins up to $6.3 billion US missile contract", url: "https://www.usnews.com/news/top-news/articles/2026-10-08/rtxs-raytheon-wins-up-to-6-3-billion-us-missile-contract" },
+        { title: "USNI News: Navy contracts RTX for $24.4B Standard Missile-6 deal", url: "https://news.usni.org/2026/10/02/navy-contracts-rtx-for-24-4b-standard-missile-6-deal" }
+      ]
+    },
+
+    /* 11 DEALS/PE: NEUE MEGA-DEALS */
+    {
+      id: "deals-akzonobel-axalta-proofpoint-varonis-eqt-cleanaway-apollo-easyjet-10-19", cats: ["deals", "pe"], when: "AkzoNobel/Axalta-Ankündigung 16.10. · Proofpoint/Varonis 15./16.10. · Apollo/easyJet 16.10. · EQT/Cleanaway 19.10.2026",
+      headline: "AkzoNobel und Axalta fusionieren für 25 Milliarden Dollar, Apollo übernimmt easyJet, EQT kauft australischen Entsorger Cleanaway",
+      sec30: "Der Lackhersteller AkzoNobel und der US-Konkurrent Axalta Coating Systems kündigten am 16.10. eine Fusion mit einem Volumen von rund 25 Mrd. Dollar an. Der Softwarekonzern Proofpoint (im Besitz von Thoma Bravo) übernimmt den Datensicherheitsanbieter Varonis Systems für rund 6,3 Mrd. Dollar in bar. Der Finanzinvestor Apollo Global Management übernimmt die britische Fluggesellschaft easyJet für 5,7 Mrd. Pfund, Abschluss bis Ende des ersten Quartals 2027 erwartet. Am 19.10. kündigte EQT an, den australischen Entsorger Cleanaway Waste Management für rund 9,3 Mrd. australische Dollar (rund 6,5 Mrd. US-Dollar) zu übernehmen; die Cleanaway-Aktie sprang daraufhin um 20 %. Bei den bereits bekannten Deals bestätigte sich: Bumble/Ithaca Holdings soll im vierten Quartal 2026 abgeschlossen werden, CCC Intelligent Solutions/GTCR-Elliott im ersten Quartal 2027.",
+      blocks: [
+        { h: "Was wurde bei AkzoNobel/Axalta und Proofpoint/Varonis angekündigt?", items: [
+          { tag: "fakt", text: "Der niederländische Lackhersteller AkzoNobel und der US-Konkurrent Axalta Coating Systems kündigten am 16.10. eine Fusion mit einem Gesamtvolumen von rund 25 Mrd. Dollar an." },
+          { tag: "fakt", text: "Proofpoint (Thoma Bravo) übernimmt den auf Daten- und KI-Sicherheit spezialisierten Anbieter Varonis Systems für rund 6,3 Mrd. Dollar in bar; angekündigt am 15./16.10.",
+            ask: [{ label: "Was ist ein Take-private?", ref: "t:take-private" }] }
+        ]},
+        { h: "Was wurde bei Apollo/easyJet und EQT/Cleanaway angekündigt?", items: [
+          { tag: "fakt", text: "Apollo Global Management übernimmt die britische Fluggesellschaft easyJet für 5,7 Mrd. Pfund; Abschluss wird bis Ende des ersten Quartals 2027 erwartet." },
+          { tag: "fakt", text: "EQT kündigte am 19.10. an, den australischen Entsorger Cleanaway Waste Management für rund 9,3 Mrd. australische Dollar (rund 6,5 Mrd. US-Dollar) zu 3,095 australische Dollar je Aktie plus Sonderdividende zu übernehmen; die Cleanaway-Aktie sprang daraufhin um rund 20 %." },
+          { tag: "unbestaetigt", text: "Angaben zu beratenden Banken oder einem EV/EBITDA-Bewertungsmultiplikator für diese vier Deals nennen die verfügbaren Quellen nicht.",
+            ask: [{ label: "Was ist EBITDA?", ref: "t:ebitda" }] }
+        ]},
+        { h: "Was ist der Stand bei den zuvor gemeldeten Deals?", items: [
+          { tag: "fakt", text: "Bumble (Ithaca Holdings, 6,05 Dollar je Aktie, rund 1,3 Mrd. Dollar) soll im vierten Quartal 2026 abgeschlossen werden; die Bumble-Aktie legte über zwei Handelstage um 134 % zu. CCC Intelligent Solutions (GTCR/Elliott, 7,75 Dollar je Aktie, rund 6,1 Mrd. Dollar Unternehmenswert) soll im ersten Quartal 2027 abgeschlossen werden – der dritte Rückzug von der Börse für CCC durch einen Finanzinvestor." },
+          { tag: "fakt", text: "Die Übernahme von rund 60,7 % der indischen IDBI Bank durch Fairfax Financial Holdings (rund 5,6 Mrd. Dollar) wurde am 14./15.10. bestätigt; die IDBI-Aktie fiel daraufhin über 7 %, da der vereinbarte Preis unter dem vorherigen Börsenkurs lag. SoftBanks mögliche Übernahme von Allied Universal für rund 18 Mrd. Dollar befindet sich laut Berichten weiterhin in einer frühen Prüfungsphase, ohne Transaktionsgarantie." }
+        ]},
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Dass binnen wenigen Tagen gleich mehrere Milliarden-Deals in unterschiedlichsten Branchen – Lacke, Datensicherheit, Luftfahrt, Entsorgung – angekündigt wurden, passt zu einer anhaltend aktiven M&A- und Private-Equity-Welle." }
+        ]}
+      ],
+      deal: { value: "25 Mrd. $ (AkzoNobel/Axalta) · 6,3 Mrd. $ (Proofpoint/Varonis) · 5,7 Mrd. £ (Apollo/easyJet) · 6,5 Mrd. $ (EQT/Cleanaway)", buyer: "AkzoNobel · Thoma Bravo/Proofpoint · Apollo Global Management · EQT", target: "Axalta Coating Systems · Varonis Systems · easyJet · Cleanaway Waste Management", sector: "Lacke / Daten- & KI-Sicherheit / Luftfahrt / Entsorgung", type: "Fusion & Take-private" },
+      reaction: "Der Private-Credit-Markt wird in Meldung 12 behandelt.",
       terms: ["take-private", "enterprise-value", "ebitda"],
       followups: ["e:take-private-why", "e:ma-steps"],
       sources: [
-        { title: "Businesswire: Bumble Inc. to Be Acquired by Ithaca Holdings", url: "https://www.businesswire.com/news/home/20261013006131/en/Bumble-Inc.-to-Be-Acquired-by-Ithaca-Holdings-the-Long-Term-Holding-Company-for-Enduring-Technology-Businesses" },
-        { title: "Insurance Journal: CCC Intelligent Solutions Agrees to $6.1B Take-Private Deal", url: "https://www.insurancejournal.com/news/national/2026/10/16/889163.htm" }
+        { title: "dealroom.net: Recent M&A Deals 2026", url: "https://dealroom.net/blog/recent-m-a-deals" },
+        { title: "Proofpoint: Proofpoint to acquire Varonis in a $6.3 billion transaction", url: "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-acquire-varonis-creating-global-leader-data-and-ai-security" },
+        { title: "startupfortune.com: EQT agrees to buy Australia's Cleanaway Waste Management for $6.5 billion", url: "https://startupfortune.com/eqt-agrees-to-buy-australias-cleanaway-waste-management-for-65-billion/" },
+        { title: "247wallst.com: Bumble soars as Ithaca Holdings agrees to take it private at $6.05 a share", url: "https://247wallst.com/investing/2026/10/13/bumble-soars-56-as-ithaca-holdings-agrees-to-take-it-private-at-6-05-a-share-match-group-advances-2/" },
+        { title: "alternativeswatch.com: Claims software firm CCC to go private for third time", url: "https://www.alternativeswatch.com/2026/10/18/gtcr-elliott-ccc-take-private/" },
+        { title: "CNBC: India's IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax", url: "https://www.cnbc.com/2026/10/15/india-canada-fairfax-idbi-fdi.html" }
       ]
     },
 
-    /* 12 DEALS/PRIVATE CREDIT: FAIRFAX/IDBI, SOFTBANK, BDC */
+    /* 12 PRIVATE CREDIT */
     {
-      id: "fairfax-idbi-softbank-allied-private-credit-10-18", cats: ["deals", "pe", "credit"], when: "Kabinettsgenehmigung Indien 14.10. · SoftBank/Allied-Bericht 16.10. · Private-Credit-Fundraising Q1–Q3 2026",
-      headline: "Fairfax übernimmt Mehrheit an Indiens IDBI Bank für 5,6 Milliarden Dollar, SoftBank prüft Milliarden-Übernahme von Allied Universal",
-      sec30: "Die kanadische Fairfax Financial Holdings erhielt am 14.10. die Genehmigung der indischen Regierung, rund 60,72 % der IDBI Bank für etwa 5,6 Mrd. Dollar (81 Rupien je Aktie) zu übernehmen – der größte ausländische Investment-Deal in Indiens Bankensektor. Laut Berichten vom 16.10. prüft SoftBank zudem eine Übernahme des US-Sicherheitsdienstleisters Allied Universal für rund 18 Mrd. Dollar Eigenkapitalwert; eine endgültige Entscheidung ist laut Quellenlage noch nicht gefallen. Im Private-Credit-Markt sammelten Direct-Lending-Fonds in den ersten neun Monaten 2026 ein Rekordvolumen von 129,15 Mrd. Dollar ein (+35 % gegenüber dem Vorjahr), während das Kreditvergabevolumen im dritten Quartal um 28 % auf 49,77 Mrd. Dollar sank; mehrere Kreditmanager prüfen laut Berichten Übernahmen angeschlagener Business Development Companies.",
+      id: "private-credit-moodys-pik-fitch-bdc-cvc-10-19", cats: ["credit", "pe"], when: "Moody's-Bericht 14.10. · Fitch-Bericht 13.10. · CVC/Endowus-Ankündigung 17.10.2026",
+      headline: "Moody's warnt vor durch PIK-Klauseln verschleierten Ausfällen bei Private Credit, Fitch meldet weiterhin hohe BDC-Rücknahmequoten",
+      sec30: "Moody's berichtete am 14.10., die Ausfallrate bei 607 untersuchten Private-Credit-Schuldnern habe in den zwölf Monaten bis Juni bei 4 % gelegen, steige aber auf 5,8 %, wenn Zinszahlungen in Form zusätzlicher Schulden (PIK) und Laufzeitverlängerungen bei finanziell angespannten Firmen als Ausfall gewertet würden – Moody's warnt vor einer „Fälligkeitsmauer” bei niedrig gerateten Schuldnern. Fitch Ratings meldete am 13.10., die durchschnittlichen Rücknahmeanträge bei Business Development Companies (BDCs) seien im dritten Quartal auf 9,8 % der verwalteten Vermögenswerte gefallen (von 10,8 %), lägen aber weiter über der vertraglichen Quartalsgrenze von 5 %. Gleichzeitig wächst der Markt: Direct-Lending-Fonds sammelten in den ersten neun Monaten 2026 ein Rekordvolumen von 129,15 Mrd. Dollar ein, während das Kreditvergabevolumen im dritten Quartal um 28 % sank. Die Fondsplattform CVC Capital Partners startete am 17.10. über die Wealth-Plattform Endowus eine neue europäische Direct-Lending-Strategie für Anleger in Singapur und Hongkong.",
       blocks: [
-        { h: "Was wurde beim IDBI-Bank-Deal angekündigt?", items: [
-          { tag: "fakt", text: "Die indische Regierung genehmigte am 14.10. die Übernahme von rund 60,72 % der IDBI Bank durch Fairfax Financial Holdings (Kanada, Prem Watsa) für rund 5,6 Mrd. Dollar (81 Rupien je Aktie); verkauft werden Anteile des indischen Staates (30,48 %) und der Lebensversicherung LIC (30,24 %). Es gilt laut Berichten als größter ausländischer Investment-Deal in Indiens Bankensektor." }
+        { h: "Was zeigt der Moody's-Bericht zu Private-Credit-Ausfällen?", items: [
+          { tag: "fakt", text: "Moody's berichtete am 14.10., die Ausfallrate bei 607 untersuchten Private-Credit-Schuldnern habe in den zwölf Monaten bis Juni offiziell bei 4 % gelegen, steige aber auf 5,8 %, wenn PIK-Anpassungen (Zinszahlung in Form zusätzlicher Schulden statt bar) und Laufzeitverlängerungen bei finanziell angespannten Firmen als Ausfall gewertet würden.",
+            ask: [{ label: "Was ist PIK?", ref: "t:pik" }] },
+          { tag: "position", text: "Moody's warnte in dem Bericht vor einer „Fälligkeitsmauer” bei niedrig gerateten Private-Credit-Schuldnern." }
         ]},
-        { h: "Was ist bei SoftBank und Allied Universal im Gespräch?", items: [
-          { tag: "unbestaetigt", text: "SoftBank Group prüft laut einem Bericht vom 16.10. eine Übernahme des US-Sicherheitsdienstleisters Allied Universal für rund 18 Mrd. Dollar Eigenkapitalwert; eine endgültige Entscheidung ist laut der Quelle noch nicht gefallen. Angaben zu Finanzierung oder Zeitplan nennen die verfügbaren Quellen nicht." }
+        { h: "Was zeigt der Fitch-Bericht zu BDCs?", items: [
+          { tag: "fakt", text: "Fitch Ratings meldete am 13.10., die durchschnittlichen Rücknahmeanträge bei Business Development Companies seien im dritten Quartal auf 9,8 % der verwalteten Vermögenswerte gefallen (von 10,8 % im Vorquartal), lägen aber weiterhin über der vertraglichen Quartalsgrenze von 5 %.",
+            ask: [{ label: "Was ist eine BDC?", ref: "t:bdc" }] }
         ]},
-        { h: "Wie stellt sich der Private-Credit-Markt aktuell dar?", items: [
-          { tag: "fakt", text: "Direct-Lending-Fonds sammelten in den ersten neun Monaten 2026 ein Rekordvolumen von 129,15 Mrd. Dollar ein (+35 % gegenüber dem Vorjahr, höchster 9-Monats-Wert seit 2016), während das Kreditvergabevolumen im dritten Quartal um 28 % auf 49,77 Mrd. Dollar sank, weil Kreditnehmer verstärkt auf günstigere, breit syndizierte Kredite ausweichen.",
+        { h: "Wie stellt sich der Private-Credit-Markt insgesamt dar?", items: [
+          { tag: "fakt", text: "Direct-Lending-Fonds sammelten in den ersten neun Monaten 2026 ein Rekordvolumen von 129,15 Mrd. Dollar ein (+35 % gegenüber dem Vorjahr, höchster 9-Monats-Wert seit Beginn der Datenreihe 2016), während das Kreditvergabevolumen im dritten Quartal um 28 % auf 49,77 Mrd. Dollar sank, weil Kreditnehmer verstärkt auf günstigere, breit syndizierte Kredite ausweichen; im dritten Quartal wurden rund 16,39 Mrd. Dollar an Direct-Lending-Krediten in syndizierte Kreditmärkte refinanziert, gegenüber nur 2,60 Mrd. Dollar in die andere Richtung.",
             ask: [{ label: "Was ist Direct Lending?", ref: "t:direct-lending" }] },
-          { tag: "unbestaetigt", text: "Mindestens vier Kreditmanager (unter anderem Ares, Barings, BC Partners, Churchill Asset Management) prüfen laut Berichten Übernahmen angeschlagener Business Development Companies (BDCs); mehrere börsennotierte BDCs befinden sich in formalen strategischen Überprüfungen.",
-            ask: [{ label: "Was ist eine BDC?", ref: "t:bdc" }] },
-          { tag: "fakt", text: "Der IWF widmet seinem Global Financial Stability Report (Oktober 2026) ein Kapitel zu Private Credit und warnt vor Hebelwirkung und Liquiditätsdruck in diesem stark gewachsenen Markt." }
+          { tag: "fakt", text: "CVC Capital Partners startete am 17.10. über die asiatische Wealth-Plattform Endowus eine neue europäische Direct-Lending-Strategie für akkreditierte Anleger in Singapur und Hongkong – ein Beispiel für das anhaltende Wachstum des Marktes trotz der Warnungen." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass weiterhin Rekordsummen in den Private-Credit-Markt fließen, während institutionelle Beobachter wie der IWF zugleich vor Risiken warnen und einzelne Kreditfonds unter Druck geraten, zeigt eine wachsende Sorge um die Widerstandsfähigkeit dieses Marktes." }
+          { tag: "einordnung", text: "Dass Rekordsummen in den Private-Credit-Markt fließen, während Ratingagenturen zugleich auf verschleierte Ausfälle und anhaltend hohe Rücknahmequoten bei BDCs hinweisen, zeigt eine wachsende Sorge um die Widerstandsfähigkeit dieses stark gewachsenen Marktes." }
         ]}
       ],
-      reaction: "Die Deals der Woche werden in Meldung 11 behandelt.",
-      terms: ["private-equity", "bdc", "direct-lending", "non-accrual"],
+      reaction: "Die Mega-Deals der Woche werden in Meldung 11 behandelt.",
+      terms: ["private-equity", "bdc", "direct-lending", "non-accrual", "pik"],
       followups: ["e:private-credit-what", "e:pe-money", "e:nonaccrual-default"],
       sources: [
-        { title: "Bloomberg: Fairfax to Buy IDBI for $5.6 Billion in Biggest India Bank Deal", url: "https://www.bloomberg.com/news/articles/2026-10-14/fairfax-buys-idbi-stake-for-5-6-billion-in-india-s-biggest-bank-deal" },
-        { title: "KSL: SoftBank weighs $18 billion acquisition of Allied Universal, Bloomberg News reports", url: "https://www.ksl.com/article/51637421/softbank-weighs-18-billion-acquisition-of-allied-universal-bloomberg-news-reports" },
-        { title: "privateequitywire.co.uk: Private credit fundraising hits record $129bn despite 28% decline in lending", url: "https://www.privateequitywire.co.uk/private-credit-fundraising-hits-record-129bn-despite-28-decline-in-lending/" }
+        { title: "Bloomberg: US private credit defaults understated by PIK use, Moody's says", url: "https://bloomberg.com/news/articles/2026-10-14/us-private-credit-stress-masked-by-growing-pik-use-moody-s-says" },
+        { title: "Pensions & Investments: Fitch – private credit BDC redemptions ease but stay above 5% cap", url: "https://www.pionline.com/alternative-investments/private-credit/pi-private-credit-redemptions-third-quarter-fitch-ratings/" },
+        { title: "Yahoo Finance: Private credit faces deployment squeeze as fundraising hits record", url: "https://finance.yahoo.com/markets/stocks/articles/private-credit-faces-deployment-squeeze-183333828.html" },
+        { title: "caproasia.com: Singapore's Endowus launches CVC Capital Partners private credit strategy", url: "https://www.caproasia.com/2026/10/17/singapore-11-billion-independent-digital-wealth-platform-endowus-launches-europe-241-billion-private-equity-firm-cvc-capital-partners-private-credit-strategy-european-direct-lending-in-singapore/" }
       ]
     },
 
-    /* 13 TECHNOLOGIE: KI-SORGEN/COREWEAVE/CHIPS */
+    /* 13 TECHNOLOGIE: COREWEAVE/SOX/DEEPSEEK */
     {
-      id: "ki-aktien-sorgen-coreweave-chipwerte-huang-10-18", cats: ["tech"], when: "CoreWeave-Kursverlust 14.–16.10. · Huang-Aussage 17.10. · Intel-Kursverlust 16.10. · Kospi-Erholung Fr 16.10.2026",
-      headline: "Sorgen um KI-Bewertungen und CoreWeave-Schulden halten an, Nvidia-Chef Huang beschwichtigt, asiatische Chipwerte erholen sich nur teilweise",
-      sec30: "Die Aktie des KI-Cloud-Anbieters CoreWeave fiel in der Woche um mehr als 15 %, zeitweise über 20 %; die Rendite seiner 2032 fälligen Anleihen stieg auf ein Rekordniveau von rund 14,5 bis 15 % (Ausgabe im Juni noch mit 9,625 % Kupon). CoreWeave hat 2026 bereits über 35 Mrd. Dollar Kapital aufgenommen und trägt rund 52 Mrd. Dollar Schulden und Leasingverpflichtungen. Nvidia-Chef Jensen Huang sagte am 17.10. bei einem Termin in Berlin: „All of this is going to pass” und äußerte sich optimistisch zu CoreWeaves Finanzierungskosten. Der Philadelphia-Halbleiterindex SOX fiel den achten Tag in Folge; Intel verlor am Freitag 5,8 % auf 89,85 Dollar, nachdem TSMC-Chef Wei Kapazitätsengpässe bei Intels Packaging-Technologie angesprochen hatte. Asiatische Speicherchip-Werte erholten sich am Freitag nur teilweise von ihrem Einbruch der Vorwoche.",
+      id: "tech-coreweave-sox-deepseek-huang-10-19", cats: ["tech"], when: "CoreWeave-CDS-Sprung 15.10. · SOX-Rekordserie Fr 16.10. · DeepSeek-Modell 17.10. · Huang-Aussage Berlin 17.10.2026",
+      headline: "CoreWeaves Ausfallrisiko an den Kreditmärkten steigt weiter, Nvidia-Chef Huang beschwichtigt, neues DeepSeek-Modell verschärft Sorgen um Speicherchip-Nachfrage",
+      sec30: "Die 5-Jahres-Kreditausfallversicherungen (CDS) von CoreWeave sprangen von 368 Basispunkten am 6.10. auf 643 Basispunkte am Freitag und zuletzt auf rund 1.038 Basispunkte – das entspricht einer impliziten Ausfallwahrscheinlichkeit von rund 60 %. Die CoreWeave-Aktie fiel in der Woche bis 17.10. um rund 25 % (allein am Freitag −12 %) auf 61,39 Dollar; Anleihen mit Fälligkeit 2031 rentieren bei rund 15,78 %. Nvidia-Chef Jensen Huang sagte dazu am 17.10. in Berlin: „CoreWeave's strength is improving every day. I'm optimistic. Their cost of capital is actually decreasing”, und allgemein zu den KI-Sorgen: „All of this is going to pass.” Der Philadelphia-Halbleiterindex SOX fiel am Freitag den achten Tag in Folge. Am Wochenende veröffentlichte der chinesische KI-Anbieter DeepSeek ein neues Modell („V4.1-Flash-1017”), das nach eigenen Angaben deutlich weniger Speicherbedarf benötigt – das drückte am Montag erneut auf asiatische Speicherchip-Werte.",
       blocks: [
         { h: "Wie geht es CoreWeave und der Sorge um KI-Schulden?", items: [
-          { tag: "fakt", text: "Die CoreWeave-Aktie fiel in der Woche um mehr als 15 %, zeitweise über 20 %; die Rendite seiner 2032 fälligen Anleihen stieg auf ein Rekordniveau von rund 14,5 bis 15 % (Ausgabe im Juni noch mit 9,625 % Kupon). CoreWeave hat 2026 über 35 Mrd. Dollar Kapital aufgenommen, trägt rund 52 Mrd. Dollar Schulden und Leasingverpflichtungen und zahlte zuletzt rund 640 Mio. Dollar Netto-Zinsen pro Quartal – etwa ein Viertel des Umsatzes.",
+          { tag: "fakt", text: "Die 5-Jahres-CDS von CoreWeave sprangen von 368 Basispunkten am 6.10. auf 643 Basispunkte am Freitag, 16.10., und zuletzt auf rund 1.038 Basispunkte – eine implizite Ausfallwahrscheinlichkeit von rund 60 %. Die Aktie fiel in der Woche bis 17.10. um rund 25 % (allein am Freitag −12 %) auf 61,39 Dollar. Anleihen mit Fälligkeit 2031 (9,75 % Kupon) rentieren bei rund 15,78 %.",
             ask: [{ label: "Was ist ein Credit Spread?", ref: "t:credit-spread" }] }
         ]},
         { h: "Was sagte Nvidia-Chef Jensen Huang dazu?", items: [
-          { tag: "position", text: "Jensen Huang sagte am 17.10. bei einem Termin in Berlin: „All of this is going to pass, and the reason for that is very simple. It's going to be transformative. It's going to impact in a very positive way every single industry and every single country.” Zu CoreWeave konkret: „CoreWeave's strength is improving every day. I'm optimistic. Their cost of capital is actually decreasing.”",
+          { tag: "position", text: "Jensen Huang sagte am 17.10. bei einem Termin in Berlin gegenüber Bloomberg: „CoreWeave's strength is improving every day. I'm optimistic. Their cost of capital is actually decreasing.” Allgemein zu den KI-Sorgen sagte er: „All of this is going to pass. It's going to be transformative.”",
             ask: [{ label: "Was treibt die KI-Investitionen?", ref: "e:ai-capex" }] }
         ]},
         { h: "Wie entwickelten sich weitere Chipwerte?", items: [
-          { tag: "fakt", text: "Der Philadelphia-Halbleiterindex SOX fiel den achten Tag in Folge – die erste solche Serie seit Oktober 2008. Intel verlor am Freitag 5,8 % auf 89,85 Dollar, nachdem TSMC-Chef C.C. Wei am 15.10. signalisiert hatte, Kunden zu unterstützen, die wegen Kapazitätsengpässen bei Intels Packaging-Technologie nicht genug Kapazität erhalten; AMD gab 6,0 % ab, Micron 5,6 %, Broadcom 4,5 %." }
+          { tag: "fakt", text: "Der Philadelphia-Halbleiterindex SOX fiel am Freitag um 3,83 % auf 11.137,29 Punkte – der achte Verlusttag in Folge, die erste solche Serie seit Oktober 2008, mit einem Rückgang von rund 16 % seit dem 6.10. und einer geschätzten Marktwertvernichtung von rund 2 Billionen Dollar. Nvidia schloss bei 214,13 Dollar (−1,43 %), AMD bei 528,75 Dollar (−5,95 %)." }
         ]},
-        { h: "Wie geht es den asiatischen Speicherchip-Werten, und was macht CXMT?", items: [
-          { tag: "fakt", text: "Nach dem Einbruch vom Donnerstag erholte sich der Kospi am Freitag um rund 2,05 bis 2,15 %, blieb für die Woche aber rund 14,46 % im Minus; das Kurs-Gewinn-Verhältnis des Kospi fiel trotz der Erholung auf ein 26-Jahres-Tief. Der chinesische Hersteller CXMT präsentierte eine neue, dichtere DDR5-Speicherarchitektur, was Sorgen vor einem möglichen Angebotsüberschuss ab 2029 nährt.",
-            ask: [{ label: "Mehr zum Hintergrund des Chip-Ausverkaufs", ref: "e:custom-chips" }] }
+        { h: "Was hat es mit dem neuen DeepSeek-Modell auf sich?", items: [
+          { tag: "fakt", text: "Der chinesische KI-Anbieter DeepSeek veröffentlichte am 17.10. das Modell „V4.1-Flash-1017”, das nach eigenem Benchmark mit 77,0 Punkten unter anderem Claude Opus 5 (74,0) und GPT-5.6 „Sol” (73,0) übertrifft und laut Berichten deutlich weniger Arbeitsspeicher benötigt als bisherige Modelle.",
+            ask: [{ label: "Mehr zum Hintergrund des Chip-Ausverkaufs", ref: "e:custom-chips" }] },
+          { tag: "fakt", text: "Am Montag, 19.10., öffnete der Kospi rund 1,7 % tiefer bei 5.572,10 Punkten; Samsung und SK Hynix gaben zeitweise über 4 % ab, nachdem sie bereits in der Vorwoche ihre schlechteste Woche seit 2008 verzeichnet hatten." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sich asiatische Speicherchip-Werte nur teilweise erholten, während die Kreditwürdigkeit von KI-Cloud-Anbietern wie CoreWeave weiter im Fokus steht, zeigt, wie unübersichtlich die Lage in der KI- und Chipbranche derzeit bleibt. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass sowohl die Kreditmärkte bei CoreWeave als auch die Aktienmärkte bei asiatischen Speicherchip-Herstellern weiter unter Druck stehen, während Nvidia-Chef Huang beschwichtigt, zeigt, wie unübersichtlich die Lage in der KI- und Chipbranche derzeit bleibt. Dies ist keine Anlageberatung." }
         ]}
       ],
       reaction: "Die Marktreaktion auf den Chip-Ausverkauf wird in Meldung 1 behandelt, die Fed-Seite in Meldung 2.",
       terms: ["credit-spread", "hyperscaler"],
       followups: ["e:ai-capex", "e:custom-chips", "e:circular-financing"],
       sources: [
-        { title: "Yahoo Finance: CoreWeave's slump puts spotlight on debt behind AI boom", url: "https://finance.yahoo.com/technology/ai/articles/coreweaves-slump-puts-spotlight-debt-131324427.html" },
-        { title: "Benzinga: CoreWeave Stock Forms H&S Pattern as Key Bond Yield Hits 15%", url: "https://www.benzinga.com/markets/equities/26/10/62428511/coreweave-stock-forms-hs-pattern-as-key-bond-yield-hits-15-amid-insider-selling" },
-        { title: "The Edge Malaysia: Nvidia CEO on AI market turmoil – 'All of this is going to pass'", url: "https://theedgemalaysia.com/node/822194" },
-        { title: "GuruFocus: Intel Corp (INTC) Shares Fall 5.8%", url: "https://www.gurufocus.com/news/9128327/intel-corp-intc-shares-fall-58-gf-value-says-still-overvalued" },
-        { title: "Korea Times: Samsung, SK hynix sell-off excessive as memory outlook stays strong – analysts", url: "https://www.koreatimes.co.kr/economy/20261016/samsung-sk-hynix-sell-off-excessive-as-memory-outlook-stays-strong-analysts" }
+        { title: "Motley Fool: Why is CoreWeave stock falling today?", url: "https://www.fool.com/investing/2026/10/16/why-is-coreweave-stock-falling-today/" },
+        { title: "startupfortune.com: CoreWeave default odds hit 60 percent as credit swaps top 1,000 basis points", url: "https://startupfortune.com/coreweave-default-odds-hit-60-percent-as-credit-swaps-top-1000-basis-points/" },
+        { title: "CNBC: CoreWeave credit default swaps hit distress levels as investors sour on AI debt", url: "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html" },
+        { title: "marktechpost.com: DeepSeek just released V4.1-Flash-1017, scores 77.0 on DeepSWE, opens search API", url: "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/" },
+        { title: "Korea Herald: Seoul stocks open sharply lower after US tech sell-off", url: "https://www.koreaherald.com/article/10906650" }
       ]
     },
 
     /* 14 ENERGIE */
     {
-      id: "energie-oelpreis-hormuz-gas-opec-10-18", cats: ["energy"], when: "Brent-Schluss Fr 16.10. · Seeminen-Vorfall 17.10. (unbestätigt) · TTF-Hoch Nacht zum 15.10. · OPEC+-Beschluss 04.10.2026",
-      headline: "Ölpreis bleibt nach Tankerangriffen nahe Mehrmonatshoch, europäischer Gaspreis verharrt nahe Rekordniveau",
-      sec30: "Brent schloss am Freitag, 16.10., bei rund 109,86 Dollar je Barrel (+3,7 % Tag, +4,9 % Woche), zeitweise über 110 Dollar – der höchste Stand seit Mai; am Samstag kam mit dem unbestätigten Seeminen-Vorfall in der Straße von Hormus ein weiterer Belastungsfaktor hinzu (Meldung 9). Der OPEC+-Beschluss vom 4.10., die Fördermenge für November unverändert zu lassen, bleibt der aktuelle Stand; das nächste Treffen ist für den 1.11. angesetzt. Der europäische Gas-Referenzpreis TTF erreichte in der Nacht zum 15.10. mit rund 87 Euro je Megawattstunde ein neues Hoch – den höchsten Stand seit Ende 2022. Die deutschen Gasspeicher lagen zuletzt bei rund 59,8 bis 60,4 % – deutlich unter dem Fünfjahresdurchschnitt von rund 87 % für diese Jahreszeit; der staatliche Gaseinkäufer SEFE soll zusätzlich 8 TWh beschaffen.",
+      id: "energie-oelpreis-trump-sanktionen-hormuz-gas-10-19", cats: ["energy", "geo"], when: "Trump-Anordnung 16./17.10. · Ölpreisrückgang Mo 19.10. · TTF-Hoch Mitte Oktober · OPEC+-Beschluss 4.10.2026",
+      headline: "Ölpreis fällt am Montag, nachdem Trump neue Russland-Sanktionen vorerst aussetzt, während die Lage in der Straße von Hormus angespannt bleibt",
+      sec30: "Präsident Trump unterzeichnete am 16./17.10. eine Anordnung, die neue Russland-Sanktionen vorerst aussetzt – darunter Strafzölle von bis zu 500 % auf russisches Öl und Gas und bis zu 100 % auf Käuferländer; er nannte das eine „very good decision”. In der Folge fiel Brent am Montagvormittag um rund 1,9 % auf etwa 107,85 Dollar, WTI uneinheitlich auf rund 97 bis 101 Dollar. Gegenläufig hält die Lage in der Straße von Hormus an, wo Iran inzwischen zwei Tanker-Minen-Zwischenfälle meldet, die CENTCOM bestreitet (Meldung 8). Der OPEC+-Beschluss vom 4.10., die Fördermenge für November unverändert zu lassen, bleibt der aktuelle Stand; das nächste Treffen ist für den 1.11. angesetzt. Der europäische Gas-Referenzpreis TTF liegt weiterhin nahe seinem Mehrjahreshoch, mit einem Oktober-Monatsmittel von rund 75 Euro je Megawattstunde; die deutschen Gasspeicher lagen zum Gastag 13.10. bei rund 60,1 % – weiter unter dem Fünfjahresdurchschnitt für diese Jahreszeit.",
       blocks: [
-        { h: "Warum ist der Ölpreis zuletzt gestiegen?", items: [
-          { tag: "fakt", text: "Brent schloss am Freitag, 16.10., bei rund 109,86 Dollar je Barrel (+3,7 % Tag, +4,9 % Woche), zeitweise über 110 Dollar – der höchste Stand seit Mai. Die US-Sorte WTI wird für Freitag uneinheitlich mit rund 97 bis 101 Dollar angegeben.",
-            ask: [{ label: "Warum kann ein Konflikt den Ölpreis erhöhen?", ref: "e:why-oil-up-geo" }] },
-          { tag: "unbestaetigt", text: "Am Samstag, 17.10., meldete die iranische Revolutionsgarde einen weiteren, unabhängig nicht bestätigten Zwischenfall (Seemine an einem Supertanker) in der Straße von Hormus, der den Ölpreis am Montag zusätzlich bewegen könnte. Mehr dazu in Meldung 9.",
-            ask: [{ label: "Mehr zur Lage am Golf", ref: "s:9" }] }
+        { h: "Warum ist der Ölpreis am Montag gefallen?", items: [
+          { tag: "fakt", text: "Präsident Trump unterzeichnete am 16./17.10. eine Anordnung, die neue, eigentlich vom Kongress beschlossene Russland-Sanktionen vorerst aussetzt – darunter Strafzölle von bis zu 500 % auf russisches Öl und Gas sowie bis zu 100 % auf Länder, die russisches Öl kaufen. Trump bezeichnete die Anordnung als „very good decision”.",
+            ask: [{ label: "Warum kann Politik den Ölpreis bewegen?", ref: "e:why-oil-up-geo" }] },
+          { tag: "fakt", text: "In der Folge fiel Brent am Montagvormittag um rund 1,9 % auf etwa 107,85 Dollar je Barrel, nach einem Freitagsschluss von 109,86 Dollar; WTI wird für Montag uneinheitlich mit rund 97 bis 101 Dollar angegeben." }
+        ]},
+        { h: "Wie wirkt die Lage in der Straße von Hormus dagegen?", items: [
+          { tag: "unbestaetigt", text: "Gegenläufig hält die Lage in der Straße von Hormus an: Iran meldet inzwischen zwei auf Minen gelaufene Tanker, was die US-Streitkräfte (CENTCOM) als Desinformation zurückweisen. Mehr dazu in Meldung 8.",
+            ask: [{ label: "Mehr zur Lage am Golf", ref: "s:8" }] }
         ]},
         { h: "Was hat die OPEC+ zuletzt beschlossen?", items: [
-          { tag: "fakt", text: "Der Beschluss vom 4.10. – sieben Kernländer lassen die Fördermenge für November gegenüber Oktober unverändert – bleibt der aktuelle Stand; das nächste Treffen ist für den 1.11. angesetzt.",
+          { tag: "fakt", text: "Der Beschluss vom 4.10. – unter anderem Saudi-Arabien mit 10,5 Mio. Barrel pro Tag, Russland mit 9,9 Mio. und Irak mit 4,4 Mio. – lässt die Fördermenge für November gegenüber Oktober unverändert; das nächste Treffen ist für den 1.11. angesetzt.",
             ask: [{ label: "Was ist die OPEC+?", ref: "t:opec-plus" }] }
         ]},
-        { h: "Wie hat sich der europäische Gaspreis entwickelt?", items: [
-          { tag: "fakt", text: "Der TTF-Referenzpreis erreichte in der Nacht zum 15.10. mit rund 87 Euro je Megawattstunde ein neues Hoch – den höchsten Stand seit Ende 2022.",
-            ask: [{ label: "Was ist der TTF?", ref: "t:ttf" }] }
-        ]},
-        { h: "Wie ist der Stand bei den Gasspeichern?", items: [
-          { tag: "fakt", text: "Die deutschen Gasspeicher lagen zuletzt bei rund 59,8 bis 60,4 % – deutlich unter dem Fünfjahresdurchschnitt von rund 87 % für diese Jahreszeit und auch unter dem Vorjahreswert von rund 76 %. Das politische Ziel von 80 % bis zum 1.11. gilt als kaum noch erreichbar; der staatliche Gaseinkäufer SEFE soll zusätzlich 8 TWh beschaffen. Die Bundesnetzagentur sieht aktuell keine unmittelbare Versorgungsgefährdung." }
+        { h: "Wie ist der Stand bei Gaspreis und Gasspeichern?", items: [
+          { tag: "unbestaetigt", text: "Der TTF-Referenzpreis liegt laut verfügbaren Quellen weiterhin nahe seinem Mehrjahreshoch, mit einem Oktober-Monatsmittel von rund 75 Euro je Megawattstunde; ein eindeutiger Tageswert für Montag ließ sich nicht ermitteln.",
+            ask: [{ label: "Was ist der TTF?", ref: "t:ttf" }] },
+          { tag: "fakt", text: "Die deutschen Gasspeicher lagen zum Gastag 13.10. bei rund 60,1 % (147,3 von 245,1 TWh) – Platz 16 von 21 gemeldeten Ländern und weiterhin deutlich unter dem Fünfjahresdurchschnitt für diese Jahreszeit." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Spannungen am Golf und knappe Gasspeicher sich derzeit gegenseitig verstärken, zeigt, wie eng Geopolitik und Energieversorgung vor dem Winter zusammenhängen." }
+          { tag: "einordnung", text: "Dass der Ölpreis trotz anhaltender Spannungen am Golf gefallen ist, zeigt, wie stark Trumps Entscheidung zur vorübergehenden Aussetzung der Russland-Sanktionen die Markterwartung über ein größeres Rohölangebot kurzfristig verändert hat." }
         ]}
       ],
-      reaction: "Die Lage am Golf wird in Meldung 9 vertieft, die deutsche Innenpolitik in Meldung 7.",
+      reaction: "Die Lage am Golf wird in Meldung 8 vertieft, der Jemen in Meldung 15, die deutsche Innenpolitik in Meldung 6.",
       terms: ["ttf", "opec-plus", "brent", "wti"],
       followups: ["e:energy-germany", "e:opec-plus-why", "e:gas-ttf", "e:oil-inflation"],
       sources: [
-        { title: "Bloomberg: Brent Oil Surges Above $110 as Supply Risks Intensify", url: "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows" },
-        { title: "Rio Times: Brent Oil Rises 3.7% to US$109.86 on Supply Fears", url: "https://www.riotimesonline.com/oil-markets-latam-friday-october-16-2026/" },
-        { title: "CNBC: OPEC+ agrees to keep November oil output targets steady", url: "https://www.cnbc.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady.html" },
-        { title: "it-boltwise.de: Europäische Gaspreise steigen auf 87,20 Euro – TTF setzt neuen Druck vor Winter", url: "https://www.it-boltwise.de/europaeische-gaspreise-steigen-auf-8720-euro-ttf-setzt-neuen-druck-vor-winter.html" },
-        { title: "netz-trends.de: Gasspeicher bei 58 Prozent – Bund kauft 8 TWh nach", url: "https://www.netz-trends.de/gasspeicher-58-prozent-heizperiode-sefe-8-terawattstunden-15-dezember-2026-bundesnetzagentur-4-oktober-2026/" }
+        { title: "The Moscow Times: Trump signs order exempting Russia from new sanctions legislation", url: "https://www.themoscowtimes.com/2026/10/17/trump-signs-order-exempting-russia-from-new-sanctions-legislation-a94012" },
+        { title: "tradingkey.com: Brent crude oil drops as Trump waives sanctions on Russia", url: "https://tradingkey.com/de/analysis/commodities/oil/262222951-brent-crude-oil-drops-trump-waives-sanctions-russia-tradingkey" },
+        { title: "enerdata.net: OPEC+ keeps November 2026 production targets unchanged amid supply disruptions", url: "https://www.enerdata.net/publications/daily-energy-news/opec-keeps-november-2026-production-targets-unchanged-amid-supply-disruptions.html" },
+        { title: "protergia.gr: TTF prices per month", url: "https://www.protergia.gr/en/home/natural-gas/ttf-prices-per-month/" },
+        { title: "gasspeicherkarte.de: Gasspeicher Füllstand Deutschland", url: "https://gasspeicherkarte.de/gasspeicher-fuellstand-deutschland" }
       ]
     },
 
-    /* 15 ENERGIE/GEOPOLITIK PLATZHALTER ENTFERNT – FINALE 15. MELDUNG */
+    /* 15 GEOPOLITIK: JEMEN/HOUTHI */
     {
-      id: "geopolitik-us-iran-konflikt-einordnung-10-18", cats: ["geo", "world"], when: "Stand Konflikt USA/Israel/Iran „Tag 232” · Zwischenwahlen USA 3.11.2026",
-      headline: "Konflikt zwischen USA, Israel und Iran hält an, Präsident Trump schließt Angriff vor den US-Zwischenwahlen aus",
-      sec30: "Der im Februar 2026 begonnene Konflikt zwischen den USA, Israel und Iran dauert laut einem Konflikt-Tracker inzwischen über 230 Tage an und bildet den Hintergrund für die anhaltenden Angriffe in der Straße von Hormus und auf saudisches sowie jemenitisches Gebiet (Meldung 9). Präsident Trump sagte laut einer einzelnen Quelle, die USA würden Iran vor den Zwischenwahlen am 3.11. nicht angreifen; Iran soll laut einer Quelle Verteidigungsanlagen an Nuklearstandorten verstärken. Diese Angaben sind nicht unabhängig bestätigt.",
+      id: "jemen-houthi-aden-operation-dawn-of-yemen-10-19", cats: ["geo", "world"], when: "Houthi-Angriff Aden 15.10. · Beginn Operation Dawn of Yemen 5.10. · Araghchi-Vorschlag weiter offen 18.10.2026",
+      headline: "Jemenitische Regierungsoffensive gegen die Houthi hält an, Irans Vorschlag zur Öffnung der Straße von Hormus bleibt laut Teheran „auf dem Tisch”",
+      sec30: "Houthi-Kräfte griffen am 15.10. den Präsidentenpalast in Aden mit fünf Raketen an; nach Angaben des jemenitischen Gesundheitsministeriums wurden mindestens 5 Menschen getötet und 16 verletzt, Ministerpräsident al-Zindani und das Kabinett blieben unverletzt. Die jemenitische Regierung hatte am 5.10. die von rund 100 saudischen Kampfflugzeugen unterstützte Offensive „Operation Dawn of Yemen” zur Rückeroberung Sanaas von den Houthi gestartet; nach Angaben der jemenitischen Streitkräfte wurden seither mehrere Tausend Angriffe geflogen. Irans Außenminister Araghchi erklärte am 18.10., der iranische Vorschlag zur Öffnung der Straße von Hormus binnen sieben Tagen stehe weiterhin „auf dem Tisch”, verbunden mit drei Bedingungen: Aufhebung der US-Seeblockade, Aussetzung der US-Ölsanktionen und ein Waffenstillstand, der ausdrücklich den Libanon einschließt. Eine umfassende Einigung liegt bislang nicht vor.",
       blocks: [
         { h: "Warum ist das wichtig?", items: [
-          { tag: "unbestaetigt", text: "Nach Angaben eines Konflikt-Trackers befindet sich der Konflikt zwischen den USA, Israel und Iran inzwischen im Bereich „Tag 230” seit seinem Beginn am 28. Februar 2026; diese Zählung stammt aus einer einzelnen Quelle." }
+          { tag: "fakt", text: "Houthi-Kräfte griffen am 15.10. den Präsidentenpalast al-Maashiq in Aden mit fünf Raketen an; nach Angaben des jemenitischen Gesundheitsministeriums wurden mindestens 5 Menschen getötet und 16 verletzt. Ministerpräsident Shaya al-Zindani und das Kabinett waren zum Zeitpunkt des Angriffs anwesend, blieben aber unverletzt." }
         ]},
         { h: "Wer ist beteiligt, und welche Positionen vertreten die Seiten?", items: [
-          { tag: "unbestaetigt", text: "Präsident Trump sagte laut einer einzelnen Quelle, die USA würden Iran vor den Zwischenwahlen am 3.11. nicht angreifen; Iran soll laut einer Quelle Verteidigungsanlagen an Nuklearstandorten verstärken. Beide Angaben sind unabhängig nicht bestätigt." }
+          { tag: "fakt", text: "Die jemenitische Regierung (Presidential Leadership Council) hatte bereits am 5.10. die Offensive „Operation Dawn of Yemen” zur Rückeroberung Sanaas gestartet, unterstützt von rund 100 saudischen Kampfflugzeugen." },
+          { tag: "unbestaetigt", text: "Nach Angaben der jemenitischen Streitkräfte wurden seit Beginn der Offensive mehrere Tausend Luftangriffe geflogen und rund 700 Houthi-Kämpfer „neutralisiert” – eine einseitige Angabe der Konfliktpartei, die unabhängig nicht überprüfbar ist." },
+          { tag: "position", text: "Die jemenitische Regierung erklärte trotz des Palastangriffs, weiterhin von Aden aus zu arbeiten; der UN-Sicherheitsrat verurteilte in einer gemeinsamen Erklärung die eskalierenden Houthi-Angriffe und bekräftigte Saudi-Arabiens Recht auf Selbstverteidigung." }
         ]},
         { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Der Konflikt bildet seit Februar 2026 den Hintergrund für die wiederholten Angriffe in der Straße von Hormus, auf saudisches Gebiet und auf den Jemen, die in den Meldungen 9 und 15 beschrieben werden." }
+          { tag: "fakt", text: "Der Oktober gilt laut Berichten bislang als der Monat mit den meisten Schiffsangriffen am Golf seit Beginn des Konflikts zwischen den USA, Israel und Iran im Februar 2026; der 13.10. war mit sechs gemeldeten Angriffen laut einer Quelle der bislang heftigste einzelne Tag." }
         ]},
-        { h: "Welche wirtschaftlichen Auswirkungen werden diskutiert?", items: [
-          { tag: "einordnung", text: "Der anhaltende Konflikt gilt laut Berichten als zentraler Treiber für die hohen Ölpreise und die gestörte Schifffahrt am Golf; mehr dazu in den Meldungen 9 und 14.",
-            ask: [{ label: "Mehr zum Ölpreis", ref: "s:14" }] }
+        { h: "Welche diplomatischen Entwicklungen gibt es zur Straße von Hormus?", items: [
+          { tag: "position", text: "Irans Außenminister Abbas Araghchi erklärte am 18.10., der iranische Vorschlag zur Öffnung der Straße von Hormus binnen sieben Tagen stehe weiterhin „auf dem Tisch”, verbunden mit drei Bedingungen: Aufhebung der US-Seeblockade, Aussetzung der US-Ölsanktionen und ein Waffenstillstand, der ausdrücklich den Libanon einschließt. Eine umfassende Einigung liegt bislang nicht vor.",
+            ask: [{ label: "Mehr zum Hormuz-Zwischenfall", ref: "s:8" }] },
+          { tag: "unbestaetigt", text: "Ein IRGC-Sprecher erklärte laut einer Quelle, „the war is not over”, und deutete eine mögliche Ausweitung auf ein „breiteres Schlachtfeld” an – eine einseitige, nicht unabhängig bestätigte Äußerung." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sich der Konflikt über mehr als 230 Tage hinzieht, ohne dass eine der beschriebenen Eskalationsstufen bislang zu einer Lösung geführt hat, erklärt, warum die Lage am Golf immer wieder neue Schlagzeilen liefert, ohne dass sich der grundsätzliche Zustand ändert." }
+          { tag: "einordnung", text: "Dass sowohl die jemenitische Offensive gegen die Houthi als auch Irans Vorschlag zur Hormuz-Öffnung weiterlaufen, ohne dass eine Seite bislang nachgegeben hat, zeigt, wie sich die Konfliktherde am Golf und im Jemen gegenseitig verstärken und den Ölpreis beeinflussen (Meldung 14)." }
         ]}
       ],
-      reaction: "Die Lage in der Straße von Hormus wird in Meldung 9 vertieft, der Ölpreis in Meldung 14.",
+      reaction: "Der Hormuz-Zwischenfall wird in Meldung 8 behandelt, der Ölpreis in Meldung 14, der Ukraine-Krieg in Meldung 7.",
       terms: [],
       followups: ["e:hormuz", "e:why-oil-up-geo"],
       sources: [
-        { title: "CBS News: Ships in Strait of Hormuz still face 'indiscriminate attacks'", url: "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/" },
-        { title: "Al Jazeera: US and Iran both claim control of Strait of Hormuz amid attacks on vessels", url: "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels" }
+        { title: "Al Jazeera: Houthis target Yemen's presidential palace in Aden with missiles", url: "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles" },
+        { title: "ABC News (Australia): Houthis attack Aden, killing five and wounding 16", url: "https://www.abc.net.au/news/2026-10-16/houthis-attack-aden-killing-five-and-wounding-16/107268204" },
+        { title: "Saudi Gazette: Yemen launches Operation Dawn of Yemen to retake Sanaa from Houthis", url: "https://saudigazette.com.sa/article/665132/world/yemen-launches-operation-dawn-of-yemen-to-retake-sanaa-from-houthis" },
+        { title: "Antiwar.com: Araghchi says Iran's proposal to open Strait of Hormuz within seven days is still on the table", url: "https://news.antiwar.com/2026/10/18/araghchi-says-irans-proposal-to-open-strait-of-hormuz-within-seven-days-is-still-on-the-table/" },
+        { title: "The National: Yemen government will remain in Aden despite Houthi attack, says official", url: "https://www.thenationalnews.com/news/mena/2026/10/16/yemen-government-will-remain-in-aden-despite-houthi-attack-says-official/" }
       ]
     }
   ],
 
   /* ─────────────────────────── AKTUELLER ZUSAMMENHANG ─────────────────────────── */
   context: {
-    "index-move": { tag: "fakt", story: 1, text: "Am Freitag fielen S&P 500 (−1,1 %) und Nasdaq Composite (−2,1 %) wegen anhaltender KI-Bubble-Sorgen, während DAX (+0,94 %) und Euro Stoxx 50 (+0,58 %) dank Rüstungswerten und einer ASML-Erholung zulegten." },
-    "why-markets-move": { tag: "einordnung", story: 1, text: "Als Hintergrund für die gegenläufige Entwicklung nennen Berichte Rüstungswerte wie Rheinmetall in Europa und anhaltende Sorgen um eine mögliche Überbewertung von KI-Investitionen in den USA." },
-    "yield-meaning": { tag: "fakt", story: 2, text: "Die US-10-Jahres-Rendite blieb am Freitag weitgehend unverändert bei rund 5,08 bis 5,10 %; für die Bund-Rendite ließ sich auch dieses Wochenende kein über mehrere Quellen übereinstimmender Wert ermitteln (Spanne rund 3,42 bis 3,46 %)." },
+    "index-move": { tag: "fakt", story: 1, text: "Am Freitag fielen S&P 500 (−1,1 %) und Nasdaq Composite (−2,1 %) wegen anhaltender KI-Bubble-Sorgen, während DAX (+0,94 %) und Euro Stoxx 50 (+0,58 %) dank Rüstungswerten und einer ASML-Erholung zulegten; am Montag fielen asiatische Chipwerte nach einem neuen DeepSeek-Modell erneut." },
+    "why-markets-move": { tag: "einordnung", story: 1, text: "Als Hintergrund für die gegenläufige Entwicklung nennen Berichte Rüstungswerte wie Rheinmetall in Europa und anhaltende Sorgen um eine mögliche Überbewertung von KI-Investitionen in den USA und Asien." },
+    "yield-meaning": { tag: "fakt", story: 2, text: "Die US-10-Jahres-Rendite lag am Freitag bei rund 5,08 bis 5,10 % und bewegte sich nach einer heißen September-Inflationszahl; für Montag deuten einzelne Quellen eine leicht niedrigere Indikation an. Für die Bund-Rendite ließ sich weiterhin kein über mehrere Quellen übereinstimmender aktueller Wert ermitteln." },
     "central-banks-why": { tag: "position", story: 2, text: "Fed-Chef Warsh machte bei seiner Rede auf der IWF-Jahrestagung in Bangkok am 16.10. bewusst keine Aussage zum Zinspfad für die Sitzung am 27./28.10.; die FOMC-Blackout-Periode läuft seither bis zum 29.10." },
-    "fed-hike": { tag: "unbestaetigt", story: 2, text: "Die eingepreiste Erhöhungswahrscheinlichkeit für Oktober lag am 17.10. bei rund 14 bis 16 % – gegenüber rund 13 bis 15 % direkt nach Warshs Rede kaum verändert." },
-    "gold-why": { tag: "fakt", story: 3, text: "Gold lag am Freitag weiter nahe seinem Mehrjahreshoch bei rund 4.170 bis 4.180 Dollar je Feinunze, gestützt von der unveränderten US-Rendite und der Erwartung einer Fed-Zinspause." },
-    "eurusd-meaning": { tag: "fakt", story: 3, text: "Der EZB-Referenzkurs stieg von 1,1208 auf 1,1253 Dollar – der fünfte Anstieg in Folge." },
-    "bitcoin-what": { tag: "unbestaetigt", story: 3, text: "Bitcoin bewegte sich über das Wochenende in einer engen Spanne von rund 80.655 bis 81.961 Dollar und lag Sonntagvormittag bei rund 81.700 Dollar." },
-    "inflation-what": { tag: "position", story: 5, text: "EZB-Präsidentin Lagarde sagte am 14.10., man sehe bislang keine Zweitrundeneffekte bei der Inflation, verfolge aber Lohnforderungen über Tarifverträge; die Eurozonen-Inflation stieg im September final auf 3,8 %." },
-    "ecb-hike": { tag: "unbestaetigt", story: 5, text: "Eine Reuters-Umfrage unter 73 Ökonomen sieht die EZB am 29.10. mehrheitlich bei einer unveränderten Zinsentscheidung, erwartet aber inzwischen von einer Mehrheit eine Zinserhöhung im Dezember auf 2,75 bis 3,00 %." },
-    "haushalt-basics": { tag: "fakt", story: 7, text: "Der Bundeshaushalt 2027 sieht eine Nettokreditaufnahme von 118,7 Mrd. Euro vor; ein Sozialstaatsbündnis warnt vor Einschnitten bei Wohngeld, Elterngeld und Rentenzuschüssen." },
-    "rente-basics": { tag: "fakt", story: 7, text: "Der Bundeszuschuss zur Rentenversicherung soll 2027 auf 132,04 Mrd. Euro steigen, der Zuwachs soll aber um weitere 1 Mrd. Euro gekürzt werden; der SoVD spricht von einer „versteckten Rentenkürzung”." },
-    "debt-brake": { tag: "fakt", story: 7, text: "85,4 Mrd. Euro der geplanten Neuverschuldung 2027 sollen über die grundgesetzliche Ausnahme für Verteidigungs- und sicherheitspolitische Ausgaben aufgenommen werden." },
-    "landtagswahl-why": { tag: "fakt", story: 6, text: "SPD, Grüne und Die Linke schlossen ihre Berliner Sondierungsgespräche am 17.10. ab und empfehlen Koalitionsverhandlungen; der SPD-Landesvorstand entscheidet am 21.10., die Linke tagt am 31.10." },
-    "coalition-majority": { tag: "unbestaetigt", story: 7, text: "Aktuelle Umfragen weichen weiterhin deutlich voneinander ab: INSA (17.10.) sieht die AfD bei 29 %, Forsa (13.10.) bei 26 %, Ipsos (8.10.) bei 28 %." },
-    "hormuz": { tag: "unbestaetigt", story: 9, text: "Am 17.10. meldete die iranische Revolutionsgarde, ein Supertanker sei in der Straße von Hormus auf eine Seemine gelaufen; die Angabe ist unabhängig nicht bestätigt. Der Flughafen Riad blieb ohne bestätigten Wiedereröffnungstermin geschlossen." },
-    "why-oil-up-geo": { tag: "fakt", story: 9, text: "Houthi-Kräfte griffen am 16.10. den Präsidentenpalast in Aden mit fünf Raketen an (5 Tote, 16 Verletzte); zusätzliche UKMTO-Meldungen zu Angriffen vor Saudi-Arabien kamen am 17.10. hinzu." },
-    "defence-order": { tag: "fakt", story: 10, text: "RTX/Raytheon und Anduril erhielten im Oktober weitere Milliardenaufträge der US-Streitkräfte; die Rheinmetall-Aktie erholte sich am Freitag deutlich, bleibt aber unter ihrem Rekordhoch von Oktober 2025." },
-    "take-private-why": { tag: "fakt", story: 11, text: "Bumble wird für 6,05 Dollar je Aktie (rund 1,3 Mrd. Dollar) von Ithaca Holdings übernommen, Closing erwartet im vierten Quartal 2026." },
-    "ma-steps": { tag: "fakt", story: 11, text: "CCC Intelligent Solutions wird von GTCR und Elliott Investment Management für rund 6,1 Mrd. Dollar Unternehmenswert von der Börse genommen, Closing erwartet im ersten Quartal 2027." },
-    "private-credit-what": { tag: "fakt", story: 12, text: "Direct-Lending-Fonds sammelten in den ersten neun Monaten 2026 ein Rekordvolumen von 129,15 Mrd. Dollar ein, während das Kreditvergabevolumen im dritten Quartal um 28 % sank." },
-    "ai-capex": { tag: "position", story: 13, text: "Nvidia-Chef Jensen Huang sagte angesichts des Kursrückgangs von CoreWeave am 17.10., „all of this is going to pass”; die Anleiherendite des Unternehmens stieg zuvor auf ein Rekordniveau von rund 14,5 bis 15 %." },
-    "custom-chips": { tag: "fakt", story: 13, text: "Der chinesische Hersteller CXMT präsentierte eine neue, dichtere DDR5-Speicherarchitektur; Sorgen vor einem Angebotsüberschuss ab 2029 belasten weiterhin asiatische Speicherchip-Werte." },
-    "circular-financing": { tag: "unbestaetigt", story: 13, text: "OpenAI hatte sein angestrebtes Gesamtbudget für Rechenleistung bereits im Februar 2026 von rund 1,4 Billionen auf rund 600 Mrd. Dollar reduziert; diese ältere Zahl wird im Kontext der aktuellen KI-Sorgen wieder diskutiert." },
-    "energy-germany": { tag: "fakt", story: 14, text: "Die deutschen Gasspeicher lagen zuletzt bei rund 59,8 bis 60,4 % – deutlich unter dem Fünfjahresdurchschnitt von rund 87 % für diese Jahreszeit." },
+    "fed-hike": { tag: "unbestaetigt", story: 2, text: "Marktplattformen wie CME FedWatch, Kalshi und Polymarket preisen für Oktober überwiegend eine Erhöhungswahrscheinlichkeit von rund 13 bis 16 % ein; einzelne Quellen nennen davon abweichend bis zu 42 %." },
+    "gold-why": { tag: "fakt", story: 3, text: "Gold war zur Wochenmitte auf rund 4.073 Dollar gefallen und hat sich seither bei rund 4.170 Dollar je Feinunze stabilisiert, gestützt von der unveränderten US-Rendite und der Erwartung einer Fed-Zinspause." },
+    "eurusd-meaning": { tag: "fakt", story: 3, text: "Der EZB-Referenzkurs war bis Freitag fünfmal in Folge auf 1,1253 Dollar gestiegen; am Montagvormittag handelte der Euro am freien Devisenmarkt mit rund 1,1230 Dollar etwas schwächer." },
+    "bitcoin-what": { tag: "unbestaetigt", story: 3, text: "Bitcoin bewegte sich über das Wochenende in einer engen Spanne von rund 80.655 bis 81.961 Dollar und zog am Montagvormittag leicht auf rund 82.000 bis 82.800 Dollar an." },
+    "inflation-what": { tag: "fakt", story: 4, text: "Die EZB hält ihren Einlagensatz seit der Erhöhung im September bei 2,50 %; Einschätzungen zur Sitzung am 29.10. gehen in den verfügbaren Quellen auseinander." },
+    "ecb-hike": { tag: "unbestaetigt", story: 4, text: "Eine Einschätzung erwartet vorerst keine weitere EZB-Zinsanhebung, eine andere nennt rund 60 % Wahrscheinlichkeit für eine weitere Erhöhung am 29.10." },
+    "haushalt-basics": { tag: "fakt", story: 6, text: "Der Bundeshaushalt 2027 sieht eine Nettokreditaufnahme von 118,7 Mrd. Euro und Gesamtausgaben von 555,4 Mrd. Euro vor; der Bundesrechnungshof weist für die Planung bis 2030 einen Konsolidierungsbedarf von 108 Mrd. Euro aus." },
+    "rente-basics": { tag: "fakt", story: 6, text: "Klingbeil plant, den Bundeszuschuss zur Rentenversicherung um 4 Mrd. Euro zu kürzen; das könnte den Beitragssatz laut Berechnungen der Rentenversicherung bereits ab Juli 2027 um 0,2 Punkte steigen lassen." },
+    "debt-brake": { tag: "fakt", story: 6, text: "Der Verteidigungsetat soll 2027 auf rund 109,7 Mrd. Euro steigen – ein Drittel mehr als 2026 – und trägt wesentlich zur geplanten Nettokreditaufnahme bei." },
+    "landtagswahl-why": { tag: "fakt", story: 5, text: "SPD und Grüne entscheiden am Abend des 19.10. über Koalitionsverhandlungen mit der Linken in Berlin; die Linke selbst entscheidet erst am 31.10. auf einem Parteitag." },
+    "coalition-majority": { tag: "unbestaetigt", story: 6, text: "Aktuelle Umfragen weichen weiterhin deutlich voneinander ab: INSA (17.10.) sieht die AfD bei 29 %, Forsa (6.10.) bei 26 %; der Institutsmittelwert liegt bei rund 27,6 %." },
+    "hormuz": { tag: "unbestaetigt", story: 8, text: "Iran meldet inzwischen zwei auf Minen gelaufene Supertanker in der Straße von Hormus; die US-Streitkräfte (CENTCOM) weisen das ausdrücklich als Desinformation zurück. Der Flughafen Riad wurde am 18.10. wiedereröffnet." },
+    "why-oil-up-geo": { tag: "fakt", story: 14, text: "Der Ölpreis fiel am Montag trotz der anhaltenden Spannungen am Golf, nachdem Präsident Trump neue Russland-Sanktionen vorerst ausgesetzt hatte." },
+    "defence-order": { tag: "fakt", story: 9, text: "Die Rheinmetall-Aktie legte binnen einer Woche rund 15,8 % zu, gestützt vom näherrückenden Arminius-Programm und einem neuen britischen Haubitzenauftrag; Anduril erhielt in den USA weitere Milliardenaufträge (Meldung 10)." },
+    "take-private-why": { tag: "fakt", story: 11, text: "Apollo übernimmt easyJet für 5,7 Mrd. Pfund, EQT den australischen Entsorger Cleanaway für rund 6,5 Mrd. Dollar; Bumble und CCC Intelligent Solutions bewegen sich wie angekündigt auf ihren Abschluss zu." },
+    "ma-steps": { tag: "fakt", story: 11, text: "AkzoNobel und Axalta kündigten eine Fusion über rund 25 Mrd. Dollar an, Proofpoint übernimmt Varonis Systems für rund 6,3 Mrd. Dollar." },
+    "private-credit-what": { tag: "fakt", story: 12, text: "Moody's beziffert die um PIK-Effekte bereinigte Private-Credit-Ausfallrate auf 5,8 % statt offiziell 4 %; Direct-Lending-Fonds sammelten dennoch ein Rekordvolumen von 129,15 Mrd. Dollar ein." },
+    "ai-capex": { tag: "position", story: 13, text: "Nvidia-Chef Jensen Huang sagte am 17.10. zu CoreWeave, dessen Finanzierungskosten sänken bereits wieder; die CDS des Unternehmens stiegen zugleich auf rund 1.038 Basispunkte." },
+    "custom-chips": { tag: "fakt", story: 13, text: "DeepSeek veröffentlichte am 17.10. ein neues, speichereffizienteres KI-Modell; am Montag fielen Samsung und SK Hynix daraufhin erneut deutlich." },
+    "energy-germany": { tag: "fakt", story: 14, text: "Die deutschen Gasspeicher lagen zum Gastag 13.10. bei rund 60,1 % – weiterhin deutlich unter dem Fünfjahresdurchschnitt für diese Jahreszeit." },
     "opec-plus-why": { tag: "fakt", story: 14, text: "Der OPEC+-Beschluss vom 4.10., die Fördermenge für November unverändert zu lassen, bleibt der aktuelle Stand; das nächste Treffen ist für den 1.11. angesetzt." },
-    "gas-ttf": { tag: "fakt", story: 14, text: "Der TTF-Gaspreis erreichte in der Nacht zum 15.10. mit rund 87 Euro je Megawattstunde ein neues Hoch – den höchsten Stand seit Ende 2022." },
-    "oil-inflation": { tag: "einordnung", story: 14, text: "Brent schloss am Freitag bei rund 109,86 Dollar je Barrel; Öl bleibt damit ein Belastungsfaktor für Sprit-, Heiz- und Transportkosten." }
+    "gas-ttf": { tag: "unbestaetigt", story: 14, text: "Der TTF-Gaspreis liegt im Oktober-Monatsmittel bei rund 75 Euro je Megawattstunde und damit weiterhin nahe seinem Mehrjahreshoch." },
+    "oil-inflation": { tag: "einordnung", story: 14, text: "Brent fiel am Montag auf rund 107,85 Dollar je Barrel; Öl bleibt trotz des Rückgangs ein Belastungsfaktor für Sprit-, Heiz- und Transportkosten." },
+    "circular-financing": { tag: "unbestaetigt", story: 13, text: "Die Sorge um die Finanzierung von KI-Cloud-Anbietern wie CoreWeave bleibt akut; dessen Kreditausfallversicherungen stiegen binnen zwei Wochen von 368 auf rund 1.038 Basispunkte." }
   },
 
   /* ─────────────── QUIZ (5 Fragen) ─────────────── */
   quiz: [
     {
-      topic: "Deutschland", type: "Fakt", story: 6,
-      q: "Worauf einigten sich SPD, Grüne und Die Linke am 17.10.2026 in Berlin?",
+      topic: "Deutschland", type: "Fakt", story: 5,
+      q: "Worüber entscheiden SPD und Grüne am Abend des 19.10.2026 in Berlin?",
       options: [
-        "Auf einen fertigen, unterschriebenen Koalitionsvertrag",
-        "Auf ein Sondierungspapier mit der Empfehlung, Koalitionsverhandlungen aufzunehmen",
-        "Auf den sofortigen Abbruch aller weiteren Gespräche",
-        "Auf eine Minderheitsregierung ohne Die Linke"
+        "Über die endgültige Unterschrift unter einen fertigen Koalitionsvertrag",
+        "Darüber, ob sie mit der Linken in Koalitionsverhandlungen eintreten",
+        "Über die Auflösung des Berliner Senats",
+        "Über eine vorzeitige Neuwahl des Abgeordnetenhauses"
       ],
       answer: 1,
-      explain: "Die drei Parteien verständigten sich auf das Sondierungspapier „Mehr gemeinsam, mehr Berlin” und empfehlen ihren Gremien, in Koalitionsverhandlungen einzutreten; ein fertiger Koalitionsvertrag liegt noch nicht vor."
+      explain: "Die Grünen tagen dafür auf einem kleinen Parteitag, der SPD-Landesvorstand stimmt digital ab; es geht um die Empfehlung, in Koalitionsverhandlungen mit der Linken einzutreten – ein fertiger Koalitionsvertrag liegt noch nicht vor."
     },
     {
-      topic: "Geopolitik", type: "Zusammenhang", story: 9,
-      q: "Angenommen, der am 17.10.2026 von der iranischen Revolutionsgarde gemeldete Seeminen-Vorfall in der Straße von Hormus würde sich unabhängig bestätigen lassen. Was würde dadurch unter sonst gleichen Bedingungen am ehesten wahrscheinlicher?",
+      topic: "Geopolitik", type: "Fakt", story: 8,
+      q: "Wie reagierten die US-Streitkräfte (CENTCOM) auf die iranische Meldung, zwei Supertanker seien in der Straße von Hormus auf Minen gelaufen?",
       options: [
-        "Ein automatisches Ende aller Spannungen am Golf",
-        "Ein garantierter Rückgang des Ölpreises",
-        "Zusätzlicher Aufwärtsdruck auf den Ölpreis und weitere Störungen der Schifffahrt",
-        "Eine sofortige Wiedereröffnung des Flughafens Riad"
+        "Sie bestätigten den Vorfall unabhängig",
+        "Sie wiesen die Darstellung ausdrücklich als Desinformation zurück",
+        "Sie äußerten sich nicht dazu",
+        "Sie kündigten als Reaktion eine eigene Militäroperation an"
       ],
-      answer: 2,
-      explain: "Schon unbestätigte Vorfälle in der Straße von Hormus haben den Ölpreis in den vergangenen Wochen wiederholt nach oben getrieben; eine bestätigte Eskalation würde diesen Effekt eher verstärken statt die Lage zu entspannen."
+      answer: 1,
+      explain: "CENTCOM erklärte, kein Schiff sei auf eine Mine gelaufen, und bezeichnete die iranische Darstellung als „yet another IRGC attempt to intimidate regional commercial shipping through disinformation”."
     },
     {
-      topic: "Wirtschaft", type: "Fakt", story: 5,
-      q: "Wie hoch war die Inflation in der Eurozone im September 2026 laut der finalen Eurostat-Zahl vom 16.10.2026?",
+      topic: "Energie", type: "Zusammenhang", story: 14,
+      q: "Angenommen, Präsident Trump hätte die neuen Russland-Sanktionen am 16./17.10.2026 nicht ausgesetzt, sondern verschärft. Was wäre für den Ölpreis am Montag unter sonst gleichen Bedingungen am ehesten wahrscheinlicher gewesen?",
       options: [
-        "2,5 %",
-        "3,2 %",
-        "3,8 %",
-        "4,7 %"
+        "Ein stärkerer Rückgang des Ölpreises als tatsächlich beobachtet",
+        "Ein geringerer Rückgang oder sogar ein Anstieg des Ölpreises, da weniger russisches Angebot erwartet worden wäre",
+        "Keine Auswirkung, da Sanktionen den Ölpreis grundsätzlich nicht beeinflussen",
+        "Eine automatische Wiedereröffnung der Straße von Hormus"
       ],
-      answer: 2,
-      explain: "Eurostat bestätigte am 16.10. final eine Inflation von 3,8 % für September (nach 3,2 % im August) – der höchste Stand seit September 2023, vor allem wegen hoher Energiepreise."
+      answer: 1,
+      explain: "Die tatsächliche Aussetzung der Sanktionen ließ mehr russisches Ölangebot erwarten und drückte den Preis; eine Verschärfung hätte das Angebot eher verknappt und damit tendenziell preistreibend gewirkt."
     },
     {
       topic: "Technologie", type: "Fakt", story: 13,
-      q: "Was sagte Nvidia-Chef Jensen Huang am 17.10.2026 zur Kursentwicklung von CoreWeave?",
+      q: "Was sagte Nvidia-Chef Jensen Huang am 17.10.2026 zu CoreWeave?",
       options: [
-        "„All of this is going to pass”",
-        "Er äußerte sich nicht dazu",
         "Er riet Anlegern, ihre CoreWeave-Aktien zu verkaufen",
-        "Er bestätigte, dass Nvidia bei CoreWeave aussteigen werde"
+        "„CoreWeave's strength is improving every day. I'm optimistic.”",
+        "Er bestätigte den Ausstieg Nvidias bei CoreWeave",
+        "Er äußerte sich nicht zu CoreWeave"
       ],
-      answer: 0,
-      explain: "Huang sagte, die aktuellen Sorgen würden vorübergehen und Künstliche Intelligenz werde langfristig jede Branche positiv verändern; zu CoreWeave sagte er zudem, dessen Finanzierungskosten sänken bereits wieder."
+      answer: 1,
+      explain: "Huang sagte in Berlin, CoreWeaves Stärke verbessere sich täglich und dessen Finanzierungskosten sänken bereits wieder, obwohl die Kreditausfallversicherungen des Unternehmens zu diesem Zeitpunkt auf ein Rekordniveau gestiegen waren."
     },
     {
-      topic: "Geopolitik", type: "Zusammenhang", story: 8,
-      q: "Angenommen, Belgien würde sein Veto gegen die Nutzung der eingefrorenen russischen Vermögenswerte aufgeben. Was würde das für die von der Ukraine genannte Finanzierungslücke von rund 78 Mrd. Dollar für 2027 unter sonst gleichen Bedingungen am ehesten bedeuten?",
+      topic: "Geopolitik", type: "Zusammenhang", story: 7,
+      q: "Angenommen, die EU würde sich doch noch auf die Nutzung der eingefrorenen russischen Vermögenswerte einigen. Was würde das für die von der Ukraine genannte Finanzierungslücke von rund 78,1 Mrd. Dollar für 2027 unter sonst gleichen Bedingungen am ehesten bedeuten?",
       options: [
         "Ein automatisches Ende des Ukraine-Kriegs",
         "Eine deutlich einfachere Deckung der Finanzierungslücke, ohne dass der Krieg dadurch automatisch endet",
@@ -843,7 +849,7 @@ window.EDITION = {
         "Keine Auswirkung, da die Gelder ohnehin nicht genutzt werden dürften"
       ],
       answer: 1,
-      explain: "Ohne Belgiens Veto könnte die EU leichter auf die rund 185 bis 210 Mrd. Euro eingefrorener Vermögenswerte zugreifen und damit die von der Ukraine genannte Finanzierungslücke leichter decken; das würde den militärischen Konflikt selbst aber nicht automatisch beenden."
+      explain: "Eine Einigung über die rund 185 bis 210 Mrd. Euro eingefrorener Vermögenswerte würde die Finanzierungslücke der Ukraine für 2027 leichter decken helfen; den militärischen Konflikt selbst würde das aber nicht automatisch beenden."
     }
   ]
 };

@@ -2,16 +2,16 @@
 // Verweise: "e:ID" Erklärung, "n:ID" Zahl, "t:ID" Fachbegriff, "chain:ID" Kette, "s:N" Meldung Nr. N (ab 1).
 // Tags an Aussagen: fakt | einordnung | position | unbestaetigt
 window.EDITION = {
-  date: "2026-11-03",
-  dateLabel: "Dienstag, 3. November 2026",
-  updatedLabel: "Recherchestand 03.11.2026",
-  marketNote: "Diese Ausgabe entsteht am Dienstagmorgen, 3.11.2026 – dem Tag der US-Zwischenwahlen (gesamtes Repräsentantenhaus, rund ein Drittel des Senats, zahlreiche Gouverneursposten). DAX und Euro Stoxx 50 zeigen den Stand des Dienstagvormittags; die US-Kassamärkte (S&P 500, Nasdaq Composite, Dow Jones) öffnen erst um 15:30 MEZ, bis dahin gilt der Schlussstand von Montag, 2.11., ergänzt um die Tendenz der vorbörslichen Futures. Gold, Öl und Bitcoin handeln durchgehend und zeigen den aktuellsten verfügbaren Stand vom Dienstagmorgen. Apple hatte am Montagabend nach US-Börsenschluss seine Quartalszahlen vorgelegt – der erste Bericht unter dem neuen CEO John Ternus (Meldung 15); die Aktie fiel trotz eines Gewinn-Beats wegen einer schwachen Margen-Prognose. Die Eurozone-Schnellschätzung zur Oktober-Inflation wird erst morgen, Mittwoch 4.11., veröffentlicht und lag zum Redaktionsschluss noch nicht vor; auch die vollständigen Qiagen-Q3-Zahlen folgen erst morgen. Ergebnisse der heutigen US-Zwischenwahlen lagen zum Redaktionsschluss noch nicht vor, da die Wahllokale in den USA erst im Laufe des Abends Ortszeit schließen.",
+  date: "2026-11-04",
+  dateLabel: "Mittwoch, 4. November 2026",
+  updatedLabel: "Recherchestand 04.11.2026",
+  marketNote: "Diese Ausgabe entsteht am Mittwochmittag, 4.11.2026. DAX und Euro Stoxx 50 zeigen den Stand des Mittwochmittags (ca. 12 Uhr MEZ) nach einer deutlichen Erleichterungsrally im Anschluss an die US-Zwischenwahlen; die US-Kassamärkte (S&P 500, Nasdaq Composite, Dow Jones) zeigen weiterhin den Schlussstand von Dienstag, 3.11., da der US-Kassamarkt an diesem Mittwoch erst um 15:30 MEZ öffnet. Gold, Öl und Bitcoin handeln durchgehend und zeigen den aktuellsten verfügbaren Stand vom Mittwochvormittag bzw. -mittag. Die Eurostat-Schnellschätzung zur Oktober-Inflation der Eurozone wurde heute veröffentlicht. Die vollständigen Qiagen-Q3-Zahlen zum EQT-Übernahmeangebot werden erst heute Abend nach Redaktionsschluss (22:05 Uhr) veröffentlicht; zum Redaktionsschluss lagen nur die bereits am 21.10. gemeldeten vorläufigen Zahlen vor. Bei einzelnen Rohstoffpreisen (insbesondere Brent und dem europäischen Gaspreis TTF) weichen Quellen zum Redaktionsschluss noch leicht voneinander ab; betroffene Angaben sind entsprechend gekennzeichnet. Die endgültigen Sitzverteilungen im neuen US-Kongress standen zum Redaktionsschluss noch nicht in allen Rennen fest.",
 
   top: [
-    { text: "DAX und Euro Stoxx 50 geben am Dienstagmorgen nach, belastet vom Kursrückgang bei Apple nach dessen Quartalszahlen und von der Vorsicht der Anleger vor den Ergebnissen der US-Zwischenwahlen; an der Wall Street hatte der Dow am Montag noch zugelegt, während S&P 500 und Nasdaq nachgaben.", ref: "s:1" },
-    { text: "Apple übertrifft unter dem neuen CEO John Ternus beim Umsatz und Gewinn je Aktie die Erwartungen, die Aktie fällt aber wegen einer wegen steigender Speicherchip-Kosten schwächer ausgefallenen Margen-Prognose für das Weihnachtsquartal deutlich.", ref: "s:15" },
-    { text: "Die Straße von Hormus gilt nach neuen Tankerangriffen und US-Luftschlägen auf die iranische Insel Qeshm als faktisch geschlossen; der Ölpreis und der europäische Gaspreis steigen deutlich, während die OPEC+ ihre Dezember-Förderquoten unverändert lässt.", ref: "s:10" },
-    { text: "Russland führt in der Nacht zum Dienstag einen der größten Angriffe auf die ukrainische Energieinfrastruktur seit Kriegsbeginn, die geplanten Dreier-Gespräche in Abu Dhabi verschieben sich auf den 10./11. November; Präsident Selenskyj besucht überraschend Berlin.", ref: "s:8" }
+    { text: "Die Demokratische Partei gewinnt bei den US-Zwischenwahlen die Kontrolle über beide Kammern des Kongresses zurück; DAX und Euro Stoxx 50 reagieren am Mittwoch mit einer deutlichen Erleichterungsrally, Gold springt über die Marke von 4.000 Dollar.", ref: "s:9" },
+    { text: "Die Inflation in der Eurozone steigt im Oktober laut Eurostat-Schnellschätzung auf 4,0 Prozent, den höchsten Stand seit September 2023; Bundesbank-Präsident Nagel hält eine EZB-Zinserhöhung im Dezember für sehr wahrscheinlich notwendig.", ref: "s:4" },
+    { text: "Der Iran meldet weitere Tankertreffer an der Straße von Hormus und den Abschuss einer US-Drohne; der Ölpreis bleibt trotz Entspannungshoffnungen zwischen den USA und Iran volatil.", ref: "s:11" },
+    { text: "Präsident Selenskyj besucht überraschend das Berliner Kanzleramt, der Kreml bestätigt die für 10./11. November geplanten Dreiergespräche in Abu Dhabi zur Ukraine.", ref: "s:10" }
   ],
 
   strip: ["dax", "eurostoxx50", "sp500", "nasdaq", "dow", "eurusd", "ust10", "bund10", "gold", "brent", "bitcoin"],
@@ -19,196 +19,197 @@ window.EDITION = {
   /* ─────────────────────────── ZAHLEN ─────────────────────────── */
   numbers: {
     "dax": {
-      label: "DAX", value: "≈ 25.717–25.737 Pkt.", change: "-0,7 % bis -1,0 % ggü. Mo-Schluss (25.981 Pkt.)", dir: "down", asof: "Stand Di 3.11.26, Vormittag (ca. 8–9 Uhr MEZ)", story: 1,
-      means: "Der DAX bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Der Punktestand ist ein Vergleichswert ohne Einheit. Entscheidend ist die Veränderung: ein Minus heißt, die 40 Firmen wurden zusammen niedriger bewertet als beim letzten Stand.",
+      label: "DAX", value: "≈ 26.240–26.250 Pkt.", change: "+1,4 % bis +1,5 % ggü. Vortagesschluss (≈ 25.869 Pkt.)", dir: "up", asof: "Stand Mi 4.11.26, Mittag (ca. 12:08 Uhr MEZ)", story: 1,
+      means: "Der DAX bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Der Punktestand ist ein Vergleichswert ohne Einheit. Entscheidend ist die Veränderung: ein Plus heißt, die 40 Firmen wurden zusammen höher bewertet als beim letzten Stand.",
       compare: [
-        { label: "Montag", text: "Der DAX war am Montag, 2.11., noch bis auf 25.981 Punkte gestiegen, nachdem er zuvor vom breiten Technologie-Ausverkauf vom Freitag betroffen war." }
+        { label: "Vormittag", text: "Der DAX war am Mittwochmorgen zunächst nur bis auf rund 25.959 Punkte gestiegen, bevor sich die Erholung im Vormittagshandel deutlich beschleunigte und die Marke von 26.200 Punkten überschritten wurde." }
       ],
       moved: {
-        intro: "Als Hintergrund für den Rückgang am Dienstag nennen Berichte:",
+        intro: "Als Hintergrund für den Anstieg am Mittwoch nennen Berichte:",
         items: [
-          "Der Kursrückgang bei Apple nach einer schwächer als erwarteten Margen-Prognose belastete die Stimmung in Technologiewerten auch in Europa.",
-          "Anleger agieren laut Berichten zusätzlich vorsichtig vor den Ergebnissen der heutigen US-Zwischenwahlen."
+          "Nachdem am späten Dienstagabend klar wurde, dass die Demokraten die Kontrolle über beide Kammern des US-Kongresses zurückgewonnen haben, zogen DAX und Euro Stoxx 50 am Mittwoch deutlich an.",
+          "Marktbeobachter nennen als Hintergrund die Erwartung einer politischen Blockade in Washington, die neue, marktbelastende Gesetzesvorhaben erschweren könnte."
         ]
       },
       important: [
-        { area: "Technologie", text: "Mehr zu den Apple-Zahlen in Meldung 15.", ref: "s:15" }
+        { area: "USA", text: "Mehr zu den Zwischenwahlen in Meldung 9.", ref: "s:9" }
       ],
-      source: { title: "onvista: Dax niedriger erwartet – US-Zwischenwahlen im Blick", url: "https://www.onvista.de/news/2026/11-03-dax-niedriger-erwartet-us-zwischenwahlen-im-blick-0-20-26571547" }
+      source: { title: "onvista: Dax vor Ausbruch – US-Midterms liefern neuen Antrieb", url: "https://www.onvista.de/news/2026/11-04-dax-vor-ausbruch-us-midterms-liefern-neuen-antrieb-41123281-19-26572284" }
     },
     "eurostoxx50": {
-      label: "Euro Stoxx 50", value: "≈ 6.145–6.148 Pkt.", change: "-0,5 % bis -0,6 % ggü. Vortag", dir: "down", asof: "Stand Di 3.11.26, Vormittag", story: 1,
+      label: "Euro Stoxx 50", value: "≈ 6.238 Pkt.", change: "+1,5 % (+93,99 Pkt.) ggü. Vortag", dir: "up", asof: "Stand Mi 4.11.26, Mittag", story: 1,
       means: "Der Euro Stoxx 50 bildet 50 große Unternehmen aus dem Euroraum ab. Die Richtung der Veränderung zeigt, ob diese Unternehmen zusammen höher oder niedriger bewertet wurden als beim letzten Stand.",
       compare: [
-        { label: "Allgemeine Tendenz", text: "Auch der Euro Stoxx 50 gibt am Dienstagmorgen nach, im Einklang mit der schwächeren Tendenz an den europäischen Börsen insgesamt." }
+        { label: "Allgemeine Tendenz", text: "Auch der Euro Stoxx 50 zieht am Mittwoch im Einklang mit der breiten Erleichterungsrally an den europäischen Börsen deutlich an." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die Technologie-Schwäche nach den Apple-Zahlen und die Vorsicht vor den US-Zwischenwahlen belasten laut Berichten den Gesamtmarkt."
+          "Die gleichen Gründe wie beim DAX – die Erleichterung über den demokratischen Erfolg bei den US-Zwischenwahlen – treiben laut Berichten auch den Euro Stoxx 50."
         ]
       },
       important: [
-        { area: "USA", text: "Mehr zur Reaktion an der Wall Street am Montag in Meldung 3.", ref: "s:3" }
+        { area: "USA", text: "Mehr zu den Zwischenwahlen in Meldung 9.", ref: "s:9" }
       ],
-      source: { title: "Newsquawk: Daily European Equity Opening News – 3rd November 2026", url: "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---3rd-november-2026" }
+      source: { title: "finanzen.ch: Börse Europa in Grün – so steht der Stoxx 50 mittags", url: "https://www.finanzen.ch/nachrichten/aktien/boerse-europa-in-gruen-so-steht-der-stoxx-50-mittags-1036713936" }
     },
     "sp500": {
-      label: "S&P 500", value: "7.541,40", change: "-0,51 % (Mo-Schluss); vorbörslich Di uneinheitlich (S&P-Futures ca. -0,2 %)", dir: "down", asof: "Schluss Mo 2.11.26; US-Kassamarkt öffnet erst Di 15:30 MEZ", story: 3,
+      label: "S&P 500", value: "7.568,92", change: "+0,4 % (+27,52 Pkt., Schluss Di 3.11.)", dir: "up", asof: "Schluss Di 3.11.26; US-Kassamarkt öffnet Mi erst 15:30 MEZ", story: 2,
       means: "Der S&P 500 bildet 500 große US-Unternehmen ab und gilt als wichtigster Gradmesser des US-Aktienmarkts.",
       compare: [
-        { label: "Tagesverlauf Montag", text: "Der S&P 500 hatte am Montag zeitweise rund 1,1 % im Plus gelegen, bevor Gewinnmitnahmen bei Technologiewerten den Index ins Minus drehten." }
+        { label: "Im Vergleich zum Dow", text: "Während der S&P 500 am Dienstag 0,4 % zulegte und die Nasdaq 0,8 % gewann, gab der Dow 0,4 % ab – ein Zeichen für unterschiedliche Reaktionen innerhalb der Wall Street auf Wahltag und Apple-Nachwirkungen." }
       ],
       moved: {
         intro: "Als Hintergrund nennen Berichte:",
         items: [
-          "Die Apple-Aktie fiel nachbörslich nach einer schwachen Margen-Prognose um bis zu 4,4 %; das belastete die Stimmung auch für den Dienstag.",
-          "Anleger warten zudem auf die Ergebnisse der heutigen US-Zwischenwahlen."
+          "Am Wahltag selbst hielten sich viele Anleger laut Berichten zurück, bevor erste Hochrechnungen zugunsten der Demokraten die Stimmung in Technologiewerten stützten.",
+          "Die US-10-Jahres-Rendite war am Dienstag zunächst um mehr als 4 Basispunkte auf rund 4,94 % gestiegen."
         ]
       },
       important: [
-        { area: "Technologie", text: "Mehr zu Apple, Intel und Amazon in Meldung 15.", ref: "s:15" }
+        { area: "Zinsen", text: "Was eine steigende Rendite für Aktien bedeutet.", ref: "e:yield-stocks" }
       ],
-      source: { title: "CNBC: Apple's stock drops on weak margin forecast in Ternus' first earnings report", url: "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html" }
+      source: { title: "WTOP/AP: How major US stock indexes fared Tuesday", url: "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-3-2026" }
     },
     "nasdaq": {
-      label: "Nasdaq Composite", value: "25.164,36", change: "-1,07 % (Mo-Schluss); Nasdaq-100-Futures Di vorbörslich ca. +0,1 % bis +0,46 %", dir: "down", asof: "Schluss Mo 2.11.26; US-Kassamarkt öffnet erst Di 15:30 MEZ", story: 3,
+      label: "Nasdaq Composite", value: "25.372,01", change: "+0,8 % (+207,65 Pkt., Schluss Di 3.11.)", dir: "up", asof: "Schluss Di 3.11.26; US-Kassamarkt öffnet Mi erst 15:30 MEZ", story: 2,
       means: "Die Nasdaq Composite umfasst alle an der Nasdaq gehandelten Aktien und wird stark von Technologiefirmen geprägt.",
       compare: [
-        { label: "Im Vergleich zum Dow", text: "Während der Dow am Montag um 0,41 % stieg, verlor die technologieschwere Nasdaq 1,07 % – ein Zeichen für eine Rotation aus Technologiewerten." }
+        { label: "Chipwerte", text: "Die Erholung bei Chipwerten half der technologieschweren Nasdaq zu einem der stärksten Tage seit Wochen." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Der Ausverkauf bei Technologiewerten setzte sich fort, verstärkt durch die schwache Reaktion auf die Apple-Zahlen nachbörslich.",
-          "Vorbörslich am Dienstag erholten sich die Nasdaq-100-Futures leicht."
+          "AMD legte nach starken Q3-Zahlen nachbörslich deutlich zu; mehr dazu in Meldung 15.",
+          "Der Wahltag selbst verlief an der Börse zunächst nervös, bevor sich die Stimmung mit den ersten Ergebnissen aufhellte."
         ]
       },
       important: [
-        { area: "Technologie", text: "Mehr zu CoreWeave, Anthropic und zirkulärer KI-Finanzierung in Meldung 15.", ref: "s:15" }
+        { area: "Technologie", text: "Mehr zu AMD, Apple und Anthropic in Meldung 15.", ref: "s:15" }
       ],
-      source: { title: "CNBC: Stock market today – Live updates", url: "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html" }
+      source: { title: "StockTitan: Stock Market Today – Live, November 3, 2026", url: "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026" }
     },
     "dow": {
-      label: "Dow Jones", value: "51.983,98", change: "+0,41 % (Mo-Schluss)", dir: "up", asof: "Schluss Mo 2.11.26; US-Kassamarkt öffnet erst Di 15:30 MEZ", story: 3,
+      label: "Dow Jones", value: "51.786,72", change: "-0,4 % (-197,26 Pkt., Schluss Di 3.11.)", dir: "down", asof: "Schluss Di 3.11.26; US-Kassamarkt öffnet Mi erst 15:30 MEZ", story: 2,
       means: "Der Dow Jones Industrial Average bildet 30 große US-Industrieunternehmen ab und reagiert wegen seiner geringeren Technologiegewichtung oft weniger stark auf Kursbewegungen bei Tech-Aktien als S&P 500 oder Nasdaq.",
       compare: [
-        { label: "Im Vergleich zur Nasdaq", text: "Der Dow stieg am Montag um 0,41 %, während die Nasdaq 1,07 % verlor – Anleger rotierten laut Berichten von Technologie- in zyklischere Werte." }
+        { label: "Im Vergleich zur Nasdaq", text: "Während die Nasdaq um 0,8 % zulegte, gab der Dow leicht nach – belastet vor allem vom Kursrückgang bei Apple." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Käufe in defensiveren, weniger technologienahen Werten stützten den Dow, während der Tech-Sektor unter Druck blieb."
+          "Die Apple-Aktie fiel am Dienstag um 1,9 % auf 331,90 Dollar, nachdem die DZ Bank die Aktie auf „Verkaufen” abgestuft hatte; das belastete den stärker industriell geprägten Dow."
         ]
       },
       important: [
-        { area: "Technologie", text: "Mehr zum Tech-Ausverkauf in Meldung 15.", ref: "s:15" }
+        { area: "Technologie", text: "Mehr zu Apple in Meldung 15.", ref: "s:15" }
       ],
-      source: { title: "247wallst: Money Rotated Out of Tech Today – the Dow and Nasdaq Split", url: "https://247wallst.com/cards/money-rotated-out-of-tech-today-the-dow-and-nasdaq-split-by-gspc-market-bell-01m6f16sjakb82rhj0p9s07n7a" }
+      source: { title: "StockTitan: Stock Market Today – Live, November 3, 2026", url: "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026" }
     },
     "eurusd": {
-      label: "EUR/USD", value: "≈ 1,1185", change: "-0,5 % ggü. Montag (1,1237)", dir: "down", asof: "Stand Di 3.11.26, Vormittag", story: 4, whyRef: "e:eurusd-meaning",
-      means: "1 Euro kostet etwa 1,12 US-Dollar. Sinkt der Kurs, wird der Euro im Verhältnis zum Dollar etwas schwächer.",
+      label: "EUR/USD", value: "≈ 1,1260", change: "+0,6 % ggü. Vortag", dir: "up", asof: "Stand Mi 4.11.26, Vormittag", story: 3, whyRef: "e:eurusd-meaning",
+      means: "1 Euro kostet etwa 1,13 US-Dollar. Steigt der Kurs, wird der Euro im Verhältnis zum Dollar etwas stärker.",
       compare: [
-        { label: "Montag", text: "Der Euro war am Montag bis auf 1,1237 Dollar gestiegen, gestützt von Erwartungen auf eine EZB-Zinserhöhung im Dezember." }
+        { label: "Dienstag", text: "Der Euro hatte sich am Dienstag vor den endgültigen Wahlergebnissen nur wenig bewegt und zog erst am Mittwoch mit der allgemeinen Risikoerholung an." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Der Euro gab am Dienstag einen Teil der Montags-Gewinne wieder ab; als Hintergrund wird Zurückhaltung der Anleger vor den US-Zwischenwahlen genannt."
+          "Ein schwächerer Dollar im Zuge der US-Zwischenwahlen wird von Berichten als ein Grund für den festeren Euro genannt."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Mehr zur EZB-Zinserwartung in Meldung 2.", ref: "s:2" }
+        { area: "Zinsen", text: "Mehr zur erwarteten EZB-Zinserhöhung im Dezember in Meldung 5.", ref: "s:5" }
       ],
-      source: { title: "RoboForex: EUR/USD Forecast 03.11.2026", url: "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-forecast-2026-11-03/" }
+      source: { title: "Trading Economics: Euro Area Currency (EUR/USD)", url: "https://tradingeconomics.com/euro-area/currency" }
     },
     "ust10": {
-      label: "10Y US Treasury", value: "≈ 4,92 %", change: "weitgehend stabil ggü. Vortag", dir: "flat", asof: "Stand Di 3.11.26", story: 3, whyRef: "e:yield-meaning",
-      means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 4,92 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 4,9 % Zinsen pro Jahr.",
+      label: "10Y US Treasury", value: "≈ 4,90–4,95 %", change: "weitgehend stabil; am Dienstag kurzzeitig um gut 4 Basispunkte auf rund 4,94 % gestiegen", dir: "flat", asof: "Stand Mi 4.11.26", story: 2, whyRef: "e:yield-meaning",
+      means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 4,9 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 4,9 % Zinsen pro Jahr.",
       compare: [
-        { label: "Fed-Leitzins", text: "Der Fed-Leitzins liegt bei 3,75 bis 4,00 %; die neuen Fed-Projektionen (Dot Plot) fallen restriktiver aus als zuvor erwartet." }
+        { label: "Fed-Leitzins", text: "Der Fed-Leitzins liegt weiterhin bei 3,75 bis 4,00 %; mehrere Fed-Vertreter werben zuletzt für weitere Erhöhungen." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die Rendite bewegt sich vor den US-Zwischenwahlen und ohne neue Fed-Aussagen in einer engen Spanne."
+          "Der kurzzeitige Anstieg am Wahltag wird von Berichten mit der Reaktion auf erste Ergebnisse und mit robusten Konjunkturdaten in Verbindung gebracht."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Mehr zu EZB und Fed in Meldung 2.", ref: "s:2" }
+        { area: "Zinsen", text: "Mehr zu den Fed-Aussagen in Meldung 6.", ref: "s:6" }
       ],
-      source: { title: "Trading Economics: United States Government Bond Yield", url: "https://tradingeconomics.com/united-states/government-bond-yield" }
+      source: { title: "CNBC: U.S. Treasury yields, bonds", url: "https://www.cnbc.com/amp/2026/11/03/us-treasury-yields-bonds.html" }
     },
     "bund10": {
-      label: "Bund Yield (10 J.)", value: "≈ 3,31 %", change: "weitgehend stabil (Stand Mo 2.11.)", dir: "flat", asof: "Stand Mo 2.11.26 (aktuellster bestätigter Tageswert)", story: 5, whyRef: "e:yield-meaning",
+      label: "Bund Yield (10 J.)", value: "≈ 3,32 %", change: "-0,10 Prozentpunkte ggü. Ende Oktober (≈ 3,42 %)", dir: "down", asof: "Stand Mi 4.11.26", story: 3, whyRef: "e:yield-meaning",
       means: "Die Rendite zehnjähriger Bundesanleihen ist der Richtwert für Zinsen in Deutschland.",
       compare: [
-        { label: "Frankreich", text: "Der Risikoaufschlag zehnjähriger französischer Anleihen zum Bund (OAT/Bund-Spread) lag am 2.11. bei rund 159,9 Basispunkten (OAT-Rendite 4,91 %)." }
+        { label: "Frankreich", text: "Der Risikoaufschlag französischer Anleihen zum Bund bleibt Thema; aktualisierte Spread-Daten für den 4.11. lagen zum Redaktionsschluss nicht vor." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die Erwartung einer EZB-Zinserhöhung im Dezember stützt die Rendite tendenziell."
+          "Die leicht rückläufige Rendite wird von Berichten mit der Erleichterung an den Märkten nach den US-Zwischenwahlen in Verbindung gebracht."
         ]
       },
       important: [
-        { area: "Frankreich", text: "Mehr zur französischen Haushaltslage in Meldung 5.", ref: "s:5" }
+        { area: "Zinsen", text: "Mehr zur EZB-Zinserwartung in Meldung 5.", ref: "s:5" }
       ],
-      source: { title: "ideal-investisseur.fr: OAT / Bund spread today", url: "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html" }
+      source: { title: "finanzen.at: Deutsche Anleihen – leichte Kursgewinne nach US-Zwischenwahl", url: "https://www.finanzen.at/nachrichten/anleihen/deutsche-anleihen-leichte-kursgewinne-nach-us-zwischenwahl-1036713744" }
     },
     "gold": {
-      label: "Gold", value: "≈ 3.909–3.910 $", change: "-0,9 % bis -1,0 % ggü. Vortag", dir: "down", asof: "Stand Di 3.11.26, ca. 8:15 Uhr MEZ", story: 4, whyRef: "e:gold-why",
-      means: "Gold kostet etwa 3.909 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
+      label: "Gold", value: "≈ 4.025–4.047 $", change: "+2,4 % bis +3,0 % ggü. Vortag", dir: "up", asof: "Stand Mi 4.11.26, Vormittag", story: 3, whyRef: "e:gold-why",
+      means: "Gold kostet rund 4.000 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
       compare: [
-        { label: "Montag", text: "Gold war am Montag noch um rund 0,8 % gestiegen; am Dienstag gibt der Preis wieder einen Teil davon ab." }
-      ],
-      moved: {
-        intro: "Berichte nennen als Hintergrund für den Rückgang:",
-        items: [
-          "Zurückhaltung der Anleger vor den Ergebnissen der US-Zwischenwahlen."
-        ]
-      },
-      important: [
-        { area: "Technologie", text: "Der Tech-Ausverkauf infolge der Apple-Zahlen beeinflusst auch die allgemeine Risikobereitschaft der Anleger; mehr dazu in Meldung 15.", ref: "s:15" }
-      ],
-      source: { title: "Goldreporter: Goldpreis heute – Kurse unter Druck vor US-Midterm-Wahlen", url: "https://www.goldreporter.de/goldpreis-03-11-2026/marktbericht-gold/262762/" }
-    },
-    "brent": {
-      label: "Brent Oil", value: "≈ 106–107 $", change: "+1,8 % bis +2,1 % ggü. Vortag", dir: "up", asof: "Stand Di 3.11.26, Vormittag", story: 10, whyRef: "e:why-oil-up-geo",
-      means: "Brent ist die wichtigste internationale Ölsorte. Rund 106 bis 107 Dollar je Fass (159 Liter) liegen weiterhin deutlich über dem Niveau vom Frühjahr 2026.",
-      compare: [
-        { label: "WTI", text: "Die US-Ölsorte WTI stieg im gleichen Zeitraum auf rund 97 Dollar je Barrel." }
+        { label: "Wahlnacht", text: "Gold war in der Wahlnacht zunächst gefragt und sprang am Mittwoch deutlich über die Marke von 4.000 Dollar." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund für den Anstieg:",
         items: [
-          "Nach Angaben von US-Beamten führte das US-Militär am Montag, 2.11., „begrenzte, defensive” Luftangriffe auf die iranische Insel Qeshm an der Straße von Hormus durch; das befeuerte neue Sorgen um die Öl-Versorgung am Golf.",
-          "Die OPEC+ hatte bereits am 1.11. ihre Dezember-Förderquoten unverändert gelassen; mehr dazu in Meldung 10."
+          "Die Erwartung einer politischen Blockade in Washington und anhaltende Spannungen am Persischen Golf werden als Gründe für die Gold-Rally genannt.",
+          "Zur genauen Höhe des Tagesgewinns weichen Quellen leicht voneinander ab (zwischen rund 2,4 % und 3,0 %)."
         ]
       },
       important: [
-        { area: "Geopolitik", text: "Mehr zur Lage am Golf in Meldung 10.", ref: "s:10" },
-        { area: "Inflation", text: "Ein steigender Ölpreis wirkt tendenziell anheizend auf Sprit-, Heiz- und Transportkosten.", ref: "e:oil-inflation" }
+        { area: "Energie", text: "Mehr zur Lage am Golf in Meldung 11.", ref: "s:11" }
       ],
-      source: { title: "FinanceFeeds: Brent Crude $106 After 7.6% Plunge – Qeshm Strike Report, Midterms", url: "https://financefeeds.com/brent-crude-oil-price-106-tuesday-after-7-6-percent-plunge-qeshm-strike-report-midterms-bull-113-bear-100/" }
+      source: { title: "finanzen.ch: Goldpreis – starkes Comeback über 4.000 Dollar nach US-Zwischenwahlen", url: "https://finanzen.ch/nachrichten/rohstoffe/goldpreis-starkes-comeback-ueber-4000-dollar-nach-us-zwischenwahlen-1036713253" }
     },
-    "bitcoin": {
-      label: "Bitcoin", value: "≈ 76.688 $", change: "-2,04 % ggü. Vortag", dir: "down", asof: "Stand Di 3.11.26", story: 4, whyRef: "e:bitcoin-what",
-      means: "Ein Bitcoin kostet rund 76.688 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
+    "brent": {
+      label: "Brent Oil", value: "≈ 102–105 $", change: "-1 % bis -3 % ggü. Dienstag (≈ 106–107 $)", dir: "down", asof: "Stand Mi 4.11.26, Vormittag", story: 11, whyRef: "e:why-oil-up-geo",
+      means: "Brent ist die wichtigste internationale Ölsorte. Rund 102 bis 105 Dollar je Fass (159 Liter) liegen weiterhin deutlich über dem Niveau vom Frühjahr 2026.",
       compare: [
-        { label: "Zusammenhang mit Aktien", text: "Bitcoin bewegt sich zuletzt im Einklang mit dem Tech-Ausverkauf an den Aktienmärkten." }
+        { label: "Letzte Woche", text: "Nach einem Hoch von rund 117 Dollar in der vergangenen Woche und einem zwischenzeitlichen Einbruch auf etwa 100 Dollar am Dienstag pendelt Brent am Mittwoch zwischen rund 102 und 105 Dollar." }
       ],
       moved: {
-        intro: "Berichte nennen als Hintergrund für den Rückgang:",
+        intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Allgemeine Risikoaversion der Anleger vor den US-Zwischenwahlen sowie die Korrelation mit dem Tech-Ausverkauf nach den Apple-Zahlen."
+          "Berichte über mögliche diplomatische Fortschritte zwischen den USA und Iran dämpften die Risikoprämie, auch wenn der Iran zugleich weitere Tankertreffer an der Straße von Hormus meldete.",
+          "Ein Rückgang der US-Rohölvorräte laut API-Daten wirkte dem Preisrückgang zugleich leicht entgegen."
+        ]
+      },
+      important: [
+        { area: "Geopolitik", text: "Mehr zur Lage an der Straße von Hormus in Meldung 11.", ref: "s:11" },
+        { area: "Inflation", text: "Ein hoher Ölpreis wirkt tendenziell anheizend auf Energie- und Transportkosten.", ref: "e:oil-inflation" }
+      ],
+      source: { title: "esyoil: Nach den Midterms bleibt der Ölmarkt nervös", url: "https://www.esyoil.com/news/nach-den-midterms-bleibt-der-oelmarkt-nervoes?id=109249" }
+    },
+    "bitcoin": {
+      label: "Bitcoin", value: "≈ 78.300 $", change: "+0,9 % ggü. Vortag; Erholung von einem Wahlnacht-Tief bei rund 75.740 $", dir: "up", asof: "Stand Mi 4.11.26", story: 3, whyRef: "e:bitcoin-what",
+      means: "Ein Bitcoin kostet rund 78.300 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
+      compare: [
+        { label: "Wahlnacht", text: "Bitcoin war in der Nacht zum Mittwoch auf ein Tief von rund 75.740 Dollar gefallen, bevor sich der Kurs mit den Wahlergebnissen wieder erholte." }
+      ],
+      moved: {
+        intro: "Berichte nennen als Hintergrund für die Erholung:",
+        items: [
+          "Die insgesamt wieder risikofreudigere Stimmung an den Märkten nach den US-Zwischenwahlen wird als Grund für die Erholung genannt."
         ]
       },
       important: [
         { area: "Risikoanlage", text: "Bitcoin wird von vielen Anlegern wie eine riskante Anlage behandelt.", ref: "e:bitcoin-what" }
       ],
-      source: { title: "KuCoin: BTC price, November 3 2026", url: "https://www.kucoin.com/news/insight/BTC/6ae9292abbcb5200074597b4" }
+      source: { title: "finanzen.net: Kryptomarkt – Wahlnacht überstanden, Bitcoin erholt sich", url: "https://www.finanzen.net/nachricht/devisen/kryptomarkt-wahlnacht-ueberstanden-bitcoin-erholt-sich-nach-tief-bei-75-740-dollar-auf-78-300-dollar-00-16035841" }
     }
   },
 
@@ -216,622 +217,589 @@ window.EDITION = {
   stories: [
     /* 1 MÄRKTE */
     {
-      id: "markets-dienstag-apple-midterms-11-03", cats: ["markets"], when: "Stand Di 3.11.2026, Vormittag",
-      headline: "DAX und Euro Stoxx 50 geben am Dienstagmorgen nach, belastet vom Kursrückgang bei Apple und der Vorsicht vor den US-Zwischenwahlen",
-      sec30: "Nachdem der DAX am Montag noch bis auf 25.981 Punkte gestiegen war, fällt er am Dienstagvormittag auf zwischen 25.717 und 25.737 Punkte (-0,7 % bis -1,0 %); der Euro Stoxx 50 notiert zwischen rund 6.145 und 6.148 Punkten (-0,5 % bis -0,6 %). Als Hintergrund nennen Berichte den Kursrückgang bei Apple nach dessen Quartalszahlen vom Montagabend (Meldung 15) sowie die Vorsicht der Anleger vor den Ergebnissen der heutigen US-Zwischenwahlen. An der Wall Street hatte sich am Montag bereits eine Rotation gezeigt: Der Dow schloss im Plus, während S&P 500 und Nasdaq nachgaben (Meldung 3).",
+      id: "markets-mittwoch-dax-eurostoxx-wahlrally-11-04", cats: ["markets"], when: "Stand Mi 4.11.2026, Mittag",
+      headline: "DAX und Euro Stoxx 50 legen am Mittwoch nach den US-Zwischenwahlen deutlich zu, Gold springt über die Marke von 4.000 Dollar",
+      sec30: "Der DAX stieg am Mittwoch im Tagesverlauf von rund 25.959 auf zwischen 26.240 und 26.250 Punkte (+1,4 % bis +1,5 %), der Euro Stoxx 50 legte um rund 1,5 % auf etwa 6.238 Punkte zu. Als Hintergrund nennen Berichte die am späten Dienstagabend bekannt gewordene Rückgewinnung der Kongressmehrheit durch die Demokraten bei den US-Zwischenwahlen. Parallel sprang der Goldpreis über die Marke von 4.000 Dollar je Feinunze, während Bitcoin sich von einem Wahlnacht-Tief erholte (Meldung 3). Die US-Kassamärkte hatten am Dienstag uneinheitlich geschlossen (Meldung 2).",
       blocks: [
-        { h: "Wie haben sich DAX und Euro Stoxx 50 am Dienstagmorgen entwickelt?", items: [
-          { tag: "fakt", text: "Der DAX fiel am Dienstagvormittag auf zwischen 25.717 und 25.737 Punkte (-0,7 % bis -1,0 %), nachdem er am Montag noch bis auf 25.981 Punkte gestiegen war. Der Euro Stoxx 50 notierte zwischen rund 6.145 und 6.148 Punkten (-0,5 % bis -0,6 %).",
+        { h: "Wie haben sich DAX und Euro Stoxx 50 am Mittwoch entwickelt?", items: [
+          { tag: "fakt", text: "Der DAX stieg am Mittwoch von rund 25.959 Punkten am Morgen auf zwischen 26.240 und 26.250 Punkte (+1,4 % bis +1,5 % ggü. Vortagesschluss von etwa 25.869 Punkten); der Euro Stoxx 50 legte um rund 1,5 % (+93,99 Punkte) auf etwa 6.238 Punkte zu.",
             ask: [{ label: "Was bedeutet eine Indexbewegung?", ref: "n:dax" }] }
         ]},
-        { h: "Was nennen Berichte als Grund für die schwächere Tendenz?", items: [
-          { tag: "fakt", text: "Die Apple-Aktie fiel nach den Quartalszahlen vom Montagabend wegen einer schwächer als erwarteten Margen-Prognose vorbörslich deutlich; das belastete auch europäische Technologiewerte.",
-            ask: [{ label: "Mehr zu den Apple-Zahlen", ref: "s:15" }] },
-          { tag: "einordnung", text: "Anleger bleiben zudem vor den Ergebnissen der heutigen US-Zwischenwahlen vorsichtig, die als Stimmungstest für die Regierung Trump gelten.",
-            ask: [{ label: "Mehr zur Lage an der Wall Street", ref: "s:3" }] }
+        { h: "Was nennen Berichte als Grund für die Erleichterungsrally?", items: [
+          { tag: "fakt", text: "Am späten Dienstagabend wurde klar, dass die Demokratische Partei die Kontrolle über Repräsentantenhaus und Senat zurückgewonnen hat; das sorgte laut Berichten für die kräftige Erholung an den europäischen Börsen am Mittwoch.",
+            ask: [{ label: "Mehr zu den Zwischenwahlen", ref: "s:9" }] },
+          { tag: "einordnung", text: "Marktbeobachter nennen als Hintergrund die Erwartung, dass ein von den Demokraten mitkontrollierter Kongress Teile der Agenda von Präsident Trump bremsen und für mehr politische Berechenbarkeit sorgen könnte." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass DAX und Euro Stoxx 50 am Dienstag nachgeben, während an der Wall Street am Montag bereits eine Rotation aus Technologiewerten zu beobachten war, deutet darauf hin, dass sowohl die Apple-Reaktion als auch die Unsicherheit vor den US-Zwischenwahlen derzeit die Stimmung in Europa und den USA gleichermaßen prägen. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass DAX und Euro Stoxx 50 am Mittwoch deutlich zulegen, während gleichzeitig Gold über 4.000 Dollar springt, zeigt, dass Anleger die Nacht sowohl als Risikoerleichterung bei Aktien als auch als Anlass für Absicherung über Gold deuten. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die Entwicklung an der Wall Street am Montag wird in Meldung 3 behandelt, Gold/Bitcoin/Euro in Meldung 4, die Apple-Zahlen im Detail in Meldung 15.",
+      reaction: "Die US-Schlusskurse vom Dienstag werden in Meldung 2 behandelt, Gold/Bitcoin/Euro in Meldung 3, die Zwischenwahl-Ergebnisse im Detail in Meldung 9.",
       terms: ["rendite"],
       followups: ["e:index-move", "e:why-markets-move"],
       sources: [
-        { title: "onvista: Dax niedriger erwartet – US-Zwischenwahlen im Blick", url: "https://www.onvista.de/news/2026/11-03-dax-niedriger-erwartet-us-zwischenwahlen-im-blick-0-20-26571547" },
-        { title: "onvista: Dax schwächer erwartet – Tech-Korrektur belastet Leitindex", url: "https://www.onvista.de/news/2026/11-03-dax-schwaecher-erwartet-tech-korrektur-belastet-leitindex-41121301-19-26571557" },
-        { title: "Newsquawk: Daily European Equity Opening News – 3rd November 2026", url: "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---3rd-november-2026" },
-        { title: "XTB: DAX-Prognose für Dienstag, 03.11.26", url: "https://www.xtb.com/de/Marktanalysen/Trading-News/dax-prognose-fuer-dienstag-03-11-26-aktuelle-einschaetzung-und-chartanalyse" }
+        { title: "onvista: Dax vor Ausbruch – US-Midterms liefern neuen Antrieb", url: "https://www.onvista.de/news/2026/11-04-dax-vor-ausbruch-us-midterms-liefern-neuen-antrieb-41123281-19-26572284" },
+        { title: "ad-hoc-news: Dax bei 25.959 Punkten – US-Wahl und Zahlenflut im Fokus", url: "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-bei-25-959-punkten-us-wahl-und-zahlenflut-im-fokus/70455101" },
+        { title: "finanzen.ch: Börse Europa in Grün – so steht der Stoxx 50 mittags", url: "https://www.finanzen.ch/nachrichten/aktien/boerse-europa-in-gruen-so-steht-der-stoxx-50-mittags-1036713936" },
+        { title: "NZZ: Midterms in den USA – die blaue Welle verunsichert zunächst die Börsen", url: "https://www.nzz.ch/wirtschaft/midterms-in-den-usa-die-blaue-welle-verunsichert-die-boersen-ld.10053926" }
       ]
     },
-    /* 2 WIRTSCHAFT: EZB/FED/PERSONALFRAGEN */
+    /* 2 MÄRKTE: US-SCHLUSS DIENSTAG */
     {
-      id: "ezb-fed-personalfragen-11-03", cats: ["economy", "markets"], when: "EZB-Sitzung 29.10. · Fed-Sitzung 28.10. · Bewerbungsfrist Schnabel-Nachfolge 28.10.2026",
-      headline: "Die EZB steuert laut Insidern auf eine Zinserhöhung im Dezember zu, die Fed-Projektionen fallen restriktiver aus, bei der Schnabel- und Lagarde-Nachfolge zeichnen sich erste Kandidaten ab",
-      sec30: "Nach der EZB-Sitzung vom 29.10. (Leitzins unverändert) berichten Insider, die EZB steuere auf eine Zinserhöhung um 0,25 Prozentpunkte am 17.12. zu, die als „so gut wie sicher” gelte, sofern die Energiepreise nicht einbrechen. EZB-Ratsmitglied Peter Kažimír betonte, die Zinspause sei „keine Ziellinie”. Die Fed hatte ihren Leitzins am 28.10. bei 3,75 bis 4,00 % belassen, ihre neuen Projektionen (Dot Plot) fallen mit einem Median von 4,1 % für Ende 2026 aber restriktiver aus als im Juni erwartet. Bei der EZB-Personalie Schnabel (wechselt zum IWF) endete die Bewerbungsfrist am 28.10.; Bundesfinanzminister Klingbeil hat noch keinen offiziellen Personalvorschlag eingereicht, unterstützt aber informell Bundesbank-Chef Nagel für die Lagarde-Nachfolge als EZB-Präsident.",
+      id: "us-wallstreet-dienstag-midterms-11-04", cats: ["markets"], when: "Schluss Di 3.11.2026 · vorbörslich Mi 4.11.",
+      headline: "S&P 500 und Nasdaq schließen am Dienstag im Plus, der Dow gibt wegen Apple nach, Anleger blicken auf historische Muster nach US-Zwischenwahlen",
+      sec30: "Der S&P 500 schloss am Dienstag bei 7.568,92 Punkten (+0,4 %), die Nasdaq Composite bei 25.372,01 Punkten (+0,8 %); der Dow Jones gab dagegen um 0,4 % auf 51.786,72 Punkte nach, belastet vom Kursrückgang der Apple-Aktie (Meldung 15). Die US-10-Jahres-Rendite stieg am Wahltag zunächst um gut 4 Basispunkte auf rund 4,94 %, bevor sie sich wieder beruhigte. Laut einer von mehreren Medien zitierten Analyse der Deutschen Bank stieg der S&P 500 in allen 20 Zwischenwahljahren seit 1946 binnen zwölf Monaten, im Schnitt um 14,4 %.",
       blocks: [
-        { h: "Wie ist der Stand bei der erwarteten Dezember-Zinserhöhung?", items: [
-          { tag: "position", text: "EZB-Ratsmitglied Peter Kažimír sagte, die Zinspause der vergangenen Woche sei „keine Ziellinie” (im Original: „Last week's pause was not a finish line”) – von Beobachtern als weiteres Signal für eine mögliche Dezember-Erhöhung gewertet.",
-            ask: [{ label: "Was ist ein Leitzins?", ref: "t:leitzins" }] },
-          { tag: "unbestaetigt", text: "Laut Insidern steuert die EZB auf eine Zinserhöhung um 0,25 Prozentpunkte am 17.12. zu, die als „so gut wie sicher” gilt, sofern die Energiepreise nicht plötzlich einbrechen; eine offizielle Bestätigung der EZB liegt nicht vor, die nächste Sitzung ist erst für den 17.12. angesetzt." }
+        { h: "Wie schlossen S&P 500, Nasdaq und Dow am Dienstag?", items: [
+          { tag: "fakt", text: "Der S&P 500 schloss am Dienstag bei 7.568,92 Punkten (+0,4 % bzw. +27,52 Punkte), die Nasdaq Composite bei 25.372,01 Punkten (+0,8 % bzw. +207,65 Punkte); der Dow Jones gab dagegen um 0,4 % (-197,26 Punkte) auf 51.786,72 Punkte nach.",
+            ask: [{ label: "Warum fällt oder steigt die Nasdaq?", ref: "chain:nasdaq-why" }] }
         ]},
-        { h: "Was zeigen die neuen Fed-Projektionen?", items: [
-          { tag: "fakt", text: "Die Fed beließ ihren Leitzins am 28.10.2026 unverändert im Zielkorridor von 3,75 bis 4,00 %. Die neuen Projektionen (Dot Plot) fallen aber restriktiver aus: Der Median für Ende 2026 liegt nun bei 4,1 % (zuvor im Juni: 3,8 %), für Ende 2027 ebenfalls bei 4,1 % (zuvor 3,6 %).",
-            ask: [{ label: "Was zeigt der Dot Plot?", ref: "t:dot-plot" }] },
-          { tag: "unbestaetigt", text: "Drei Fed-Vertreter sprachen sich laut Berichten zuletzt für weitere Zinserhöhungen zur Inflationsbekämpfung aus; Marktteilnehmer preisen eine Wahrscheinlichkeit von rund 73 % für einen weiteren Zinsschritt im Dezember ein." }
+        { h: "Was zeigt der Blick auf frühere Zwischenwahljahre?", items: [
+          { tag: "fakt", text: "Mehrere Medien zitierten eine Analyse der Deutschen Bank, wonach der S&P 500 in allen 20 US-Zwischenwahljahren seit 1946 binnen zwölf Monaten gestiegen sei, im Durchschnitt um 14,4 %.",
+            ask: [{ label: "Warum bewegen sich Börsen überhaupt?", ref: "e:why-markets-move" }] }
         ]},
-        { h: "Was ist neu bei der Schnabel- und Lagarde-Nachfolge?", items: [
-          { tag: "fakt", text: "Die Bewerbungsfrist für Nominierungsvorschläge zur Nachfolge von EZB-Direktorin Isabel Schnabel, die zum IWF wechselt, endete am 28.10.2026; über die Besetzung entscheidet der Europäische Rat.",
-            ask: [{ label: "Mehr zu Lagardes vorzeitigem Rücktritt", ref: "e:ecb-hike" }] },
-          { tag: "position", text: "Bundesfinanzminister Lars Klingbeil erklärte, Deutschland werde „sein Gewicht als größter Staat der Eurozone” einbringen, um eine breit getragene neue EZB-Führung zu formen; er unterstützt informell Bundesbank-Chef Joachim Nagel für die Nachfolge von EZB-Präsidentin Lagarde (vorzeitiger Rücktritt zum 7.2.2027), will eine konkrete Benennung aber erst mit Kanzler Merz abstimmen." },
-          { tag: "unbestaetigt", text: "Als weitere Kandidaten für die Lagarde-Nachfolge werden der niederländische Notenbanker Klaas Knot sowie BIZ-Chef Pablo Hernández de Cos genannt; Berichten zufolge könnte es wegen mehrerer gleichzeitig offener EZB-Spitzenposten auf ein größeres europäisches „Personalpaket” hinauslaufen." }
+        { h: "Welche Sektoren waren von der Wahlnacht besonders betroffen?", items: [
+          { tag: "unbestaetigt", text: "Berichte zufolge gerieten in der Wahlnacht und am Mittwochmorgen insbesondere KI- und Rechenzentrums-nahe Aktien wie CoreWeave, Tesla und SpaceX zeitweise unter Druck, weil neu gewählte demokratische Gouverneure in Bundesstaaten mit großen Rechenzentrums-Investitionen im Wahlkampf strengere Regeln angekündigt hatten; die US-Futures erholten sich im Tagesverlauf aber wieder.",
+            ask: [{ label: "Mehr zu CoreWeave und der Tech-Branche", ref: "s:15" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sich die Erwartung einer Dezember-Zinserhöhung bei der EZB weiter verdichtet, während auch die Fed-Projektionen restriktiver ausfallen und zugleich mehrere EZB-Personalfragen noch offen sind, zeigt, dass geldpolitische und personelle Themen an beiden großen Notenbanken derzeit eng miteinander verwoben sind. Die Marktreaktion dazu findet sich in Meldung 4." }
+          { tag: "einordnung", text: "Dass S&P 500 und Nasdaq am Wahltag zulegten, während der Dow wegen Apple nachgab und einzelne KI-Werte kurzzeitig unter Druck gerieten, zeigt, dass Anleger die Zwischenwahlen und ihre möglichen Folgen für Technologieregulierung und Haushaltspolitik differenziert einpreisen. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die Marktreaktion (Euro, Gold, Bitcoin) wird in Meldung 4 behandelt, Eurozone-Konjunkturdaten in Meldung 5.",
-      terms: ["leitzins", "basispunkt", "dot-plot"],
-      followups: ["e:ecb-hike", "e:central-banks-why", "e:fed-hike"],
-      sources: [
-        { title: "cash.ch: EZB steuert laut Insider auf Zinserhöhung zu", url: "https://www.cash.ch/news/top-news/ezb-steuert-laut-insider-auf-zinserhohung-zu-980905" },
-        { title: "cash-online.de: EZB-Zinsentscheid – Kažimír hält Zinspause für keine Ziellinie", url: "https://www.cash-online.de/a/ezb-zinsentscheid-kazimir-haelt-zinspause-fuer-keine-ziellinie-729262/" },
-        { title: "Handelsblatt: Rennen um EZB-Spitze – Klingbeil plant bald Personalvorschlag", url: "https://www.handelsblatt.com/politik/deutschland/europaeische-zentralbank-rennen-um-ezb-spitze-klingbeil-plant-bald-personalvorschlag/100262803.html" },
-        { title: "Handelsblatt: EZB-Direktorin Isabel Schnabel wechselt zum IWF", url: "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-isabel-schnabel-wechselt-vorzeitig-zum-iwf/100257204.html" },
-        { title: "Handelsblatt: Geldpolitik – Fed lässt Zinsen unverändert", url: "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-fed-laesst-zinsen-unveraendert-weniger-zinsentscheidungen-ab-2027/100264521.html" }
-      ]
-    },
-    /* 3 MÄRKTE: US-SCHLUSS MONTAG / APPLE-FOLGEN */
-    {
-      id: "us-wallstreet-montag-apple-folgen-11-03", cats: ["markets"], when: "Schluss Mo 2.11.2026 · vorbörslich Di 3.11.",
-      headline: "Der Dow schließt am Montag im Plus, S&P 500 und Nasdaq geben nach, vorbörslich am Dienstag bleiben die US-Futures uneinheitlich vor Apple-Reaktion und Zwischenwahlen",
-      sec30: "Der S&P 500 schloss am Montag bei 7.541,40 Punkten (-0,51 %), die Nasdaq Composite bei 25.164,36 Punkten (-1,07 %); der Dow Jones stieg dagegen um 0,41 % auf 51.983,98 Punkte – ein Zeichen für eine Rotation aus Technologiewerten. Nachbörslich fiel die Apple-Aktie nach ihren Quartalszahlen wegen einer schwachen Margen-Prognose um bis zu 4,4 %, vorbörslich am Dienstag vertiefte sich der Rückgang laut Berichten auf bis zu 4,5 bis 4,6 %. Die US-Futures blieben am Dienstagmorgen uneinheitlich: S&P-500-Futures rund -0,2 %, Dow-Futures rund -0,5 %, Nasdaq-100-Futures dagegen leicht im Plus. Heute, Dienstag, finden in den USA die Zwischenwahlen statt – alle 435 Sitze im Repräsentantenhaus, 35 plus zwei Senatssitze und rund 36 Gouverneursposten; Ergebnisse lagen zum Redaktionsschluss noch nicht vor.",
-      blocks: [
-        { h: "Wie schlossen S&P 500, Nasdaq und Dow am Montag?", items: [
-          { tag: "fakt", text: "Der S&P 500 schloss am Montag bei 7.541,40 Punkten (-0,51 %), die Nasdaq Composite bei 25.164,36 Punkten (-1,07 %); der Dow Jones stieg dagegen um 0,41 % auf 51.983,98 Punkte.",
-            ask: [{ label: "Warum fällt die Nasdaq?", ref: "chain:nasdaq-why" }] }
-        ]},
-        { h: "Wie reagierten die Futures auf die Apple-Zahlen?", items: [
-          { tag: "fakt", text: "Die Apple-Aktie fiel nachbörslich am Montag zunächst um rund 3 %, vorbörslich am Dienstag vertiefte sich der Rückgang laut Berichten auf bis zu 4,5 bis 4,6 %. Die US-Futures blieben am Dienstagmorgen uneinheitlich: S&P-500-Futures rund -0,2 % (-14 Punkte), Dow-Futures rund -0,5 % (-260 Punkte), Nasdaq-100-Futures dagegen leicht im Plus (+0,1 %, +21 Punkte).",
-            ask: [{ label: "Mehr zu den Apple-Zahlen", ref: "s:15" }] }
-        ]},
-        { h: "Was hat es mit den US-Zwischenwahlen auf sich?", items: [
-          { tag: "fakt", text: "Heute, Dienstag, 3.11.2026, finden in den USA die regulären Kongress-Zwischenwahlen statt: zur Wahl stehen alle 435 Sitze im Repräsentantenhaus, 35 der 100 Senatssitze plus zwei Nachwahlen sowie Gouverneursposten in rund 36 Bundesstaaten. Ergebnisse lagen zum Redaktionsschluss noch nicht vor, da die Wahllokale erst im Laufe des Abends (US-Zeit) schließen." },
-          { tag: "unbestaetigt", text: "Mehrere US-Medien bezeichnen die Wahl als Stimmungstest für Präsident Trumps zweite Amtszeit; Prognosemärkte sahen zuletzt eine Wahrscheinlichkeit von rund 75 % für einen demokratischen Erfolg im Kongress." },
-          { tag: "einordnung", text: "Analysten sehen laut Berichten einen eher begrenzten Markteinfluss der Wahl, da ein möglicher Machtwechsel im Kongress bereits als Basisszenario in den Kursen berücksichtigt sei." }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass der Dow am Montag zulegte, während S&P 500 und Nasdaq nachgaben und die Apple-Reaktion die Futures am Dienstag zusätzlich belastete, zeigt, dass Anleger derzeit stark zwischen einzelnen Technologiewerten und dem breiteren Markt unterscheiden – bei gleichzeitiger Unsicherheit über den Ausgang der Zwischenwahlen. Dies ist keine Anlageberatung." }
-        ]}
-      ],
-      reaction: "Die Apple-Zahlen im Detail werden in Meldung 15 behandelt, Gold/Bitcoin/Euro in Meldung 4.",
+      reaction: "Die Reaktion in Europa wird in Meldung 1 behandelt, Gold/Bitcoin/Euro in Meldung 3, die Zwischenwahl-Ergebnisse im Detail in Meldung 9, die Apple-Nachwirkungen in Meldung 15.",
       terms: ["rendite"],
       followups: ["chain:nasdaq-why", "e:yield-stocks"],
       sources: [
-        { title: "CNBC: Apple's stock drops on weak margin forecast in Ternus' first earnings report", url: "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html" },
-        { title: "247wallst: Money Rotated Out of Tech Today – the Dow and Nasdaq Split", url: "https://247wallst.com/cards/money-rotated-out-of-tech-today-the-dow-and-nasdaq-split-by-gspc-market-bell-01m6f16sjakb82rhj0p9s07n7a" },
-        { title: "Investing.com: US stock futures mixed as Apple slides, midterms loom", url: "https://www.investing.com/news/stock-market-news/us-stock-futures-mixed-as-apple-slides-midterms-loom-4994306" },
-        { title: "CNBC: Midterm elections could jolt stocks if Democrats sweep Congress", url: "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html" },
-        { title: "Yahoo Finance: Dow, S&P 500, Nasdaq futures waver ahead of midterm election results", url: "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html" }
+        { title: "WTOP/AP: How major US stock indexes fared Tuesday, 11/3/2026", url: "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-3-2026" },
+        { title: "StockTitan: Stock Market Today – Live, November 3, 2026", url: "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026" },
+        { title: "WiWo: US-Midterms – so reagieren Aktien und Anleihen", url: "https://www.wiwo.de/finanzen/boerse/us-midterms-so-reagieren-aktien-und-anleihen/100267173.html" },
+        { title: "CNBC: U.S. Treasury yields, bonds", url: "https://www.cnbc.com/amp/2026/11/03/us-treasury-yields-bonds.html" }
       ]
     },
-    /* 4 MÄRKTE: GOLD/BITCOIN/EURUSD */
+    /* 3 MÄRKTE: GOLD/BITCOIN/EURUSD/ANLEIHEN */
     {
-      id: "gold-bitcoin-eurusd-dienstag-11-03", cats: ["markets"], when: "Stand Di 3.11.2026, Vormittag",
-      headline: "Gold und Bitcoin geben vor den US-Zwischenwahlen nach, der Euro verliert einen Teil seiner Montags-Gewinne",
-      sec30: "Gold fiel am Dienstagmorgen um rund 0,9 bis 1,0 % auf etwa 3.909 bis 3.910 Dollar je Feinunze, nachdem der Preis am Montag noch gestiegen war. Bitcoin notierte bei rund 76.688 Dollar (-2,04 %); Berichte nennen allgemeine Risikoaversion vor den US-Zwischenwahlen sowie die Korrelation mit dem Tech-Ausverkauf als Hintergrund. Der Euro gab auf rund 1,1185 Dollar nach, nach einem Höchststand von 1,1237 Dollar am Montag, der von den EZB-Zinserwartungen gestützt worden war.",
+      id: "gold-bitcoin-eurusd-anleihen-mittwoch-11-04", cats: ["markets"], when: "Stand Mi 4.11.2026, Vormittag",
+      headline: "Gold springt nach den US-Zwischenwahlen über 4.000 Dollar, Bitcoin erholt sich von seinem Wahlnacht-Tief, der Euro legt zu",
+      sec30: "Gold stieg am Mittwoch um rund 2,4 bis 3,0 % auf zwischen 4.025 und 4.047 Dollar je Feinunze und damit erstmals seit längerem wieder über die Marke von 4.000 Dollar; zur genauen Höhe weichen Quellen leicht voneinander ab. Bitcoin erholte sich von einem Wahlnacht-Tief bei rund 75.740 Dollar auf etwa 78.300 Dollar (+0,9 %). Der Euro legte gegenüber dem Dollar um 0,6 % auf rund 1,1260 zu. Die Rendite zehnjähriger Bundesanleihen gab leicht auf rund 3,32 % nach, die US-10-Jahres-Rendite blieb nach einem kurzen Anstieg am Wahltag bei rund 4,90 bis 4,95 % weitgehend stabil.",
       blocks: [
-        { h: "Wie hat sich Gold entwickelt?", items: [
-          { tag: "unbestaetigt", text: "Gold fiel am Dienstagmorgen um rund 0,9 bis 1,0 % auf etwa 3.909 bis 3.910 Dollar je Feinunze, nachdem der Preis am Montag noch um rund 0,8 % gestiegen war.",
-            ask: [{ label: "Was bestimmt den Goldpreis?", ref: "e:gold-why" }] }
+        { h: "Wie haben sich Gold und Bitcoin entwickelt?", items: [
+          { tag: "fakt", text: "Gold stieg am Mittwoch auf zwischen 4.025 und 4.047 Dollar je Feinunze (+2,4 % bis +3,0 %, je nach Quelle); Bitcoin erholte sich von einem Wahlnacht-Tief bei rund 75.740 Dollar auf etwa 78.300 Dollar (+0,9 %).",
+            ask: [{ label: "Was bestimmt den Goldpreis?", ref: "n:gold" }, { label: "Warum schwankt Bitcoin so stark?", ref: "n:bitcoin" }] },
+          { tag: "unbestaetigt", text: "Zur exakten Tageshöhe von Gold liegen unterschiedliche Angaben vor (zwischen rund 4.025 und 4.047 Dollar); eine einheitliche Bestätigung lag zum Redaktionsschluss nicht vor." }
         ]},
-        { h: "Wie hat sich Bitcoin entwickelt?", items: [
-          { tag: "unbestaetigt", text: "Bitcoin notierte am Dienstag bei rund 76.688 Dollar (-2,04 % ggü. Vortag); als Hintergrund nennen Berichte allgemeine Risikoaversion vor den US-Zwischenwahlen sowie die Korrelation mit dem Tech-Ausverkauf nach den Apple-Zahlen.",
-            ask: [{ label: "Warum schwankt Bitcoin so stark?", ref: "e:bitcoin-what" }] }
+        { h: "Was nennen Berichte als Grund?", items: [
+          { tag: "einordnung", text: "Die Erwartung einer politischen Blockade in Washington nach dem Machtwechsel im Kongress sowie anhaltende Spannungen am Persischen Golf werden von Berichten als Treiber für die Gold-Rally genannt; bei Bitcoin wird die insgesamt wieder risikofreudigere Stimmung nach den Zwischenwahlen angeführt." }
         ]},
-        { h: "Wie hat sich der Euro entwickelt?", items: [
-          { tag: "fakt", text: "Der Euro gab am Dienstag auf rund 1,1185 Dollar nach, nach einem Höchststand von 1,1237 Dollar am Montag.",
-            ask: [{ label: "Was bedeutet ein EUR/USD-Kurs von rund 1,12?", ref: "e:eurusd-meaning" }] },
-          { tag: "einordnung", text: "Der Höchststand am Montag war von den sich verdichtenden Erwartungen auf eine EZB-Zinserhöhung im Dezember gestützt worden; mehr dazu in Meldung 2.",
-            ask: [{ label: "Mehr zur EZB und zur Schnabel-/Lagarde-Nachfolge", ref: "s:2" }] }
+        { h: "Wie entwickelten sich Euro und Anleiherenditen?", items: [
+          { tag: "fakt", text: "Der Euro legte gegenüber dem Dollar um 0,6 % auf rund 1,1260 zu. Die Rendite zehnjähriger Bundesanleihen gab leicht auf rund 3,32 % nach (von rund 3,42 % Ende Oktober), die US-10-Jahres-Rendite blieb nach einem kurzen Anstieg am Wahltag auf gut 4,94 % bei rund 4,90 bis 4,95 % weitgehend stabil.",
+            ask: [{ label: "Was bedeutet eine Anleihe-Rendite?", ref: "n:ust10" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Gold und Bitcoin am Dienstag nachgeben, während der Euro einen Teil seiner Montags-Gewinne abgibt, deutet darauf hin, dass die Vorsicht der Anleger vor den US-Zwischenwahlen derzeit über die EZB-Zinserwartungen als Stützungsfaktor für den Euro hinausgeht. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass Gold über 4.000 Dollar springt und Bitcoin sich zugleich von seinem Wahlnacht-Tief erholt, zeigt, dass Anleger die Nacht uneinheitlich deuten: teils als Anlass für Absicherung, teils als generelle Risikoerleichterung. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die zugrundeliegende EZB-Entwicklung wird in Meldung 2 behandelt, die US-Marktlage in Meldung 3.",
+      reaction: "Die Entwicklung bei DAX/Euro Stoxx 50 wird in Meldung 1 behandelt, die US-Schlusskurse in Meldung 2, die Zwischenwahlen im Detail in Meldung 9.",
       terms: ["rendite"],
       followups: ["e:gold-why", "e:bitcoin-what", "e:eurusd-meaning"],
       sources: [
-        { title: "Goldreporter: Goldpreis heute – Kurse unter Druck vor US-Midterm-Wahlen", url: "https://www.goldreporter.de/goldpreis-03-11-2026/marktbericht-gold/262762/" },
-        { title: "KuCoin: BTC price, November 3 2026", url: "https://www.kucoin.com/news/insight/BTC/6ae9292abbcb5200074597b4" },
-        { title: "RoboForex: EUR/USD Forecast 03.11.2026", url: "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-forecast-2026-11-03/" },
-        { title: "Trading Economics: Gold", url: "https://tradingeconomics.com/commodity/gold" }
+        { title: "finanzen.ch: Goldpreis – starkes Comeback über 4.000 Dollar nach US-Zwischenwahlen", url: "https://finanzen.ch/nachrichten/rohstoffe/goldpreis-starkes-comeback-ueber-4000-dollar-nach-us-zwischenwahlen-1036713253" },
+        { title: "wallstreet-online: Goldpreis – Gold-Rally +2,42 %, 4.026,59 USD", url: "https://www.wallstreet-online.de/nachricht/21634332-goldpreis-gold-rally-2-42-24h-4-026-59-usd" },
+        { title: "finanzen.net: Kryptomarkt – Wahlnacht überstanden, Bitcoin erholt sich", url: "https://www.finanzen.net/nachricht/devisen/kryptomarkt-wahlnacht-ueberstanden-bitcoin-erholt-sich-nach-tief-bei-75-740-dollar-auf-78-300-dollar-00-16035841" },
+        { title: "finanzen.at: Deutsche Anleihen – leichte Kursgewinne nach US-Zwischenwahl", url: "https://www.finanzen.at/nachrichten/anleihen/deutsche-anleihen-leichte-kursgewinne-nach-us-zwischenwahl-1036713744" }
       ]
     },
-    /* 5 WIRTSCHAFT: PMI/ARBEITSMARKT/INFLATION/FRANKREICH */
+    /* 4 WIRTSCHAFT: EUROZONE-INFLATION */
     {
-      id: "eurozone-pmi-arbeitsmarkt-frankreich-11-03", cats: ["economy", "germany", "world"], when: "PMI final Okt. · Arbeitsmarkt Okt. (BA 3.11.) · Frankreich-Abstimmung erneut verschoben 3.11.2026",
-      headline: "Die deutsche Arbeitslosigkeit sinkt im Oktober nur leicht, die Eurozone-Industrie wächst laut PMI weiter, Frankreichs Haushaltsabstimmung wird ein zweites Mal verschoben",
-      sec30: "Die Bundesagentur für Arbeit meldete für Oktober 2.955.000 Arbeitslose (Quote 6,3 %, -0,1 Punkte ggü. September, aber +44.000 bzw. +0,1 Punkte im Jahresvergleich); BA-Vorstandschefin Nahles sprach von einem vergleichsweise schwachen Rückgang. Der finale Einkaufsmanagerindex (PMI) für die Industrie der Eurozone lag im Oktober bei 52,7 Punkten (September: 52,9), der Produktionsindex fiel auf ein Vier-Monats-Tief. Nationale Oktober-Inflationswerte zeigen weiterhin ein uneinheitliches Bild zwischen 2,8 % in Deutschland und 5,4 % in Italien; die offizielle Eurozone-Schnellschätzung folgt erst morgen, 4.11. In Frankreich wurde die für heute geplante Abstimmung über den Einnahmenteil des Haushalts 2027 in der Nationalversammlung ein zweites Mal verschoben; der Risikoaufschlag französischer zu deutschen Anleihen (OAT/Bund-Spread) lag am 2.11. bei rund 159,9 Basispunkten, nachdem Fitch den Ausblick für Frankreichs Bonität am 31.10. auf „negativ” gesenkt hatte.",
+      id: "eurozone-inflation-oktober-flash-11-04", cats: ["economy"], when: "Eurostat-Schnellschätzung veröffentlicht Mi 4.11.2026",
+      headline: "Die Inflation in der Eurozone steigt im Oktober auf 4,0 Prozent, den höchsten Stand seit September 2023",
+      sec30: "Laut der heute veröffentlichten Eurostat-Schnellschätzung stieg die Inflation in der Eurozone im Oktober auf 4,0 % (von 3,8 % im September); die Kerninflation ohne Energie, Lebensmittel, Alkohol und Tabak blieb mit 2,5 % stabil. Haupttreiber war erneut die Energie (+20,8 % ggü. Vorjahr, nach +18,9 % im September). Zwischen den Ländern gibt es weiterhin große Unterschiede: Deutschland meldet 2,8 %, Frankreich 3,8 %, Italien 5,6 % und Spanien 4,9 %. Die vollständigen Oktober-Daten folgen am 18.11.2026.",
       blocks: [
-        { h: "Wie hat sich der deutsche Arbeitsmarkt im Oktober entwickelt?", items: [
-          { tag: "fakt", text: "Die Bundesagentur für Arbeit meldete für Oktober 2026 2.955.000 Arbeitslose, eine Quote von 6,3 % (-0,1 Punkte ggü. September, aber +44.000 bzw. +0,1 Punkte im Jahresvergleich); die Zahl offener Stellen lag bei 654.000 (+31.000 ggü. Vorjahr)." },
-          { tag: "position", text: "BA-Vorstandschefin Andrea Nahles kommentierte, die wirtschaftlichen Rahmenbedingungen reichten weiterhin nicht für eine echte Besserung aus; der Rückgang falle „vergleichsweise schwach” aus." }
+        { h: "Was zeigt die Eurostat-Schnellschätzung für Oktober?", items: [
+          { tag: "fakt", text: "Die Inflation in der Eurozone stieg im Oktober 2026 laut Eurostat-Schnellschätzung auf 4,0 % (von 3,8 % im September) – der höchste Stand seit September 2023. Die Kerninflation ohne Energie, Lebensmittel, Alkohol und Tabak blieb stabil bei 2,5 %.",
+            ask: [{ label: "Was ist Inflation, und wie wird sie gemessen?", ref: "t:inflation" }, { label: "Was ist Kerninflation?", ref: "t:kerninflation" }] }
         ]},
-        { h: "Wie entwickelt sich die Industrie in der Eurozone?", items: [
-          { tag: "fakt", text: "Der finale Einkaufsmanagerindex (PMI) für die Industrie der Eurozone lag im Oktober bei 52,7 Punkten (September: 52,9, vorläufige Schnellschätzung: 52,4); der Produktionsindex fiel auf ein Vier-Monats-Tief von 52,8 Punkten (September: 53,6).",
-            ask: [{ label: "Mehr zur Marktreaktion auf Zinserwartungen", ref: "s:2" }] }
+        { h: "Welche Preiskomponenten trieben die Inflation?", items: [
+          { tag: "fakt", text: "Nach Komponenten: Energie +20,8 % (von +18,9 % im September), Dienstleistungen +3,3 % (von +3,2 %), Lebensmittel/Alkohol/Tabak +1,6 % (von +1,3 %), Industriegüter ohne Energie +1,2 %." }
         ]},
-        { h: "Wie weit driftet die Inflation zwischen den Euroländern auseinander?", items: [
-          { tag: "fakt", text: "Nationale Oktober-Inflationswerte zeigen weiterhin ein deutlich uneinheitliches Bild innerhalb der Eurozone: Italien 5,4 %, Spanien 4,9 %, Frankreich 3,4 %, Deutschland 2,8 %.",
-            ask: [{ label: "Was ist Inflation?", ref: "t:inflation" }] },
-          { tag: "unbestaetigt", text: "Vorab-Schätzungen für die Eurozone insgesamt vor der offiziellen Schnellschätzung am 4.11. schwanken je nach Bank zwischen 3,7 % (Bank of America) und 4,0 % (Pantheon Macroeconomics, angehoben von 3,8 % im September) – die endgültige Zahl liegt zum Redaktionsschluss noch nicht vor." }
-        ]},
-        { h: "Wie ist die Lage in Frankreich?", items: [
-          { tag: "fakt", text: "Die für heute, 3.11., geplante Abstimmung über den Einnahmenteil des Haushalts 2027 in der französischen Nationalversammlung wurde ein zweites Mal verschoben; von rund 3.000 eingereichten Änderungsanträgen waren bis zum Vormittag des 2.11. erst 1.943 geprüft. Die Frist für die erste Lesung endet um Mitternacht am 17.11.; ein Rückgriff auf Artikel 49.3 der Verfassung wird diskutiert.",
-            ask: [{ label: "Was zeigt eine Anleiherendite?", ref: "n:bund10" }] },
-          { tag: "fakt", text: "Der Risikoaufschlag zehnjähriger französischer Staatsanleihen (OAT) zu Bundesanleihen (OAT/Bund-Spread) lag am 2.11. bei rund 159,9 Basispunkten (OAT-Rendite 4,91 %, Bund-Rendite 3,31 %); die Ratingagentur Fitch hatte den Ausblick für Frankreichs Bonität am 31.10. auf „negativ” gesenkt." }
+        { h: "Wie unterscheiden sich die Länder?", items: [
+          { tag: "fakt", text: "Deutschland meldet 2,8 % (rückläufig), Frankreich 3,8 % (von 3,4 %), Italien 5,6 % (von 4,2 %, stärkster Anstieg) und Spanien 4,9 % (leicht rückläufig). EU-weit die höchsten Werte meldeten Litauen (6,1 %) und Bulgarien (6,0 %), den niedrigsten Malta (2,3 %)." },
+          { tag: "einordnung", text: "Als Haupttreiber der insgesamt höheren Eurozone-Inflation nennen Berichte die anhaltend hohen Energiepreise, unter anderem im Zusammenhang mit den Lieferstörungen am Persischen Golf.",
+            ask: [{ label: "Mehr zur Lage am Golf", ref: "s:11" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass der deutsche Arbeitsmarkt nur leicht nachgibt und die Eurozone-Industrie laut PMI weiter wächst, während sich die Inflation zwischen den Euroländern deutlich unterscheidet und Frankreichs Haushaltsabstimmung ein zweites Mal verschoben wird, zeigt ein weiterhin uneinheitliches Konjunkturbild innerhalb der Eurozone kurz vor der Oktober-Inflationsschätzung am 4.11." }
+          { tag: "einordnung", text: "Dass die Gesamtinflation steigt, während die Kerninflation stabil bleibt, deutet darauf hin, dass vor allem die Energiepreise für den Anstieg verantwortlich sind und sich der breitere Preisdruck bislang nicht verstärkt hat. Das dürfte die Diskussion um eine EZB-Zinserhöhung im Dezember beeinflussen.",
+            ask: [{ label: "Mehr zur EZB-Zinserwartung", ref: "s:5" }] }
         ]}
       ],
-      reaction: "Der Bundeshaushalt wird in Meldung 6 behandelt, die EZB-Zinserwartungen in Meldung 2.",
-      terms: ["basispunkt", "rendite", "inflation"],
-      followups: ["e:inflation-expectations", "e:debt-brake"],
+      reaction: "Die EZB-Reaktion wird in Meldung 5 behandelt, weitere Konjunkturdaten in Meldung 6, der Ölpreis-Hintergrund in Meldung 11.",
+      terms: ["inflation", "kerninflation", "erzeugerpreise"],
+      followups: ["e:inflation-what", "e:oil-inflation", "e:central-banks-why"],
       sources: [
-        { title: "Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026", url: "https://www.arbeitsagentur.de/presse/2026-41-arbeitsmarkt-im-oktober-2026" },
-        { title: "finanzen.at: S&P Global Index – Eurozone-Industrie setzt Wachstumskurs im Oktober fort", url: "https://www.finanzen.at/nachrichten/aktien/s&p-global-index-eurozone-industrie-setzt-wachstumskurs-im-oktober-fort-1036699710" },
-        { title: "Euronews: Germany, France, Italy and Spain – where was inflation highest in October", url: "https://www.euronews.com/2026/10/30/germany-france-italy-and-spain-where-was-inflation-highest-in-october" },
-        { title: "newscord.org: France Postpones 2027 Budget Vote as National Assembly Debates Revenue Section", url: "https://newscord.org/article/france-postpones-2027-budget-vote-as-national-assembly-debates-revenue-section--Story_20261103_Francepostpones2027b56d07e3b" },
-        { title: "ideal-investisseur.fr: OAT / Bund spread today", url: "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html" }
+        { title: "Eurostat: Euro area annual inflation – flash estimate, November 2026", url: "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04112026-ap" },
+        { title: "finanznachrichten.de (dpa-AFX): ROUNDUP – Inflationsrate der Eurozone steigt auf 4,0 Prozent", url: "https://www.finanznachrichten.de/nachrichten-2026-11/70031011-roundup-inflationrate-der-eurozone-steigt-auf-4-0-prozent-016.htm" },
+        { title: "Euronews: Eurozone inflation hits 4% – which countries saw prices jump the most", url: "https://www.euronews.com/2026/11/04/eurozone-inflation-hits-4-which-countries-saw-prices-jump-the-most" }
       ]
     },
-    /* 6 DEUTSCHLAND: BUNDESHAUSHALT/KOALITIONSAUSSCHUSS */
+    /* 5 WIRTSCHAFT: EZB DEZEMBER-ZINSERHÖHUNG + PERSONALFRAGEN */
     {
-      id: "bundeshaushalt-koalitionsausschuss-11-03", cats: ["germany", "economy"], when: "Bereinigungssitzung 12.11. · Plenumsberatung 24.–27.11. · Koalitionsausschuss 17.11.2026",
-      headline: "Der Zeitplan für den Bundeshaushalt 2027 bleibt unverändert, vor dem Koalitionsausschuss am 17. November werden mehrere offene Streitpunkte zwischen CDU, CSU und SPD sichtbar",
-      sec30: "Der Zeitplan für die Haushaltsberatungen 2027 bleibt unverändert: Die Bereinigungssitzung des Haushaltsausschusses ist für den 12.11.2026 angesetzt, die abschließende Beratung im Bundestagsplenum läuft vom 24. bis 27.11., mit namentlicher Abstimmung am 27.11. Zum Koalitionsausschuss der Spitzen von CDU, CSU und SPD am 17.11. liegt noch keine offizielle Agenda vor, es gilt aber als wahrscheinlich, dass Reformvorhaben zu Rente, Arbeitsmarkt, Gesundheit und Pflege vorangebracht werden sollen. Berichten zufolge belasten die Koalition derzeit mehrere Streitpunkte: der Umgang mit der AfD-Wahl eines Landtagspräsidenten in Sachsen-Anhalt, SPD-Sondierungen mit Linken und Grünen in Berlin sowie ein Besetzungsstreit bei der geplanten Pflegekommission und Uneinigkeit über die 33 Empfehlungen der Rentenkommission.",
+      id: "ezb-dezember-zinserhoehung-personalfragen-11-04", cats: ["economy", "markets"], when: "Nagel-Aussage 3.11. · Nominierungsfrist EZB-Spitze 6.11. · Finanzministertreffen 9.11.2026",
+      headline: "Bundesbank-Präsident Nagel hält eine EZB-Zinserhöhung im Dezember für sehr wahrscheinlich notwendig, im Rennen um die Lagarde-Nachfolge zeichnen sich zwei Favoriten ab",
+      sec30: "Bundesbank-Präsident Joachim Nagel sagte am 3.11. in Berlin, eine EZB-Zinserhöhung im Dezember sei aus heutiger Sicht „sehr wahrscheinlich notwendig”, der Inflationsausblick habe sich verschlechtert. Nach der heutigen Eurostat-Zahl (Meldung 4) gilt eine Erhöhung um 0,25 Prozentpunkte am 17.12. bei Analysten inzwischen weitgehend als gesetzt. Bei der Nachfolge von EZB-Präsidentin Lagarde (Rücktritt zum 7.2.2027) läuft die Nominierungsfrist für die Eurostaaten bis Freitag, 6.11.; die Euro-Finanzminister prüfen die Vorschläge am 9.11. Als Favoriten werden BIZ-Chef Pablo Hernández de Cos und der frühere niederländische Notenbankchef Klaas Knot genannt, auch Bundesbank-Chef Nagel wird weiter gehandelt.",
       blocks: [
-        { h: "Wie ist der aktuelle Stand des Zeitplans für den Bundeshaushalt 2027?", items: [
-          { tag: "fakt", text: "Die Bereinigungssitzung des Haushaltsausschusses, bei der die letzten strittigen Fragen geklärt und eine Beschlussempfehlung zum Finanzplan 2026-2030 formuliert werden, ist weiterhin für den 12.11.2026 angesetzt; die abschließende Beratung im Bundestagsplenum läuft vom 24. bis 27.11., mit Generaldebatte zum Kanzleretat und namentlicher Abstimmung in dritter Lesung am 27.11.",
-            ask: [{ label: "Was zeigt eine Deckungslücke?", ref: "e:haushalt-basics" }] }
+        { h: "Was sagte Bundesbank-Präsident Nagel?", items: [
+          { tag: "position", text: "Bundesbank-Präsident Joachim Nagel sagte am 3.11.2026 in Berlin, eine EZB-Zinserhöhung im Dezember sei aus heutiger Sicht „sehr wahrscheinlich notwendig”; der Inflationsausblick habe sich verschlechtert.",
+            ask: [{ label: "Was ist ein Leitzins?", ref: "t:leitzins" }] },
+          { tag: "position", text: "EZB-Ratsmitglieder Peter Kažimír (Slowakei) und Dimitar Radev (Bulgarien) betonten zuvor, die Zinspause vom 29.10. sei „keine Ziellinie” gewesen; Kažimír stellte laut Berichten nicht mehr die Frage, ob, sondern wie viel weitere geldpolitische Straffung nötig sei." }
         ]},
-        { h: "Was ist beim Koalitionsausschuss am 17.11. zu erwarten?", items: [
-          { tag: "unbestaetigt", text: "Zum Koalitionsausschuss der Spitzen von CDU, CSU und SPD am 17.11.2026 liegt keine offizielle Agenda vor; es gilt aber als wahrscheinlich, dass dabei Reformvorhaben zu Rente, Arbeitsmarkt, Gesundheit und Pflege vorangebracht werden sollen, um sie bis Jahresbeginn 2027 abzuschließen.",
-            ask: [{ label: "Mehr zur Rente mit 63", ref: "s:7" }] },
-          { tag: "unbestaetigt", text: "Berichten zufolge belasten die Koalition derzeit mehrere Streitpunkte: der Umgang mit der Wahl eines AfD-Politikers zum Landtagspräsidenten in Sachsen-Anhalt, SPD-Sondierungsgespräche mit Linken und Grünen in Berlin sowie ein Besetzungsstreit bei der geplanten Pflegekommission, deren Einsetzung Gesundheitsminister Linnemann (CDU) verschoben hatte, und anhaltende Uneinigkeit über die 33 Empfehlungen der Rentenkommission. Die Union drohte zudem, die Einkommensteuerreform zu blockieren, bis das SPD-geführte Arbeitsministerium Gesetzentwürfe zur Renten- und Arbeitsmarktreform vorlegt." }
+        { h: "Wie ist der Stand bei der Schnabel-Nachfolge?", items: [
+          { tag: "fakt", text: "Isabel Schnabel wechselt zum IWF (Direktorin für Kapitalmärkte ab 4.1.2027); ihre reguläre EZB-Amtszeit hätte bis Ende 2027 gelaufen. 2027 müssen zusätzlich die EZB-Präsidentschaft und der Posten des Chefökonomen (Philip Lanes Amtszeit endet im Juni 2027) neu besetzt werden." }
+        ]},
+        { h: "Wer sind die Kandidaten für die Lagarde-Nachfolge?", items: [
+          { tag: "fakt", text: "Die Eurostaaten müssen ihre Kandidatenvorschläge für die Lagarde-Nachfolge bis Freitag, 6.11.2026, einreichen; die Euro-Finanzminister prüfen die Vorschläge am 9.11." },
+          { tag: "unbestaetigt", text: "Als Favoriten werden BIZ-Chef Pablo Hernández de Cos (Spanien) und der frühere niederländische Notenbankchef Klaas Knot genannt; auch Bundesbank-Chef Joachim Nagel wird weiter gehandelt. Bundesfinanzminister Klingbeil plant laut Berichten einen eigenen deutschen Personalvorschlag, möglicherweise im Paket mit weiteren zu besetzenden EZB-Spitzenposten." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass der Zeitplan für Bereinigungssitzung und Bundestagsberatung unverändert bleibt, während sich vor dem Koalitionsausschuss am 17.11. mehrere parallel laufende Streitpunkte zwischen CDU, CSU und SPD zeigen, deutet darauf hin, dass sich mehrere wichtige innenpolitische Entscheidungen im Laufe des November bündeln." }
+          { tag: "einordnung", text: "Dass Bundesbank-Chef Nagel eine Dezember-Erhöhung für sehr wahrscheinlich notwendig hält, kurz nachdem die Eurozone-Inflation auf 4,0 % gestiegen ist, zeigt, wie eng die heutigen Konjunkturdaten mit der Zinsdebatte verknüpft sind – während gleichzeitig mehrere EZB-Spitzenposten neu besetzt werden müssen.",
+            ask: [{ label: "Mehr zur Eurozone-Inflation", ref: "s:4" }] }
         ]}
       ],
-      reaction: "Die Rente mit 63 und die Bundespräsidenten-Nachfolge werden in Meldung 7 behandelt.",
-      terms: ["schuldenbremse", "koalition"],
-      followups: ["e:haushalt-basics", "e:debt-brake"],
+      reaction: "Die Inflationsdaten werden in Meldung 4 behandelt, Fed-Aussagen und weitere Konjunkturdaten in Meldung 6.",
+      terms: ["leitzins", "basispunkt"],
+      followups: ["e:ecb-hike", "e:central-banks-why"],
       sources: [
-        { title: "Deutscher Bundestag: Der Weg zum Bundeshaushalt 2027 – vom Entwurf zum Beschluss", url: "https://www.bundestag.de/dokumente/textarchiv/2026/kw34-haushalt-2027-ablauf-1187766" },
-        { title: "ZDFheute: Diese drei Punkte belasten die Koalition – ziemlich sogar", url: "https://www.zdfheute.de/politik/cdu-csu-spd-koalition-koalitionsausschuss-reformen-afd-linke-100.html" },
-        { title: "Table.Briefings: Reformen – Termin für Koalitionsausschuss im November", url: "https://table.media/berlin/news/reformen-termin-fuer-koalitionsausschuss-im-november" }
+        { title: "cash.ch: Währungshüter Nagel – EZB-Zinserhöhung im Dezember ist aus heutiger Sicht sehr wahrscheinlich nötig", url: "https://www.cash.ch/news/top-news/wahrungshuter-nagel-ezb-zinserhohung-im-dezember-ist-aus-heutiger-sicht-sehr-wahrscheinlich-notig-982169" },
+        { title: "onvista: Kažimír – EZB fordert straffere Geldpolitik, Zinspause war keine Ziellinie", url: "https://www.onvista.de/news/2026/11-02-kazimir-ezb-fordert-straffere-geldpolitik-zinspause-war-keine-ziellinie-0-20-26571111" },
+        { title: "onvista: Euro-Länder müssen EZB-Kandidaten für Lagarde-Nachfolge bis Freitag nominieren", url: "https://www.onvista.de/news/2026/11-03-euro-laender-muessen-ezb-kandidaten-fuer-lagarde-nachfolge-bis-freitag-nominieren-0-20-26571728" },
+        { title: "Euronews: Who will replace Lagarde? Eurozone picks nominees as race for ECB top job begins", url: "https://www.euronews.com/2026/11/03/who-will-replace-lagarde-eurozone-picks-nominees-as-race-for-ecb-top-job-begins" },
+        { title: "wiwo.de: Europäische Zentralbank – Euro-Finanzminister suchen Nachfolge für Schnabel bei EZB", url: "https://www.wiwo.de/politik/europa/europaeische-zentralbank-euro-finanzminister-suchen-nachfolge-fuer-schnabel-bei-ezb/100260932.html" }
       ]
     },
-    /* 7 DEUTSCHLAND: RENTE/UMFRAGEN/BUNDESPRÄSIDENT */
+    /* 6 WIRTSCHAFT: FED-FALKEN + PMI + ARBEITSMARKT */
     {
-      id: "rente-umfragen-bundespraesident-11-03", cats: ["germany"], when: "INSA-Sonntagsfrage 30.10.–2.11. · CDU-Präsidium zu Bundespräsident-Kandidatur 9.11.2026",
-      headline: "Bei der Rente mit 63 bleibt der Streit zwischen Kanzler Merz und Arbeitsminister Schweitzer offen, die Grünen ziehen in einer aktuellen Umfrage erstmals vor die SPD, bei der Bundespräsidenten-Nachfolge drängt CDU-Politikerin Prien auf eine rasche Entscheidung",
-      sec30: "Bei der Rente mit 63 bleiben die Positionen zwischen Kanzler Merz, der die Reformvorschläge der Rentenkommission unverändert umsetzen will, und dem neuen Arbeitsminister Schweitzer (SPD), der einen Kompromiss sucht, unverändert; laut ZDF-Politbarometer lehnen 74 % der Bürger die geplante Abschaffung ab. Die INSA-Sonntagsfrage (Erhebungszeitraum 30.10.-2.11., 2.004 Befragte) sieht die AfD bei 28,0 % weiter deutlich vor der Union (20,0 %); die Grünen liegen mit 15,0 % erstmals vor der SPD (14,0 %). Bei der Nachfolge von Bundespräsident Steinmeier (Bundesversammlung entscheidet am 30.1.2027) unterstützt die CSU weiterhin die bayerische Landtagspräsidentin Ilse Aigner, während die CDU zwischen Aigner und eigenen Kandidatinnen wie Julia Klöckner, Karin Prien oder Annegret Kramp-Karrenbauer noch unentschieden ist; Prien drängt öffentlich auf eine Entscheidung bis zur CDU-Präsidiumssitzung am 9.11.",
+      id: "fed-falken-pmi-arbeitsmarkt-11-04", cats: ["economy"], when: "Fed-Statements seit 28.10. · PMI final Okt. · Arbeitsmarkt Okt. (BA, 30.10.2026)",
+      headline: "Mehrere Fed-Vertreter werben für weitere Zinserhöhungen, die Stimmung bei Dienstleistern in der Eurozone kühlt stärker ab als erwartet, die deutsche Arbeitslosigkeit sinkt nur leicht",
+      sec30: "Die Fed hatte ihren Leitzins am 28.10. bei 3,75 bis 4,00 % belassen (10:2-Entscheidung der Stimmberechtigten); seither werben mehrere Vertreter öffentlich für weitere Zinsschritte. Dallas-Fed-Chefin Lorie Logan nannte das aktuelle Preisniveau „unacceptable” und forderte mindestens zwei weitere Erhöhungen um je 0,25 Prozentpunkte; Fed-Gouverneur Michael Barr sagte, weitere Erhöhungen seien „likely” nötig. Der Eurozone-Einkaufsmanagerindex (PMI) für Dienstleister fiel im Oktober überraschend stark auf 51,4 Punkte (von 53,0), der Gesamtindex sank auf 51,7. Die deutsche Arbeitslosigkeit sank im Oktober um 40.000 auf 2,955 Millionen (Quote 6,3 %); BA-Chefin Andrea Nahles bezeichnete den Rückgang als „vergleichsweise schwach”.",
       blocks: [
-        { h: "Wie ist der Stand bei der Rente mit 63?", items: [
-          { tag: "position", text: "Kanzler Merz will die Reformvorschläge der Rentenkommission „so umsetzen, wie sie auf dem Tisch liegen”; er hatte zuvor erklärt, „gesund und fit abschlagsfrei früher in Rente zu gehen, das ist weder gerecht, noch können die Rentenversicherung und unsere Volkswirtschaft sich das leisten”.",
-            ask: [{ label: "Wie funktioniert die gesetzliche Rente?", ref: "e:rente-basics" }] },
-          { tag: "position", text: "Arbeitsminister Alexander Schweitzer (SPD), Nachfolger der zurückgetretenen Bärbel Bas, lehnt eine Eins-zu-eins-Umsetzung ab: „Deshalb wird das genau eines der Themen sein, bei denen wir uns zusammensetzen und einen guten Kompromiss finden müssen”; die Kommissionsvorschläge seien für ihn zunächst nur eine Diskussionsgrundlage. SPD-Generalsekretär Tim Klüssendorf bekräftigte, die SPD werde die abschlagsfreie Rente „nicht einfach so abschaffen”." },
-          { tag: "unbestaetigt", text: "Laut ZDF-Politbarometer lehnen 74 % der Bürger die geplante Abschaffung der Rente mit 63 ab; ein fertiger gemeinsamer Gesetzentwurf lag zum Redaktionsschluss weiterhin nicht vor." }
+        { h: "Was sagen Fed-Vertreter seit der Sitzung vom 28.10.?", items: [
+          { tag: "fakt", text: "Die Fed beließ ihren Leitzins am 28.10.2026 im Zielkorridor von 3,75 bis 4,00 %; zwei der zwölf Stimmberechtigten (Cook und Hammack) votierten für eine sofortige Erhöhung um 0,25 Prozentpunkte.",
+            ask: [{ label: "Was ist ein Leitzins?", ref: "t:leitzins" }] },
+          { tag: "position", text: "Dallas-Fed-Präsidentin Lorie Logan bezeichnete das aktuelle Preisniveau als „unacceptable” und forderte mindestens zwei weitere Zinserhöhungen um je 0,25 Prozentpunkte; Richmond-Fed-Präsident Thomas Barkin verwies auf hohe Inflation, starke Nachfrage und relativ niedrige Arbeitslosigkeit als Argumente für weitere Schritte; Fed-Gouverneur Michael Barr sagte, weitere Erhöhungen seien „likely” nötig." }
         ]},
-        { h: "Was zeigt die aktuelle INSA-Sonntagsfrage?", items: [
-          { tag: "unbestaetigt", text: "Die INSA-Sonntagsfrage für Bild (Erhebungszeitraum 30.10. bis 2.11.2026, 2.004 Befragte) sieht die AfD bei 28,0 % (-1,5 Punkte zur Vorwoche) weiter deutlich vor der Union mit 20,0 % (+1 Punkt). Die Grünen liegen mit 15,0 % (+1 Punkt) erstmals vor der SPD mit 14,0 %.",
-            ask: [{ label: "Warum weichen Umfragen voneinander ab?", ref: "e:coalition-majority" }] }
+        { h: "Was zeigt der Eurozone-PMI für Oktober?", items: [
+          { tag: "fakt", text: "Der Einkaufsmanagerindex (PMI) für Dienstleister in der Eurozone fiel im Oktober überraschend stark auf 51,4 Punkte (von 53,0 im September); der Industrie-PMI lag bei 52,7, der Gesamtindex (Composite) sank auf 51,7 (von 53,1) – ein Zeichen für ein nachlassendes Wachstumstempo." }
         ]},
-        { h: "Wie ist der Stand bei der Bundespräsidenten-Nachfolge?", items: [
-          { tag: "fakt", text: "Die CSU unterstützt weiterhin die bayerische Landtagspräsidentin Ilse Aigner für die Nachfolge von Bundespräsident Steinmeier (Bundesversammlung entscheidet am 30.1.2027); innerhalb der CDU ist die Haltung uneinheitlich, als Alternativen werden Bundestagspräsidentin Julia Klöckner, Bundesfamilienministerin Karin Prien sowie die frühere Verteidigungsministerin Annegret Kramp-Karrenbauer genannt. Eine endgültige Festlegung der CDU soll erst bei der Präsidiumssitzung am 9.11. erfolgen." },
-          { tag: "position", text: "Karin Prien drängt öffentlich auf eine Entscheidung: „Es sollte eine Frau werden.” Zu einer möglichen eigenen Kandidatur sagte sie, das „schmeichelt” ihr, warnte aber, dass Debatten über Kandidatinnen anders geführt würden als über männliche Bewerber." }
+        { h: "Wie entwickelte sich der deutsche Arbeitsmarkt im Oktober?", items: [
+          { tag: "fakt", text: "Die Zahl der Arbeitslosen in Deutschland sank im Oktober 2026 um 40.000 auf 2,955 Millionen (Quote 6,3 %, -0,1 Punkte ggü. September); saisonbereinigt waren es 9.000 weniger. Im Jahresvergleich gab es aber 44.000 mehr Arbeitslose als im Oktober 2025; gemeldet waren 654.000 offene Stellen (+31.000 ggü. Vorjahr)." },
+          { tag: "position", text: "BA-Chefin Andrea Nahles bezeichnete den Rückgang als „vergleichsweise schwach”." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass bei der Rente mit 63 weiterhin kein fertiger Gesetzentwurf vorliegt, während die aktuelle INSA-Erhebung mit den erstmals vor der SPD liegenden Grünen eine leichte Verschiebung in der Oppositions- und Regierungslandschaft zeigt und die CDU ihre Festlegung bei der Bundespräsidenten-Nachfolge weiterhin auf den 9.11. vertagt, deutet auf mehrere parallel laufende, noch offene innenpolitische Entscheidungsprozesse hin." }
+          { tag: "einordnung", text: "Dass mehrere Fed-Vertreter weitere Zinserhöhungen fordern, während sich die Stimmung bei Dienstleistern in der Eurozone eintrübt und der deutsche Arbeitsmarkt nur verhalten verbessert, zeigt ein uneinheitliches Konjunkturbild auf beiden Seiten des Atlantiks – mit möglichen Folgen für die Zinspolitik beider Notenbanken." }
         ]}
       ],
-      reaction: "Der Bundeshaushalt und der Koalitionsausschuss-Termin werden in Meldung 6 behandelt.",
+      reaction: "Die Eurozone-Inflation wird in Meldung 4 behandelt, die EZB-Zinserwartung in Meldung 5.",
+      terms: ["leitzins"],
+      followups: ["e:fed-hike", "e:central-banks-why"],
+      sources: [
+        { title: "Federal Reserve: FOMC statement, October 28, 2026", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm" },
+        { title: "Yahoo Finance: Fed's Logan/Musalem – rate hike comments", url: "https://finance.yahoo.com/economy/policy/articles/feds-musalem-says-rate-hike-163223128.html" },
+        { title: "The Hill: Fed Governor Barr – rate hike", url: "https://thehill.com/business/6107670-fed-governor-barr-rate-hike/" },
+        { title: "onvista: Eurozone – Dienstleister-Stimmung trübt sich stärker ein als erwartet", url: "https://www.onvista.de/news/2026/11-04-eurozone-dienstleister-stimmung-truebt-sich-staerker-ein-als-erwartet-0-10-26572280" },
+        { title: "Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026", url: "https://www.arbeitsagentur.de/presse/2026-41-arbeitsmarkt-im-oktober-2026" }
+      ]
+    },
+    /* 7 DEUTSCHLAND: HAUSHALT/RENTENREFORM */
+    {
+      id: "bundeshaushalt-rentenreform-11-04", cats: ["germany", "economy"], when: "Bereinigungssitzung 12.11. · Plenumsberatung 24.–27.11. · Merz-Rede 4.11. · Koalitionsausschuss 17.11.2026",
+      headline: "Der Zeitplan für den Bundeshaushalt 2027 bleibt bestehen, bei der Rentenreform verschiebt sich der Einstieg in die Kapitaldeckung auf 2027",
+      sec30: "Der Zeitplan für den Bundeshaushalt 2027 bleibt unverändert: Bereinigungssitzung des Haushaltsausschusses am 12.11., abschließende Bundestagsberatung vom 24. bis 27.11. Bei der Rentenreform sagte Bundeskanzler Merz, der klassische Teil solle noch 2026 ins Kabinett, der Einstieg in die kapitalgedeckte Zusatzvorsorge werde dagegen 2026 nur als Eckpunkte vorgelegt; die endgültige Verabschiedung verschiebe sich auf Anfang 2027. Beim Koalitionsausschuss am 17.11. zeichnen sich laut Berichten mehrere Streitpunkte zwischen CDU, CSU und SPD ab, unter anderem zur Abschaffung der abschlagsfreien Rente nach 45 Beitragsjahren, zu Minijob-Regeln und zur Pflegeversicherung.",
+      blocks: [
+        { h: "Was wurde zum Haushalt und zur Rente angekündigt?", items: [
+          { tag: "fakt", text: "Der Zeitplan für den Bundeshaushalt 2027 bleibt unverändert: Bereinigungssitzung des Haushaltsausschusses am 12.11., abschließende Bundestagsberatung vom 24. bis 27.11.2026.",
+            ask: [{ label: "Wie entsteht der Bundeshaushalt?", ref: "e:haushalt-basics" }] },
+          { tag: "fakt", text: "Bundeskanzler Merz kündigte an, der klassische Teil der Rentenreform solle noch 2026 ins Kabinett; der zentrale Baustein – der Einstieg in eine kapitalgedeckte Zusatzvorsorge – werde dagegen 2026 nur als Eckpunkte vorgelegt. Die endgültige parlamentarische Verabschiedung verschiebt sich damit auf Anfang 2027." }
+        ]},
+        { h: "Was ändert sich konkret, und welche Streitpunkte gibt es vor dem Koalitionsausschuss?", items: [
+          { tag: "fakt", text: "Vor dem Koalitionsausschuss am 17.11.2026 gelten laut Berichten mehrere Punkte als strittig zwischen CDU, CSU und SPD: die von der SPD geforderte Abschaffung der abschlagsfreien Rente nach 45 Beitragsjahren („Rente mit 63”), Regeln zu Minijobs und Teilzeit für Ältere, die Einbeziehung von Berufspolitikern in die gesetzliche Rentenversicherung sowie ein von der SPD gefordertes Limit für Pflegeheim-Eigenanteile, das die Union ablehnt." }
+        ]},
+        { h: "Wer unterstützt die Vorschläge, und wer äußert sich kritisch?", items: [
+          { tag: "position", text: "Bundeskanzler Merz bezeichnete den bisher fehlenden Einstieg in die Kapitaldeckung als „30 Jahre zu spät” und warb für die große Rentenreform auf Basis der Vorschläge der Alterssicherungskommission." },
+          { tag: "position", text: "Einzelne Medien bewerteten die nun angekündigte Verschiebung des Kapitaldeckungs-Einstiegs als „Wortbruch” gegenüber früheren Ankündigungen; dies ist die Einordnung dieser Medien und keine amtliche Feststellung." }
+        ]},
+        { h: "Welche Auswirkungen werden diskutiert?", items: [
+          { tag: "einordnung", text: "Dass der Einstieg in die Kapitaldeckung nur als Eckpunkte vorgelegt wird, bedeutet, dass zentrale Details – etwa zur Finanzierung und zum Starttermin – erst 2027 parlamentarisch entschieden werden; das verschafft der Koalition mehr Zeit, verzögert aber auch eine mögliche Entlastung der umlagefinanzierten Rente.",
+            ask: [{ label: "Wie funktioniert die gesetzliche Rente?", ref: "e:rente-basics" }] }
+        ]}
+      ],
+      reaction: "Umfragen und die Bundespräsident-Nachfolge werden in Meldung 8 behandelt.",
+      terms: ["schuldenbremse", "umlage"],
+      followups: ["e:haushalt-basics", "e:rente-basics", "e:debt-brake"],
+      sources: [
+        { title: "table.media: Reformen – Termin für Koalitionsausschuss im November", url: "https://table.media/berlin/news/reformen-termin-fuer-koalitionsausschuss-im-november" },
+        { title: "epochtimes.de: Steuern, Arbeit, Rente – Streitpunkte vor dem nächsten Koalitionsausschuss", url: "https://www.epochtimes.de/politik/deutschland/steuern-arbeit-rente-streitpunkte-vor-dem-naechsten-koalitionsausschuss-a5625781.html" },
+        { title: "Hersfelder Zeitung: Merz zur Kapitalrente – „30 Jahre zu spät”", url: "https://www.hersfelder-zeitung.de/wirtschaft/merz-zur-kapitalrente-30-jahre-zu-spaet-kanzler-wirbt-fuer-grosse-rentenreform-zr-94539627.html" },
+        { title: "it-boltwise.de: Koalitionsausschuss – Streit über Rente, Steuer und Pflege", url: "https://www.it-boltwise.de/koalitionsausschuss-nach-wahl-schock-streit-ueber-rente-steuer-und-pflege.html" }
+      ]
+    },
+    /* 8 DEUTSCHLAND: UMFRAGEN/BUNDESPRÄSIDENT/BUNDESTAG */
+    {
+      id: "umfragen-bundespraesident-bundestag-11-04", cats: ["germany"], when: "Forsa-Umfrage veröffentlicht 3.11. · CDU-Präsidium zu Bundespräsident-Kandidatur 9.11. · Plenarsitzung 4.11.2026",
+      headline: "Eine neue Forsa-Umfrage zeigt die Grünen weiter vor der SPD, in der CDU wird über Ines Claus als mögliche Bundespräsidentschafts-Kandidatin diskutiert",
+      sec30: "Die Forsa-Umfrage für RTL/n-tv (Erhebung 27.10. bis 2.11., veröffentlicht 3.11.) sieht die AfD bei 26 % (-1 Punkt), die Union bei 20 % (-1), die Grünen bei 17 % (+1) und die SPD bei 14 % (+1); die Grünen liegen damit weiterhin vor der SPD. Bei der Bundespräsident-Nachfolge erwägt Kanzler Merz laut Berichten die hessische CDU-Fraktionschefin Ines Claus, die Interesse signalisiert hat; die CSU besteht weiter auf Ilse Aigner, CDU-intern gibt es Kritik an dem Vorstoß. Merz dementierte Berichte, Claus sei seine Favoritin. Der Bundestag befragte am 4.11. Außenminister Wadephul und Kanzleramtsministerin Warken im Rahmen der Regierungsbefragung.",
+      blocks: [
+        { h: "Was zeigt die neue Forsa-Umfrage?", items: [
+          { tag: "fakt", text: "Die Forsa-Umfrage für RTL/n-tv (telefonische Erhebung 27.10. bis 2.11.2026 unter 2.500 Wahlberechtigten, veröffentlicht 3.11.) sieht die AfD bei 26 % (-1 Punkt ggü. der Vorwoche), die Union bei 20 % (-1), die Grünen bei 17 % (+1), die SPD bei 14 % (+1), die Linke bei 11 % und die FDP bei 4 %; die Grünen liegen damit weiterhin vor der SPD.",
+            ask: [{ label: "Was bedeutet eine Koalition ohne Mehrheit?", ref: "e:coalition-majority" }] }
+        ]},
+        { h: "Was ist neu bei der Bundespräsident-Nachfolge?", items: [
+          { tag: "unbestaetigt", text: "Laut mehreren Medienberichten erwägt Kanzler Merz die hessische CDU-Fraktionschefin Ines Claus als Kandidatin für die Nachfolge von Bundespräsident Steinmeier; Claus habe Interesse signalisiert. Die CSU besteht weiterhin auf der bayerischen Ministerin Ilse Aigner. Mehrere führende CDU-Politiker kritisierten den Vorstoß intern als „absurd” und verwiesen auf ein fehlendes bundespolitisches Profil von Claus." },
+          { tag: "position", text: "Merz dementierte laut Berichten, Claus sei seine Favoritin. Die endgültige Entscheidung soll bei einer CDU-Präsidiumsberatung am 9.11.2026 fallen." }
+        ]},
+        { h: "Was wurde im Bundestag am 4.11. behandelt?", items: [
+          { tag: "fakt", text: "Die Sitzungswoche begann am 4.11. mit der Regierungsbefragung: Außenminister Johann Wadephul und Kanzleramtsministerin Nina Warken (beide CDU) stellten sich den Fragen der Abgeordneten. Im weiteren Verlauf standen unter anderem der Bundeswehreinsatz EUNAVFOR MED IRINI sowie die Bekämpfung rechtsextremistischer Organisationen auf der Tagesordnung." }
+        ]},
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Dass die Grünen in mehreren aktuellen Umfragen vor der SPD liegen, während sich CDU und CSU bei der Bundespräsident-Nachfolge noch nicht auf eine gemeinsame Linie verständigt haben, zeigt, dass sowohl das Parteiengefüge als auch Personalfragen innerhalb der Koalition derzeit in Bewegung sind." }
+        ]}
+      ],
+      reaction: "Haushalt und Rentenreform werden in Meldung 7 behandelt.",
       terms: ["koalition"],
-      followups: ["e:rente-basics", "e:coalition-majority"],
+      followups: ["e:coalition-majority", "e:landtagswahl-why"],
       sources: [
-        { title: "nius.de: Rentenstreit in der Koalition – Merz widerspricht neuem SPD-Arbeitsminister", url: "https://nius.de/politik/merz-widerspricht-neuem-spd-arbeitsminister" },
-        { title: "t-online: Nach Bärbel Bas – Union und SPD im Streit, Ärger um Rente mit 63", url: "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101478576/nach-baerbel-bas-union-und-spd-im-streit-aerger-um-rente-mit-63-.html" },
-        { title: "nius.de: INSA-Sonntagsfrage – AfD fällt auf 28 Prozent", url: "https://nius.de/politik/afd-faellt-auf-28-prozent-union-legt-zu-gruene-erreichen-15-prozent" },
-        { title: "finanznachrichten.de: Prien drängt CDU zu Entscheidung über Bundespräsidentin", url: "https://www.finanznachrichten.de/nachrichten-2026-10/69963073-prien-draengt-cdu-zu-entscheidung-ueber-bundespraesidentin-003.htm" }
+        { title: "dawum.de: Forsa-Umfrage zur Bundestagswahl vom 03.11.2026", url: "https://dawum.de/Bundestag/Forsa/2026-11-03/" },
+        { title: "newstime.joyn.de: Ines Claus neue Bundespräsidentin? Merz liebäugelt mit CDU-Frau", url: "https://newstime.joyn.de/themen/politik/ines-claus-bundespraesident-steinmeier-cdu-merz-208218" },
+        { title: "Ostdeutsche Zeitung: Ines Claus – Merz dementiert Berichte über Favoritin", url: "https://ostdeutsche-zeitung.de/berlin/politik/berlin-ines-claus-bundespraesidentin-merz-aigner-11574" },
+        { title: "Deutscher Bundestag: Regierungsbefragung mit Wadephul und Warken", url: "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-regierungsbefragung-1154780" }
       ]
     },
-    /* 8 INTERNATIONAL/GEOPOLITIK: UKRAINE */
+    /* 9 INTERNATIONAL/GEOPOLITIK: US-ZWISCHENWAHLEN */
     {
-      id: "ukraine-krieg-energieangriffe-abudhabi-11-03", cats: ["world", "geo"], when: "Großangriff Nacht 2./3.11. · Raffinerie-Treffer 1.–3.11. · Selenskyj-Besuch Berlin 3.11. · Abu-Dhabi-Termin jetzt 10./11.11.2026",
-      headline: "Russland führt in der Nacht zum Dienstag einen der größten Angriffe auf die ukrainische Energieinfrastruktur seit Kriegsbeginn, die Gespräche in Abu Dhabi werden auf den 10./11. November verschoben, Präsident Selenskyj besucht überraschend Berlin",
-      sec30: "In der Nacht zum Dienstag, 3.11., griff Russland nach ukrainischen Angaben mit 289 Drohnen, 17 ballistischen Raketen und 59 Marschflugkörpern zehn Regionen an – laut dem ukrainischen Energieversorger Ukrenergo eine der größten Raketenwellen gegen die Energieinfrastruktur bislang; in Zhytomyr waren mehr als 180.000 Menschen ohne Strom, in Charkiw wurden bei einem Angriff auf ein Krankenhaus mindestens 73 Menschen verletzt. Umgekehrt trafen ukrainische Drohnen an drei aufeinanderfolgenden Nächten russische Großraffinerien in Kstowo, Samara und Jaroslawl. An der Front bei Pokrowsk/Myrnohrad bestreitet der ukrainische Generalstab eine Einkesselung, während unabhängige Beobachter (ISW) die Lage in Myrnohrad als „de facto belagert” einschätzen. US-Sondergesandter Witkoff kündigte an, die geplanten Dreier-Gespräche in Abu Dhabi fänden nun am 10./11.11. statt; am selben Tag, 3.11., besuchte Präsident Selenskyj überraschend Berlin und traf Kanzler Merz.",
+      id: "us-midterms-ergebnisse-11-04", cats: ["world"], when: "Wahltag Di 3.11. · Teilauszählung Stand Mi 4.11.2026",
+      headline: "Die Demokratische Partei gewinnt die Kontrolle über beide Kammern des US-Kongresses zurück, mehrere bislang republikanische Bundesstaaten wählen erstmals demokratische Gouverneure",
+      sec30: "Bei den US-Zwischenwahlen am 3.11.2026 haben die Demokraten die Kontrolle über Repräsentantenhaus und Senat zurückgewonnen; mehrere Medien sprechen von einer deutlichen Mehrheit. Minderheitsführer Hakeem Jeffries gilt als künftiger Speaker. Bei den Gouverneurswahlen gewannen Demokraten mehrere bislang republikanische Bundesstaaten, darunter Texas (Gina Hinojosa) und Georgia (Keisha Lance Bottoms). Präsident Trump gratulierte den Demokraten und kündigte an, künftig verstärkt sein Veto einzusetzen. Zum Redaktionsschluss waren nicht alle Rennen final ausgezählt.",
       blocks: [
-        { h: "Was geschah beim russischen Großangriff in der Nacht zum 3.11.?", items: [
-          { tag: "unbestaetigt", text: "Russland griff nach ukrainischen Angaben (Ukrenergo-Chef Zaichenko) mit 289 Drohnen, 17 ballistischen Raketen und 59 Marschflugkörpern zehn Regionen an – eine der größten Raketenwellen gegen die ukrainische Energieinfrastruktur bislang. In der Region Zhytomyr waren mehr als 180.000 Menschen ohne Strom; bei einem Angriff auf ein Krankenhaus in Charkiw wurden nach Angaben mindestens 73 Menschen verletzt. Eine unabhängige Bestätigung der genauen Zahlen liegt nicht vor." }
+        { h: "Warum ist das wichtig?", items: [
+          { tag: "einordnung", text: "Ein von den Demokraten mitkontrollierter Kongress kann die Gesetzgebungsagenda von Präsident Trump für die zweite Hälfte seiner Amtszeit deutlich erschweren, etwa bei Haushalts- und Regulierungsfragen; zugleich steigt die Bedeutung möglicher Vetos des Präsidenten." }
         ]},
-        { h: "Was geschah bei den ukrainischen Gegenangriffen auf russische Raffinerien?", items: [
-          { tag: "unbestaetigt", text: "Ukrainische Drohnen trafen an drei aufeinanderfolgenden Nächten (1. bis 3.11.) russische Großraffinerien: die Anlage NORSI in Kstowo, eine Raffinerie in Samara sowie erneut die Slavneft-YANOS-Raffinerie in Jaroslawl; der russische Gouverneur Jewrajew sprach von mindestens sieben Brandherden. Opferzahlen und genaue Schäden liegen nur aus russischen Quellen vor und sind nicht unabhängig verifiziert.",
-            ask: [{ label: "Mehr zu Öl- und Gaspreisen", ref: "s:10" }] }
+        { h: "Wer ist beteiligt?", items: [
+          { tag: "fakt", text: "Die Demokraten gewannen laut mehreren übereinstimmenden Medienberichten die Mehrheit im Repräsentantenhaus; Minderheitsführer Hakeem Jeffries gilt als künftiger Speaker und wäre damit der erste Schwarze in diesem Amt. Im Senat gewannen die Demokraten und mit ihnen verbündete Unabhängige nach bisherigem Auszählungsstand mindestens 52 Sitze; einzelne Rennen (u. a. in Alaska und Mississippi) waren zum Redaktionsschluss noch nicht entschieden." },
+          { tag: "unbestaetigt", text: "Bei den rund 36 Gouverneurswahlen flippten mehrere bislang republikanische Bundesstaaten: In Texas gewann Gina Hinojosa gegen Amtsinhaber Greg Abbott, in Georgia Keisha Lance Bottoms, in Ohio Amy Acton gegen Vivek Ramaswamy. Einzelne Sitzzahlen und Bundesstaaten-Ergebnisse wichen zwischen Quellen zum Redaktionsschluss noch leicht voneinander ab." }
         ]},
-        { h: "Wie ist die Lage an der Front, und was ist beim Abu-Dhabi-Treffen neu?", items: [
-          { tag: "unbestaetigt", text: "Im Raum Pokrowsk/Myrnohrad meldet der ukrainische Generalstab keine Einkesselung ukrainischer Einheiten, während das russische Verteidigungsministerium ein Vorrücken bei Novoserhijiwka beansprucht; das unabhängige Institute for the Study of War (ISW) schätzt die Lage in Myrnohrad als „de facto belagert” ein." },
-          { tag: "fakt", text: "US-Sondergesandter Steve Witkoff kündigte am 3.11. an, die geplanten Dreier-Gespräche zwischen den USA, Russland und der Ukraine in Abu Dhabi fänden nun am 10./11.11.2026 statt, mit Witkoff und Kushner für die USA sowie Medinsky für Russland." },
-          { tag: "fakt", text: "Am selben Tag, 3.11., besuchte Präsident Wolodymyr Selenskyj unangekündigt Berlin und wurde von Kanzler Merz im Kanzleramt empfangen; Themen waren laut Berichten militärische und finanzielle Unterstützung, unter anderem Luftverteidigung und eine im Oktober von Selenskyj angefragte Zusatzhilfe von 70 Mrd. Euro von europäischer Seite." }
+        { h: "Welcher historische Hintergrund ist relevant?", items: [
+          { tag: "fakt", text: "Laut Berichten wäre dies der erste Kontrollwechsel im Senat in zwei aufeinanderfolgenden Wahlzyklen seit 1954. Vorab hatten Prognosemärkte wie Polymarket und Kalshi den Demokraten rund 94 % Chance auf die Mehrheit im Repräsentantenhaus und rund 75 % Chance auf einen „Sweep” beider Kammern eingeräumt." }
         ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Russland und die Ukraine sich mit einem der größten Angriffe auf die Energieinfrastruktur und drei Raffinerie-Treffern binnen 72 Stunden gegenseitig treffen, während sich der Termin für die geplanten Gespräche in Abu Dhabi auf den 10./11.11. verschiebt und Selenskyj kurzfristig nach Berlin reist, zeigt, dass militärische Eskalation und diplomatische Bemühungen weiterhin eng nebeneinander verlaufen." }
+        { h: "Welche wirtschaftlichen Auswirkungen werden diskutiert?", items: [
+          { tag: "position", text: "Präsident Trump gratulierte den Demokraten in einem Interview und kündigte an, künftig verstärkt von seinem Vetorecht Gebrauch zu machen; er bezeichnete sich dabei selbst als „Mr. Veto”." },
+          { tag: "einordnung", text: "An den Finanzmärkten wird der Ausgang überwiegend als Erleichterung gedeutet (Meldung 1), während einzelne Rechenzentrums- und KI-nahe Aktien wegen angekündigter strengerer Regulierung in neu gewonnenen Bundesstaaten zunächst unter Druck gerieten (Meldung 15).",
+            ask: [{ label: "Mehr zur Marktreaktion", ref: "s:1" }, { label: "Mehr zu Tech-Aktien", ref: "s:15" }] }
         ]}
       ],
-      reaction: "Die Lage am Golf wird in Meldung 10 behandelt, weitere internationale Nachrichten in Meldung 9.",
-      terms: [],
-      followups: ["e:why-oil-up-geo"],
-      sources: [
-        { title: "Kyiv Independent: Russia unleashes biggest mass attack on Ukraine's energy this year", url: "https://kyivindependent.com/russia-unleashes-biggest-mass-attack-on-ukraines-energy-this-year-2/" },
-        { title: "Al Jazeera: At least 73 injured as Russia bombs Ukrainian hospital and power plants", url: "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants" },
-        { title: "The Moscow Times: US-mediated Ukraine peace talks to resume in Abu Dhabi next week, Witkoff says", url: "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-witkoff-says-a94160" },
-        { title: "Ukrinform: No Ukrainian units encircled in Pokrovsk/Myrnohrad agglomeration – General Staff", url: "https://www.ukrinform.net/rubric-ato/4055148-no-ukrainian-units-encircled-in-pokrovskmyrnohrad-agglomeration-general-staff.html" },
-        { title: "t-online: Selenskyj besucht Merz in Berlin", url: "https://www.t-online.de/nachrichten/deutschland/id_101510006/selenskyj-besucht-merz-in-berlin.html" }
-      ]
-    },
-    /* 9 INTERNATIONAL/GEOPOLITIK: GAZA/VENEZUELA/TAIWAN/SUDAN */
-    {
-      id: "international-gaza-venezuela-taiwan-sudan-11-03", cats: ["world", "geo"], when: "Gaza-Vorfälle 2./3.11. · Machado-Rede 30.10. · Taiwan-PLA-Daten 26.10.–2.11. · Sudan-Jahrestag Okt. 2026",
-      headline: "Der Gaza-Waffenstillstand bleibt nach neuen tödlichen Vorfällen angespannt, in Venezuela fordert Oppositionsführerin Machado Präsidentschaftswahlen für 2027, Taiwan registriert deutlich mehr chinesische Luftraum-Aktivität",
-      sec30: "Der seit Oktober 2025 geltende Gaza-Waffenstillstand bleibt angespannt: Nach palästinensischen Angaben töteten israelische Luftschläge am 2.11. acht Menschen, darunter fünf Polizisten; Israel spricht von Hamas-Kämpfern, die Angriffe vorbereitet hätten, Hamas weist dies zurück. Das Gaza-Medienbüro zählt seit Beginn der Waffenruhe 5.989 israelische Verstöße mit 1.593 Toten. In Venezuela forderte Oppositionsführerin María Corina Machado am 30.10. Präsidentschaftswahlen für 2027; die USA drängen auf einen gestuften Übergangsplan, ein konkreter Wahltermin steht weiterhin nicht fest. Taiwan registrierte für die Woche 26.10.-1.11. 85 chinesische Luftraum-Aktivitäten (+85 % ggü. Vorwoche). Zum Jahrestag der RSF-Eroberung von El Fasher im Sudan bestätigt eine UN-Untersuchung Massentötungen und sexualisierte Gewalt in einem als Völkermord eingeordneten Ausmaß.",
-      blocks: [
-        { h: "Wie ist der Stand beim Gaza-Waffenstillstand?", items: [
-          { tag: "fakt", text: "Der von den USA vermittelte Waffenstillstand im Gazastreifen gilt seit Oktober 2025 formal weiter." },
-          { tag: "position", text: "Nach palästinensischen Angaben töteten israelische Luftschläge am 2.11. acht Menschen, darunter fünf Polizisten; die israelische Armee erklärte, die Getöteten seien Hamas-Kämpfer gewesen, die Angriffe auf Soldaten und Zivilisten vorbereitet und damit den Waffenstillstand verletzt hätten. Israel geht zudem davon aus, dass sich rund 200 Hamas-Kämpfer in Tunneln in israelisch kontrollierten Gebieten aufhalten." },
-          { tag: "unbestaetigt", text: "Hamas weist die Vorwürfe zurück und wirft Israel vor, den Friedensplan zu unterlaufen. Das Government Media Office in Gaza dokumentiert seit Beginn der Waffenruhe 5.989 israelische Verstöße (753 davon im Oktober), mit 1.593 Toten, 5.748 Verletzten und 217 Verschleppten in der Folge; diese Angaben stammen aus einer palästinensischen Quelle und sind nicht unabhängig verifiziert." }
-        ]},
-        { h: "Was ist in Venezuela neu?", items: [
-          { tag: "position", text: "Oppositionsführerin María Corina Machado dankte am 30.10. der Trump-Regierung und forderte erstmals öffentlich seit ihrer Rückkehr aus dem Exil Präsidentschaftswahlen für 2027." },
-          { tag: "fakt", text: "Die seit Januar 2026 amtierende Interimspräsidentin Delcy Rodríguez sicherte Wahlen „vor den Augen der Welt” zu, nannte aber keinen konkreten Termin; die USA drängen laut Berichten vom 3.11. auf einen gestuften Plan für einen demokratischen Übergang. Präsident Trump erklärte am 2.11., die USA hätten „totale Kontrolle” über Venezuela und dessen Öl." },
-          { tag: "unbestaetigt", text: "Der genaue Termin der nächsten Anhörung im Verfahren gegen den in New York in Untersuchungshaft sitzenden Ex-Präsidenten Maduro ließ sich in den Quellen nicht eindeutig verifizieren; der Fall wurde nach dem Tod des bisherigen Richters an Richterin Analisa Torres übertragen." }
-        ]},
-        { h: "Was ist bei Taiwan und im Sudan neu?", items: [
-          { tag: "fakt", text: "Taiwans Verteidigungsministerium registrierte für die Woche 26.10. bis 1.11. 85 chinesische Luftraum-Aktivitäten rund um die Insel (davon 47 in der Luftraum-Identifizierungszone) – ein Anstieg von 85 % gegenüber der Vorwoche; für den 1./2.11. wurden weitere 19 Einsätze gemeldet." },
-          { tag: "unbestaetigt", text: "Zum Jahrestag der Eroberung der sudanesischen Stadt El Fasher durch die paramilitärische RSF (26.10.) bestätigte eine UN-Untersuchung Massentötungen, systematische sexualisierte Gewalt und gezielte ethnische Verfolgung in einem als Völkermord eingeordneten Ausmaß; alleine in den ersten drei Tagen seien mehr als 6.000 Menschen getötet worden. Großbritannien verhängte deshalb Sanktionen gegen 15 sudanesische Militärführer." }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass der Gaza-Waffenstillstand trotz formaler Fortgeltung von neuen tödlichen Vorfällen begleitet bleibt, während sich in Venezuela mit der Wahlforderung Machados und dem US-Druck auf einen Übergangsplan neue Dynamik zeigt und sowohl Taiwan als auch der Sudan laut internationalen Beobachtern unter anhaltend hohem militärischem beziehungsweise humanitärem Druck stehen, zeigt, wie unterschiedlich weit mehrere parallel laufende internationale Konfliktlinien derzeit vorangeschritten sind." }
-        ]}
-      ],
-      reaction: "Der Ukraine-Krieg wird in Meldung 8 behandelt, die Lage am Golf in Meldung 10.",
+      reaction: "Die Marktreaktion wird in Meldung 1 (Europa) und Meldung 2 (USA) behandelt, Folgen für Tech-Aktien in Meldung 15.",
       terms: [],
       followups: [],
       sources: [
-        { title: "ABC News: Israeli strikes kill eight people in Gaza, medics say", url: "https://www.abc.net.au/news/2026-11-02/israeli-strikes-kill-eight-people-in-gaza-medics-say/107334984" },
-        { title: "Al Jazeera: Venezuela's Machado lauds Trump for 'freedom', urges 2027 elections", url: "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections" },
-        { title: "Al Jazeera: US urges Venezuela to follow phased plan for democratic transition", url: "https://www.aljazeera.com/news/2026/11/3/us-urges-venezuela-to-follow-phased-plan-for-democratic-transition" },
-        { title: "Taiwan Security Monitor: PLA Activity Update – Week of October 26–November 1, 2026", url: "https://taiwansecuritymonitor.substack.com/p/pla-activity-update-the-week-of-october-87d" },
-        { title: "OHCHR: Sudan – Evidence in El-Fasher reveals genocidal campaign", url: "https://www.ohchr.org/en/press-releases/2026/02/sudan-evidence-el-fasher-reveals-genocidal-campaign-targeting-non-arab" }
+        { title: "NBC News: 2026 US House of Representatives election results", url: "https://www.nbcnews.com/politics/2026-elections/house-results" },
+        { title: "CBS News: Election Day 2026 midterms – live updates", url: "https://www.cbsnews.com/live-updates/election-day-2026-midterms/" },
+        { title: "Newsweek: Trump says he'll become „Mr. Veto” if Democrats win midterms", url: "https://www.newsweek.com/trump-says-hell-become-mr-veto-if-democrats-win-midterms-12649797" },
+        { title: "NBC News: Gina Hinojosa wins Texas governor race, upsetting Greg Abbott", url: "https://www.nbcnews.com/politics/2026-election/gina-hinojosa-win-texas-governor-race-greg-abbott-upset-election-rcna603360" },
+        { title: "The Block: Midterm election odds on Polymarket and Kalshi", url: "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461" }
       ]
     },
-    /* 10 ENERGIE/GEOPOLITIK: GOLF/HORMUZ/OPEC+ */
+    /* 10 INTERNATIONAL/GEOPOLITIK: UKRAINE/SELENSKYJ/ABU DHABI */
     {
-      id: "golf-hormuz-opecplus-energie-11-03", cats: ["energy", "geo"], when: "US-Angriff Qeshm 2.11. · OPEC+-Entscheidung 1.11. · TTF/Gasspeicher-Stand 3.11.2026",
-      headline: "Die Straße von Hormus gilt nach neuen Tankerangriffen und US-Luftschlägen auf die iranische Insel Qeshm als faktisch geschlossen, der Ölpreis und der europäische Gaspreis steigen deutlich, die deutschen Gasspeicher verfehlen ihr Herbstziel",
-      sec30: "Die Straße von Hormus gilt laut Schifffahrts-Trackern zum 3.11. als faktisch geschlossen für den kommerziellen Verkehr, nachdem ein katarischer LNG-Tanker und ein weiterer Frachter von unidentifizierten Objekten getroffen worden waren. Am 2.11. führte das US-Militär nach eigenen Angaben „begrenzte, defensive” Luftschläge auf die iranische Insel Qeshm durch, nachdem Iran zuvor auf ein US-Flugzeug gefeuert haben soll. Irans Außenminister Araghchi sprach nach Gesprächen mit katarischen Vermittlern von „keinen großen Durchbrüchen”. Die OPEC+ hatte am 1.11. ihre Dezember-Förderquoten unverändert bei rund 31 Mio. Barrel pro Tag gelassen. Brent stieg daraufhin am Dienstag um rund 1,8 bis 2,1 % auf etwa 106 bis 107 Dollar, der europäische Gas-Future TTF um mehr als 3 % auf rund 98,26 Euro je Megawattstunde. Die deutschen Gasspeicher erreichten zum 1.11. rund 61 % Füllstand und verfehlten damit das gesetzliche Herbstziel von 80 %.",
+      id: "ukraine-merz-selenskyj-abudhabi-11-04", cats: ["world", "geo"], when: "Merz-Selenskyj-Treffen Berlin 4.11. · Abu-Dhabi-Gespräche geplant 10./11.11.2026",
+      headline: "Präsident Selenskyj besucht überraschend das Berliner Kanzleramt, der Kreml bestätigt die für 10./11. November geplanten Dreiergespräche in Abu Dhabi",
+      sec30: "In der Nacht zum 3.11. griff Russland großflächig die ukrainische Energieinfrastruktur an; der Energiekonzern DTEK meldete massive Schäden an drei Wärmekraftwerken, in Dnipro gab es einen Toten und mehr als ein Dutzend Verletzte. Zeitgleich traf Präsident Selenskyj überraschend mit Bundeskanzler Merz in Berlin zusammen. Der Kreml bestätigte die für 10. und 11. November in Abu Dhabi geplanten Dreiergespräche zwischen russischen, US-amerikanischen und ukrainischen Vertretern; Territorialfragen gelten weiter als strittig. International bleibt die Waffenruhe in Gaza grundsätzlich in Kraft, Venezuelas Oppositionsführerin Machado forderte Wahlen für 2027, und Taiwan meldet verstärkte chinesische Aktivität vor den Lokalwahlen am 28.11.",
       blocks: [
-        { h: "Was geschah zuletzt in der Straße von Hormus?", items: [
-          { tag: "unbestaetigt", text: "Die Straße von Hormus gilt laut mehreren Schifffahrts-Trackern zum 3.11. als faktisch geschlossen für den kommerziellen Verkehr – am Samstag passierten nur fünf Frachtschiffe die Meerenge, am Sonntag keines. Ein katarischer LNG-Tanker wurde Ende Oktober von „unidentifizierten Objekten” getroffen, ein weiterer Tanker am Sonntagabend mit Brand an Bord; 25 Seeleute wurden evakuiert. Irans Marine erklärte, zwei Tanker seien auf Minen gelaufen – eine unabhängig nicht bestätigte Darstellung.",
-            ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] }
+        { h: "Warum ist das wichtig?", items: [
+          { tag: "einordnung", text: "Der zeitlich mit den US-Zwischenwahlen zusammenfallende russische Großangriff und der kurzfristige Berlin-Besuch Selenskyjs zeigen, dass der Krieg in der Ukraine und die Suche nach einer Verhandlungslösung weiterhin eng mit internationalen Entwicklungen verzahnt sind." }
         ]},
-        { h: "Was haben die US-Luftschläge auf Qeshm zu bedeuten?", items: [
-          { tag: "unbestaetigt", text: "Nach Angaben von US-Beamten führte das US-Militär am 2.11. „begrenzte, defensive” Luftangriffe auf die iranische Insel Qeshm an der Straße von Hormus durch – als Reaktion darauf, dass Iran zuvor auf ein US-Flugzeug gefeuert habe. Iranische Staatsmedien meldeten mehrere Explosionen auf der Insel; eine unabhängige Bestätigung beider Darstellungen liegt nicht vor." }
+        { h: "Wer ist an den geplanten Abu-Dhabi-Gesprächen beteiligt?", items: [
+          { tag: "fakt", text: "Für die für 10./11.11.2026 geplanten Dreiergespräche in Abu Dhabi sind auf russischer Seite Vladimir Medinsky, auf US-Seite Steve Witkoff und Jared Kushner sowie eine ukrainische Delegation ohne Präsident Selenskyj vorgesehen. Themen sind laut Kreml-Angaben Sicherheitsgarantien und „nächste Schritte zum Frieden”; Territorialfragen, insbesondere zu Donezk, gelten weiterhin als strittig." }
         ]},
-        { h: "Wie ist der Stand bei den Vermittlungsgesprächen und der OPEC+-Entscheidung?", items: [
-          { tag: "position", text: "Irans Außenminister Abbas Araghchi erklärte am 2.11., die Gespräche mit katarischen Vermittlern über das Wochenende hätten „keine großen Durchbrüche” gebracht; ein hochrangiger iranischer Vertreter sagte, Katar habe lediglich „unannehmbare Ideen, kein Angebot” vorgelegt." },
-          { tag: "fakt", text: "Die siebenköpfige Kerngruppe der OPEC+ beließ am 1.11. die Dezember-Förderquoten unverändert bei rund 31 Mio. Barrel pro Tag – der dritte Monat in Folge ohne Änderung; als Begründung nennen Berichte die anhaltende Förderbeschränkung durch den Golf-Konflikt. Die Entscheidung über den Förderrahmen 2027 fällt erst beim nächsten Treffen am 29.11.2026.",
-            ask: [{ label: "Was ist die OPEC+?", ref: "t:opec-plus" }] }
+        { h: "Welcher Hintergrund ist relevant?", items: [
+          { tag: "fakt", text: "In der Nacht zum 3.11.2026 führte Russland einen großflächigen Angriff auf die ukrainische Energieinfrastruktur durch; laut dem Energiekonzern DTEK wurden drei Wärmekraftwerke massiv beschädigt, in Dnipro gab es einen Toten und mehr als ein Dutzend Verletzte.",
+            ask: [{ label: "Mehr zur Lage am Energiemarkt", ref: "s:11" }] },
+          { tag: "position", text: "Präsident Selenskyj warf Russland bei seinem Berlin-Besuch vor, den Angriff bewusst auf den Tag der US-Zwischenwahlen gelegt zu haben; Bundeskanzler Merz forderte Russland zu ernsthaften Verhandlungen auf." }
         ]},
-        { h: "Wie haben sich Ölpreis, Gaspreis und die deutschen Gasspeicher entwickelt?", items: [
-          { tag: "fakt", text: "Brent stieg am Dienstag um rund 1,8 bis 2,1 % auf etwa 106 bis 107 Dollar je Barrel, WTI auf rund 97 Dollar; der europäische Gas-Future TTF stieg um mehr als 3 % auf rund 98,26 Euro je Megawattstunde – als Hintergrund nennen Berichte die Meldungen über die US-Luftschläge auf Qeshm.",
-            ask: [{ label: "Was ist der TTF?", ref: "t:ttf" }] },
-          { tag: "fakt", text: "Die deutschen Gasspeicher erreichten laut Bundesnetzagentur zum 1.11.2026 rund 61 % Füllstand und verfehlten damit das gesetzliche Herbstziel von 80 %; die Behörde sieht die Versorgungssicherheit dennoch aktuell nicht gefährdet. Frankreich (86,8 %), Italien (91,1 %) und Polen (99,1 %) liegen deutlich darüber." },
-          { tag: "unbestaetigt", text: "Die Internationale Energieagentur (IEA) warnte am 3.11., die angespannte Lage auf dem Weltgasmarkt könne bis weit ins nächste Jahr anhalten; in einem Worst-Case-Szenario könnten die europäischen Speicher bis Ende März unter 10 % fallen." }
+        { h: "Was ist sonst international wichtig?", items: [
+          { tag: "fakt", text: "In Gaza hält die Waffenruhe vom Oktober 2025 grundsätzlich, Israel fliegt nach Angaben von Gesundheitsbehörden aber weiterhin Vergeltungsschläge; seit der Waffenruhe seien dort rund 800 Menschen gestorben." },
+          { tag: "position", text: "Venezuelas Oppositionsführerin María Corina Machado forderte nach ihrer Rückkehr aus dem Exil Wahlen für 2027." },
+          { tag: "unbestaetigt", text: "Taiwan meldet verstärkte chinesische „Grauzonen”-Aktivität vor den dortigen Lokalwahlen am 28.11.2026." }
+        ]}
+      ],
+      reaction: "Der Energiemarkt-Hintergrund wird in Meldung 11 behandelt, die US-Zwischenwahlen im Detail in Meldung 9.",
+      terms: [],
+      followups: [],
+      sources: [
+        { title: "ORF: Selenskyj zu Besuch bei Merz in Berlin", url: "https://orf.at/stories/3446933/" },
+        { title: "Meduza: Trilateral talks between Russia, Ukraine and the US set for November 10–11 in Abu Dhabi", url: "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi" },
+        { title: "NZZ: Waffenruhe im Gazastreifen – die neuesten Entwicklungen", url: "https://www.nzz.ch/international/waffenruhe-im-gazastreifen-die-neusten-entwicklungen-ld.1920307" },
+        { title: "Al Jazeera: Machado lauds Trump for „freedom”, urges 2027 elections", url: "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections" }
+      ]
+    },
+    /* 11 ENERGIE/GEOPOLITIK: HORMUZ/OEL/TTF */
+    {
+      id: "hormuz-eskalation-oelpreis-ttf-11-04", cats: ["energy", "geo"], when: "IRGC-Meldungen 3.–4.11. · Brent/TTF Stand Mi 4.11.2026",
+      headline: "Der Iran meldet weitere Tankertreffer an der Straße von Hormus und den Abschuss einer US-Drohne, der Ölpreis bleibt trotz Entspannungshoffnungen volatil",
+      sec30: "Die iranischen Revolutionsgarden (IRGC) meldeten am 4.11., vier weitere Öltanker seien auf einer gesperrten Route südlich der Straße von Hormus auf Seeminen gelaufen und hätten Feuer gefangen; zwei weitere Schiffe seien wegen Verstößen gegen Schifffahrtsbeschränkungen festgesetzt worden. Eine unabhängige Bestätigung lag zum Redaktionsschluss nicht vor. Der Ölpreis Brent gab dennoch von einem Hoch bei rund 117 Dollar in der Vorwoche und rund 106 bis 107 Dollar am Dienstag auf etwa 102 bis 105 Dollar nach; Berichte nennen Hoffnung auf eine diplomatische Lösung als Grund. Der europäische Gaspreis TTF wurde zum Redaktionsschluss uneinheitlich beziffert; die deutschen Gasspeicher lagen zuletzt bestätigt bei 61,17 % Füllstand (31.10.).",
+      blocks: [
+        { h: "Was meldet der Iran zur Lage an der Straße von Hormus?", items: [
+          { tag: "unbestaetigt", text: "Die iranischen Revolutionsgarden (IRGC) meldeten am 4.11.2026, vier weitere Öltanker seien auf einer von Iran gesperrten Route südlich der Straße von Hormus auf Seeminen gelaufen und in Flammen aufgegangen; zwei weitere Schiffe seien wegen Verstößen gegen Schifffahrtsbeschränkungen festgesetzt worden. Zusätzlich meldete die IRGC den Abschuss einer US-Drohne vom Typ MQ-9, nach eigenen Angaben die 56. seit Kriegsbeginn. Eine unabhängige Bestätigung dieser Angaben lag zum Redaktionsschluss nicht vor.",
+            ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] },
+          { tag: "position", text: "Der iranische Sicherheitsrat bezeichnete die US-Antwort auf einen iranischen Sieben-Punkte-Plan als „nicht überzeugend”; Präsident Trump bestätigte einen weiteren begrenzten US-Luftschlag auf eine iranische Flugabwehranlage auf der Insel Qeshm und nannte dies „not war”." }
+        ]},
+        { h: "Wie hat sich der Ölpreis entwickelt?", items: [
+          { tag: "fakt", text: "Brent gab von einem Hoch von rund 117 Dollar in der vergangenen Woche und rund 106 bis 107 Dollar am Dienstag auf etwa 102 bis 105 Dollar am Mittwoch nach; WTI notierte bei rund 95 bis 96 Dollar.",
+            ask: [{ label: "Wie entsteht der Ölpreis?", ref: "n:brent" }] },
+          { tag: "einordnung", text: "Berichte nennen Hoffnungen auf eine diplomatische Lösung zwischen den USA und Iran sowie gestiegene Exporte aus den Golfstaaten als Gründe für den Rückgang, obwohl der Iran gleichzeitig neue Tankertreffer meldete; ein zurückgehender US-Lagerbestand (laut API-Daten) wirkte dem Rückgang leicht entgegen." }
+        ]},
+        { h: "Wie ist der Stand bei TTF-Gas und den deutschen Gasspeichern?", items: [
+          { tag: "unbestaetigt", text: "Zum europäischen Gaspreis TTF lagen zum Redaktionsschluss uneinheitliche Angaben vor; ein Rückgang von der Dienstags-Spitze wurde berichtet, eine verlässliche Bestätigung des exakten Mittwoch-Niveaus stand noch aus." },
+          { tag: "fakt", text: "Die deutschen Gasspeicher lagen zum zuletzt bestätigten Stand (31.10.2026) bei 61,17 % Füllstand (151,31 von 247,36 TWh Kapazität); die Bundesnetzagentur sieht die Versorgungssicherheit weiterhin nicht gefährdet." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Ölpreis und europäischer Gaspreis nach den neuen Tankerangriffen und den US-Luftschlägen auf Qeshm deutlich steigen, während die OPEC+ ihre Förderquoten trotz der Lage unverändert lässt und die deutschen Gasspeicher ihr Herbstziel verfehlen, zeigt, wie eng geopolitische Eskalation am Golf, Energiepreise und die Versorgungslage in Europa derzeit miteinander verknüpft sind.",
+          { tag: "einordnung", text: "Dass der Ölpreis trotz neuer, unbestätigter Tankermeldungen nachgibt, zeigt, dass die Märkte derzeit stärker auf Hoffnungen einer diplomatischen Lösung als auf einzelne Vorfallsmeldungen reagieren. Über die Kette von Konflikt über Ölpreis bis zu Inflation und Zinsen informiert die Übersicht unten.",
             ask: [{ label: "Vom Konflikt zur Börse", ref: "chain:oil-to-markets" }] }
         ]}
       ],
-      reaction: "Der Ukraine-Krieg wird in Meldung 8 behandelt, die US-Zwischenwahlen in Meldung 3.",
-      terms: ["brent", "opec-plus", "ttf", "wti"],
-      followups: ["e:hormuz", "e:why-oil-up-geo", "e:opec-plus-why", "e:gas-ttf", "e:energy-germany"],
+      reaction: "Die Marktreaktion bei Gold wird in Meldung 3 behandelt, die Eurozone-Inflation in Meldung 4, der Hintergrund zu Selenskyjs Berlin-Besuch in Meldung 10.",
+      terms: ["brent", "ttf", "lng"],
+      followups: ["e:why-oil-up-geo", "e:hormuz", "e:gas-ttf", "chain:oil-to-markets"],
       sources: [
-        { title: "Al Jazeera: Qatar LNG carrier struck by 'unidentified objects' in Gulf", url: "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf" },
-        { title: "CNN: US military conducts strikes on Iran's Qeshm Island in defensive operation, officials say", url: "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island" },
-        { title: "Breitbart: Iran Says No Breakthroughs in 'Very Intensive' Peace Talks with Qatar", url: "https://www.breitbart.com/middle-east/2026/11/02/iran-says-no-breakthroughs-in-very-intensive-peace-talks-with-qatar/" },
-        { title: "The National: Opec+ holds December oil output targets steady as Iran war disrupts supply", url: "https://www.thenationalnews.com/business/energy/2026/11/01/opec-holds-december-oil-output-targets-steady-as-iran-war-disrupts-supply/" },
-        { title: "onvista: IEA erwartet auch 2027 angespannte Lage auf dem Gasmarkt", url: "https://onvista.de/news/2026/11-03-iea-erwartet-auch-2027-angespannte-lage-auf-dem-gasmarkt-0-10-26571695" }
+        { title: "Al Jazeera: Iran says US reply to Hormuz plan „unconvincing”, Trump confirms strikes", url: "https://aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes" },
+        { title: "IntelliNews: Iran's IRGC says four more tankers hit mines in Hormuz, 56th US drone downed", url: "https://www.intellinews.com/iran-s-irgc-says-four-more-tankers-hit-mines-in-hormuz-56th-us-drone-downed-481702/" },
+        { title: "Hansa-Online: Iran meldet Tanker-Minentreffer", url: "https://hansa-online.de/schifffahrt/iran-meldet-tanker-minentreffer/312247/" },
+        { title: "esyoil: Nach den Midterms bleibt der Ölmarkt nervös", url: "https://www.esyoil.com/news/nach-den-midterms-bleibt-der-oelmarkt-nervoes?id=109249" },
+        { title: "ARIVA: Ölpreise steigen leicht – Iran meldet Zerstörung von Tankern", url: "https://www.ariva.de/news/oelpreise-steigen-leicht-iran-meldet-zerstoerung-von-12193966" }
       ]
     },
-    /* 11 DEFENCE: RHEINMETALL/HENSOLDT/RENK/CALDEN */
+    /* 12 DEFENCE */
     {
-      id: "rheinmetall-hensoldt-renk-calden-11-03", cats: ["defence"], when: "Kurse Di 3.11. · Brand Calden Nacht zum 30.10. · Q3-Zahlen 5.11.2026",
-      headline: "Rheinmetall kämpft vor den Q3-Zahlen um die 1.000-Euro-Marke, bei Hensoldt belastet weiterhin das ZEBEL-Softwareproblem, der hessische Staatsschutz ermittelt wegen eines mutmaßlich linksextrem motivierten Brandanschlags auf eine Rheinmetall-Baustelle",
-      sec30: "Die Rheinmetall-Aktie notiert vor den Q3-Zahlen am 5.11. bei rund 998 bis 1.004 Euro, unterhalb der 50-Tage-Linie; Analysten erwarten einen Gewinnsprung von über 16 % ggü. Vorjahr, Jefferies bestätigt die Kaufempfehlung mit Kursziel 1.350 Euro. Die Hensoldt-Aktie fiel zuletzt auf rund 82,7 bis 83,5 Euro; das Analysehaus mwb senkte sein Kursziel auf 60 Euro und rät zum Verkauf, während Deutsche Bank und Warburg deutlich optimistischer bleiben. RENK notiert bei rund 36 Euro, seit Jahresbeginn rund 32,6 % im Minus. Der hessische Staatsschutz ermittelt wegen eines Brandanschlags in der Nacht zum Freitag, 30.10. (korrigiertes Datum), bei dem auf einer Rheinmetall-Baustelle in Kassel-Calden drei Radlader brannten; ein im Internet veröffentlichtes Bekennerschreiben auf einer als linksextremistisch eingestuften Plattform wird auf Echtheit geprüft.",
+      id: "rheinmetall-hensoldt-renk-euronaval-11-04", cats: ["defence"], when: "Kurse Mi 4.11. · Haushaltsausschuss 4.11. · Euronaval Paris 3.–6.11. · Q3-Zahlen Rheinmetall/RENK/Hensoldt 5.11.2026",
+      headline: "Rheinmetall und Hensoldt geben vor den morgigen Quartalszahlen weiter nach, der Bundestags-Haushaltsausschuss berät über weitere Rüstungsvorhaben",
+      sec30: "Rheinmetall fiel am Mittwoch um 1,66 % unter die 1.000-Euro-Marke auf rund 988,50 Euro, belastet von einem unbestätigten Branchenbericht über eine mögliche Verschiebung der milliardenschweren Boxer-Bestellung „Arminius”. Hensoldt verlor zeitweise bis zu 3,0 % wegen eskalierender Logistikprobleme im neuen Lagerverwaltungssystem ZEBEL, RENK gab rund 1,6 bis 2,0 % ab. Der Bundestags-Haushaltsausschuss berät heute über sieben weitere Rüstungsvorhaben von jeweils über 25 Mio. Euro; die Euronaval-Messe in Paris (3.–6.11.) zeigt unter anderem neue Rheinmetall-Konzepte. Rheinmetall, Hensoldt und RENK legen ihre Q3-Zahlen erst morgen, 5.11., vor.",
       blocks: [
-        { h: "Wie entwickelten sich die Aktien von Rheinmetall, Hensoldt und RENK?", items: [
-          { tag: "fakt", text: "Die Rheinmetall-Aktie notiert vor den Q3-Zahlen am 5.11. bei rund 998 bis 1.004 Euro, unterhalb der 50-Tage-Linie; Analysten erwarten einen Gewinn je Aktie von rund 7,00 Euro und einen Umsatz von 3,23 bis 3,40 Mrd. Euro (+16 % ggü. Vorjahresquartal). Jefferies bestätigte die Kaufempfehlung mit Kursziel 1.350 Euro.",
-            ask: [{ label: "Warum reagieren Rüstungsaktien auf Nachrichten?", ref: "e:defence-stocks" }] },
-          { tag: "fakt", text: "Die Hensoldt-Aktie fiel zuletzt um rund 1,1 bis 2,0 % auf etwa 82,7 bis 83,5 Euro. Das Analysehaus mwb senkte sein Kursziel von 62 auf 60 Euro und bestätigte „Sell”, während die Deutsche Bank ihr Kursziel bei 105 Euro beließ und Warburg Research es auf 94 Euro anhob; der Analystenkonsens liegt bei rund 100 Euro." },
-          { tag: "fakt", text: "RENK notierte am 3.11. bei rund 36 Euro – seit Jahresbeginn rund 32,6 % im Minus; der Analystenkonsens sieht ein Kursziel von rund 60 Euro." }
+        { h: "Wie entwickelten sich die Rüstungsaktien am Mittwoch?", items: [
+          { tag: "fakt", text: "Rheinmetall fiel am Mittwoch um 1,66 % auf rund 988,50 Euro und damit unter die 1.000-Euro-Marke; RENK gab rund 1,6 bis 2,0 % auf etwa 36,30 Euro ab. Hensoldt verlor zeitweise bis zu 3,0 % auf ein Tagestief von 78,54 Euro.",
+            ask: [{ label: "Warum reagieren Rüstungsaktien so empfindlich?", ref: "e:defence-stocks" }] },
+          { tag: "unbestaetigt", text: "Als Hintergrund für den Rheinmetall-Rückgang nennt ein Branchenbericht (hartpunkt.de) eine mögliche Verschiebung der milliardenschweren Boxer-Großbestellung „Arminius” von Dezember 2026 auf Februar 2027; eine offizielle Bestätigung durch Rheinmetall liegt nicht vor." }
         ]},
-        { h: "Was ist beim ZEBEL-Logistikproblem und beim Brand in Kassel-Calden neu?", items: [
-          { tag: "unbestaetigt", text: "Softwareprobleme im neuen Hensoldt-Logistikzentrum Wolfhagen (ZEBEL) verursachen laut Berichten weiterhin Störungen bei der Ersatzteilversorgung der Bundeswehr und von Industriepartnern; Hensoldt erklärte, man priorisiere derzeit Ausbildungsprojekte." },
-          { tag: "unbestaetigt", text: "In der Nacht zum Freitag, 30.10.2026 (nicht zum 1.11., wie teils berichtet), brannten auf einer Rheinmetall-Baustelle am Flughafen Kassel-Calden drei Radlader; die Polizei geht von vorsätzlicher Brandstiftung aus. Ein im Internet veröffentlichtes Bekennerschreiben auf einer vom Verfassungsschutz als linksextremistisch eingestuften Plattform – das dazu aufruft, Nordhessen „von einem Drehkreuz der Aufrüstung zu einem Ort des Widerstands” zu machen – wird vom Staatsschutz der Polizeidirektion Nordhessen auf Echtheit geprüft." },
-          { tag: "position", text: "Hessens Innenminister Poseck (CDU) sprach von einem „gezielten Anschlag” und sagte: „Dies ist ein weiterer Beleg dafür, dass sich die linksextreme Szene radikalisiert hat”; er brachte die Tat in Verbindung mit weiteren mutmaßlich linksextrem motivierten Vorfällen in Hessen, etwa einem Sprengstoffanschlag auf ein CDU-Büro in Offenbach im September." }
+        { h: "Was ist beim ZEBEL-Logistikproblem von Hensoldt neu?", items: [
+          { tag: "unbestaetigt", text: "Laut Berichten treten im neuen Lagerverwaltungssystem ZEBEL am Hensoldt-Standort Wolfhagen inzwischen bis zu 1.000 Störungen täglich auf (gegenüber rund 100 pro Jahr zuvor); Ersatzteile kämen kaum noch aus dem Lager, rund 500 Arbeitsplätze in Werkstätten seien von Kurzarbeit bedroht. Hensoldt beziffert die eigene Erfüllungsquote auf 98 %, Insider widersprechen dieser Einschätzung laut Berichten." }
+        ]},
+        { h: "Worüber berät der Haushaltsausschuss heute, und was zeigt Euronaval?", items: [
+          { tag: "fakt", text: "Der Bundestags-Haushaltsausschuss berät am 4.11.2026 über sieben weitere 25-Millionen-Euro-Vorlagen (Nummer 63 bis 69 in diesem Jahr) zur Bundeswehr-Beschaffung aus Einzelplan 14; die große Arminius-Entscheidung steht nicht auf der heutigen Tagesordnung." },
+          { tag: "fakt", text: "Auf der Euronaval-Messe in Paris (3. bis 6.11., rund 450 bis 500 Aussteller) zeigt Rheinmetall unter anderem ein „Hybrid Fleet”-Konzept aus bemannten und unbemannten Einheiten sowie die Fregatte GMF 140; konkrete neue Vertragsabschlüsse mit Zahlen wurden bislang nicht vermeldet." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Rheinmetall trotz des Vorfalls in Kassel-Calden vor den Q3-Zahlen stabil bleibt, während Hensoldt wegen des andauernden Logistikproblems von Analysten unterschiedlich bewertet wird und RENK weiterhin deutlich unter dem Analystenkonsens-Kursziel notiert, zeigt, dass unternehmensspezifische Faktoren die allgemein hohe Nachfrage nach Rüstungsgütern einzelner Zulieferer unterschiedlich stark überlagern. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass Rheinmetall, Hensoldt und RENK vor ihren morgigen Quartalszahlen nachgeben, während gleichzeitig ein unbestätigter Bericht über eine Auftragsverschiebung und ein eskalierendes Logistikproblem kursieren, zeigt, wie nervös der Markt auf einzelne, teils unbestätigte Meldungen reagiert, solange die offiziellen Geschäftszahlen noch ausstehen." }
         ]}
       ],
-      reaction: "Die NATO-Verteidigungsausgaben und das Arminius-Programm werden in Meldung 12 behandelt, der Ukraine-Krieg in Meldung 8.",
-      terms: [],
-      followups: ["e:defence-stocks"],
+      reaction: "Die Q3-Zahlen von Rheinmetall, Hensoldt und RENK werden voraussichtlich in der morgigen Ausgabe behandelt.",
+      terms: ["closing"],
+      followups: ["e:defence-stocks", "e:defence-order", "e:nato-target"],
       sources: [
-        { title: "Börse Express: Rheinmetall-Aktie – Analysten erwarten Gewinnsprung am 5. November", url: "https://www.boerse-express.com/news/articles/rheinmetall-aktie-analysten-erwarten-gewinnsprung-am-5-november-955031" },
-        { title: "hessenschau: Feuer auf Rheinmetall-Baustelle in Calden – Polizei geht von Brandstiftung aus", url: "https://hessenschau.de/panorama/feuer-auf-baustelle-von-waffenhersteller-rheinmetall---staatsschutz-ermittelt-v1,calden-brandstiftung-100.html" },
-        { title: "hessenschau: Calden – Polizei prüft Bekennerschreiben nach Brand auf Rheinmetall-Baustelle", url: "https://www.hessenschau.de/panorama/calden-polizei-prueft-bekennerschreiben-nach-brand-auf-rheinmetall-baustelle-v5,calden-brandstiftung-100.html" },
-        { title: "Börse Express: Hensoldt-Aktie – Versorgungsstörungen bei Bundeswehr eingeräumt", url: "https://www.boerse-express.com/news/articles/hensoldt-aktie-versorgungsstoerungen-bei-bundeswehr-eingeraeumt-958196" },
-        { title: "ad-hoc-news.de: RENK Group-Aktie – aktueller Kursstand", url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/renk-group-aktie-am-montagmittag-bei-36-94-euro/70445296" }
-      ]
-    },
-    /* 12 DEFENCE: EURONAVAL/BUNDESTAG/NATO/ARMINIUS */
-    {
-      id: "euronaval-bundestag-nato-arminius-11-03", cats: ["defence"], when: "Euronaval Paris 3.–6.11. · Haushaltsausschuss 4.11. · Arminius-Verschiebung auf Februar 2027",
-      headline: "Auf der Rüstungsmesse Euronaval in Paris zeigen Rheinmetall und RENK neue Produkte, der Bundestags-Haushaltsausschuss berät morgen über sieben weitere Rüstungsvorhaben, die große Boxer-Bestellung Arminius verschiebt sich laut Berichten auf Februar 2027",
-      sec30: "Auf der Rüstungsmesse Euronaval in Paris (3. bis 6.11.) mit Ausstellern aus über 70 Ländern zeigt Rheinmetall Komponenten für „Hybrid-Fleet”-Konzepte sowie das Lenkflugkörper-Abwehrsystem FV-014; RENK präsentiert erstmals sein maritimes Portfolio, darunter ein Antriebspaket für ein unbemanntes Schiffsprogramm eines NATO-Staates. Der Bundestags-Haushaltsausschuss berät morgen, 4.11., über sieben weitere Rüstungsvorhaben von jeweils über 25 Mio. Euro, darunter eine Vertragsanpassung beim Eurofighter und SPIKE-ER2-Lenkraketen für den Kampfhubschrauber H145M. Die für Dezember 2026 geplante Großbestellung von bis zu 1.800 zusätzlichen Boxer-Radpanzern (Arminius) verschiebt sich laut Berichten auf Februar 2027. Die NATO-Verteidigungsausgaben der europäischen Partner und Kanadas steigen 2026 um 11 % auf 777 Mrd. Dollar, Deutschland meldet Rekordausgaben von 124,7 Mrd. Euro.",
-      blocks: [
-        { h: "Was ist auf der Rüstungsmesse Euronaval neu?", items: [
-          { tag: "fakt", text: "Die Rüstungsmesse Euronaval findet vom 3. bis 6.11.2026 in Paris-Le Bourget statt, mit Ausstellern aus über 70 Ländern; der globale Marinerüstungsmarkt sei binnen zwei Jahren um rund 50 % auf über 122 Mrd. Dollar gewachsen. Rheinmetall zeigt Komponenten für „Hybrid-Fleet”-Konzepte sowie das Lenkflugkörper-Abwehrsystem FV-014, das ab 2027 an die Bundeswehr geliefert werden soll." },
-          { tag: "fakt", text: "RENK präsentiert erstmals sein maritimes Portfolio: Seit April 2026 liefert das Unternehmen ein Antriebspaket (unter anderem das Getriebe T2RECS) für ein unbemanntes Schiffsprogramm eines NATO-Staates; die Tochter Renk Magnet-Motor erhielt zudem einen Folgeauftrag von Saab über drei Stirling-Stromerzeugungssysteme für ein U-Boot-Programm." }
-        ]},
-        { h: "Welche neuen Bundeswehr-Beschaffungsvorhaben stehen morgen an?", items: [
-          { tag: "fakt", text: "Der Bundestags-Haushaltsausschuss berät am 4.11.2026 über sieben weitere Rüstungsvorhaben von jeweils über 25 Mio. Euro: eine Vertragsanpassung beim Eurofighter (derzeit 38 Tranche-4- und 20 Tranche-5-Jets beauftragt), Bildverstärkervorsätze für Handwaffen, Troposcatter-Richtfunksysteme für das TaWAN-Netzwerk, zusätzliche geschützte Sanitätseinrichtungen Role 2B, Übungsmunition für den Schützenpanzer Puma sowie SPIKE-ER2-Panzerabwehrraketen für den Kampfhubschrauber H145M.",
-            ask: [{ label: "Wie liest man eine Meldung über einen Rüstungsauftrag?", ref: "e:defence-order" }] }
-        ]},
-        { h: "Was ist beim Arminius-Programm und den NATO-Ausgaben neu?", items: [
-          { tag: "unbestaetigt", text: "Die für Dezember 2026 geplante Großbestellung von bis zu 1.800 zusätzlichen Boxer-Radpanzern (Arminius-Programm) verschiebt sich laut Berichten auf Februar 2027; der Rahmenvertrag soll ein Gesamtvolumen von bis zu 75 bis 77 Mrd. Euro umfassen, mit einer Festbestellung von rund 25 Mrd. Euro. Hersteller sind Rheinmetall und KNDS Deutschland gemeinsam." },
-          { tag: "fakt", text: "Fünf von 32 NATO-Staaten (Estland, Griechenland, Lettland, Litauen, Polen) erreichen 2026 bereits das 5-Prozent-Ziel; die Verteidigungsausgaben der europäischen NATO-Partner und Kanadas steigen 2026 um 11 % auf 777 Mrd. Dollar. Deutschland meldet für 2026 Rekordausgaben von 124,7 Mrd. Euro und strebt bis 2029 3,5 % des BIP an.",
-            ask: [{ label: "Was ist das NATO-Ausgabenziel?", ref: "e:nato-target" }] }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass die NATO-Verteidigungsausgaben insgesamt weiter steigen und der Bundestag über mehrere kleinere Rüstungsvorhaben berät, während sich der große Boxer-Auftrag Arminius laut Berichten auf Februar 2027 verschiebt, zeigt, dass die Umsetzung der angekündigten Aufrüstung sich weiterhin über viele einzelne, zeitlich versetzte Beschlüsse erstreckt." }
-        ]}
-      ],
-      reaction: "Die Kursbewegungen bei Rheinmetall, Hensoldt und RENK werden in Meldung 11 behandelt, der Ukraine-Krieg in Meldung 8.",
-      terms: [],
-      followups: ["e:nato-target", "e:defence-order"],
-      sources: [
-        { title: "presseportal: Euronaval 2026 – RENK Group treibt die nächste Generation maritimer Mobilität an", url: "https://www.presseportal.de/pm/171595/6380055" },
-        { title: "ESUT: Euronaval 2026 – Rheinmetall-Elemente für die Hybrid-Fleet", url: "https://esut.de/2026/11/meldungen/76439/euronaval-2026-rheinmetall-elemente-fuer-die-hybrid-fleet/" },
-        { title: "ESUT: Bundeswehr – 7 Rüstungsvorhaben zur Entscheidung", url: "https://esut.de/2026/11/meldungen/76427/bundeswehr-7-ruestungsvorhaben-ent/" },
-        { title: "hartpunkt: Boxer-Großbestellung Arminius kommt offenbar erst im Februar 2027", url: "https://www.hartpunkt.de/boxer-grossbestellung-arminius-kommt-offenbar-erst-im-februar-2027/" },
-        { title: "ZDFheute: Nato beschließt Fünf-Prozent-Ziel für Verteidigungsausgaben", url: "https://www.zdfheute.de/politik/ausland/nato-fuenf-prozent-ziel-verteidigung-ausgaben-100.html" }
+        { title: "boerse-express: Rheinmetall-Aktie – Bund könnte 20-Milliarden-Order schieben", url: "https://www.boerse-express.com/news/articles/rheinmetall-aktie-bund-koennte-20-milliarden-order-schieben-959073" },
+        { title: "finanzen.ch: Hensoldt-Aktie – Kursbewegung 04.11.2026", url: "https://www.finanzen.ch/nachrichten/aktien/hensoldt-aktie-kursbewegung-04-11-2026-1035060946" },
+        { title: "esut.de: ZEBEL – Ersatzteilversorgung", url: "https://esut.de/2026/11/meldungen/76452/zebel-ersatzteilversorgung/" },
+        { title: "esut.de: Bundeswehr – 7 Rüstungsvorhaben vor Entscheidung", url: "https://esut.de/2026/11/meldungen/76427/bundeswehr-7-ruestungsvorhaben-ent/" },
+        { title: "esut.de: Euronaval 2026 – Rheinmetall Hybrid Fleet", url: "https://esut.de/2026/11/meldungen/76439/euronaval-2026-rheinmetall-hybrid/" }
       ]
     },
     /* 13 DEALS: BASF/EVONIK/EQT-QIAGEN/TESLA-SPACEX */
     {
-      id: "basf-evonik-eqt-qiagen-teslaspacex-11-03", cats: ["deals", "pe"], when: "Evonik-Q3 3.11.2026 (heute) · Qiagen-Vorabzahlen · Tesla/SpaceX-Sonderausschüsse Okt.",
-      headline: "Evonik meldet zum Jahresauftakt der Q3-Saison einen Nettoverlust trotz deutlich höherem EBITDA, bei Qiagen setzt der EQT-Deal die Jahresprognose aus, bei Tesla und SpaceX sinkt laut Prognosemärkten die Wahrscheinlichkeit einer baldigen Fusion",
-      sec30: "Evonik meldete heute, 3.11., für das dritte Quartal einen Umsatz von 3,825 Mrd. Euro (+13 %) und ein bereinigtes EBITDA von 629 Mio. Euro (+40 %), unter dem Strich aber einen Nettoverlust von 53 Mio. Euro wegen einer 313-Mio.-Euro-Rückstellung für zusätzliche Effizienzmaßnahmen; die Jahresprognose wurde auf die obere Hälfte der EBITDA-Spanne angehoben. Evonik hatte das auf 24,00 Euro je Aktie erhöhte BASF-Angebot (rund 11,2 Mrd. Euro) bereits am 30.10. offiziell abgelehnt. Beim bereits besiegelten EQT-Kauf von Qiagen (46,50 Euro je Aktie, rund 10,8 Mrd. Euro) legte Qiagen vorläufige Q3-Zahlen vor und setzte wegen der laufenden Transaktion die Jahresprognose aus; die vollständigen Zahlen folgen morgen. Bei Tesla und SpaceX bleibt eine Fusion unbestätigt; laut Prognosemarkt Polymarket ist die Wahrscheinlichkeit einer Ankündigung bis Ende 2026 zuletzt auf 16,0 % gefallen.",
+      id: "basf-evonik-eqt-qiagen-teslaspacex-11-04", cats: ["deals", "pe"], when: "Evonik-Q3-Reaktion 3.–4.11. · Qiagen-vollständige Zahlen erst heute Abend 22:05 Uhr · Tesla/SpaceX Stand Anfang November 2026",
+      headline: "Evonik verschärft nach starken Q3-Zahlen seine Ablehnung des BASF-Angebots, bei Qiagen stehen die vollständigen Q3-Zahlen zum EQT-Deal noch aus",
+      sec30: "Evonik untermauerte seine Ablehnung des BASF-Übernahmeangebots (24,00 Euro je Aktie, rund 11,2 Mrd. Euro) mit den am Vortag gemeldeten Q3-Zahlen: 13 % Umsatzwachstum, das stärkste seit Q3 2022, und einer auf den oberen Bereich der Spanne angehobenen Jahresprognose. Beim bereits besiegelten EQT-Kauf von Qiagen (46,50 Euro je Aktie, rund 10,8 Mrd. Euro) liegen bislang nur die am 21.10. gemeldeten vorläufigen Q3-Zahlen vor (Umsatz 548 Mio. Dollar, EPS 0,65 Dollar, beide über Erwartungen); die vollständigen Zahlen samt Management-Kommentaren zum Deal folgen erst heute Abend um 22:05 Uhr und lagen zum Redaktionsschluss nicht vor. Bei Tesla und SpaceX bleibt eine Fusion weiterhin unbestätigt.",
       blocks: [
-        { h: "Was zeigen die heutigen Evonik-Q3-Zahlen, und wie ist der Stand bei BASF?", items: [
-          { tag: "fakt", text: "Evonik meldete für das dritte Quartal 2026 einen Umsatz von 3,825 Mrd. Euro (+13 % ggü. Vorjahr) und ein bereinigtes EBITDA von 629 Mio. Euro (+40 %, Marge 16,4 %), unter dem Strich aber einen Nettoverlust von 53 Mio. Euro wegen einer zusätzlichen Restrukturierungsrückstellung von 313 Mio. Euro; die Jahresprognose wurde auf die obere Hälfte der Spanne von 2,0 bis 2,2 Mrd. Euro EBITDA angehoben.",
-            ask: [{ label: "Was ist EBITDA, und wie unterscheidet sich Unternehmenswert von Eigenkapitalwert?", ref: "t:enterprise-value" }] },
-          { tag: "fakt", text: "Der Evonik-Vorstand hatte das von BASF auf 24,00 Euro je Aktie (rund 11,2 Mrd. Euro, rund 40 % Aufschlag) erhöhte Angebot am 30.10.2026 offiziell abgelehnt, ließ aber vertraulichen Informationsaustausch zu." },
-          { tag: "unbestaetigt", text: "CEO Christian Kullmann fällt nach einer schweren Operation bis voraussichtlich Anfang 2027 aus, Interims-CEO ist Claus Rettig; Finanzvorstand Rauch bezeichnete das Timing von BASFs Angebot als „merkwürdig”, da es kurz nach Bekanntwerden von Kullmanns Ausfall erfolgte. Die RAG-Stiftung (rund 43,8 % der Evonik-Anteile) berät eigenständig, ohne sich bislang öffentlich zum erhöhten Angebot zu äußern; Evoniks geprüfte Übernahme des US-Konzerns Ashland lief bereits vor dem BASF-Interesse und gilt nicht eindeutig als reine Abwehrmaßnahme." }
+        { h: "Wie reagiert Evonik auf das BASF-Angebot nach den Q3-Zahlen?", items: [
+          { tag: "fakt", text: "Evonik meldete für das dritte Quartal 2026 ein Umsatzwachstum von 13 % ggü. Vorjahr – das stärkste Quartalswachstum seit dem dritten Quartal 2022 – und hob die Jahresprognose für das bereinigte EBITDA auf den oberen Bereich der Spanne von 2,0 bis 2,2 Mrd. Euro an.",
+            ask: [{ label: "Was ist EBITDA, und wie unterscheidet sich der Unternehmenswert vom Eigenkapitalwert?", ref: "t:enterprise-value" }] },
+          { tag: "fakt", text: "Der Evonik-Finanzvorstand untermauerte laut Bloomberg mit den starken Zahlen die Unabhängigkeitsstrategie gegenüber dem BASF-Angebot von 24,00 Euro je Aktie (rund 11,2 Mrd. Euro); der Vorstand lehnt konkrete Verhandlungen weiterhin ab, lässt aber vertraulichen Informationsaustausch zu. Die RAG-Stiftung (rund 43,8 % der Anteile) hat ihr Kuratorium informiert, Inhalte bleiben vertraulich; ein neues öffentliches Statement der Stiftung oder ein höheres BASF-Angebot lagen zum Redaktionsschluss nicht vor." }
         ]},
-        { h: "Wie ist der Stand beim EQT-Kauf von Qiagen?", items: [
-          { tag: "fakt", text: "EQT bietet gemeinsam mit Co-Investoren von ADIA und CPP Investments 46,50 Euro je Aktie in bar, Gesamtwert rund 10,8 Mrd. Euro (40,3 % Aufschlag auf den letzten Schlusskurs); Vorstand und Aufsichtsrat haben einstimmig zugestimmt, das Closing wird für Mitte 2027 erwartet.",
-            ask: [{ label: "Was ist ein Take-private?", ref: "t:take-private" }] },
-          { tag: "fakt", text: "Qiagen legte vorläufige Q3-Zahlen vor (Nettoumsatz 548 Mio. Dollar, bereinigtes EPS 0,65 Dollar), setzte wegen der laufenden Transaktion aber die Jahresprognose aus und hält keine Telefonkonferenz ab; die vollständigen Zahlen folgen morgen, 4.11." },
-          { tag: "unbestaetigt", text: "Analystenreaktionen sind gemischt: Berenberg und Citigroup hoben ihre Kursziele an, JPMorgan, Barclays und Baird stuften dagegen auf „Neutral” zurück und sehen kaum verbleibendes Kurspotenzial; ein Aktionär (PSquared) fordert die Annahme des Angebots, andere halten die Prämie angesichts gestiegener Nachfrage für zu niedrig." }
+        { h: "Was ist bei Qiagen und dem EQT-Deal neu?", items: [
+          { tag: "fakt", text: "Für den EQT-Kauf von Qiagen (46,50 Euro je Aktie, rund 10,8 Mrd. Euro, Closing Mitte 2027 erwartet) liegen bislang nur die bereits am 21.10.2026 gemeldeten vorläufigen Q3-Zahlen vor: Nettoumsatz 548 Mio. Dollar und bereinigter Gewinn je Aktie 0,65 Dollar, beide über dem Analystenkonsens. Die vollständigen Zahlen inklusive Management-Kommentaren zum Deal werden erst heute Abend um 22:05 Uhr veröffentlicht und lagen zum Redaktionsschluss dieser Ausgabe nicht vor." }
         ]},
         { h: "Was ist bei Tesla und SpaceX neu?", items: [
-          { tag: "unbestaetigt", text: "Bei Tesla und SpaceX liegen weiterhin keine Fusionsvereinbarung und keine Konditionen vor; beide Unternehmen haben unabhängige Sonderausschüsse eingesetzt, Musk ist wegen eines Interessenkonflikts ausgeschlossen. Musk bezifferte Ende Oktober die Hürde für eine Fusion auf rund 1,98 Mrd. nötige „Ja”-Stimmen und nannte dies „quite a high hurdle”. Laut Prognosemarkt Polymarket ist die Wahrscheinlichkeit einer Ankündigung bis Ende 2026 zuletzt auf 16,0 % gefallen (von rund 40 % im Juni), bis Ende 2027 auf rund 66,5 %.",
-            ask: [{ label: "Mehr zum Private-Credit-Markt", ref: "s:14" }] }
+          { tag: "unbestaetigt", text: "Bei Tesla und SpaceX liegen weiterhin keine Fusionsvereinbarung und keine Konditionen vor. Beide Unternehmen haben unabhängige Sonderausschüsse eingesetzt; Musk selbst bestätigte, es gebe noch keine Einigung über die Transaktionsbedingungen. Laut Prognosemarkt Polymarket liegt die Wahrscheinlichkeit einer Ankündigung bis Ende 2026 bei rund 16 %, bis Ende 2027 bei rund 66,5 %." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Evonik zum Jahresauftakt der Q3-Saison trotz höherem EBITDA einen Nettoverlust meldet und am BASF-Angebot festhält, während der EQT-Kauf von Qiagen bereits in der Umsetzungsphase ist und bei Tesla/SpaceX die Wahrscheinlichkeit einer kurzfristigen Fusion laut Prognosemärkten sinkt, zeigt unterschiedliche Reifegrade innerhalb derselben M&A-Welle." }
+          { tag: "einordnung", text: "Dass Evonik seine Ablehnung nach starken Zahlen verschärft, während beim bereits besiegelten EQT/Qiagen-Deal die entscheidenden heutigen Zahlen erst nach Redaktionsschluss vorliegen und bei Tesla/SpaceX weiterhin offene Fragen bestehen, zeigt unterschiedliche Reifegrade innerhalb derselben M&A-Welle." }
         ]}
       ],
-      deal: { value: "≈ 11,2 Mrd. € (BASF/Evonik-Angebot, abgelehnt) · ≈ 10,8 Mrd. € (EQT/Qiagen, bestätigt)", buyer: "BASF (abgelehnt) · EQT-Konsortium", target: "Evonik · Qiagen", sector: "Chemie / Biotech-Diagnostik", type: "Unternehmensübernahmen (BASF/Evonik abgelehnt, EQT/Qiagen bestätigt; eine mögliche Evonik-Gegenübernahme von Ashland ist unbestätigt, Finanzierung, Bewertung und Banken dazu nicht in den Quellen genannt)" },
+      deal: { value: "≈ 11,2 Mrd. € (BASF/Evonik-Angebot, weiterhin abgelehnt) · ≈ 10,8 Mrd. € (EQT/Qiagen, bestätigt)", buyer: "BASF (abgelehnt) · EQT-Konsortium", target: "Evonik · Qiagen", sector: "Chemie / Biotech-Diagnostik", type: "Unternehmensübernahmen (die vollständigen Qiagen-Q3-Zahlen und Management-Kommentare zum EQT-Deal liegen zum Redaktionsschluss nicht vor; Details zu einem möglichen neuen BASF-Schritt sind nicht in den Quellen genannt)" },
       reaction: "Weitere Großdeals und der Private-Credit-Markt werden in Meldung 14 behandelt.",
       terms: ["take-private", "enterprise-value"],
       followups: ["e:ma-steps", "e:take-private-why", "e:deal-risks"],
       sources: [
-        { title: "Investing.com: Evonik Q3 2026 slides – EBITDA surges 40%, ROCE target upgraded", url: "https://www.investing.com/news/company-news/evonik-q3-2026-slides-ebitda-surges-40-roce-target-upgraded-93CH-4994465" },
-        { title: "finanznachrichten.de: RAG-Stiftung berät über BASF-Übernahmepläne für Evonik", url: "https://www.finanznachrichten.de/nachrichten-2026-10/69800545-rag-stiftung-beraet-ueber-basf-uebernahmeplaene-fuer-evonik-016.htm" },
-        { title: "MarketScreener: Qiagen Agrees to EUR10.8 Billion Takeover by EQT", url: "https://www.marketscreener.com/news/qiagen-agrees-to-eur10-8-billion-takeover-by-eqt-ce785cd9df8cf526" },
-        { title: "Qiagen Corporate IR: QIAGEN reports preliminary Q3 2026 results", url: "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-reports-preliminary-Q3-2026-results/default.aspx" },
-        { title: "247wallst: Musk Says A Tesla-SpaceX Merger Is 'A Good Idea' But Admits It Would Require 1.98 Billion Yes Votes", url: "https://247wallst.com/investing/2026/10/29/musk-says-a-tesla-spacex-merger-is-a-good-idea-but-admits-it-would-require-1-98-billion-yes-votes-he-calls-it-quite-a-high-hurdle/" }
+        { title: "Bloomberg: Evonik Sees Strong Earnings Bolstering Defense Against BASF", url: "https://www.bloomberg.com/news/articles/2026-11-03/evonik-sees-strong-earnings-bolstering-defense-against-basf" },
+        { title: "GuruFocus: Evonik Industries – 13% Q3 sales growth, rejects BASF takeover bid", url: "https://www.gurufocus.com/news/9166818/evonik-industries-evkif-reports-13-q3-sales-growth-rejects-basf-takeover-bid" },
+        { title: "it-boltwise.de: Evonik wehrt BASF-Übernahme ab, bleibt aber für informellen Austausch offen", url: "https://www.it-boltwise.de/evonik-wehrt-basf-uebernahme-ab-bleibt-aber-fuer-informellen-austausch-offen.html" },
+        { title: "QIAGEN Corporate IR: QIAGEN reports preliminary Q3 2026 results", url: "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-reports-preliminary-Q3-2026-results/default.aspx" },
+        { title: "teslanorth.com: Musk – 56% votes, SpaceX/Tesla merger hurdle", url: "https://teslanorth.com/2026/11/03/musk-56-votes-spacex-tesla-merger/" }
       ]
     },
-    /* 14 DEALS/PE/PRIVATE CREDIT: MARVELL/LUMENTUM/ADT/BLUE OWL/ARES */
+    /* 14 DEALS/PE/CREDIT: MARVELL/APOLLO/BXSL */
     {
-      id: "marvell-lumentum-adt-privatecredit-11-03", cats: ["deals", "pe", "credit"], when: "Marvell/Lumentum angekündigt 2.11. · Apollo/ADT-Finanzierung 2.11. · Blue-Owl-/Ares-Q3 Ende Okt.",
-      headline: "Marvell übernimmt Lumentum in einer 115-Mrd.-Dollar-Aktientransaktion, Apollo stellt für die Thrive-Holdings-Übernahme von ADT 9,6 Mrd. Dollar Fremdkapital bereit, Blue Owl und Ares melden für das dritte Quartal weiter wachsendes verwaltetes Vermögen",
-      sec30: "Marvell Technology kündigte am 2.11. die Übernahme von Lumentum in einer reinen Aktientransaktion an (Umtauschverhältnis 4,500 Marvell-Aktien je Lumentum-Aktie), impliziter Unternehmenswert rund 115 Mrd. Dollar, rund 23,9 % Aufschlag; begründet wird der Deal mit der Kombination von Konnektivität und Photonik für KI-Infrastruktur. Ebenfalls am 2.11. wurde bekannt, dass Apollo Global Management rund 9,6 Mrd. Dollar Fremdkapital für die von Thrive Holdings geplante Übernahme des Sicherheitsunternehmens ADT bereitstellt (Eigenkapitalwert rund 7,6 Mrd. Dollar, Unternehmenswert 15,3 Mrd. Dollar). Bei den Private-Credit-Häusern meldete Blue Owl Ende Oktober ein verwaltetes Vermögen von 330 Mrd. Dollar (+12 %), Ares 691 Mrd. Dollar (+16 %); Blackstones BDC-Zahlen folgen erst morgen. Die zuletzt verfügbaren branchenweiten Risikodaten zu Rücknahmen bei nicht börsennotierten BDCs stammen weiterhin aus dem zweiten Quartal 2026.",
+      id: "marvell-apollo-bxsl-privatecredit-11-04", cats: ["deals", "pe", "credit"], when: "Marvell/Lumentum und Apollo/ADT bestätigt 2.11. · BXSL-Q3-Zahlen veröffentlicht 4.11.2026",
+      headline: "Blackstones Kreditfonds BXSL meldet für das dritte Quartal weiter steigende Erträge, bei Marvell/Lumentum und Apollo/ADT gibt es keine neuen Entwicklungen",
+      sec30: "Blackstone Secured Lending (BXSL) meldete heute für das dritte Quartal einen Nettoanlageertrag von 0,68 Dollar je Aktie (10,7 % annualisierte Rendite auf den Nettoinventarwert) bei einem Portfoliowert von rund 12,9 Mrd. Dollar und beschloss eine Dividende von 0,77 Dollar je Aktie für das vierte Quartal. Bei der 115-Mrd.-Dollar-Übernahme von Lumentum durch Marvell und der von Apollo mit 9,6 Mrd. Dollar Fremdkapital unterlegten Thrive-Holdings-Übernahme von ADT gibt es keine neuen Entwicklungen seit dem 2.11. Die zuletzt verfügbaren branchenweiten Risikodaten zu Private Credit (Fitch-Ausfallrate 6,0 %, Rekordwert) stammen weiterhin aus dem zweiten Quartal 2026.",
       blocks: [
-        { h: "Was ist der neue Stand bei Marvell/Lumentum und Apollo/ADT?", items: [
-          { tag: "fakt", text: "Marvell Technology kündigte am 2.11.2026 die Übernahme von Lumentum in einer reinen Aktientransaktion an: Umtauschverhältnis 4,500 Marvell-Aktien je Lumentum-Aktie, impliziter Unternehmenswert rund 115 Mrd. Dollar (rund 1.132 Dollar je Aktie), rund 23,9 % Aufschlag. Nach Abschluss sollen Marvell-Aktionäre rund 67 % und Lumentum-Aktionäre rund 33 % des kombinierten Unternehmens halten; Synergien von über 1 Mrd. Dollar pro Jahr werden angestrebt." },
-          { tag: "fakt", text: "Apollo Global Management stellt laut Bloomberg (2.11.) rund 9,6 Mrd. Dollar Fremdkapital für die von Thrive Holdings (unterstützt von Josh Kushner) geplante Übernahme des Sicherheitsunternehmens ADT bereit: 10,00 Dollar je Aktie in bar, 45,6 % Aufschlag, Eigenkapitalwert rund 7,6 Mrd. Dollar, Unternehmenswert 15,3 Mrd. Dollar; Closing wird für das erste Quartal 2027 erwartet.",
-            ask: [{ label: "Was ist EBITDA, und wie unterscheidet sich Unternehmenswert von Eigenkapitalwert?", ref: "t:enterprise-value" }] }
-        ]},
-        { h: "Was zeigen die Q3-Zahlen von Blue Owl und Ares?", items: [
-          { tag: "fakt", text: "Blue Owl meldete für das dritte Quartal (29.10.) ein verwaltetes Vermögen von 330 Mrd. Dollar (+12 % ggü. Vorjahr) und über die vergangenen zwölf Monate 49 Mrd. Dollar neu eingesammeltes Kapital; die Aktie stieg daraufhin um 7 %.",
-            ask: [{ label: "Was ist Direct Lending?", ref: "t:direct-lending" }] },
-          { tag: "fakt", text: "Ares Management meldete für das dritte Quartal ein verwaltetes Vermögen von 691 Mrd. Dollar (+16 % ggü. Vorjahr) bei einem GAAP-Nettogewinn von 85,3 Mio. Dollar; die Quartalsdividende stieg um 20 % auf 1,35 Dollar. Blackstones BDC-Zahlen (BXSL) stehen erst morgen, 4.11., an." }
-        ]},
-        { h: "Wie ist die Risikolage bei Private Credit insgesamt?", items: [
-          { tag: "unbestaetigt", text: "Die zuletzt verfügbaren branchenweiten Risikodaten stammen weiterhin aus dem zweiten Quartal 2026: Laut Fitch erreichte die Ausfallrate bei Private-Credit-Krediten mit 6,0 % einen Rekordwert, zehn von 16 nicht börsennotierten Business Development Companies (BDCs) konnten Rücknahmewünsche von Anlegern nicht vollständig bedienen. Neuere, speziell auf diese Woche datierte Warnsignale wurden in der aktuellen Recherche nicht gefunden.",
+        { h: "Was zeigen die BXSL-Q3-Zahlen?", items: [
+          { tag: "fakt", text: "Blackstone Secured Lending (BXSL) meldete für das dritte Quartal 2026 einen Nettoanlageertrag von 0,68 Dollar je Aktie (10,7 % annualisierte Rendite auf den Nettoinventarwert), Neuinvestitionen von knapp 250 Mio. Dollar bei Rückzahlungen von über 550 Mio. Dollar und einen Portfoliowert von rund 12,9 Mrd. Dollar zum 30.9.; für das vierte Quartal wurde eine Dividende von 0,77 Dollar je Aktie beschlossen.",
             ask: [{ label: "Was zeigt der Nettoinventarwert (NAV)?", ref: "t:nav" }] }
         ]},
+        { h: "Wie ist der Stand bei Marvell/Lumentum und Apollo/ADT?", items: [
+          { tag: "fakt", text: "Bei der Übernahme von Lumentum durch Marvell (Umtauschverhältnis 4,500 Marvell-Aktien je Lumentum-Aktie, impliziter Unternehmenswert rund 115 Mrd. Dollar, bestätigt am 2.11.) und bei der von Apollo mit 9,6 Mrd. Dollar Fremdkapital unterlegten Übernahme von ADT durch Thrive Holdings (Unternehmenswert 15,3 Mrd. Dollar, Closing im ersten Quartal 2027 erwartet) gibt es keine neuen Entwicklungen seit dem 2.11.2026; Apollo sucht laut Berichten weiter Banken zur Mitsyndizierung der Finanzierung." }
+        ]},
+        { h: "Wie ist die Risikolage bei Private Credit insgesamt?", items: [
+          { tag: "unbestaetigt", text: "Die zuletzt verfügbaren branchenweiten Risikodaten stammen weiterhin aus dem zweiten Quartal 2026: Laut Fitch erreichte die Ausfallrate bei Private-Credit-Krediten mit 6,0 % einen Rekordwert. Dem steht das heute gemeldete, auf den ersten Blick solide BXSL-Quartal gegenüber; neuere, speziell auf diese Woche datierte branchenweite Warnsignale wurden in der aktuellen Recherche nicht gefunden." }
+        ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass mit Marvell/Lumentum und Apollo/ADT zwei weitere große, von der Evonik-Frage unabhängige Transaktionen bekannt wurden, während Blue Owl und Ares beim verwaltetem Vermögen weiter wachsen, aber die zuletzt verfügbaren branchenweiten Risikodaten zu Rücknahmen unverändert aus dem Frühjahr stammen, zeigt, dass die M&A- und Private-Credit-Aktivität derzeit auf hohem Niveau bleibt, auch wenn aktuelle Risikokennzahlen für die gesamte Branche noch nicht vorliegen." }
+          { tag: "einordnung", text: "Dass BXSL für das dritte Quartal weiter steigende Erträge meldet, während die zuletzt verfügbaren branchenweiten Risikokennzahlen unverändert aus dem Frühjahr stammen, zeigt, dass einzelne Fonds und die Gesamtbranche derzeit unterschiedlich schnell neue Daten liefern." }
         ]}
       ],
-      deal: { value: "≈ 115 Mrd. $ (Marvell/Lumentum, All-Stock) · ≈ 15,3 Mrd. $ Unternehmenswert (Apollo/Thrive/ADT)", buyer: "Marvell Technology · Thrive Holdings (Fremdkapital: Apollo)", target: "Lumentum · ADT", sector: "Optik-Halbleiter / Sicherheitstechnik", type: "Unternehmensübernahmen (beide bestätigt; Details zur Kartellprüfung bei Marvell/Lumentum nicht in den Quellen genannt)" },
       reaction: "BASF/Evonik, EQT/Qiagen und Tesla/SpaceX werden in Meldung 13 behandelt.",
       terms: ["bdc", "direct-lending", "nav", "private-equity"],
-      followups: ["e:private-credit-what", "e:redemption-limits"],
+      followups: ["e:private-credit-what", "e:redemption-limits", "e:pc-rates"],
       sources: [
-        { title: "SEC: Lumentum 8-K – Marvell Merger Agreement", url: "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm" },
+        { title: "StockTitan: Blackstone Secured Lending Fund reports third quarter 2026 results", url: "https://www.stocktitan.net/news/BXSL/blackstone-secured-lending-fund-reports-third-quarter-2026-1zm0iay2s4eh.html" },
+        { title: "rallies.ai: Blackstone Secured Lending Fund – Q3 2026 Net Investment Income of $0.68 a share", url: "https://rallies.ai/news/blackstone-secured-lending-fund-reports-q3-2026-net-investment-income-of-068-a-share-c79bac9a85df8c0d" },
         { title: "Bloomberg: Apollo Flexes Underwriting Power With $9.6 Billion ADT Debt Deal", url: "https://www.bloomberg.com/news/articles/2026-11-02/apollo-flexes-underwriting-power-with-9-6-billion-adt-debt-deal" },
-        { title: "Investing.com: Blue Owl Q3 2026 slides – AUM hits $330bn, margins expand", url: "https://uk.investing.com/news/stock-market-news/blue-owl-q3-2026-slides-aum-hits-330b-margins-expand-93CH-4942881" },
-        { title: "Yahoo Finance: Ares Management Corporation Reports Third Quarter 2026 Results", url: "https://finance.yahoo.com/markets/stocks/articles/ares-management-corporation-reports-third-100000868.html" },
-        { title: "Bloomberg: Fitch's Private Credit Default Rate Hit Record in Second Quarter", url: "https://www.bloomberg.com/news/articles/2026-07-30/fitch-s-private-credit-default-rate-hit-record-in-second-quarter" }
+        { title: "SEC: Lumentum 8-K – Marvell Merger Agreement", url: "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm" }
       ]
     },
-    /* 15 TECHNOLOGIE: APPLE/COREWEAVE/BURRY/ANTHROPIC */
+    /* 15 TECHNOLOGIE */
     {
-      id: "apple-earnings-coreweave-burry-anthropic-11-03", cats: ["tech"], when: "Apple-Zahlen Mo 2.11. nach Börsenschluss · Intel/Amazon-Nachwirkungen · Anthropic-IPO-Update 2.11.2026",
-      headline: "Apple übertrifft unter dem neuen CEO John Ternus die Erwartungen, die Aktie fällt aber wegen einer schwachen Margen-Prognose, Analysten senken die Intel-Kursziele weiter, Anthropic weist in seinem aktualisierten Börsenprospekt ein stark gestiegenes Umsatzwachstum bei zugleich hohen künftigen Rechenverpflichtungen aus",
-      sec30: "Apple meldete am Montagabend für das vierte Geschäftsquartal einen Umsatz von 114,48 Mrd. Dollar (über der Erwartung von rund 113,4 Mrd. Dollar, +12 %) und einen Gewinn je Aktie von 2,10 Dollar (über der Erwartung von 1,99 Dollar) – der erste Bericht unter dem seit 1.9.2026 amtierenden CEO John Ternus. Die Aktie fiel dennoch nachbörslich und vorbörslich um bis zu 4,5 bis 4,6 %, weil die Margen-Prognose für das Weihnachtsquartal wegen stark steigender Speicherchip-Kosten schwächer ausfiel als erhofft. Bei Intel senkten mehrere Analysten nach dem Kurssturz vom 30.10. ihre Kursziele weiter, etwa Bernstein auf 75 Dollar. Anthropic aktualisierte am 2.11. sein Börsenprospekt und wies einen Q3-Umsatz von 17,0 Mrd. Dollar aus – mehr als das Zwölffache des Vorjahreswerts –, zugleich aber künftige Rechenleistungs-Verpflichtungen von rund 417 Mrd. Dollar.",
+      id: "apple-intel-amazon-coreweave-anthropic-11-04", cats: ["tech"], when: "Apple-Abstufung 3.11. · AMD-Q3-Zahlen 3.11. · Anthropic-S-1 aktualisiert 2.11. · Bitkom-Studie 3.11.2026",
+      headline: "Die DZ Bank stuft Apple nach den Quartalszahlen auf Verkaufen ab, AMD übertrifft mit starkem Rechenzentrumswachstum die Erwartungen, Anthropic peilt ein Nasdaq-Listing ab Mitte November an",
+      sec30: "Die DZ Bank stufte Apple am 3.11. von „Halten” auf „Verkaufen” ab und senkte den fairen Wert von 310 auf 300 Dollar; als Gründe nennt Analyst Ingo Wermann steigende Speicherchip-Kosten, Lieferengpässe und eine hohe Bewertung. AMD meldete für das dritte Quartal einen Umsatz von 13,4 Mrd. Dollar mit einem Rechenzentrumswachstum von 97 % auf 8,5 Mrd. Dollar und stieg nachbörslich deutlich. Anthropic aktualisierte sein Börsenprospekt für ein Nasdaq-Listing unter dem Ticker „ANT”; neu bekannt wurde eine Zahlung von bis zu 3,1 Mrd. Dollar pro Monat an SpaceX für Nvidia-GPU-Rechenkapazität. CoreWeaves fünfjährige Kreditausfallversicherungs-Spreads lagen zuletzt bei rund 1.041 Basispunkten und damit weiterhin im als „Stress” geltenden Bereich. Eine neue Bitkom-Studie zeigt Rekordinvestitionen von 23,5 Mrd. Euro (+57 %) in deutsche Rechenzentren für 2026.",
       blocks: [
-        { h: "Was zeigen die Apple-Zahlen, und wie reagierte die Aktie?", items: [
-          { tag: "fakt", text: "Apple meldete für das vierte Geschäftsquartal 2026 einen Umsatz von 114,48 Mrd. Dollar (Erwartung: rund 113,4 Mrd. Dollar, +12 % ggü. Vorjahr, ein Rekord für ein September-Quartal) und einen Gewinn je Aktie von 2,10 Dollar (Erwartung: 1,99 Dollar, +14 %, darin laut CNBC ein positiver Einmaleffekt von 0,05 Dollar aus Zoll-Rückerstattungen); der iPhone-Umsatz stieg um 17 % auf 57,58 Mrd. Dollar, die Services-Sparte erreichte mit 31,57 Mrd. Dollar ein Allzeithoch." },
-          { tag: "fakt", text: "Es ist der erste Quartalsbericht unter dem seit 1.9.2026 amtierenden CEO John Ternus, der auf Tim Cook folgte (Cook wechselte in die Rolle des Executive Chairman). Für das Weihnachtsquartal stellte Apple ein Umsatzwachstum von 7 bis 10 % in Aussicht, deutlich über dem Analystenkonsens von rund 6,1 %.",
-            ask: [{ label: "Mehr zu CoreWeave und Nvidia", ref: "e:ai-capex" }] },
-          { tag: "fakt", text: "Trotz des Zahlen-Beats fiel die Aktie nachbörslich am Montag um bis zu 4,4 % und vorbörslich am Dienstag weiter auf ein Minus von rund 4,5 bis 4,6 %. Als Grund nennt CNBC eine „weak margin forecast”, ausgelöst von stark steigenden Speicherchip-Kosten; Ternus sagte laut CNBC, Apple habe die Preise nur „widerwillig” angehoben, um Komponentenkosten auszugleichen." }
+        { h: "Wie reagierten Analysten auf Apple, und was zeigen die AMD-Zahlen?", items: [
+          { tag: "fakt", text: "Die DZ Bank stufte die Apple-Aktie am 3.11.2026 von „Halten” auf „Verkaufen” ab und senkte den fairen Wert von 310 auf 300 Dollar; Analyst Ingo Wermann nennt steigende Speicherchip-Kosten, Lieferengpässe und eine hohe Bewertung als Gründe. Die Aktie war am Dienstag bereits um 1,9 % auf 331,90 Dollar gefallen.",
+            ask: [{ label: "Mehr zu den Apple-Zahlen vom Montag", ref: "s:2" }] },
+          { tag: "fakt", text: "AMD meldete für das dritte Quartal 2026 einen Umsatz von 13,4 Mrd. Dollar (über dem Konsens von rund 13,06 Mrd. Dollar) mit einem Rechenzentrumsumsatz von 8,5 Mrd. Dollar (+97 % ggü. Vorjahr, nun 64 % des Gesamtumsatzes); die Prognose für das vierte Quartal liegt bei rund 17 Mrd. Dollar (+66 % ggü. Vorjahr)." }
         ]},
-        { h: "Wie reagierten Analysten auf Intel und Amazon nach dem Kurssturz vom 30.10.?", items: [
-          { tag: "fakt", text: "Intel war am 30.10. um 28,6 % auf 65,76 Dollar eingebrochen – der nach Berichten größte Tagesverlust seit 1974, rund 140 Mrd. Dollar Marktkapitalisierung vernichtet. Seither senkten mehrere Analysten ihre Kursziele weiter: Bank of America von 145 auf 100 Dollar (Herabstufung auf „Neutral”), Bernstein von 110 auf 75 Dollar, Morgan Stanley von 84 auf 75 Dollar; der Analystenkonsens liegt inzwischen bei „Hold” mit einem Durchschnittskursziel von rund 97 Dollar." },
-          { tag: "fakt", text: "Amazon war am 30.10. um 1,4 % gefallen, nachdem Umsatz und Gewinn den Konsens verfehlt hatten; das Unternehmen bestätigte aber sein Investitionsziel (Capex) von 220 Mrd. Dollar für 2026." }
-        ]},
-        { h: "Was ist bei CoreWeave, Michael Burry und Anthropics Börsengang neu?", items: [
-          { tag: "unbestaetigt", text: "CoreWeaves fünfjährige Kreditausfallversicherungs-Spreads (CDS), die Mitte/Ende Oktober zeitweise über 1.140 Basispunkte gestiegen waren, lagen zuletzt bei rund 1.041 Basispunkten – laut S&P Global weiterhin ein Niveau, das klassischerweise „finanzielle Notlage” signalisiert.",
+        { h: "Was ist bei CoreWeave und der Anthropic-IPO neu?", items: [
+          { tag: "unbestaetigt", text: "CoreWeaves fünfjährige Kreditausfallversicherungs-Spreads (CDS) lagen zuletzt bei rund 1.041 Basispunkten – ein Rückgang gegenüber einem Rekordhoch von rund 1.195 Basispunkten Mitte Oktober, aber weiterhin ein Niveau, das klassischerweise als „finanzielle Notlage” gilt.",
             ask: [{ label: "Was ist ein Credit Spread?", ref: "t:credit-spread" }] },
-          { tag: "unbestaetigt", text: "Investor Michael Burry hält laut Berichten weiterhin umfangreiche Short-Positionen (über Put-Optionen mit Laufzeit 2027) gegen Nvidia, Palantir, Micron und Tesla und vergleicht die Lage mit „den letzten Monaten der Bubble 1999–2000”; Palantir sei seiner Einschätzung nach „wildly overvalued”. Eine Bestätigung neuerer Entwicklungen nach dem 1.11. liegt nicht vor." },
-          { tag: "fakt", text: "Anthropic aktualisierte am 2.11.2026 sein öffentliches Börsenprospekt (S-1) für ein geplantes Nasdaq-Listing und wies für das dritte Quartal einen Umsatz von 17,0 Mrd. Dollar aus – mehr als das Zwölffache des Vorjahreswerts; zugleich weist die Einreichung künftige Rechenleistungs-Verpflichtungen von rund 417 Mrd. Dollar aus, mit Vertragslaufzeiten von bis zu 20 Jahren.",
+          { tag: "fakt", text: "Anthropic aktualisierte am 2.11.2026 sein öffentliches Börsenprospekt (S-1) für ein geplantes Nasdaq-Listing unter dem Ticker „ANT”, mit angepeiltem Listing in der Woche ab 16.11. Neu bekannt wurde, dass Anthropic bis zu 3,1 Mrd. Dollar pro Monat (bis zu 120,5 Mrd. Dollar über die Vertragslaufzeit bis 2029) an SpaceX zahlen soll, um Zugang zu Nvidia-GPU-Rechenkapazität zu erhalten.",
             ask: [{ label: "Was bedeutet zirkuläre Finanzierung?", ref: "e:circular-financing" }] }
         ]},
+        { h: "Was zeigt die neue Bitkom-Studie zu deutschen Rechenzentren?", items: [
+          { tag: "fakt", text: "Laut einer am 3.11.2026 veröffentlichten Studie des Borderstep-Instituts für den Digitalverband Bitkom steigen die Investitionen in deutsche Rechenzentren 2026 um 57 % auf einen Rekordwert von 23,5 Mrd. Euro; bis 2035 soll mehr als die Hälfte der deutschen Rechenzentrumskapazität für KI-Anwendungen genutzt werden (heute rund ein Fünftel). Bitkom nennt hohe Energiekosten, lange Genehmigungsverfahren und fehlende Flächen als größte Hürden für den weiteren Ausbau.",
+            ask: [{ label: "Warum investieren Konzerne so viel in KI-Rechenzentren?", ref: "e:ai-capex" }] }
+        ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Apple unter seinem neuen CEO die Erwartungen übertrifft, die Aktie aber wegen steigender Speicherchip-Kosten fällt, während Intel weiter abgestuft wird und Anthropic einerseits stark wachsende Umsätze, andererseits sehr hohe künftige Rechenverpflichtungen ausweist, zeigt, wie genau Anleger derzeit beobachten, ob sich hohe KI-Investitionen in profitablen Ergebnissen niederschlagen. Dies ist keine Anlageberatung.",
-            ask: [{ label: "Warum fällt die Nasdaq?", ref: "chain:nasdaq-why" }] }
+          { tag: "einordnung", text: "Dass die DZ Bank Apple abstuft und CoreWeaves Kreditausfallversicherungen weiterhin auf Stress-Niveau notieren, während AMD gleichzeitig mit starkem Rechenzentrumswachstum überzeugt und Anthropic auf ein Nasdaq-Listing zusteuert, zeigt, wie unterschiedlich Anleger derzeit einzelne Technologie- und KI-Werte einschätzen. Die am Mittwoch zunächst gedrückte Stimmung bei einigen KI-nahen Aktien im Zusammenhang mit den US-Zwischenwahlen wird in Meldung 9 behandelt. Dies ist keine Anlageberatung.",
+            ask: [{ label: "Mehr zu den Zwischenwahlen", ref: "s:9" }] }
         ]}
       ],
-      reaction: "Die Marktreaktion insgesamt wird in Meldung 1 (Europa) und Meldung 3 (USA) behandelt.",
-      terms: ["hyperscaler", "credit-spread"],
-      followups: ["e:ai-capex", "e:circular-financing"],
+      reaction: "Die Marktreaktion insgesamt wird in Meldung 1 (Europa) und Meldung 2 (USA) behandelt.",
+      terms: ["hyperscaler", "credit-spread", "gigawatt"],
+      followups: ["e:ai-capex", "e:circular-financing", "e:software-ai-loans"],
       sources: [
-        { title: "CNBC: Apple's stock drops on weak margin forecast in Ternus' first earnings report", url: "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html" },
-        { title: "9to5Mac: Apple reports Q4 2026 earnings – $114.5 billion in revenue, up 12%", url: "https://9to5mac.com/2026/11/02/apple-reports-q4-2026-earnings/" },
-        { title: "GuruFocus: INTC Downgraded by B of A Securities – Price Target Lowered to $100", url: "https://www.gurufocus.com/news/9158360/intc-downgraded-by-b-of-a-securities-price-target-lowered-to-100" },
-        { title: "StockTitan: Anthropic IPO Filing Updated With New Results as Claude's Maker Heads to Nasdaq", url: "https://www.stocktitan.net/articles/anthropic-ipo-amended-s1-2026-guide" },
-        { title: "Investing.com: US stock futures mixed as Apple slides, midterms loom", url: "https://www.investing.com/news/stock-market-news/us-stock-futures-mixed-as-apple-slides-midterms-loom-4994306" }
+        { title: "wallstreet-online: DZ Bank stuft Apple Inc. auf „Verkaufen”", url: "https://www.wallstreet-online.de/nachricht/21630738-dz-bank-stuft-apple-inc-verkaufen" },
+        { title: "fourweekmba: Anthropic's SpaceX bill set to reach $3.1B a month, up 2.5x", url: "https://fourweekmba.com/ai-anthropics-spacex-bill-set-to-reach-3-1b-a-month-up-2-5x/" },
+        { title: "Investing.com: AMD Q3 2026 slides – data center surges 97%, record earnings beat", url: "https://www.investing.com/news/company-news/amd-q3-2026-slides-data-center-surges-97-record-earnings-beat-93CH-4996928" },
+        { title: "TokenPost: CoreWeave five-year CDS spread falls to 1,041.4 basis points", url: "https://www.tokenpost.com/news/investing/42120" },
+        { title: "Bitkom: KI-Boom treibt Rechenzentren in Deutschland", url: "https://www.bitkom.org/Presse/Presseinformation/KI-Boom-treibt-Rechenzentren-in-Deutschland" }
       ]
     }
   ],
   context: {
-    "index-move": { tag: "fakt", story: 1, text: "Der DAX fiel am Dienstagvormittag auf zwischen 25.717 und 25.737 Punkte (-0,7 % bis -1,0 %), nachdem er am Montag noch bis auf 25.981 Punkte gestiegen war; der Euro Stoxx 50 notierte zwischen rund 6.145 und 6.148 Punkten." },
-    "why-markets-move": { tag: "einordnung", story: 1, text: "Als Hintergrund für die schwächere Tendenz am Dienstag nennen Berichte den Kursrückgang bei Apple nach einer schwachen Margen-Prognose sowie die Vorsicht der Anleger vor den Ergebnissen der US-Zwischenwahlen." },
-    "yield-meaning": { tag: "fakt", story: 3, text: "Die US-10-Jahres-Rendite liegt am Dienstag weitgehend stabil bei rund 4,92 %, die Rendite zehnjähriger Bundesanleihen bei rund 3,31 % (Stand Montag, 2.11.)." },
-    "gold-why": { tag: "unbestaetigt", story: 4, text: "Gold gab am Dienstagmorgen rund 0,9 bis 1,0 % auf etwa 3.909 bis 3.910 Dollar je Feinunze nach, nachdem der Preis am Montag noch gestiegen war." },
-    "bitcoin-what": { tag: "unbestaetigt", story: 4, text: "Bitcoin fiel am Dienstag um rund 2,0 % auf etwa 76.688 Dollar; Berichte nennen allgemeine Risikoaversion vor den US-Zwischenwahlen als Hintergrund." },
-    "eurusd-meaning": { tag: "fakt", story: 4, text: "Der Euro gab am Dienstag auf rund 1,1185 Dollar nach, nach einem Höchststand von 1,1237 Dollar am Montag." },
-    "central-banks-why": { tag: "unbestaetigt", story: 2, text: "EZB-Ratsmitglied Peter Kažimír sagte, die Zinspause der vergangenen Woche sei „keine Ziellinie” – von Beobachtern als weiteres Signal für eine mögliche Dezember-Zinserhöhung gewertet." },
-    "fed-hike": { tag: "fakt", story: 2, text: "Die Fed beließ ihren Leitzins am 28.10. bei 3,75 bis 4,00 %, die neuen Projektionen (Dot Plot) fallen mit einem Median von 4,1 % für Ende 2026 aber restriktiver aus als zuvor erwartet." },
-    "ecb-hike": { tag: "unbestaetigt", story: 2, text: "Laut Insidern steuert die EZB auf eine Zinserhöhung um 0,25 Prozentpunkte am 17.12. zu, die als „so gut wie sicher” gilt, sofern die Energiepreise nicht einbrechen; eine offizielle Bestätigung der EZB liegt nicht vor." },
-    "inflation-expectations": { tag: "unbestaetigt", story: 5, text: "Nationale Oktober-Inflationswerte schwanken zwischen 2,8 % in Deutschland und 5,4 % in Italien; Vorab-Schätzungen für die gesamte Eurozone liegen zwischen 3,7 % (BofA) und 4,0 % (Pantheon), die offizielle Schnellschätzung folgt erst am 4.11." },
-    "haushalt-basics": { tag: "fakt", story: 6, text: "Die Bereinigungssitzung des Haushaltsausschusses zum Bundeshaushalt 2027 ist für den 12.11. angesetzt, die abschließende Bundestagsberatung vom 24. bis 27.11.2026." },
-    "debt-brake": { tag: "fakt", story: 6, text: "Der Zeitplan für den Bundeshaushalt 2027 bleibt unverändert; vor dem Koalitionsausschuss am 17.11. werden laut Berichten mehrere Streitpunkte zwischen CDU, CSU und SPD sichtbar, unter anderem zur Rentenreform und zur Pflegekommission." },
-    "rente-basics": { tag: "position", story: 7, text: "Kanzler Merz will die Reformvorschläge der Rentenkommission „so umsetzen, wie sie auf dem Tisch liegen”; Arbeitsminister Schweitzer (SPD) sucht einen Kompromiss und sieht die Vorschläge nur als Diskussionsgrundlage." },
-    "coalition-majority": { tag: "unbestaetigt", story: 7, text: "Die INSA-Sonntagsfrage (30.10.-2.11.) sieht die AfD bei 28,0 % weiter deutlich vor der Union (20,0 %); die Grünen liegen mit 15,0 % laut dieser Erhebung erstmals vor der SPD (14,0 %)." },
-    "why-oil-up-geo": { tag: "unbestaetigt", story: 10, text: "Der Ölpreis stieg am Dienstag deutlich, nachdem die USA nach eigenen Angaben „begrenzte, defensive” Luftschläge auf die iranische Insel Qeshm an der Straße von Hormus durchgeführt hatten." },
-    "hormuz": { tag: "unbestaetigt", story: 10, text: "Die Straße von Hormus gilt laut Schifffahrts-Trackern zum 3.11. als faktisch geschlossen für den kommerziellen Verkehr, nachdem zuvor ein katarischer LNG-Tanker und ein weiterer Frachter von unidentifizierten Objekten getroffen worden waren." },
-    "opec-plus-why": { tag: "fakt", story: 10, text: "Die OPEC+ beließ am 1.11. die Dezember-Förderquoten unverändert bei rund 31 Mio. Barrel pro Tag – der dritte Monat in Folge; die Entscheidung über den Förderrahmen 2027 fällt erst am 29.11." },
-    "gas-ttf": { tag: "fakt", story: 10, text: "Der europäische Gas-Future TTF stieg am Dienstag um mehr als 3 % auf rund 98,26 Euro je Megawattstunde, nachdem Berichte über erneute US-Luftschläge auf Ziele im Iran bekannt wurden." },
-    "energy-germany": { tag: "fakt", story: 10, text: "Die deutschen Gasspeicher erreichten zum 1.11. rund 61 % Füllstand und verfehlten damit das gesetzliche Herbstziel von 80 %; die Bundesnetzagentur sieht die Versorgungssicherheit aber derzeit nicht gefährdet." },
-    "oil-inflation": { tag: "einordnung", story: 10, text: "Brent stieg am Dienstag auf rund 106 bis 107 Dollar je Barrel; ein steigender Ölpreis wirkt tendenziell anheizend auf Sprit-, Heiz- und Transportkosten in Europa." },
-    "defence-stocks": { tag: "fakt", story: 11, text: "Rheinmetall kämpft vor den Q3-Zahlen am 5.11. um die 1.000-Euro-Marke, Hensoldt wird von Analysten wegen des ZEBEL-Logistikproblems unterschiedlich bewertet, RENK notiert weiterhin deutlich unter dem Analystenkonsens-Kursziel." },
-    "nato-target": { tag: "fakt", story: 12, text: "Fünf von 32 NATO-Staaten erreichen 2026 bereits das 5-Prozent-Ziel; die Verteidigungsausgaben der europäischen NATO-Partner und Kanadas steigen 2026 um 11 % auf 777 Mrd. Dollar, Deutschland meldet Rekordausgaben von 124,7 Mrd. Euro." },
-    "defence-order": { tag: "fakt", story: 12, text: "Der Bundestags-Haushaltsausschuss berät am 4.11. über sieben weitere Rüstungsvorhaben von jeweils über 25 Mio. Euro; die große Boxer-Bestellung Arminius verschiebt sich laut Berichten von Dezember 2026 auf Februar 2027." },
-    "ma-steps": { tag: "fakt", story: 13, text: "Evonik lehnte das auf 24 Euro je Aktie erhöhte BASF-Angebot am 30.10. ab und meldete heute für das dritte Quartal einen Nettoverlust trotz höherem EBITDA; der EQT-Kauf von Qiagen (46,50 Euro je Aktie, rund 10,8 Mrd. Euro) ist bereits besiegelt, die vollständigen Qiagen-Zahlen folgen morgen." },
-    "take-private-why": { tag: "unbestaetigt", story: 13, text: "Evonik soll laut Berichten eine Übernahme des US-Konzerns Ashland prüfen; dies war bereits vor dem BASF-Angebot im Gespräch und gilt nicht eindeutig als reine Abwehrmaßnahme. Die RAG-Stiftung hat sich weiterhin nicht öffentlich zum erhöhten BASF-Angebot geäußert." },
-    "deal-risks": { tag: "unbestaetigt", story: 13, text: "Bei Tesla und SpaceX bleibt eine Fusion unbestätigt; laut Prognosemarkt Polymarket ist die Wahrscheinlichkeit einer Ankündigung bis Ende 2026 zuletzt auf 16,0 % gefallen, Musk selbst kann wegen eines Interessenkonflikts nicht an den Gesprächen teilnehmen." },
-    "private-credit-what": { tag: "fakt", story: 14, text: "Blue Owl meldete für das dritte Quartal ein verwaltetes Vermögen von 330 Mrd. Dollar (+12 %), Ares 691 Mrd. Dollar (+16 %); beide Unternehmen sammelten im Quartal weiter zweistellige Milliardenbeträge an frischem Kapital ein." },
-    "redemption-limits": { tag: "unbestaetigt", story: 14, text: "Die zuletzt verfügbaren branchenweiten Daten stammen aus dem zweiten Quartal 2026: Die Ausfallrate bei Private-Credit-Krediten erreichte laut Fitch mit 6,0 % einen Rekordwert, zehn von 16 nicht börsennotierten BDCs konnten Rücknahmewünsche nicht vollständig bedienen." },
-    "ai-capex": { tag: "fakt", story: 15, text: "Apple übertraf mit 114,48 Mrd. Dollar Umsatz und 2,10 Dollar Gewinn je Aktie die Erwartungen für das vierte Geschäftsquartal, die Aktie fiel aber wegen einer durch steigende Speicherchip-Kosten schwächer als erwarteten Margen-Prognose für das Weihnachtsquartal." },
-    "circular-financing": { tag: "unbestaetigt", story: 15, text: "Anthropic wies in seinem am 2.11. aktualisierten Börsenprospekt einen Quartalsumsatz von 17,0 Mrd. Dollar aus, zugleich aber künftige Rechenleistungs-Verpflichtungen von rund 417 Mrd. Dollar; Investor Michael Burry hält laut Berichten weiterhin umfangreiche Short-Positionen gegen mehrere KI-nahe Aktien." }
+    "index-move": { tag: "fakt", story: 1, text: "Der DAX legte am Mittwoch um 1,4 bis 1,5 % auf zwischen 26.240 und 26.250 Punkte zu, der Euro Stoxx 50 um rund 1,5 % auf etwa 6.238 Punkte – eine Erleichterungsrally nach den US-Zwischenwahlen." },
+    "why-markets-move": { tag: "einordnung", story: 1, text: "Als Hintergrund für die Rally am Mittwoch nennen Berichte die Erwartung, dass ein von den Demokraten mitkontrollierter US-Kongress Teile der Agenda von Präsident Trump bremsen und für mehr politische Berechenbarkeit sorgen könnte." },
+    "yield-meaning": { tag: "fakt", story: 3, text: "Die US-10-Jahres-Rendite liegt nach einem kurzen Anstieg am Wahltag weitgehend stabil bei rund 4,90 bis 4,95 %, die Rendite zehnjähriger Bundesanleihen bei rund 3,32 %." },
+    "gold-why": { tag: "unbestaetigt", story: 3, text: "Gold sprang am Mittwoch um rund 2,4 bis 3,0 % über die Marke von 4.000 Dollar je Feinunze; zur genauen Höhe weichen Quellen leicht voneinander ab." },
+    "bitcoin-what": { tag: "fakt", story: 3, text: "Bitcoin erholte sich am Mittwoch von einem Wahlnacht-Tief bei rund 75.740 Dollar auf etwa 78.300 Dollar (+0,9 %)." },
+    "eurusd-meaning": { tag: "fakt", story: 3, text: "Der Euro legte am Mittwoch um 0,6 % auf rund 1,1260 Dollar zu." },
+    "inflation-what": { tag: "fakt", story: 4, text: "Die Inflation in der Eurozone stieg im Oktober laut Eurostat-Schnellschätzung auf 4,0 % (von 3,8 %), den höchsten Stand seit September 2023; die Kerninflation blieb mit 2,5 % stabil." },
+    "oil-inflation": { tag: "einordnung", story: 11, text: "Brent notiert am Mittwoch bei rund 102 bis 105 Dollar je Barrel; ein weiterhin hoher Ölpreis wirkt tendenziell anheizend auf Sprit-, Heiz- und Transportkosten in Europa." },
+    "central-banks-why": { tag: "position", story: 5, text: "Bundesbank-Präsident Nagel hält eine EZB-Zinserhöhung im Dezember aus heutiger Sicht für „sehr wahrscheinlich notwendig”, da sich der Inflationsausblick verschlechtert habe." },
+    "ecb-hike": { tag: "fakt", story: 5, text: "Die Eurostaaten müssen ihre Kandidatenvorschläge für die Lagarde-Nachfolge bis Freitag, 6.11.2026, einreichen; die Euro-Finanzminister prüfen die Vorschläge am 9.11." },
+    "fed-hike": { tag: "position", story: 6, text: "Mehrere Fed-Vertreter, darunter Dallas-Fed-Chefin Lorie Logan und Gouverneur Michael Barr, werben seit der Sitzung vom 28.10. öffentlich für weitere Zinserhöhungen." },
+    "haushalt-basics": { tag: "fakt", story: 7, text: "Der Zeitplan für den Bundeshaushalt 2027 bleibt unverändert: Bereinigungssitzung am 12.11., abschließende Bundestagsberatung vom 24. bis 27.11.2026." },
+    "rente-basics": { tag: "fakt", story: 7, text: "Der Einstieg in eine kapitalgedeckte Zusatzvorsorge wird 2026 nur als Eckpunkte vorgelegt; die endgültige parlamentarische Verabschiedung verschiebt sich auf Anfang 2027." },
+    "debt-brake": { tag: "einordnung", story: 7, text: "Vor dem Koalitionsausschuss am 17.11. gelten mehrere Punkte zwischen CDU, CSU und SPD als strittig, unter anderem zur abschlagsfreien Rente nach 45 Beitragsjahren und zur Pflegeversicherung." },
+    "coalition-majority": { tag: "fakt", story: 8, text: "Die Forsa-Umfrage vom 3.11. sieht die AfD bei 26 %, die Union bei 20 %, die Grünen bei 17 % und die SPD bei 14 % – die Grünen liegen damit weiterhin vor der SPD." },
+    "why-oil-up-geo": { tag: "unbestaetigt", story: 11, text: "Der Iran meldete am 4.11. weitere, unbestätigte Tankertreffer an der Straße von Hormus sowie den Abschuss einer US-Drohne; der Ölpreis gab trotzdem nach, da Berichte auf Hoffnungen einer diplomatischen Lösung verweisen." },
+    "hormuz": { tag: "unbestaetigt", story: 11, text: "Die iranischen Revolutionsgarden meldeten am 4.11., vier weitere Tanker seien auf einer gesperrten Route südlich der Straße von Hormus auf Seeminen gelaufen; eine unabhängige Bestätigung lag nicht vor." },
+    "gas-ttf": { tag: "unbestaetigt", story: 11, text: "Zum europäischen Gaspreis TTF lagen zum Redaktionsschluss uneinheitliche Angaben vor; ein Rückgang von der Dienstags-Spitze wurde berichtet." },
+    "energy-germany": { tag: "fakt", story: 11, text: "Die deutschen Gasspeicher lagen zum zuletzt bestätigten Stand (31.10.) bei 61,17 % Füllstand; die Bundesnetzagentur sieht die Versorgungssicherheit weiterhin nicht gefährdet." },
+    "defence-stocks": { tag: "fakt", story: 12, text: "Rheinmetall fiel am Mittwoch unter die 1.000-Euro-Marke auf rund 988,50 Euro, Hensoldt verlor zeitweise bis zu 3,0 % wegen des ZEBEL-Logistikproblems, RENK gab rund 1,6 bis 2,0 % ab – alle drei legen ihre Q3-Zahlen erst morgen vor." },
+    "defence-order": { tag: "fakt", story: 12, text: "Der Bundestags-Haushaltsausschuss berät am 4.11. über sieben weitere Rüstungsvorhaben von jeweils über 25 Mio. Euro; die große Boxer-Bestellung „Arminius” steht laut einem unbestätigten Branchenbericht vor einer Verschiebung auf Februar 2027." },
+    "nato-target": { tag: "fakt", story: 12, text: "Auf der Euronaval-Messe in Paris (3. bis 6.11.) zeigt Rheinmetall unter anderem ein „Hybrid Fleet”-Konzept; nur 5 von 32 NATO-Staaten erreichen 2026 bereits das 5-Prozent-Ziel." },
+    "ma-steps": { tag: "fakt", story: 13, text: "Evonik meldete ein Umsatzwachstum von 13 % für das dritte Quartal und hob die Jahresprognose an; der EQT-Kauf von Qiagen (46,50 Euro je Aktie) ist bereits besiegelt, die vollständigen Q3-Zahlen folgen erst heute Abend um 22:05 Uhr." },
+    "take-private-why": { tag: "unbestaetigt", story: 13, text: "Die RAG-Stiftung hat ihr Kuratorium über das BASF-Angebot für Evonik informiert, aber kein neues öffentliches Statement abgegeben; ein höheres BASF-Angebot lag zum Redaktionsschluss nicht vor." },
+    "deal-risks": { tag: "unbestaetigt", story: 13, text: "Bei Tesla und SpaceX bleibt eine Fusion unbestätigt; laut Prognosemarkt Polymarket liegt die Wahrscheinlichkeit einer Ankündigung bis Ende 2026 bei rund 16 %." },
+    "private-credit-what": { tag: "fakt", story: 14, text: "Blackstone Secured Lending (BXSL) meldete für das dritte Quartal einen Nettoanlageertrag von 0,68 Dollar je Aktie und einen Portfoliowert von rund 12,9 Mrd. Dollar." },
+    "redemption-limits": { tag: "unbestaetigt", story: 14, text: "Die zuletzt verfügbaren branchenweiten Daten stammen aus dem zweiten Quartal 2026: Die Ausfallrate bei Private-Credit-Krediten erreichte laut Fitch mit 6,0 % einen Rekordwert." },
+    "ai-capex": { tag: "fakt", story: 15, text: "AMD meldete für das dritte Quartal ein Rechenzentrumswachstum von 97 % auf 8,5 Mrd. Dollar; eine neue Bitkom-Studie zeigt Rekordinvestitionen von 23,5 Mrd. Euro in deutsche Rechenzentren für 2026." },
+    "circular-financing": { tag: "unbestaetigt", story: 15, text: "Anthropic soll laut seinem aktualisierten Börsenprospekt bis zu 3,1 Mrd. Dollar pro Monat an SpaceX für Nvidia-GPU-Rechenkapazität zahlen – bis zu 120,5 Mrd. Dollar über die Vertragslaufzeit bis 2029." }
   },
 
   /* ─────────────── QUIZ (5 Fragen) ─────────────── */
   quiz: [
     {
-      topic: "Märkte", type: "Fakt", story: 3,
-      q: "Wie schlossen S&P 500 und Dow Jones am Montag, 2.11.2026, im Vergleich zueinander?",
+      topic: "International", type: "Fakt", story: 9,
+      q: "Welches Ergebnis brachten die US-Zwischenwahlen vom 3.11.2026 für den Kongress?",
       options: [
-        "Beide stiegen etwa gleich stark",
-        "Beide fielen etwa gleich stark",
-        "Der Handel wurde wegen der Zwischenwahlen ausgesetzt",
-        "Der Dow stieg, während der S&P 500 und die Nasdaq nachgaben"
-      ],
-      answer: 3,
-      explain: "Der Dow schloss am Montag mit +0,41 % im Plus, während der S&P 500 um 0,51 % und die technologieschwere Nasdaq um 1,07 % nachgaben – ein Zeichen für eine Rotation aus Technologiewerten."
-    },
-    {
-      topic: "Technologie", type: "Zusammenhang", story: 15,
-      q: "Apple übertraf beim Umsatz und beim Gewinn je Aktie die Erwartungen, die Aktie fiel aber dennoch deutlich. Angenommen, die Speicherchip-Preise würden in den kommenden Monaten weiter stark steigen. Was würde das unter sonst gleichen Bedingungen am ehesten für Apples Margen-Ausblick bedeuten?",
-      options: [
-        "Der Druck auf die Margen würde sich tendenziell verstärken, da Apple die höheren Komponentenkosten laut eigenen Angaben nur „widerwillig” an Kunden weitergibt",
-        "Die Margen würden sich automatisch verbessern, weil höhere Chip-Preise immer positiv für Hersteller sind",
-        "Es gäbe keinen Zusammenhang, da Apple keine Speicherchips verwendet",
-        "Apple müsste die iPhone-Produktion vollständig einstellen"
-      ],
-      answer: 0,
-      explain: "Apple begründete die schwächere Margen-Prognose für das Weihnachtsquartal mit stark steigenden Speicherchip-Kosten und erklärte, Preiserhöhungen nur „widerwillig” vorgenommen zu haben; weiter steigende Chip-Preise würden diesen Druck tendenziell verstärken."
-    },
-    {
-      topic: "Energie", type: "Fakt", story: 10,
-      q: "Was geschah laut US-Angaben am 2.11.2026 an der Straße von Hormus?",
-      options: [
-        "Die OPEC+ erhöhte überraschend die Förderquoten",
-        "Das US-Militär führte „begrenzte, defensive” Luftschläge auf die iranische Insel Qeshm durch",
-        "Iran öffnete die Meerenge vollständig für den Handel",
-        "Deutschland entsandte Kriegsschiffe in die Region"
+        "Die Republikaner verteidigten beide Kammern",
+        "Die Demokraten gewannen die Kontrolle über Repräsentantenhaus und Senat",
+        "Nur das Repräsentantenhaus wechselte die Mehrheit, der Senat blieb republikanisch",
+        "Es kam zu einem Unentschieden ohne klare Mehrheit"
       ],
       answer: 1,
-      explain: "Nach Angaben von US-Beamten führte das US-Militär am 2.11. „begrenzte, defensive” Luftschläge auf die iranische Insel Qeshm durch – als Reaktion darauf, dass Iran zuvor auf ein US-Flugzeug gefeuert habe."
+      explain: "Die Demokraten gewannen laut mehreren übereinstimmenden Medienberichten sowohl die Mehrheit im Repräsentantenhaus als auch im Senat zurück – der erste Senats-Kontrollwechsel in zwei aufeinanderfolgenden Wahlzyklen seit 1954."
+    },
+    {
+      topic: "Wirtschaft", type: "Fakt", story: 4,
+      q: "Auf welchen Wert stieg die Inflation in der Eurozone im Oktober 2026 laut Eurostat-Schnellschätzung?",
+      options: [
+        "2,5 %",
+        "3,8 %",
+        "4,0 %",
+        "5,6 %"
+      ],
+      answer: 2,
+      explain: "Die Eurostat-Schnellschätzung zeigt für Oktober 2026 eine Inflation von 4,0 % (von 3,8 % im September) – den höchsten Stand seit September 2023. Die Kerninflation blieb bei 2,5 % stabil, Italien meldete mit 5,6 % den stärksten Länderanstieg."
+    },
+    {
+      topic: "Energie", type: "Zusammenhang", story: 11,
+      q: "Angenommen, die von der iranischen IRGC gemeldeten Tankertreffer an der Straße von Hormus würden sich als zutreffend bestätigen und weitere Schifffahrtsrouten blockiert. Was würde das unter sonst gleichen Bedingungen am ehesten für den Ölpreis bedeuten?",
+      options: [
+        "Der Ölpreis würde tendenziell steigen, weil weniger Angebot über diese wichtige Route verfügbar wäre",
+        "Der Ölpreis würde automatisch fallen, weil Käufer auf andere Energiequellen umsteigen",
+        "Es gäbe keinen Zusammenhang, da OPEC+ jeden Ausfall sofort vollständig ausgleicht",
+        "Nur der Goldpreis, nicht aber der Ölpreis würde beeinflusst"
+      ],
+      answer: 0,
+      explain: "Werden Förderung oder Transportrouten durch einen Konflikt gefährdet, wird weniger Öl verfügbar erwartet; Käufer bieten dann mehr, um sich Mengen zu sichern, was den Preis tendenziell steigen lässt."
     },
     {
       topic: "Deutschland", type: "Fakt", story: 7,
-      q: "Welche Partei liegt laut der INSA-Sonntagsfrage vom 30.10. bis 2.11.2026 erstmals vor der SPD?",
+      q: "Was kündigte Bundeskanzler Merz am 4.11.2026 zur Rentenreform an?",
       options: [
-        "FDP",
-        "Linke",
-        "CSU",
-        "Grüne"
+        "Die gesetzliche Rente wird komplett abgeschafft",
+        "Der Einstieg in die Kapitaldeckung wird noch 2026 final vom Kabinett beschlossen",
+        "Die Rentenreform wurde vollständig gestoppt",
+        "Der Einstieg in die Kapitaldeckung wird nur als Eckpunkte vorgelegt, die endgültige Verabschiedung verschiebt sich auf Anfang 2027"
       ],
       answer: 3,
-      explain: "Die Grünen erreichen in dieser Erhebung 15,0 % und liegen damit erstmals vor der SPD mit 14,0 %; die AfD bleibt mit 28,0 % weiterhin deutlich stärkste Kraft."
+      explain: "Merz kündigte an, dass der klassische Teil der Rentenreform noch 2026 ins Kabinett solle, der zentrale Baustein – der Einstieg in die Kapitaldeckung – aber 2026 nur als Eckpunkte vorgelegt wird; die endgültige Verabschiedung verschiebt sich auf Anfang 2027."
     },
     {
-      topic: "Zinsen", type: "Zusammenhang", story: 2,
-      q: "Angenommen, die Energiepreise würden in den kommenden Wochen überraschend stark einbrechen. Was würde das laut den in Meldung 2 genannten Einschätzungen am ehesten für die als „so gut wie sicher” geltende EZB-Zinserhöhung im Dezember bedeuten?",
+      topic: "Technologie", type: "Zusammenhang", story: 15,
+      q: "Mehrere neu gewählte demokratische Gouverneure, etwa in Texas, hatten im Wahlkampf strengere Regeln für neue Rechenzentren gefordert. Was bedeutete das laut Berichten für Aktien wie CoreWeave am Mittwoch nach den Zwischenwahlen?",
       options: [
-        "Es gäbe keinen Zusammenhang zwischen Energiepreisen und EZB-Entscheidungen",
-        "Sie könnte dadurch infrage gestellt werden, da Insider die Erhöhung ausdrücklich an anhaltend hohe Energiepreise koppeln",
-        "Sie würde dadurch noch wahrscheinlicher, weil fallende Preise immer zu mehr Zinserhöhungen führen",
-        "Der Leitzins würde automatisch verdoppelt"
+        "Sie stiegen deutlich, weil Investoren auf weniger Regulierung hofften",
+        "Sie gerieten zunächst unter Druck, weil Anleger strengere Regulierung von Rechenzentren in wichtigen Bundesstaaten befürchteten",
+        "Es gab laut den Berichten keinen Zusammenhang zwischen dem Wahlergebnis und Tech-Aktien",
+        "Der Handel mit CoreWeave-Aktien wurde komplett ausgesetzt"
       ],
       answer: 1,
-      explain: "Laut Insidern steuert die EZB auf eine Dezember-Zinserhöhung zu, die als „so gut wie sicher” gilt, sofern die Energiepreise nicht einbrechen; ein starker Preisrückgang würde diese Begründung für die Erhöhung somit tendenziell schwächen."
+      explain: "Berichte nennen die Sorge vor strengerer Rechenzentrums-Regulierung in neu gewonnenen demokratischen Bundesstaaten als Grund, warum KI-nahe Aktien wie CoreWeave, Tesla und SpaceX in der Wahlnacht und am Mittwochmorgen zunächst unter Druck gerieten, bevor sich die US-Futures im Tagesverlauf wieder erholten."
     }
   ]
 };

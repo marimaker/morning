@@ -2,16 +2,16 @@
 // Verweise: "e:ID" Erklärung, "n:ID" Zahl, "t:ID" Fachbegriff, "chain:ID" Kette, "s:N" Meldung Nr. N (ab 1).
 // Tags an Aussagen: fakt | einordnung | position | unbestaetigt
 window.EDITION = {
-  date: "2026-11-13",
-  dateLabel: "Freitag, 13. November 2026",
-  updatedLabel: "Recherchestand 13.11.2026",
-  marketNote: "Diese Ausgabe entsteht am Freitagvormittag/-mittag, 13.11.2026. DAX und Euro Stoxx 50 zeigen den Zwischenstand des laufenden Freitagshandels gegen 12:15 Uhr (nicht den Schlusskurs); S&P 500, Nasdaq Composite und Dow Jones zeigen dagegen noch den Schlusskurs vom Donnerstag, 12.11.2026, da der US-Handel erst um 15:30 Uhr MEZ beginnt. Die US-Erzeugerpreise (PPI) für Oktober werden erst um 14:30 Uhr MEZ veröffentlicht und waren zum Redaktionsschluss dieser Ausgabe noch nicht erschienen; mehrere Werte (insbesondere EUR/USD, Gold, die US-Rendite und der Bund-Zins) können sich im Tagesverlauf danach noch ändern. Bei Brent und beim europäischen Gaspreis TTF weichen einzelne Quellen je nach Erhebungszeitpunkt und Kontraktmonat spürbar voneinander ab; das ist im Folgenden jeweils kenntlich gemacht. Nur Bitcoin handelt durchgehend.",
+  date: "2026-11-15",
+  dateLabel: "Sonntag, 15. November 2026",
+  updatedLabel: "Recherchestand 15.11.2026",
+  marketNote: "Diese Ausgabe entsteht am Sonntag, 15.11.2026. Da Börsen am Wochenende geschlossen sind, zeigen DAX, Euro Stoxx 50, S&P 500, Nasdaq Composite, Dow Jones, EUR/USD, die US- und die Bund-Rendite sowie Gold und Brent jeweils den Schlusskurs vom Freitag, 13.11.2026 – nicht einen Zwischenstand. Die US-Erzeugerpreise für Oktober, die zum Redaktionsschluss der Vorausgabe noch ausstanden, sind inzwischen veröffentlicht. Nur Bitcoin handelt durchgehend und fiel übers Wochenende weiter, mit teils stark abweichenden Momentaufnahmen je nach Uhrzeit – das ist unten kenntlich gemacht. Beim Goldpreis weichen der Freitag-Vormittags-Zwischenstand (rund 3.914 $, +0,96 %) und der tatsächliche Schlusskurs (rund 3.882 $, +0,14 %) spürbar voneinander ab; beim europäischen Gaspreis TTF liegen die Quellenangaben fürs Wochenende zwischen rund 84 und 91 Euro je Megawattstunde, je nach Kontrakt und Erhebungsmethode. Berichte über Tanker-Zwischenfälle in der Straße von Hormus am 14.11. konnte Reuters nicht unabhängig bestätigen; solche Stellen sind als unbestätigt gekennzeichnet.",
 
   top: [
-    { text: "Der US-Verbraucherpreisindex für Oktober fällt am 10.11. mit +0,4 % in der Gesamtrate und +0,3 % im Kernwert heißer aus als erwartet; Fed-Vertreter wie Christopher Waller und Lorie Logan signalisieren daraufhin eine Zinserhöhung im Dezember, die Terminmärkte sehen eine Erhöhung inzwischen als nahezu sicher an.", ref: "s:4" },
-    { text: "Nvidia-Gründer Jensen Huang tritt am 12.11. nach 33 Jahren als Präsident, CEO und Boardmitglied zurück, nachdem Berichte über eine Affäre mit einer mutmaßlich chinesischen Geschäftsfrau und eine FBI-Prüfung bekannt wurden; interimistisch übernimmt Finanzchefin Colette Kress, während Anthropics Börsengang mit einer Bewertung von bis zu 1,4 Billionen Dollar für den 19.11. vorbereitet wird.", ref: "s:14" },
-    { text: "Der Haushaltsausschuss des Bundestags billigt in einer bis Freitagfrüh dauernden Sitzung den Bundeshaushalt 2027 mit einer Nettokreditaufnahme von 122,97 Mrd. Euro im Kernhaushalt; die Opposition kritisiert die Schuldenpolitik, offen bleibt weiterhin die im Koalitionsvertrag zugesagte Stromsteuersenkung.", ref: "s:7" },
-    { text: "Präsident Trump erklärt am 12.11., die USA bräuchten „keinen Deal” mehr mit dem Iran, nachdem Katar zuvor einen Vorschlag zur Öffnung der Straße von Hormus vermittelt hatte; der Brent-Ölpreis zieht daraufhin deutlich an, während die Ukraine- und Russland-Delegationen nach den Abu-Dhabi-Gesprächen einen Gefangenenaustausch von 314 Kriegsgefangenen vollziehen.", ref: "s:10" }
+    { text: "Nach den US-Erzeugerpreisen für Oktober (+0,3 % zum Vormonat, +6,5 % im Jahresvergleich – der stärkste Anstieg seit November 2022) bekräftigen mehrere Fed-Vertreter wie John Williams, Austan Goolsbee und Mary Daly ihre Offenheit für eine Zinserhöhung im Dezember, während Finanzminister Scott Bessent öffentlich vor einem Zinsschritt mitten im energiepreisgetriebenen Schock warnt; auch Bundesbank-Chef Nagel nennt eine EZB-Erhöhung im Dezember „ziemlich offensichtlich”, eine Reuters-Umfrage sieht alle 71 befragten Ökonomen bei einer EZB-Anhebung auf 2,75 % im Dezember.", ref: "s:4" },
+    { text: "Der Kreml bestätigt ein erstes trilaterales Treffen von Wladimir Putin, Xi Jinping und Donald Trump am 19.11. in Shenzhen, bei dem laut Kreml-Angaben auch eine Ukraine-Regelung besprochen werden soll; die Ukraine selbst ist nicht eingeladen. Parallel kündigt Bulgarien an, keine eigenen Waffenlieferungen und keine neue EU-Finanzierungsrunde für die Ukraine mehr zu unterstützen.", ref: "s:9" },
+    { text: "Nvidia-Gründer Jensen Huang muss nach seinem Rücktritt als CEO am 1./2. bzw. 3.12. vor Kongressausschüssen aussagen; Singapur erklärt, es habe nicht genügend Beweise, um die als Spionin verdächtigte Geschäftsfrau strafrechtlich zu verfolgen, verbietet ihr aber die Wiedereinreise. Parallel ist Anthropics für den 19.11. geplanter Börsengang nach Berichten sechsfach überzeichnet.", ref: "s:14" },
+    { text: "Der Haushaltsausschuss des Bundestags billigt den Bundeshaushalt 2027 mit 122,97 Mrd. Euro Nettokreditaufnahme; die im Koalitionsvertrag zugesagte Stromsteuersenkung bleibt ungeklärt und soll laut Berichten am 17.11. im Koalitionsausschuss verhandelt werden.", ref: "s:6" }
   ],
 
   strip: ["dax", "eurostoxx50", "sp500", "nasdaq", "dow", "eurusd", "ust10", "bund10", "gold", "brent", "bitcoin"],
@@ -19,797 +19,777 @@ window.EDITION = {
   /* ─────────────────────────── ZAHLEN ─────────────────────────── */
   numbers: {
     "dax": {
-      label: "DAX", value: "≈ 26.807 Pkt.", change: "+0,1 % ggü. Donnerstagsschluss (26.771,88 Pkt.)", dir: "up", asof: "Zwischenstand Fr 13.11.26, ca. 12:15 Uhr", story: 1,
-      means: "Der DAX bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Der Punktestand ist ein Vergleichswert ohne Einheit. Entscheidend ist die Veränderung: ein Plus heißt, die 40 Firmen wurden zusammen höher bewertet als beim letzten Stand.",
+      label: "DAX", value: "26.749,95 Pkt.", change: "-0,08 % ggü. Donnerstagsschluss (26.771,88 Pkt.)", dir: "down", asof: "Schluss Fr 13.11.26", story: 1,
+      means: "Der DAX bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Der Punktestand ist ein Vergleichswert ohne Einheit. Entscheidend ist die Veränderung: ein Minus heißt, die 40 Firmen wurden zusammen niedriger bewertet als beim letzten Stand.",
       compare: [
-        { label: "Donnerstag", text: "Der DAX hatte am Donnerstag mit 27.001,67 Punkten erstmals die Marke von 27.000 Punkten überschritten, fiel aber bis Handelsschluss auf 26.771,88 Punkte (+0,41 %) zurück." }
+        { label: "Freitagvormittag", text: "Am Freitagvormittag war der DAX noch um rund 0,1 % auf etwa 26.807 Punkte gestiegen; bis zum Handelsschluss drehte der Index ins Minus." }
       ],
       moved: {
-        intro: "Als Hintergrund für die Konsolidierung am Freitag nennen Berichte:",
+        intro: "Als Hintergrund für den Rückgang bis Handelsschluss nennen Berichte:",
         items: [
-          "Nach dem Rekordlauf der Vortage kommt es laut Berichten zu Gewinnmitnahmen; Versicherer wie Munich Re, Hannover Rück und Allianz (jeweils rund +1,0 bis +1,3 %) sowie Eon (+1,9 % wegen Spekulationen um den Urenco-Anteil) stützen den Index zugleich.",
-          "Auf Wochensicht liegt der DAX weiterhin deutlich im Plus (rund +4 %); Anleger halten sich laut Berichten vor den US-Erzeugerpreisen am Nachmittag zurück."
+          "Gewinnmitnahmen nach dem Rekordlauf der Vorwoche (Donnerstag-Tageshoch 27.001,67 Punkte) sowie eine zurückhaltende Positionierung vor dem Wochenende, in dem der DAX nicht gehandelt wird."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Mehr zur heißen US-Inflation und der Zinsdebatte bei Fed und EZB in Meldung 4 und 5.", ref: "s:4" }
+        { area: "Zinsen", text: "Mehr zu den US-Erzeugerpreisen und der Fed-Zinsdebatte in Meldung 4.", ref: "s:4" }
       ],
-      source: { title: "ariva.de: Aktien Frankfurt – Atempause nach Rekordhoch beim Dax", url: "https://www.ariva.de/news/aktien-frankfurt-atempause-nach-rekordhoch-beim-dax-12206503" }
+      source: { title: "ariva.de: Roundup – Aktien Frankfurt Schluss: Dax trotzt Nasdaq-Schwäche", url: "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-12207030" }
     },
     "eurostoxx50": {
-      label: "Euro Stoxx 50", value: "≈ 6.410 Pkt.", change: "+0,1 bis +0,2 % ggü. Donnerstagsschluss (6.409,55 bzw. 6.414,70 Pkt., Quellen leicht abweichend)", dir: "up", asof: "Zwischenstand Fr 13.11.26, ca. 12:09–12:30 Uhr", story: 1,
+      label: "Euro Stoxx 50", value: "6.386,86 Pkt.", change: "-0,19 % bzw. -12,12 Pkt. ggü. Donnerstagsschluss", dir: "down", asof: "Schluss Fr 13.11.26", story: 1,
       means: "Der Euro Stoxx 50 bildet 50 große Unternehmen aus dem Euroraum ab. Die Richtung der Veränderung zeigt, ob diese Unternehmen zusammen höher oder niedriger bewertet wurden als beim letzten Stand.",
       compare: [
-        { label: "Donnerstag", text: "Der Index war am Donnerstag ebenfalls leicht gestiegen und schloss zwischen 6.409,55 und 6.414,70 Punkten (Quellen nennen leicht unterschiedliche Werte)." }
-      ],
-      moved: {
-        intro: "Berichte nennen als Hintergrund für den zurückhaltenden Freitagshandel:",
-        items: [
-          "Anleger warten laut Berichten auf die US-Erzeugerpreise am Nachmittag; gleichzeitig stützen steigende Anleiherenditen in Erwartung einer möglichen EZB-Zinserhöhung im Dezember Bankwerte."
-        ]
-      },
-      important: [
-        { area: "Zinsen", text: "Mehr zu den Aussagen von EZB-Chefökonom Lane und Bundesbank-Chef Nagel zu einer Dezember-Erhöhung in Meldung 5.", ref: "s:5" }
-      ],
-      source: { title: "ariva.de: Aktien Europa – Zurückhaltendes Geschäft vor US-Preisdaten", url: "https://www.ariva.de/news/aktien-europa-zurueckhaltendes-geschaeft-vor-us-preisdaten-12206526" }
-    },
-    "sp500": {
-      label: "S&P 500", value: "7.592,40 Pkt.", change: "-0,4 % bzw. -26,98 Pkt. ggü. Mittwoch", dir: "down", asof: "Schluss Do 12.11.26 (letzter verfügbarer Schlusskurs)", story: 2,
-      means: "Der S&P 500 bildet 500 große US-Unternehmen ab und gilt als wichtigster Gradmesser des US-Aktienmarkts.",
-      compare: [
-        { label: "Woche", text: "Der S&P 500 war in den Tagen zuvor überwiegend gestiegen; der Rückgang am Donnerstag beendete diese Serie vorerst." }
-      ],
-      moved: {
-        intro: "Als Hintergrund für den Rückgang am Donnerstag nennen Berichte:",
-        items: [
-          "Nvidias Führungswechsel verunsicherte Technologiewerte, nachdem CEO Jensen Huang am 12.11. zurückgetreten war; gleichzeitig belasteten steigende Anleiherenditen nach der heißen US-Inflation vom Dienstag den Gesamtmarkt.",
-          "Steigende Ölpreise im Zuge der Iran-Rhetorik von Präsident Trump drückten zusätzlich auf die Stimmung; mehr dazu in Meldung 10 und 14."
-        ]
-      },
-      important: [
-        { area: "Zinsen", text: "Die am Terminmarkt eingepreiste Wahrscheinlichkeit für eine Fed-Zinserhöhung im Dezember liegt laut Berichten bei fast 100 %; mehr in Meldung 4.", ref: "s:4" }
-      ],
-      source: { title: "Yahoo Finance: How major US stock indexes fared Thursday 11/12/2026", url: "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html" }
-    },
-    "nasdaq": {
-      label: "Nasdaq Composite", value: "25.366,09 Pkt.", change: "-0,39 % bzw. -100,10 Pkt. ggü. Mittwoch", dir: "down", asof: "Schluss Do 12.11.26", story: 2,
-      means: "Die Nasdaq Composite umfasst alle an der Nasdaq gehandelten Aktien und wird stark von Technologiefirmen geprägt.",
-      compare: [
-        { label: "Nvidia", text: "Die Nvidia-Aktie fiel am Donnerstag um 4,3 % auf 166,19 Dollar (Tagestief unter 150 Dollar) – deutlich unter dem Oktober-Rekordhoch von rund 243 Dollar." }
+        { label: "Woche", text: "Auch der Euro Stoxx 50 hatte am Freitagvormittag noch leicht im Plus gelegen, gab die Gewinne aber bis Handelsschluss ab." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund für den Rückgang:",
         items: [
-          "Nvidias Führungswechsel nach Jensen Huangs Rücktritt belastete Technologiewerte; AMD (+5,9 % auf 562,44 Dollar) und Broadcom (+5,5 % auf rund 364 Dollar) profitierten dagegen von einer Verschiebung des Vertrauens zu konkurrierenden Chipherstellern.",
-          "Steigende Anleiherenditen nach der heißen US-Inflation erhöhten zusätzlich den Abwertungsdruck auf hoch bewertete Technologiewerte."
+          "Zurückhaltung vor dem Wochenende sowie die anhaltende Zinsdebatte bei Fed und EZB nach den US-Erzeugerpreisen am Nachmittag."
         ]
       },
       important: [
-        { area: "Technologie", text: "Mehr zu Huangs Rücktritt und zur Chipbranche in Meldung 14.", ref: "s:14" }
+        { area: "Zinsen", text: "Mehr zu den Aussagen von Bundesbank-Chef Nagel und der Reuters-Ökonomenumfrage zur EZB in Meldung 5.", ref: "s:5" }
       ],
-      source: { title: "eurasiabusinessnews.com: Stock Market Today, November 12, 2026 – Dow, S&P 500 and Nasdaq Fall After Jensen Huang Resigns", url: "https://eurasiabusinessnews.com/2026/11/13/stock-market-today-november-12-2026-dow-sp-500-and-nasdaq-fall-after-jensen-huang-resigns/" }
+      source: { title: "finanzen.ch: Zurückhaltung in Europa – Euro Stoxx 50 fällt schlussendlich", url: "https://www.finanzen.ch/nachrichten/aktien/zurueckhaltung-in-europa-euro-stoxx-50-faellt-schlussendlich-1036762440" }
+    },
+    "sp500": {
+      label: "S&P 500", value: "7.561,67 Pkt.", change: "-0,40 % bzw. -30,73 Pkt. ggü. Donnerstag", dir: "down", asof: "Schluss Fr 13.11.26", story: 2,
+      means: "Der S&P 500 bildet 500 große US-Unternehmen ab und gilt als wichtigster Gradmesser des US-Aktienmarkts.",
+      compare: [
+        { label: "Woche", text: "Trotz des Freitags-Rückgangs legte der S&P 500 auf Wochensicht um rund 2,5 % zu – die beste Wochenperformance seit Anfang August." }
+      ],
+      moved: {
+        intro: "Als Hintergrund für den Freitags-Rückgang nennen Berichte:",
+        items: [
+          "Ein breiter Ausverkauf im Chipsektor: Die anfängliche Erleichterungsrally bei AMD und Broadcom nach Jensen Huangs Rücktritt drehte sich ins Gegenteil; zusätzlich belastete die Rendite zehnjähriger US-Anleihen nahe 5,14 % die Technologiewerte."
+        ]
+      },
+      important: [
+        { area: "Zinsen", text: "Die am Terminmarkt eingepreiste Wahrscheinlichkeit für eine Fed-Zinserhöhung im Dezember liegt laut Berichten bei rund 88 bis 91 %; mehr in Meldung 4.", ref: "s:4" }
+      ],
+      source: { title: "The Motley Fool: Stock Market Today, Nov. 13 – AMD sinks 8.75% on sector-wide AI chip sell-off", url: "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/" }
+    },
+    "nasdaq": {
+      label: "Nasdaq Composite", value: "25.136,27 Pkt.", change: "-0,91 % bzw. -229,82 Pkt. ggü. Donnerstag", dir: "down", asof: "Schluss Fr 13.11.26", story: 2,
+      means: "Die Nasdaq Composite umfasst alle an der Nasdaq gehandelten Aktien und wird stark von Technologiefirmen geprägt.",
+      compare: [
+        { label: "Nvidia", text: "Die Nvidia-Aktie fiel am Freitag um weitere 2,01 % auf 162,85 Dollar und damit unter eine Marktkapitalisierung von 4 Billionen Dollar – erstmals seit Juli 2025." }
+      ],
+      moved: {
+        intro: "Berichte nennen als Hintergrund für den Rückgang:",
+        items: [
+          "AMD, das am Donnerstag nach Huangs Rücktritt noch rund 5,9 % gestiegen war, fiel am Freitag um 8,75 % auf 534,06 Dollar; Broadcom gab um 4,76 % auf 347,01 Dollar nach – ein breiter Risiko-Abbau im KI-Chipsektor löste die anfängliche Erleichterungsrally ab."
+        ]
+      },
+      important: [
+        { area: "Technologie", text: "Mehr zu Huangs Rücktritt, den Kongressanhörungen und Anthropics Börsengang in Meldung 14.", ref: "s:14" }
+      ],
+      source: { title: "Yahoo Finance: Stock market today – futures tick higher", url: "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-tick-133734502.html" }
     },
     "dow": {
-      label: "Dow Jones", value: "52.297,09 Pkt.", change: "-0,4 % bzw. -189,40 Pkt. ggü. Mittwoch", dir: "down", asof: "Schluss Do 12.11.26", story: 2,
+      label: "Dow Jones", value: "52.347,55 Pkt.", change: "+0,10 % bzw. +50,45 Pkt. ggü. Donnerstag", dir: "up", asof: "Schluss Fr 13.11.26", story: 2,
       means: "Der Dow Jones Industrial Average bildet 30 große US-Industrieunternehmen ab und reagiert wegen seiner geringeren Technologiegewichtung oft anders auf Kursbewegungen als S&P 500 oder Nasdaq.",
       compare: [
-        { label: "Woche", text: "Der Dow folgte am Donnerstag der breiten Risikoabwägung der anderen US-Indizes nach unten, nachdem er in den Tagen zuvor zugelegt hatte." }
+        { label: "Woche", text: "Auf Wochensicht legte der Dow um rund 2,1 % zu, trotz der Schwäche bei Technologiewerten am Freitag." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die allgemeine Verunsicherung durch Nvidias Führungswechsel und steigende Anleiherenditen belastete auch die stärker industriell geprägten Dow-Werte."
+          "Die geringere Technologiegewichtung dämpfte beim Dow den Chipsektor-Ausverkauf, der S&P 500 und Nasdaq belastete."
         ]
       },
       important: [
-        { area: "Geopolitik", text: "Mehr zu Trumps Kehrtwende bei der Iran-Diplomatie und zum steigenden Ölpreis in Meldung 10.", ref: "s:10" }
+        { area: "Geopolitik", text: "Mehr zum geplanten Trump-Xi-Putin-Gipfel und zu Iran/Hormus in Meldung 8 und 9.", ref: "s:9" }
       ],
-      source: { title: "WTOP: How major US stock indexes fared Thursday 11/12/2026", url: "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-12-2026" }
+      source: { title: "247wallst.com: Money moved out of tech and into everything else today", url: "https://247wallst.com/cards/money-moved-out-of-tech-and-into-everything-else-today-the-gspc-market-bell-01m7bbjh5wpep4vmjk7jwpas8h" }
     },
     "eurusd": {
-      label: "EUR/USD", value: "≈ 1,1058", change: "+0,03 % ggü. Donnerstagabend (≈ 1,1055)", dir: "flat", asof: "Stand Fr 13.11.26, Vormittag", story: 3, whyRef: "e:eurusd-meaning",
-      means: "1 Euro kostet nach den hier vorliegenden Angaben etwa 1,11 US-Dollar. Steigt der Kurs, wird der Euro im Verhältnis zum Dollar stärker.",
+      label: "EUR/USD", value: "≈ 1,1020", change: "-0,3 % ggü. Donnerstagabend (≈ 1,1055)", dir: "down", asof: "Schluss Fr 13.11.26", story: 3, whyRef: "e:eurusd-meaning",
+      means: "1 Euro kostet nach den hier vorliegenden Angaben etwa 1,10 US-Dollar. Fällt der Kurs, wird der Euro im Verhältnis zum Dollar schwächer.",
       compare: [
-        { label: "Monat", text: "Der Euro hat gegenüber dem Dollar in den vergangenen vier Wochen laut Berichten rund 0,9 % verloren und liegt binnen zwölf Monaten etwa 4,8 % niedriger." }
+        { label: "ECB-Referenzkurs", text: "Der tägliche EZB-Referenzkurs (fixiert um 14:15 Uhr, kein Schlusskurs) lag am Freitag mit rund 1,1052 etwas höher als der spätere Handelsschluss." }
       ],
       moved: {
-        intro: "Berichte nennen als Hintergrund für den nahezu unveränderten Kurs:",
+        intro: "Berichte nennen als Hintergrund für die Euro-Schwäche:",
         items: [
-          "Händler halten sich vor den US-Erzeugerpreisen am Nachmittag zurück; sowohl Fed als auch EZB signalisieren derzeit Offenheit für eine Zinserhöhung im Dezember, was beide Währungen stützt (mehr in Meldung 4 und 5)."
+          "Die anhaltende Zinsdebatte bei Fed und EZB sowie die nach den US-Erzeugerpreisen gestiegene US-Rendite stützten den Dollar stärker als den Euro (mehr in Meldung 4 und 5)."
         ]
       },
       important: [
         { area: "Zinsen", text: "Mehr zu den Zinssignalen von Fed und EZB in Meldung 4 und 5.", ref: "s:5" }
       ],
-      source: { title: "ariva.de: Devisen – Eurokurs vor US-Erzeugerpreisdaten stabil", url: "https://ariva.de/news/devisen-eurokurs-vor-us-erzeugerpreisdaten-stabil-12206391" }
+      source: { title: "tradingeconomics.com: Euro Area Currency (EUR/USD)", url: "https://tradingeconomics.com/euro-area/currency" }
     },
     "ust10": {
-      label: "10Y US Treasury", value: "≈ 5,13 %", change: "+0,02 Prozentpunkte ggü. Donnerstag; binnen einer Woche von rund 4,82 % auf über 5 % gestiegen", dir: "up", asof: "Stand Fr 13.11.26, vormittags (US-Erzeugerpreise erst 14:30 Uhr MEZ)", story: 4, whyRef: "e:yield-meaning",
-      means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 5,13 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 5,13 % Zinsen pro Jahr.",
+      label: "10Y US Treasury", value: "≈ 5,14 %", change: "+0,04 Prozentpunkte ggü. Donnerstag; Tageshoch 5,17 %", dir: "up", asof: "Schluss Fr 13.11.26", story: 4, whyRef: "e:yield-meaning",
+      means: "Die Rendite zehnjähriger US-Staatsanleihen liegt bei rund 5,14 %. Wer eine solche Anleihe zum aktuellen Kurs kauft und zehn Jahre hält, erhält im Schnitt rund 5,14 % Zinsen pro Jahr.",
       compare: [
-        { label: "Fed-Leitzins", text: "Der Fed-Leitzins liegt weiterhin bei 3,75 bis 4,00 %; am Terminmarkt gilt eine Zinserhöhung im Dezember inzwischen als nahezu sicher (mehr in Meldung 4)." }
+        { label: "Woche", text: "Die Rendite liegt rund 0,3 Prozentpunkte höher als eine Woche zuvor (rund 4,82 %) und damit auf einem Mehrmonatshoch." }
       ],
       moved: {
-        intro: "Berichte nennen als Hintergrund für den Anstieg seit Dienstag:",
+        intro: "Berichte nennen als Hintergrund für den Anstieg:",
         items: [
-          "Der heißer als erwartet ausgefallene US-Verbraucherpreisindex für Oktober (+0,4 % Gesamtrate, +0,3 % Kernrate) sowie hawkishe Äußerungen mehrerer Fed-Vertreter ließen die Rendite zehnjähriger US-Anleihen binnen einer Woche von rund 4,82 % auf über 5 % steigen; zusätzlich belasteten steigende Ölpreise."
+          "Die am 13.11. veröffentlichten US-Erzeugerpreise für Oktober (+6,5 % im Jahresvergleich, stärkster Anstieg seit November 2022) sowie mehrere hawkishe Fed-Äußerungen stützten die Erwartung einer Zinserhöhung im Dezember."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Mehr zur Fed-Sitzung im Dezember und zu den Fed-Äußerungen in Meldung 4.", ref: "s:4" }
+        { area: "Zinsen", text: "Mehr zur Fed-Sitzung im Dezember und den Fed-Äußerungen in Meldung 4.", ref: "s:4" }
       ],
       source: { title: "CNBC: Treasury yields rise as traders strengthen Fed rate hike bets", url: "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html" }
     },
     "bund10": {
-      label: "Bund Yield (10 J.)", value: "≈ 3,37 %", change: "leicht höher ggü. Donnerstag", dir: "up", asof: "Stand Fr 13.11.26, vormittags", story: 5, whyRef: "e:yield-meaning",
+      label: "Bund Yield (10 J.)", value: "≈ 3,37–3,38 %", change: "leicht höher ggü. Donnerstag; binnen einer Woche von rund 3,23 % gestiegen", dir: "up", asof: "Stand Fr 13.11.26, Nachmittag", story: 5, whyRef: "e:yield-meaning",
       means: "Die Rendite zehnjähriger Bundesanleihen ist der Richtwert für Zinsen in Deutschland.",
       compare: [
-        { label: "US-Rendite", text: "Die US-10-Jahres-Rendite liegt mit rund 5,13 % weiterhin deutlich über der Bund-Rendite." }
+        { label: "US-Rendite", text: "Die US-10-Jahres-Rendite liegt mit rund 5,14 % weiterhin deutlich über der Bund-Rendite." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Die Aussicht auf steigende Zinsen auf beiden Seiten des Atlantiks belastet den Bund-Markt; EZB-Chefökonom Lane nannte eine weitere Zinserhöhung im Dezember „prudent”, Bundesbank-Chef Nagel bezeichnete sie als „ziemlich offensichtlich” nötig (mehr in Meldung 5). Die US-Erzeugerpreise am Nachmittag gelten als nächster wichtiger Markttreiber."
+          "Bundesbank-Chef Nagel nannte eine EZB-Zinserhöhung im Dezember „ziemlich offensichtlich” nötig; eine Reuters-Umfrage sieht alle 71 befragten Ökonomen bei einer Anhebung auf 2,75 % im Dezember (mehr in Meldung 5)."
         ]
       },
       important: [
-        { area: "Zinsen", text: "Mehr zur EZB-Zinsdebatte und zur Eurozonen-Inflation von 4,0 % in Meldung 5.", ref: "s:5" }
+        { area: "Zinsen", text: "Mehr zur EZB-Zinsdebatte und zur Bank of England in Meldung 5.", ref: "s:5" }
       ],
-      source: { title: "onvista.de: Deutsche Anleihen – Stabilisierungsversuch, US-Erzeugerpreise im Blick", url: "https://www.onvista.de/news/2026/11-13-deutsche-anleihen-stabilisierungsversuch-us-erzeugerpreise-im-blick-0-10-26576104" }
+      source: { title: "FXStreet: ECB's Nagel sees another hike as second-round risks mount", url: "https://www.fxstreet.com/news/ecbs-nagel-sees-another-hike-as-second-round-risks-mount-202611131704" }
     },
     "gold": {
-      label: "Gold", value: "≈ 3.914 $", change: "+0,96 % ggü. Donnerstag", dir: "up", asof: "Stand Fr 13.11.26, vormittags", story: 3, whyRef: "e:gold-why",
-      means: "Gold kostet rund 3.900 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
+      label: "Gold", value: "≈ 3.882 $", change: "+0,14 % ggü. Donnerstag (nach zwischenzeitlich +0,96 % auf rund 3.914 $ am Vormittag)", dir: "flat", asof: "Schluss Fr 13.11.26", story: 3, whyRef: "e:gold-why",
+      means: "Gold kostet rund 3.880 US-Dollar je Feinunze (rund 31 Gramm). Gold ist ein Wertspeicher ohne Zinsen und wird oft in unsicheren Zeiten gekauft.",
       compare: [
-        { label: "Donnerstag", text: "Der Goldpreis war am Donnerstag deutlich unter die Marke von 4.000 Dollar gefallen; der Freitagsanstieg ist laut Berichten eine erste Gegenbewegung." }
+        { label: "Freitagvormittag", text: "Am Freitagvormittag war Gold noch um 0,96 % auf rund 3.914 Dollar gestiegen; bis Handelsschluss gab der Preis einen Großteil dieser Gewinne wieder ab." }
       ],
       moved: {
-        intro: "Berichte nennen als Hintergrund für die Erholung:",
+        intro: "Berichte nennen als Hintergrund für die gedämpfte Erholung:",
         items: [
-          "Nach dem starken Rückgang der Vortage nutzen laut Berichten einige Anleger das niedrigere Niveau zu Käufen; grundsätzlich bleibt der zinslose Goldpreis aber durch die Aussicht auf Zinserhöhungen bei Fed und EZB belastet."
+          "Die anhaltende Aussicht auf Zinserhöhungen bei Fed und EZB im Dezember belastet den zinslosen Goldpreis grundsätzlich weiter, auch wenn einzelne Anleger das niedrigere Niveau der Vortage zu Käufen nutzten."
         ]
       },
       important: [
         { area: "Zinsen", text: "Mehr zu den Zinssignalen von Fed und EZB in Meldung 4 und 5.", ref: "s:4" }
       ],
-      source: { title: "goldesel.de: Gold – Preis erholt sich um 0,96 Prozent auf 3.914 Dollar", url: "https://goldesel.de/aktien/news/gold-aktie-preis-erholt-sich-um-096-prozent-auf-3914-dollar" }
+      source: { title: "tradingeconomics.com: Gold", url: "https://tradingeconomics.com/commodity/gold" }
     },
     "brent": {
-      label: "Brent Oil", value: "≈ 95,8 $ (Spanne 95,5–96,3 $ je Zeitpunkt/Quelle)", change: "leicht niedriger ggü. Donnerstag, nach +3,3 % am Mittwoch", dir: "down", asof: "Stand Fr 13.11.26", story: 15, whyRef: "e:why-oil-up-geo",
-      means: "Brent ist die wichtigste internationale Ölsorte. Der Preis liegt weiterhin gut 50 % über dem Niveau vor einem Jahr, als der Iran-Konflikt eskalierte.",
+      label: "Brent Oil", value: "≈ 95,84 $", change: "+0,02 $ ggü. Donnerstag; zweite Woche in Folge rund -2,5 %", dir: "flat", asof: "Settlement Fr 13.11.26", story: 15, whyRef: "e:why-oil-up-geo",
+      means: "Brent ist die wichtigste internationale Ölsorte. Der Preis liegt weiterhin deutlich über dem Niveau vor einem Jahr, als der Nahost-Konflikt eskalierte.",
       compare: [
-        { label: "Woche", text: "Brent war am Dienstag auf rund 93,50 Dollar gestiegen (+2,3 %) und zog am Mittwoch nach Trumps Äußerung zum Iran auf rund 95,80 Dollar weiter an (+3,3 %); binnen 30 Tagen ist der Preis dennoch um rund 9 % gefallen." }
+        { label: "WTI", text: "Die US-Sorte WTI schloss bei 88,56 Dollar (-0,18 Dollar); US-Diesel fiel am Samstag erstmals seit zwei Monaten unter 6 Dollar je Gallone." }
       ],
       moved: {
-        intro: "Als Hintergrund für die leicht nachgebenden Notierungen am Freitag nennen Berichte:",
+        intro: "Als Hintergrund für die zweite wöchentliche Preissenkung in Folge nennen Berichte:",
         items: [
-          "Die Internationale Energieagentur (IEA) meldete am 13.11. erstmals seit Beginn des Iran-Kriegs einen möglichen Angebotsüberschuss am Ölmarkt: Das globale Angebot stieg im Oktober um 2,3 Mio. Barrel pro Tag auf 105,4 Mio. Barrel, für das vierte Quartal wird ein Überschuss von rund 2 Mio. Barrel pro Tag erwartet.",
-          "Dem steht die anhaltende Unsicherheit um die Straße von Hormus und Trumps Absage an einen Iran-Deal entgegen; mehr dazu in Meldung 10."
+          "Ein globales Angebotsüberschuss-Bild der IEA trifft auf gemeldete, aber von Reuters nicht unabhängig bestätigte Tanker-Zwischenfälle in der Straße von Hormus am 14.11. (mehr in Meldung 8)."
         ]
       },
       important: [
-        { area: "Geopolitik", text: "Mehr zu Trumps Kehrtwende bei der Iran-Diplomatie in Meldung 10.", ref: "s:10" },
+        { area: "Geopolitik", text: "Mehr zu den Tanker-Zwischenfällen in der Straße von Hormus in Meldung 8.", ref: "s:8" },
         { area: "Energie", text: "Mehr zu OPEC+ und deutschen Gasspeichern in Meldung 15.", ref: "s:15" }
       ],
-      source: { title: "Invezz: Oil price today – Brent holds near $96 as IEA sees first surplus since Iran war", url: "https://invezz.com/news/2026/11/13/oil-price-today-brent-holds-near-96-as-iea-sees-first-surplus-since-iran-war/" }
+      source: { title: "EnergyNow: Oil prices fall for second straight week as global supply surplus emerges", url: "https://energynow.com/2026/11/oil-prices-fall-for-second-straight-week-as-global-supply-surplus-emerges-wti-closes-at-88-56-brent-at-95-84/" }
     },
     "bitcoin": {
-      label: "Bitcoin", value: "≈ 68.700–69.000 $ (zwischenzeitlich bis 67.568 $)", change: "-6 bis -6,6 % binnen 24 Stunden", dir: "down", asof: "Stand Fr 13.11.26, früher Morgen", story: 3, whyRef: "e:bitcoin-what",
-      means: "Ein Bitcoin kostet rund 69.000 US-Dollar. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
+      label: "Bitcoin", value: "≈ 62.000–67.000 $ (Tief in der Nacht zu Sonntag bei rund 62.000 $)", change: "weiterer Rückgang übers Wochenende, binnen einer Woche rund -13 bis -15 %", dir: "down", asof: "Stand So 15.11.26, Vormittag", story: 3, whyRef: "e:bitcoin-what",
+      means: "Ein Bitcoin kostet aktuell zwischen rund 62.000 und 67.000 US-Dollar, je nach Tageszeit sehr unterschiedlich. Bitcoin hat keinen Gewinn und keine Zinsen. Der Preis entsteht allein aus Angebot und Nachfrage.",
       compare: [
-        { label: "Schwelle", text: "Bitcoin fiel in der Nacht zu Freitag erstmals seit dem 19. August wieder unter 70.000 Dollar." }
+        { label: "Schwelle", text: "Bitcoin fiel in der Nacht zu Sonntag auf rund 62.000 Dollar – den niedrigsten Stand seit Mitte Juli 2026 – und erholte sich danach wieder auf rund 65.000 Dollar." }
       ],
       moved: {
         intro: "Berichte nennen als Hintergrund:",
         items: [
-          "Eine neue Liquidationswelle erfasste laut Berichten mehr als 175.000 Trader; binnen 24 Stunden wurden Positionen im Wert von rund 1,3 bis 1,47 Mrd. Dollar zwangsliquidiert. Als Hintergrund gelten verstärkte Risikoscheu und ein stärkerer Dollar im Zuge der Zinserwartungen."
+          "Binnen 24 Stunden wurden laut Berichten mehr als 2 Mrd. Dollar an gehebelten Positionen zwangsliquidiert, mehr als 320.000 Trader waren betroffen. Der Kurs durchbrach zudem den gleitenden 200-Tage-Durchschnitt bei rund 73.000 Dollar, was nach Berichten zusätzliche Verkäufe auslöste."
         ]
       },
       important: [
         { area: "Risikoanlage", text: "Bitcoin wird von vielen Anlegern wie eine riskante Anlage behandelt.", ref: "e:bitcoin-what" }
       ],
-      source: { title: "cryptoticker.io: Crypto news – bitcoin down 6%, $1.3 billion liquidated", url: "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026" }
+      source: { title: "coindaro.com: Bitcoin price today – $61,946 low, liquidations", url: "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/" }
     }
   },
 
   /* ─────────────────────────── MELDUNGEN ─────────────────────────── */
   stories: [
-    /* 1 MÄRKTE: DAX/EUROSTOXX50 */
+    /* 1 MÄRKTE: DAX/EUROSTOXX50 FREITAGSSCHLUSS */
     {
-      id: "markets-freitag-dax-eurostoxx-atempause-11-13", cats: ["markets"], when: "Zwischenstand Fr 13.11.2026, mittags",
-      headline: "DAX und Euro Stoxx 50 pausieren knapp im Plus, nachdem der DAX erstmals über 27.000 Punkte gestiegen war",
-      sec30: "Der DAX legte am Freitag bis zum Mittag um rund 0,1 % auf etwa 26.807 Punkte zu, nachdem er am Donnerstag erstmals die Marke von 27.000 Punkten überschritten hatte (Tageshoch 27.001,67 Punkte), zum Handelsschluss aber auf 26.771,88 Punkte zurückgefallen war. Der Euro Stoxx 50 stieg leicht auf rund 6.410 Punkte. Als Hintergrund nennen Berichte Gewinnmitnahmen nach dem Rekordlauf sowie eine zurückhaltende Positionierung vor den US-Erzeugerpreisen am Nachmittag.",
+      id: "markets-freitagsschluss-dax-eurostoxx-11-13", cats: ["markets"], when: "Schluss Fr 13.11.2026",
+      headline: "DAX und Euro Stoxx 50 schließen den Freitag leicht im Minus, nachdem sie am Vormittag noch im Plus gelegen hatten",
+      sec30: "Der DAX schloss den Freitag bei 26.749,95 Punkten, ein Minus von 0,08 % gegenüber dem Donnerstagsschluss (26.771,88 Punkte) – am Vormittag hatte der Index noch rund 0,1 % im Plus gelegen. Der Euro Stoxx 50 gab bis Handelsschluss um 0,19 % auf 6.386,86 Punkte nach. Als Hintergrund nennen Berichte Gewinnmitnahmen nach dem Rekordlauf der Vorwoche sowie eine zurückhaltende Stimmung vor dem Wochenende, in dem weder DAX noch Euro Stoxx 50 gehandelt werden.",
       blocks: [
-        { h: "Wie haben sich DAX und Euro Stoxx 50 am Freitag entwickelt?", items: [
-          { tag: "fakt", text: "Der DAX stand gegen 12:15 Uhr bei rund 26.807 Punkten, ein Plus von etwa 0,1 % gegenüber dem Donnerstagsschluss (26.771,88 Punkten). Der Euro Stoxx 50 lag gegen 12:09 bis 12:30 Uhr je nach Quelle zwischen 6.408 und 6.410 Punkten, ebenfalls leicht im Plus.",
+        { h: "Wie schlossen DAX und Euro Stoxx 50 am Freitag?", items: [
+          { tag: "fakt", text: "Der DAX schloss bei 26.749,95 Punkten (-0,08 % bzw. -21,93 Punkte gegenüber Donnerstag). Der Euro Stoxx 50 gab um 0,19 % bzw. 12,12 Punkte auf 6.386,86 Punkte nach.",
             ask: [{ label: "Was bedeutet eine Indexbewegung?", ref: "n:dax" }] }
         ]},
-        { h: "Was war am Donnerstag passiert?", items: [
-          { tag: "fakt", text: "Der DAX überschritt am Donnerstag erstmals in seiner Geschichte die Marke von 27.000 Punkten (Tageshoch 27.001,67 Punkte), gab die Gewinne bis Handelsschluss aber teils wieder ab und schloss bei 26.771,88 Punkten (+0,41 %). Als Treiber des Rekordlaufs nennen Berichte zuvor fallende Ölpreise, solide Unternehmenszahlen und aufkommenden Konjunkturoptimismus." }
+        { h: "Wie unterscheidet sich das vom Vormittag?", items: [
+          { tag: "fakt", text: "Am Freitagvormittag hatte der DAX noch bei rund 26.807 Punkten gelegen, ein Plus von etwa 0,1 % gegenüber Donnerstag; bis zum Handelsschluss drehte der Index ins Minus. Bereits am Donnerstag war der DAX erstmals über die Marke von 27.000 Punkten gestiegen (Tageshoch 27.001,67 Punkte), hatte die Gewinne aber schon bis Handelsschluss abgegeben." }
         ]},
-        { h: "Was nennen Berichte als Grund für die Freitags-Pause?", items: [
-          { tag: "einordnung", text: "Marktbeobachter führen die Atempause auf Gewinnmitnahmen nach dem Rekordlauf zurück; Versicherer wie Munich Re, Hannover Rück und Allianz sowie Eon (gestützt von Spekulationen um den Urenco-Anteil) wirkten dem am Freitag entgegen. Auf Wochensicht liegt der DAX weiterhin rund 4 % im Plus." }
+        { h: "Was nennen Berichte als Grund?", items: [
+          { tag: "einordnung", text: "Marktbeobachter führen den Rückgang auf Gewinnmitnahmen nach dem Rekordlauf der Vorwoche zurück; zugleich blieb die Zinsdebatte bei Fed und EZB im Fokus, nachdem am Nachmittag die US-Erzeugerpreise veröffentlicht wurden (mehr in Meldung 4 und 5).",
+            ask: [{ label: "Mehr zu den US-Erzeugerpreisen", ref: "s:4" }] }
         ]},
-        { h: "Worauf warten Anleger noch?", items: [
-          { tag: "fakt", text: "Die US-Erzeugerpreise (PPI) für Oktober werden erst um 14:30 Uhr MEZ veröffentlicht. Zudem bleibt die Zinsdebatte bei Fed und EZB im Fokus, nachdem die US-Inflation am Dienstag heißer als erwartet ausgefallen war.",
-            ask: [{ label: "Mehr zur US-Inflation und zur Fed", ref: "s:4" }, { label: "Was sind Erzeugerpreise?", ref: "t:erzeugerpreise" }] }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass DAX und Euro Stoxx 50 nach dem Rekordlauf der Vortage nur noch knapp zulegen, deutet darauf hin, dass Anleger vor den US-Erzeugerpreisen und der laufenden Zinsdebatte vorsichtiger agieren als zuletzt. Dies ist keine Anlageberatung." }
+        { h: "Was bedeutet das fürs Wochenende?", items: [
+          { tag: "einordnung", text: "Weil DAX und Euro Stoxx 50 am Wochenende nicht gehandelt werden, bleibt der Freitagsschluss bis Montag der gültige Stand; neue Nachrichten – etwa zu Fed, EZB oder Geopolitik – können sich erst zum Handelsstart am Montag in den Kursen niederschlagen. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die US-Schlusskurse vom Donnerstag werden in Meldung 2 behandelt, Gold/Bitcoin/Euro in Meldung 3, die US-Inflation und die Fed-Zinsdebatte in Meldung 4.",
+      reaction: "Die US-Schlusskurse vom Freitag werden in Meldung 2 behandelt, Gold/Bitcoin/Euro/Renditen in Meldung 3, die US-Erzeugerpreise und die Fed-Zinsdebatte in Meldung 4, die EZB-Zinsdebatte in Meldung 5.",
       terms: ["rendite"],
       followups: ["e:index-move", "e:why-markets-move", "chain:nasdaq-why"],
       sources: [
-        { title: "ariva.de: Aktien Frankfurt – Atempause nach Rekordhoch beim Dax", url: "https://www.ariva.de/news/aktien-frankfurt-atempause-nach-rekordhoch-beim-dax-12206503" },
-        { title: "ariva.de: Aktien Europa – Zurückhaltendes Geschäft vor US-Preisdaten", url: "https://www.ariva.de/news/aktien-europa-zurueckhaltendes-geschaeft-vor-us-preisdaten-12206526" },
-        { title: "ad-hoc-news.de: DAX schließt bei 26.771,88 Punkten – Rekord über 27.000 im Handel", url: "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-bei-26-771-88-punkten-rekord-ueber-27-000-im-handel/70503404" },
-        { title: "finanzen.at: Aktien Frankfurt – Konjunkturhoffnung treibt Dax erstmals über 27.000 Punkte", url: "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-konjunkturhoffnung-treibt-dax-erstmals-ueber-27-000-punkte-1036755112" }
+        { title: "ariva.de: Roundup – Aktien Frankfurt Schluss: Dax trotzt Nasdaq-Schwäche", url: "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-12207030" },
+        { title: "finanzen.ch: Zurückhaltung in Europa – Euro Stoxx 50 fällt schlussendlich", url: "https://www.finanzen.ch/nachrichten/aktien/zurueckhaltung-in-europa-euro-stoxx-50-faellt-schlussendlich-1036762440" }
       ]
     },
-    /* 2 MÄRKTE: US-SCHLUSS DONNERSTAG */
+    /* 2 MÄRKTE: US-SCHLUSS FREITAG + CHIP-AUSVERKAUF */
     {
-      id: "us-wallstreet-donnerstag-nvidia-huang-ruecktritt-11-12", cats: ["markets"], when: "Schluss Do 12.11.2026",
-      headline: "Nasdaq, S&P 500 und Dow schließen den Donnerstag im Minus, belastet von Nvidias Führungswechsel und steigenden Renditen",
-      sec30: "Der S&P 500 gab am Donnerstag um 0,4 % auf 7.592,40 Punkte nach, die Nasdaq Composite um 0,39 % auf 25.366,09 Punkte, der Dow Jones um 0,4 % auf 52.297,09 Punkte. Treiber war laut Berichten vor allem der überraschende Rücktritt von Nvidia-CEO Jensen Huang, der die Nvidia-Aktie um 4,3 % auf 166,19 Dollar drückte, während AMD (+5,9 %) und Broadcom (+5,5 %) zulegten. Zusätzlich belasteten steigende Anleiherenditen nach der heißen US-Inflation vom Dienstag sowie steigende Ölpreise im Zuge der Iran-Rhetorik von Präsident Trump.",
+      id: "us-wallstreet-freitag-chipsektor-ausverkauf-11-13", cats: ["markets"], when: "Schluss Fr 13.11.2026",
+      headline: "S&P 500 und Nasdaq schließen die Woche im Plus ab, trotz eines Ausverkaufs im Chipsektor am Freitag",
+      sec30: "Der S&P 500 schloss den Freitag bei 7.561,67 Punkten (-0,40 %), die Nasdaq Composite bei 25.136,27 Punkten (-0,91 %); der Dow Jones legte dagegen um 0,10 % auf 52.347,55 Punkte zu. Auf Wochensicht stehen S&P 500 (+2,5 %), Nasdaq (+2,3 %) und Dow (+2,1 %) trotzdem im Plus – die beste Wochenperformance seit Anfang August. Belastet wurde der Freitagshandel laut Berichten vor allem von einem breiten Ausverkauf im Chipsektor: Die anfängliche Erleichterungsrally bei AMD und Broadcom nach Nvidia-Chef Jensen Huangs Rücktritt drehte sich ins Gegenteil, AMD fiel um 8,75 %, Broadcom um 4,76 %.",
       blocks: [
-        { h: "Wie schlossen Nasdaq, S&P 500 und Dow am Donnerstag?", items: [
-          { tag: "fakt", text: "Der S&P 500 fiel um 0,4 % (-26,98 Punkte) auf 7.592,40 Punkte, die Nasdaq Composite um 0,39 % (-100,10 Punkte) auf 25.366,09 Punkte, der Dow Jones um 0,4 % (-189,40 Punkte) auf 52.297,09 Punkte.",
+        { h: "Wie schlossen S&P 500, Nasdaq und Dow am Freitag – und auf Wochensicht?", items: [
+          { tag: "fakt", text: "Der S&P 500 fiel um 0,40 % (-30,73 Punkte) auf 7.561,67 Punkte, die Nasdaq Composite um 0,91 % (-229,82 Punkte) auf 25.136,27 Punkte. Der Dow Jones stieg dagegen um 0,10 % (+50,45 Punkte) auf 52.347,55 Punkte. Auf Wochensicht legten S&P 500 um rund 2,5 %, Nasdaq um rund 2,3 % und Dow um rund 2,1 % zu.",
             ask: [{ label: "Warum bewegen sich Börsen überhaupt?", ref: "e:why-markets-move" }] }
         ]},
-        { h: "Wie reagierte die Nvidia-Aktie auf Huangs Rücktritt?", items: [
-          { tag: "fakt", text: "Die Nvidia-Aktie fiel am Donnerstag um 4,3 % auf 166,19 Dollar, im Tagesverlauf zeitweise unter 150 Dollar – deutlich unter dem Oktober-Rekordhoch von rund 243 Dollar. Jensen Huang war am selben Tag nach 33 Jahren als Präsident, CEO und Boardmitglied zurückgetreten.",
-            ask: [{ label: "Mehr zum Rücktritt und zur Chipbranche", ref: "s:14" }] }
+        { h: "Was geschah im Chipsektor?", items: [
+          { tag: "fakt", text: "Die Nvidia-Aktie fiel am Freitag um weitere 2,01 % auf 162,85 Dollar und damit unter eine Marktkapitalisierung von 4 Billionen Dollar – erstmals seit Juli 2025. AMD, das am Donnerstag nach Huangs Rücktritt noch um rund 5,9 % gestiegen war, fiel am Freitag um 8,75 % auf 534,06 Dollar; Broadcom gab um 4,76 % auf 347,01 Dollar nach, auch der Chip-ETF iShares Semiconductor fiel um rund 4 %.",
+            ask: [{ label: "Mehr zu Huangs Rücktritt und zur Chipbranche", ref: "s:14" }] }
         ]},
-        { h: "Wer profitierte von der Verunsicherung bei Nvidia?", items: [
-          { tag: "fakt", text: "AMD stieg um 5,86 % auf 562,44 Dollar, Broadcom um 5,54 % auf rund 364 Dollar. Analysten begründeten dies laut Berichten mit einer Verschiebung des Anlegervertrauens zu konkurrierenden Chipherstellern." }
-        ]},
-        { h: "Welche weiteren Faktoren belasteten den Markt?", items: [
-          { tag: "fakt", text: "Die Rendite zehnjähriger US-Staatsanleihen zog nach der heißer als erwartet ausgefallenen Oktober-Inflation weiter an und näherte sich der Marke von 5 %. Gleichzeitig stiegen die Ölpreise, nachdem Präsident Trump erklärt hatte, die USA bräuchten keinen Deal mit dem Iran (mehr in Meldung 4 und 10)." }
+        { h: "Was nennen Berichte als Grund für die Kehrtwende?", items: [
+          { tag: "einordnung", text: "Marktbeobachter beschrieben die anfängliche Rally bei AMD und Broadcom als Vertrauensverschiebung zu konkurrierenden Chipherstellern nach Huangs Rücktritt; am Freitag wich diese Erleichterung aber einem breiteren Risiko-Abbau im gesamten KI-Chipsektor. Bank of America stufte zudem Marvell im Zuge dessen eigener Übernahmepläne für Lumentum auf „Neutral” herab (mehr in Meldung 13).",
+            ask: [{ label: "Mehr zum Marvell-Lumentum-Deal", ref: "s:13" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass Nasdaq, S&P 500 und Dow trotz der Kursgewinne bei AMD und Broadcom insgesamt nachgaben, deutet darauf hin, dass Anleger den Führungswechsel bei Nvidia als Risiko für die gesamte KI-Branche werten und nicht nur als unternehmensspezifisches Thema. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass S&P 500 und Nasdaq trotz des Freitags-Ausverkaufs auf Wochensicht deutlich im Plus liegen, zeigt, dass Huangs Rücktritt und die Zinsdebatte bislang eher zu Umschichtungen innerhalb der Technologiebranche als zu einem breiten Ausverkauf geführt haben. Dies ist keine Anlageberatung." }
         ]}
       ],
-      reaction: "Die Reaktion in Europa wird in Meldung 1 behandelt, Gold/Bitcoin/Euro in Meldung 3, die US-Inflation und die Fed-Zinsdebatte in Meldung 4, Huangs Rücktritt im Detail in Meldung 14.",
+      reaction: "Die Entwicklung bei DAX und Euro Stoxx 50 wird in Meldung 1 behandelt, Gold/Bitcoin/Euro/Renditen in Meldung 3, Huangs Rücktritt und Anthropics Börsengang in Meldung 14.",
       terms: ["rendite"],
       followups: ["e:yield-stocks", "e:why-markets-move", "chain:nasdaq-why"],
       sources: [
-        { title: "Yahoo Finance: How major US stock indexes fared Thursday 11/12/2026", url: "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html" },
-        { title: "eurasiabusinessnews.com: Stock Market Today, November 12, 2026 – Dow, S&P 500 and Nasdaq Fall After Jensen Huang Resigns", url: "https://eurasiabusinessnews.com/2026/11/13/stock-market-today-november-12-2026-dow-sp-500-and-nasdaq-fall-after-jensen-huang-resigns/" },
-        { title: "WTOP: How major US stock indexes fared Thursday 11/12/2026", url: "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-12-2026" },
-        { title: "CNBC: Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang's exit; oil prices jump", url: "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html" }
+        { title: "The Motley Fool: Stock Market Today, Nov. 13 – AMD sinks 8.75% on sector-wide AI chip sell-off", url: "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/" },
+        { title: "Yahoo Finance: Stock market today – futures tick higher", url: "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-tick-133734502.html" },
+        { title: "247wallst.com: Money moved out of tech and into everything else today", url: "https://247wallst.com/cards/money-moved-out-of-tech-and-into-everything-else-today-the-gspc-market-bell-01m7bbjh5wpep4vmjk7jwpas8h" }
       ]
     },
-    /* 3 MÄRKTE: GOLD/BITCOIN/EURUSD/ANLEIHEN */
+    /* 3 MÄRKTE: GOLD/BITCOIN/EURUSD/ANLEIHEN WOCHENENDE */
     {
-      id: "gold-bitcoin-eurusd-anleihen-freitag-11-13", cats: ["markets"], when: "Stand Fr 13.11.2026",
-      headline: "Gold erholt sich leicht, Bitcoin fällt unter 70.000 Dollar, Anleiherenditen bleiben nach der heißen US-Inflation erhöht",
-      sec30: "Gold stieg am Freitag um rund 0,96 % auf etwa 3.914 Dollar je Feinunze, nachdem es am Donnerstag deutlich unter die Marke von 4.000 Dollar gefallen war. Bitcoin fiel dagegen in der Nacht zu Freitag erstmals seit dem 19. August wieder unter 70.000 Dollar und notiert rund 6 bis 6,6 % niedriger als am Vortag, nachdem mehr als 1,3 Mrd. Dollar an Positionen zwangsliquidiert wurden. Der Euro bewegte sich kaum gegenüber dem Dollar (≈1,1058). Die US-10-Jahres-Rendite liegt bei rund 5,13 %, nachdem sie binnen einer Woche von rund 4,82 % auf über 5 % gestiegen war; die Rendite zehnjähriger Bundesanleihen lag bei rund 3,37 %.",
+      id: "gold-bitcoin-eurusd-renditen-wochenende-11-15", cats: ["markets"], when: "Stand So 15.11.2026, Vormittag",
+      headline: "Bitcoin fällt übers Wochenende auf ein Vier-Monats-Tief, Gold gibt Freitags-Gewinne ab, US-Rendite schließt bei rund 5,14 Prozent",
+      sec30: "Gold war am Freitagvormittag noch um 0,96 % auf rund 3.914 Dollar gestiegen, fiel aber bis Handelsschluss wieder zurück und schloss bei etwa 3.882 Dollar (+0,14 % ggü. Donnerstag). Bitcoin brach übers Wochenende weiter ein: In der Nacht zu Sonntag fiel der Kurs auf ein Vier-Monats-Tief von rund 62.000 Dollar, nachdem binnen 24 Stunden mehr als 2 Mrd. Dollar an gehebelten Positionen zwangsliquidiert wurden – mehr als 320.000 Trader waren betroffen. Der Euro gab gegenüber dem Dollar auf rund 1,1020 nach, die Rendite zehnjähriger US-Staatsanleihen schloss bei rund 5,14 % (Tageshoch 5,17 %).",
       blocks: [
-        { h: "Wie haben sich Gold und Bitcoin entwickelt?", items: [
-          { tag: "fakt", text: "Gold stieg am Freitagvormittag um rund 0,96 % auf etwa 3.914 Dollar je Feinunze, nachdem der Preis am Donnerstag deutlich unter 4.000 Dollar gefallen war. Bitcoin fiel in der Nacht zu Freitag zeitweise bis auf 67.568 Dollar – den niedrigsten Stand seit dem 19. August – und notiert aktuell zwischen rund 68.700 und 69.000 Dollar, 6 bis 6,6 % niedriger als 24 Stunden zuvor.",
-            ask: [{ label: "Was bestimmt den Goldpreis?", ref: "n:gold" }, { label: "Warum schwankt Bitcoin so stark?", ref: "n:bitcoin" }] }
+        { h: "Wie entwickelte sich Gold am Freitag?", items: [
+          { tag: "fakt", text: "Gold stieg am Freitagvormittag um 0,96 % auf etwa 3.914 Dollar je Feinunze, fiel aber bis Handelsschluss zurück und schloss bei rund 3.882 Dollar, ein Plus von nur noch 0,14 % gegenüber Donnerstag.",
+            ask: [{ label: "Was bestimmt den Goldpreis?", ref: "n:gold" }] }
         ]},
-        { h: "Was nennen Berichte als Grund?", items: [
-          { tag: "einordnung", text: "Nach dem starken Rückgang der Vortage nutzen laut Berichten einige Anleger das niedrigere Goldniveau zu Käufen. Bei Bitcoin erfasste eine neue Liquidationswelle laut Berichten mehr als 175.000 Trader; als Hintergrund gelten verstärkte Risikoscheu und ein stärkerer Dollar im Zuge der Zinserwartungen bei Fed und EZB." }
+        { h: "Wie stark ist Bitcoin übers Wochenende gefallen?", items: [
+          { tag: "fakt", text: "Bitcoin fiel am Samstag zunächst unter 66.000 Dollar und in der Nacht zu Sonntag auf ein Tief von rund 62.000 Dollar – den niedrigsten Stand seit Mitte Juli 2026 – bevor sich der Kurs wieder auf rund 65.000 Dollar erholte. Binnen 24 Stunden wurden laut Berichten mehr als 2 Mrd. Dollar an gehebelten Positionen zwangsliquidiert, mehr als 320.000 Trader waren betroffen, rund 87 % davon Long-Positionen. Auf Wochensicht verlor Bitcoin damit rund 13 bis 15 %.",
+            ask: [{ label: "Warum schwankt Bitcoin so stark?", ref: "n:bitcoin" }] }
         ]},
         { h: "Wie entwickelten sich Euro und Anleiherenditen?", items: [
-          { tag: "fakt", text: "Der Euro bewegte sich mit rund 1,1058 Dollar kaum gegenüber dem Vortag. Die US-10-Jahres-Rendite liegt bei rund 5,13 % und damit binnen einer Woche gut 0,3 Prozentpunkte höher als am vergangenen Dienstag (≈4,82 %); die Rendite zehnjähriger Bundesanleihen stieg ebenfalls leicht auf rund 3,37 %.",
+          { tag: "fakt", text: "Der Euro schloss bei rund 1,1020 Dollar, schwächer als der Donnerstagsschluss von etwa 1,1055 Dollar. Die Rendite zehnjähriger US-Staatsanleihen schloss bei rund 5,14 % (Tageshoch 5,17 %), rund 0,3 Prozentpunkte höher als eine Woche zuvor; die Rendite zehnjähriger Bundesanleihen stieg auf rund 3,37 bis 3,38 %.",
             ask: [{ label: "Was bedeutet eine Anleihe-Rendite?", ref: "n:ust10" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass die US-Rendite in der vergangenen Woche so deutlich gestiegen ist, während Gold und Bitcoin unter Druck gerieten, passt zum klassischen Muster: Wird eine Zinserhöhung wahrscheinlicher, werden festverzinsliche Anlagen attraktiver, während zinslose oder renditefreie Anlagen wie Gold und Bitcoin tendenziell weniger gefragt sind. Die US-Erzeugerpreise am Nachmittag können diese Bewegung noch verstärken oder abschwächen. Dies ist keine Anlageberatung." }
+          { tag: "einordnung", text: "Dass sowohl Gold als auch Bitcoin unter Druck stehen, während die US-Rendite auf einem Mehrmonatshoch verharrt, passt zum Muster steigender Zinserwartungen: Wird eine Zinserhöhung wahrscheinlicher, werden zinslose Anlagen wie Gold und Bitcoin tendenziell weniger gefragt. Bei Bitcoin kommt laut Berichten eine technische Komponente hinzu – der Kurs durchbrach den gleitenden 200-Tage-Durchschnitt bei rund 73.000 Dollar, was zusätzliche Verkäufe ausgelöst haben soll. Dies ist keine Anlageberatung.",
+            ask: [{ label: "Vom Zins zum Kreditausfall", ref: "chain:rates-to-credit" }] }
         ]}
       ],
-      reaction: "Die Entwicklung bei DAX/Euro Stoxx 50 wird in Meldung 1 behandelt, die US-Schlusskurse in Meldung 2, die US-Inflation und die Fed-Zinsdebatte in Meldung 4, die EZB-Zinsdebatte in Meldung 5.",
+      reaction: "DAX/Euro Stoxx 50 in Meldung 1, US-Schlusskurse in Meldung 2, die US-Erzeugerpreise und die Fed-Zinsdebatte in Meldung 4, die EZB-Zinsdebatte in Meldung 5.",
       terms: ["rendite"],
-      followups: ["e:gold-why", "e:bitcoin-what", "e:eurusd-meaning"],
+      followups: ["e:gold-why", "e:bitcoin-what", "e:eurusd-meaning", "e:yield-meaning"],
       sources: [
-        { title: "goldesel.de: Gold – Preis erholt sich um 0,96 Prozent auf 3.914 Dollar", url: "https://goldesel.de/aktien/news/gold-aktie-preis-erholt-sich-um-096-prozent-auf-3914-dollar" },
-        { title: "cryptoticker.io: Crypto news – bitcoin down 6%, $1.3 billion liquidated", url: "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026" },
-        { title: "ariva.de: Devisen – Eurokurs vor US-Erzeugerpreisdaten stabil", url: "https://ariva.de/news/devisen-eurokurs-vor-us-erzeugerpreisdaten-stabil-12206391" },
+        { title: "tradingeconomics.com: Gold", url: "https://tradingeconomics.com/commodity/gold" },
+        { title: "coindaro.com: Bitcoin price today – $61,946 low, liquidations", url: "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/" },
+        { title: "tokenpost.com: Bitcoin liquidation wave tops $2 billion", url: "https://www.tokenpost.com/news/investing/57662" },
         { title: "CNBC: Treasury yields rise as traders strengthen Fed rate hike bets", url: "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html" }
       ]
     },
-    /* 4 WIRTSCHAFT: FED/CPI */
+    /* 4 WIRTSCHAFT: US-PPI/FED */
     {
-      id: "fed-cpi-oktober-zinserhoehung-dezember-11-13", cats: ["economy"], when: "US-Inflationsbericht Di 10.11. · FOMC-Sitzung 8./9.12.2026",
-      headline: "Heißer als erwartete US-Inflation für Oktober verdichtet die Erwartung einer Fed-Zinserhöhung im Dezember",
-      sec30: "Der US-Verbraucherpreisindex für Oktober stieg am 10.11. um 0,4 % in der Gesamtrate (erwartet: 0,3 %) und um 0,3 % im Kernwert (erwartet: 0,2 %) – wegen einer Datenlücke durch den Regierungsstillstand 2025 ohne Jahresrate. Fed-Gouverneur Christopher Waller und die Chefin der Dallas-Fed, Lorie Logan, signalisierten daraufhin Offenheit für eine Zinserhöhung im Dezember, Logan hält laut Berichten mindestens zwei weitere Schritte für nötig. Am Terminmarkt gilt eine Erhöhung um 25 Basispunkte inzwischen mit rund 88 % Wahrscheinlichkeit als wahrscheinlichstes Szenario, der Rest der Wetten entfällt auf einen größeren Schritt von 50 Basispunkten. Die nächste FOMC-Sitzung findet am 8./9.12.2026 statt.",
+      id: "us-ppi-fed-zinsdebatte-dezember-11-13", cats: ["economy"], when: "PPI-Veröffentlichung Fr 13.11. · FOMC-Sitzung 8./9.12.2026",
+      headline: "US-Erzeugerpreise steigen im Jahresvergleich so stark wie seit 2022 nicht mehr, mehrere Fed-Vertreter bekräftigen Offenheit für Dezember-Zinserhöhung",
+      sec30: "Die US-Erzeugerpreise (PPI) für Oktober stiegen laut Arbeitsministerium um 0,3 % gegenüber dem Vormonat (erwartet: 0,4 %) und um 6,5 % im Jahresvergleich – der stärkste Anstieg seit November 2022. Mehrere Fed-Vertreter wie New-York-Fed-Chef John Williams, Chicago-Fed-Chef Austan Goolsbee und San-Francisco-Fed-Chefin Mary Daly bekräftigten danach ihre Einschätzung, dass weitere Zinsschritte nötig seien; Finanzminister Scott Bessent warnte dagegen öffentlich davor, wegen eines energiepreisgetriebenen Schocks „zu stark” zu erhöhen. Am Terminmarkt gilt eine Zinserhöhung im Dezember weiterhin als nahezu sicher, die FOMC-Sitzung findet am 8./9.12.2026 statt.",
       blocks: [
-        { h: "Was zeigte der US-Verbraucherpreisindex für Oktober?", items: [
-          { tag: "fakt", text: "Das Bureau of Labor Statistics veröffentlichte den Bericht am 10.11.2026 um 8:30 Uhr Ortszeit. Die Gesamtrate stieg um 0,4 % gegenüber dem Vormonat (erwartet: 0,3 %), die Kernrate um 0,3 % (erwartet: 0,2 %, wie bereits im September). Wegen einer durch den Regierungsstillstand 2025 verursachten Datenlücke enthält der Bericht weiterhin keine Jahresrate. Preistreiber waren laut Berichten unter anderem Lebensmittel und Mietkosten.",
-            ask: [{ label: "Was ist der Unterschied zwischen Gesamt- und Kernrate?", ref: "t:kerninflation" }] }
+        { h: "Was zeigten die US-Erzeugerpreise für Oktober?", items: [
+          { tag: "fakt", text: "Das Arbeitsministerium (BLS) veröffentlichte den Bericht am 13.11.2026. Die Gesamtrate der Erzeugerpreise stieg um 0,3 % gegenüber dem Vormonat (erwartet: 0,4 %), die Kernrate (ohne Lebensmittel und Energie) ebenfalls um 0,3 % (wie erwartet). Im Jahresvergleich stiegen die Erzeugerpreise um 6,5 % – der stärkste Anstieg seit November 2022; bei den Waren betrug der Jahresanstieg sogar 10,2 %, der größte Zwölfmonatsanstieg seit Oktober 2022.",
+            ask: [{ label: "Was sind Erzeugerpreise?", ref: "t:erzeugerpreise" }] }
         ]},
-        { h: "Wie reagierten Fed-Vertreter auf die Daten?", items: [
-          { tag: "position", text: "Fed-Gouverneur Christopher Waller und die Präsidentin der Dallas-Fed, Lorie Logan, signalisierten nach den Daten Offenheit für eine Zinserhöhung im Dezember. Logan sagte in einer Rede in Houston sinngemäß, die Notenbank benötige mindestens zwei weitere Zinsschritte um je 25 Basispunkte und könne dabei schneller vorgehen als im bisherigen Herbst." },
-          { tag: "fakt", text: "Fed-Chef Kevin Warsh gilt laut Washington Post unter seinen Kollegen – darunter zwei weitere von Präsident Trump berufene Mitglieder – als Außenseiter, weil er bezweifelt, dass der KI-Investitionsboom die Inflation befeuert, während mehr als ein Dutzend anderer Notenbanker genau das inzwischen annehmen." }
+        { h: "Wie reagierten Fed-Vertreter?", items: [
+          { tag: "position", text: "New-York-Fed-Präsident John Williams sagte, die Wirtschaft sei robust und der Arbeitsmarkt stärker geworden, die Inflation bleibe hartnäckig; die Fed müsse „im Zeitverlauf weitere Schritte” unternehmen, um zum 2-%-Ziel zurückzukehren, ohne sich auf Zeitpunkt oder Umfang festzulegen. Chicago-Fed-Chef Austan Goolsbee nannte die jüngsten Daten „grenzwertig beunruhigend” und sprach von einem „heiklen Moment” für die Notenbank, weil sich der Preisdruck über Zölle und Energie hinaus auf Dienstleistungen und das Gesundheitswesen ausweite. San-Francisco-Fed-Chefin Mary Daly sagte, weitere Zinsschritte seien angesichts anhaltenden – vor allem dienstleistungsgetriebenen – Preisdrucks wahrscheinlich nötig, sehe aber keine Dringlichkeit und wolle im Dezember gemeinsam mit dem Gremium entscheiden." },
+          { tag: "position", text: "Finanzminister Scott Bessent warnte dagegen öffentlich davor, wegen eines durch den Nahost-Konflikt ausgelösten Energiepreisschocks „zu stark” zu erhöhen, und verwies auf um 7,9 % gefallene Dieselpreise als Beleg dafür, dass der Schock vorübergehend sei; Goolsbee widersprach im selben Zeitraum öffentlich und sagte, der Preisdruck gehe „weit über das hinaus, was hohe Ölpreise erklären könnten”.",
+            ask: [{ label: "Mehr zur Zinsdebatte bei Fed und EZB", ref: "e:central-banks-why" }] }
         ]},
         { h: "Wie reagierten die Märkte?", items: [
-          { tag: "fakt", text: "Am Terminmarkt gilt eine Fed-Zinserhöhung im Dezember inzwischen praktisch als sicher; rund 88 % der Wetten entfallen auf einen Schritt um 25 Basispunkte, der Rest auf einen größeren Schritt um 50 Basispunkte. Die Rendite zehnjähriger US-Anleihen stieg binnen einer Woche von rund 4,82 % auf über 5 %; Nasdaq und S&P 500 gaben am Tag der Veröffentlichung nach.",
+          { tag: "fakt", text: "Am Terminmarkt (CME FedWatch) lag die eingepreiste Wahrscheinlichkeit einer Zinserhöhung im Dezember zuletzt bei rund 88 bis 91 % für einen Schritt um 25 Basispunkte, der Rest der Wetten entfiel auf einen größeren Schritt um 50 Basispunkte; eine Erhöhung an sich gilt praktisch als sicher. Die Rendite zehnjähriger US-Anleihen schloss am Freitag bei rund 5,14 %.",
             ask: [{ label: "Wie wirken Zinsen auf Aktien?", ref: "e:yield-stocks" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass gleich mehrere Fed-Mitglieder nach den Oktober-Daten offen für einen Zinsschritt im Dezember sind, zeigt eine Verschiebung der geldpolitischen Debatte in den USA: Im Mittelpunkt steht nicht mehr, ob die Fed senkt, sondern ob und wie stark sie im Dezember erhöht. Die US-Erzeugerpreise am Nachmittag dieser Ausgabe dürften die Einschätzung weiter beeinflussen." }
+          { tag: "einordnung", text: "Dass Fed-Vertreter trotz eines nur leicht über der Erwartung liegenden Erzeugerpreis-Monatswerts weiterhin auf den starken Jahresanstieg und die Ausweitung des Preisdrucks auf Dienstleistungen verweisen, zeigt: Die Debatte in der Fed dreht sich nicht mehr darum, ob im Dezember erhöht wird, sondern ob 25 oder 50 Basispunkte angemessen sind. Der offene Widerspruch zwischen Finanzminister Bessent und Fed-Vertretern wie Goolsbee verdeutlicht zugleich unterschiedliche Lesarten, wie stark der Nahost-bedingte Energiepreisschock die Kerninflation verzerrt." }
         ]}
       ],
-      reaction: "Mehr zur Marktreaktion in Meldung 1, 2 und 3, zur EZB-Zinsdebatte und zur Eurozonen-Inflation in Meldung 5, zu weiteren Konjunkturdaten in Meldung 6.",
-      terms: ["leitzins", "basispunkt", "kerninflation"],
-      followups: ["e:fed-hike", "e:central-banks-why", "e:yield-stocks"],
+      reaction: "Mehr zur Marktreaktion in Meldung 1, 2 und 3, zur EZB-Zinsdebatte in Meldung 5, zur Iran-Geopolitik und den Ölpreisen in Meldung 8.",
+      terms: ["erzeugerpreise", "leitzins", "basispunkt"],
+      followups: ["e:ppi-what", "e:fed-hike", "e:central-banks-why", "e:oil-inflation"],
       sources: [
-        { title: "CNBC: A key report for where inflation stood in October comes out Tuesday", url: "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html" },
-        { title: "Marketplace: Broad inflation persists across the economy, October CPI shows", url: "https://www.marketplace.org/story/2026/11/10/broad-inflation-persists-across-the-economy-october-cpi-shows" },
-        { title: "Bloomberg: Interest-Rate Hike Debate Sparked by Fed's Waller, Logan After Hot Inflation", url: "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move" },
-        { title: "Washington Post: As more top Fed officials say AI is fueling inflation, Kevin Warsh is an outlier", url: "https://www.washingtonpost.com/business/2026/11/13/more-top-fed-officials-say-ai-is-fueling-inflation-kevin-warsh-is-an-outlier/" }
+        { title: "BLS: Producer Price Index News Release", url: "https://www.bls.gov/news.release/ppi.nr0.htm" },
+        { title: "CNBC: PPI inflation report October 2026", url: "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html" },
+        { title: "Fortune: Federal Reserve, inflation, forever war – Iran oil prices, diesel, Fed rate hikes", url: "https://fortune.com/2026/11/14/federal-reserve-inflation-forever-war-iran-oil-prices-diesel-fed-rate-hikes/" },
+        { title: "Al Jazeera: US Treasury warns against rate hikes during US-Iran war energy shock", url: "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock" }
       ]
     },
-    /* 5 WIRTSCHAFT: EZB/EUROZONEN-INFLATION */
+    /* 5 WIRTSCHAFT: EZB/EUROZONE */
     {
-      id: "ezb-dezember-zinserhoehung-eurozone-inflation-11-13", cats: ["economy"], when: "Eurostat-Flashschätzung Oktober · Lane/Nagel-Äußerungen 10.11. · nächste EZB-Sitzung 17./18.12.2026",
-      headline: "EZB-Chefökonom Lane und Bundesbank-Chef Nagel signalisieren eine mögliche Zinserhöhung im Dezember, Eurozonen-Inflation steigt auf 4,0 %",
-      sec30: "Die Inflation in der Eurozone stieg laut Eurostat-Flashschätzung im Oktober auf 4,0 % (September: 3,8 %), getrieben vor allem von Energiepreisen (+20,8 % gegenüber dem Vorjahr); die Kernrate blieb bei 2,5 % unverändert. EZB-Chefökonom Philip Lane sagte am 10.11., eine weitere Zinserhöhung im Dezember sei „prudent”, sollte sich die Datenlage bis dahin nicht wesentlich ändern; Bundesbank-Präsident Joachim Nagel bezeichnete einen Dezember-Schritt als „ziemlich offensichtlich” nötig. Die nächste EZB-Sitzung findet am 17./18.12.2026 statt.",
+      id: "ezb-dezember-zinserhoehung-nagel-reuters-umfrage-11-13", cats: ["economy"], when: "Nagel-Interview ca. 13.-14.11. · Reuters-Umfrage ca. 12.-14.11.2026",
+      headline: "Bundesbank-Chef Nagel nennt EZB-Zinserhöhung im Dezember „ziemlich offensichtlich”, Reuters-Umfrage sieht sie einhellig erwartet",
+      sec30: "Bundesbank-Präsident Joachim Nagel bezeichnete eine weitere EZB-Zinserhöhung im Dezember in einem Bloomberg-TV-Interview als „ziemlich offensichtlich” nötig und sprach von anhaltend erhöhter Kerninflation. Eine Reuters-Umfrage unter 71 Ökonomen ergab, dass alle Befragten eine Anhebung des EZB-Einlagensatzes von 2,5 auf 2,75 % im Dezember erwarten; 46 von ihnen halten das für den voraussichtlichen Zinsgipfel. In Großbritannien hatte die Bank of England bereits am 5.11. ihren Leitzins um 25 Basispunkte auf 4 % angehoben – die erste Erhöhung seit August 2023.",
       blocks: [
-        { h: "Wie hoch ist die Inflation in der Eurozone aktuell?", items: [
-          { tag: "fakt", text: "Laut Eurostat-Flashschätzung stieg die Inflation in der Eurozone im Oktober auf 4,0 % (September: 3,8 %). Haupttreiber war Energie mit +20,8 % gegenüber dem Vorjahr (September: +18,9 %); die Dienstleistungsinflation stieg leicht auf 3,3 %, Nahrungsmittel/Alkohol/Tabak auf 1,6 %. Die Kernrate (ohne Energie und Nahrungsmittel) blieb bei 2,5 % unverändert. Die endgültige Oktoberzahl wird erst am 18.11.2026 veröffentlicht.",
-            ask: [{ label: "Was ist der Unterschied zwischen Kern- und Gesamtinflation?", ref: "t:kerninflation" }] }
+        { h: "Was sagte Bundesbank-Chef Nagel?", items: [
+          { tag: "position", text: "Joachim Nagel sagte in einem Bloomberg-TV-Interview, eine weitere Zinserhöhung im Dezember sei „ziemlich offensichtlich” nötig; die Kerninflation bleibe erhöht, kurzfristige Inflationserwartungen seien im Gleichschritt mit dem Anstieg der Gesamtinflation gestiegen. Er beschrieb die aktuelle Geldpolitik als am „oberen Rand des neutralen Bereichs”; eine Anhebung auf 2,75 % würde in „restriktives Territorium” führen.",
+            ask: [{ label: "Was ist der Leitzins?", ref: "t:leitzins" }] }
         ]},
-        { h: "Was sagten EZB-Chefökonom Lane und Bundesbank-Chef Nagel?", items: [
-          { tag: "position", text: "EZB-Chefökonom Philip Lane sagte Bloomberg am 10.11.: „If the information set we have in December is exactly the same as the information set today, then I think it would be prudent indeed to hike.” Bundesbank-Präsident Joachim Nagel äußerte sich deutlicher: „It is rather obvious that we have to increase rates in December.”" }
+        { h: "Was zeigt die Reuters-Umfrage?", items: [
+          { tag: "fakt", text: "Laut einer zwischen dem 10. und 12.11.2026 durchgeführten Reuters-Umfrage erwarten alle 71 befragten Ökonomen eine Anhebung des EZB-Einlagensatzes von 2,5 auf 2,75 % im Dezember; 46 der 71 halten dies für den voraussichtlichen Höhepunkt des Zinszyklus, 25 rechnen mit einem weiteren Schritt, voraussichtlich im ersten Quartal 2027.",
+            ask: [{ label: "Was bedeutet eine Zinserhöhung für die Wirtschaft?", ref: "e:central-banks-why" }] }
         ]},
-        { h: "Wie reagieren Märkte auf die Zinssignale?", items: [
-          { tag: "fakt", text: "Die Rendite zehnjähriger Bundesanleihen stieg auf rund 3,37 %; Bankwerte im Euro Stoxx 50 profitierten laut Berichten von der Aussicht auf höhere Zinsen.",
-            ask: [{ label: "Was bedeutet eine Anleihe-Rendite?", ref: "n:bund10" }] }
+        { h: "Wie ist die Lage bei der Bank of England?", items: [
+          { tag: "fakt", text: "Die Bank of England hatte ihren Leitzins bereits am 5.11.2026 um 25 Basispunkte auf 4 % angehoben – die erste Erhöhung seit August 2023. Gouverneur Andrew Bailey warnte, die britische Inflation könne wegen des Nahost-bedingten Energiepreisrisikos bis Mitte 2027 auf „etwa 5 %” steigen, signalisierte aber nur bedingte Offenheit für einen weiteren Schritt; der Terminmarkt preist für die Sitzung am 17.12.2026 lediglich eine Wahrscheinlichkeit von rund 25 % für eine weitere Erhöhung ein." }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sowohl in den USA (Meldung 4) als auch in der Eurozone führende Notenbankvertreter im November 2026 Offenheit für eine Zinserhöhung im Dezember zeigen, deutet auf eine ähnliche geldpolitische Debatte auf beiden Seiten des Atlantiks hin: Nach Jahren der Zinssenkungen rückt nun die Frage in den Vordergrund, ob die hartnäckige Inflation eine erneute Straffung nötig macht.",
-            ask: [{ label: "Vom Ölpreis zur Inflation", ref: "e:oil-inflation" }] }
+          { tag: "einordnung", text: "Dass Fed, EZB und Bank of England im November 2026 nahezu gleichzeitig über weitere Zinserhöhungen diskutieren oder sie bereits vollzogen haben, deutet auf eine breit angelegte geldpolitische Reaktion auf die durch den Nahost-Konflikt verstärkte Energiepreis-Inflation hin – auch wenn Tempo und Ausmaß zwischen den Notenbanken unterschiedlich eingeschätzt werden. Die Angaben zur eingepreisten Wahrscheinlichkeit einer EZB-Erhöhung schwanken zwischen den Quellen deutlich (teils rund 65 %, teils über 90 %); robuster belegt ist die einhellige Erwartung der 71 von Reuters befragten Ökonomen." }
         ]}
       ],
-      reaction: "Mehr zur US-Inflation und zur Fed-Zinsdebatte in Meldung 4, zu weiteren Konjunkturdaten in Meldung 6.",
-      terms: ["leitzins", "inflation", "kerninflation"],
+      reaction: "Mehr zu den US-Erzeugerpreisen und der Fed-Zinsdebatte in Meldung 4, zur Marktreaktion in Meldung 1 bis 3.",
+      terms: ["leitzins", "inflation"],
       followups: ["e:ecb-hike", "e:central-banks-why", "e:inflation-what"],
       sources: [
-        { title: "Eurostat: Euro area annual inflation up to 4.0%", url: "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04112026-ap" },
-        { title: "TMGM: ECB's Lane – Prudent to hike again as inflation seen over 4% by year-end", url: "https://www.tmgm.com/en/analysis/market-news/article/ecbs-lane-prudent-to-hike-again-as-inflation-seen-over-4-by-year-end-202611100844" },
-        { title: "The Private Banker: ECB's Nagel Calls a December Rate Hike \"Rather Obvious\"", url: "https://leprivatebanker.com/2026/11/10/ecbs-nagel-calls-a-december-rate-hike-rather-obvious-as-euro-zone-inflation-sits-at-a-three-year-high-of-4/" }
+        { title: "FXStreet: ECB's Nagel sees another hike as second-round risks mount", url: "https://www.fxstreet.com/news/ecbs-nagel-sees-another-hike-as-second-round-risks-mount-202611131704" },
+        { title: "CNBC: Bank of England raises interest rates", url: "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html" },
+        { title: "The Private Banker: Bundesbank's Nagel says it is highly probable the ECB must hike again", url: "https://leprivatebanker.com/2026/11/13/bundesbanks-nagel-says-it-is-highly-probable-the-ecb-must-hike-again-as-december-move-is-priced-at-72/" }
       ]
     },
-    /* 6 WIRTSCHAFT: KONJUNKTUR */
+    /* 6 DEUTSCHLAND: HAUSHALT 2027/STROMSTEUER */
     {
-      id: "konjunktur-ifo-arbeitsmarkt-bip-11-13", cats: ["economy"], when: "ifo-Index Okt. (26.10.) · US-Arbeitsmarktbericht Okt. (6.11.) · BIP Q3 Deutschland (30.10.)",
-      headline: "Deutsche Stimmungsindikatoren klettern leicht, US-Arbeitsmarkt überrascht mit kräftigem Jobzuwachs",
-      sec30: "Der ifo-Geschäftsklimaindex stieg im Oktober zum sechsten Mal in Folge auf 90,2 Punkte (September: 89,9); vor allem die Erwartungskomponente verbesserte sich. Deutschlands Wirtschaft wuchs im dritten Quartal 2026 laut Destatis um 0,2 % gegenüber dem Vorquartal und um 1,3 % gegenüber dem Vorjahr. In den USA legten die Beschäftigtenzahlen außerhalb der Landwirtschaft im Oktober um 165.000 zu – mehr als doppelt so stark wie erwartet –, die Arbeitslosenquote fiel auf 4,1 %. Die kräftigen US-Arbeitsmarktdaten stützen zusätzlich die Erwartung einer Fed-Zinserhöhung im Dezember.",
-      blocks: [
-        { h: "Wie hat sich die Stimmung in der deutschen Wirtschaft entwickelt?", items: [
-          { tag: "fakt", text: "Der ifo-Geschäftsklimaindex stieg im Oktober zum sechsten Mal in Folge auf 90,2 Punkte (September: 89,9 Punkte). Der Erwartungsindikator verbesserte sich von 90,4 auf 91,6 Punkte, während Unternehmen ihre aktuelle Lage etwas ungünstiger einschätzten. Besonders Industrie und Bauhauptgewerbe meldeten Verbesserungen, der Handel stagnierte, Dienstleister schätzten die Lage schwächer ein." }
-        ]},
-        { h: "Wie stark ist die deutsche Wirtschaft im dritten Quartal gewachsen?", items: [
-          { tag: "fakt", text: "Das Statistische Bundesamt (Destatis) meldete für das dritte Quartal 2026 ein Wachstum des Bruttoinlandsprodukts von 0,2 % gegenüber dem Vorquartal und 1,3 % gegenüber dem Vorjahreszeitraum (preisbereinigt). Die Exporte, die in der ersten Jahreshälfte noch ein wichtiger Wachstumstreiber waren, verloren im dritten Quartal an Schwung." }
-        ]},
-        { h: "Wie entwickelte sich der US-Arbeitsmarkt?", items: [
-          { tag: "fakt", text: "Die US-Wirtschaft schuf im Oktober 165.000 neue Stellen außerhalb der Landwirtschaft – mehr als doppelt so viel wie die von Ökonomen erwartete Zahl von rund 65.000 und deutlich über dem Zwölfmonatsdurchschnitt von rund 48.000. Die Arbeitslosenquote fiel von 4,2 % auf 4,1 %. Die stärksten Zuwächse gab es in unternehmensnahen Dienstleistungen, im Gesundheitswesen und im Transport- und Lagerwesen." }
-        ]},
-        { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass sowohl die deutsche Stimmung als auch der US-Arbeitsmarkt robuster ausfallen als erwartet, erschwert nach Einschätzung von Marktbeobachtern die Begründung für Zinssenkungen und stützt stattdessen die Debatte über mögliche Zinserhöhungen bei Fed und EZB im Dezember (mehr in Meldung 4 und 5).",
-            ask: [{ label: "Wie hängen Erzeugerpreise und Inflation zusammen?", ref: "e:ppi-what" }] }
-        ]}
-      ],
-      reaction: "Mehr zur Fed-Zinsdebatte in Meldung 4, zur EZB-Zinsdebatte und Eurozonen-Inflation in Meldung 5.",
-      terms: ["erzeugerpreise", "inflation"],
-      followups: ["e:inflation-expectations", "e:central-banks-why"],
-      sources: [
-        { title: "ifo Institut: ifo Business Climate Rises (October 2026)", url: "https://www.ifo.de/en/press-release/2026-10-26/ifo-business-climate-rises-october-2026" },
-        { title: "Statistisches Bundesamt (Destatis): Gross domestic product in the 3rd quarter of 2026 up 0.2% on the previous quarter", url: "https://www.destatis.de/EN/Press/2026/10/PE26_381_811.html" },
-        { title: "Bloomberg: US Job Growth Beats Forecasts With 165,000 Added, Unemployment Drops", url: "https://www.bloomberg.com/news/articles/2026-11-06/us-adds-165-000-jobs-above-all-forecasts-as-unemployment-falls" }
-      ]
-    },
-    /* 7 DEUTSCHLAND: BUNDESHAUSHALT 2027 */
-    {
-      id: "bundeshaushalt-2027-bereinigungssitzung-11-13", cats: ["germany"], when: "Bereinigungssitzung Haushaltsausschuss 12./13.11.2026 · abschließende Bundestagsberatung 24.–27.11.2026",
-      headline: "Haushaltsausschuss billigt Bundeshaushalt 2027 mit 122,97 Mrd. Euro Nettokreditaufnahme im Kernhaushalt",
-      sec30: "Der Haushaltsausschuss des Bundestags billigte in einer von Donnerstagnachmittag bis Freitagfrüh (5:55 Uhr) dauernden Bereinigungssitzung den Bundeshaushalt 2027 mit den Stimmen von CDU/CSU und SPD gegen AfD, Grüne und Die Linke. Der Gesamtetat liegt bei 560,92 Mrd. Euro, die Nettokreditaufnahme im Kernhaushalt bei 122,97 Mrd. Euro, davon 84,55 Mrd. Euro über die Ausnahme für Verteidigungsausgaben von der Schuldenbremse. Offen bleibt die im Koalitionsvertrag zugesagte Stromsteuersenkung für alle Haushalte, die Kanzler Merz beim Koalitionsausschuss am 17.11. klären will. Die abschließende Bundestagsberatung ist für den 24. bis 27.11. angesetzt.",
+      id: "bundeshaushalt-2027-stromsteuer-ungeklaert-11-13", cats: ["germany"], when: "Haushaltsausschuss-Billigung Fr 13.11.2026 (Sitzung bis 5:55 Uhr) · Koalitionsausschuss zur Stromsteuer angesetzt für Di 17.11.2026 · Bundestagsdebatte 24.-27.11.2026",
+      headline: "Haushaltsausschuss billigt Bundeshaushalt 2027, die zugesagte Stromsteuersenkung bleibt ungeklärt",
+      sec30: "Der Haushaltsausschuss des Bundestags billigte in einer bis Freitagfrüh um 5:55 Uhr dauernden Sitzung den Bundeshaushalt 2027 mit einer Nettokreditaufnahme von 122,97 Mrd. Euro im Kernhaushalt – 4,25 Mrd. Euro mehr als im Regierungsentwurf. Davon entfallen 84,55 Mrd. Euro auf die Ausnahme für Verteidigungsausgaben von der Schuldenbremse. Offen bleibt weiterhin die im Koalitionsvertrag zugesagte Stromsteuersenkung; die Finanzierung von rund 5,4 Mrd. Euro jährlich soll laut Berichten am Dienstag, 17.11.2026, im Koalitionsausschuss verhandelt werden. Die abschließende Bundestagsberatung ist für die Woche vom 24. bis 27.11.2026 angesetzt.",
       blocks: [
         { h: "Was wurde beschlossen?", items: [
-          { tag: "fakt", text: "Der Haushaltsausschuss stimmte in seiner Bereinigungssitzung über rund 2.000 Anträge ab und billigte den Bundeshaushalt 2027 mit den Stimmen von CDU/CSU und SPD gegen AfD, Grüne und Die Linke. Der Gesamtetat liegt bei 560,92 Mrd. Euro (5,48 Mrd. Euro mehr als im Regierungsentwurf), die Investitionen bei 61,85 Mrd. Euro. Die Steuereinnahmen werden mit 396,21 Mrd. Euro veranschlagt." }
-        ]},
-        { h: "Was ändert sich konkret bei der Verschuldung?", items: [
-          { tag: "fakt", text: "Die Nettokreditaufnahme im Kernhaushalt liegt bei 122,97 Mrd. Euro, davon 84,55 Mrd. Euro über die seit der Grundgesetzreform 2025 geltende Ausnahme für Verteidigungsausgaben oberhalb von 1 % des Bruttoinlandsprodukts. Unter Einbeziehung des separaten Sondervermögens Bundeswehr liegt die gesamtstaatliche Neuverschuldung laut Berichten bei rund 210 Mrd. Euro – nach Angaben mehrerer Medien die zweithöchste in der Geschichte der Bundesrepublik.",
+          { tag: "fakt", text: "Der Haushaltsausschuss billigte den Bundeshaushalt 2027 mit Stimmen der Koalition aus CDU/CSU und SPD, gegen die Stimmen von AfD, Bündnis 90/Die Grünen und Die Linke. Die Nettokreditaufnahme im Kernhaushalt liegt bei 122,97 Mrd. Euro (2026: 97,96 Mrd. Euro) bei Gesamtausgaben von rund 560,9 Mrd. Euro. Über rund 2.000 Änderungsanträge wurde in der Sitzung abgestimmt.",
             ask: [{ label: "Was ist die Schuldenbremse?", ref: "t:schuldenbremse" }] }
         ]},
-        { h: "Warum diese Ausgaben?", items: [
-          { tag: "fakt", text: "Größte Einzeletats sind Arbeit und Soziales mit 203,29 Mrd. Euro und Verteidigung mit 109,75 Mrd. Euro. Beim Verkehrsetat wurden Mittel für die Autobahn-GmbH um knapp 2 Mrd. Euro auf 2,38 Mrd. Euro gekürzt, während Verpflichtungsermächtigungen für die Schiene um 4,34 Mrd. Euro erhöht wurden. Mit Ausnahme des Verteidigungsressorts müssen alle Ministerien ein Prozent ihres Budgets einsparen." }
+        { h: "Was ändert sich konkret?", items: [
+          { tag: "fakt", text: "Von den 122,97 Mrd. Euro Nettokreditaufnahme entfallen 84,55 Mrd. Euro auf die seit 2025 geltende Ausnahme für Verteidigungsausgaben oberhalb von 1 % des BIP von der Schuldenbremse; die regulär schuldenbremsenrelevante Nettokreditaufnahme von 38,43 Mrd. Euro bewegt sich an der verfassungsrechtlichen Obergrenze. Die im Koalitionsvertrag zugesagte Stromsteuersenkung für alle Verbraucher auf den EU-Mindestsatz ist im vom Ausschuss gebilligten Entwurf nicht enthalten; ihre Finanzierung von jährlich rund 5,4 Mrd. Euro bleibt offen.",
+            ask: [{ label: "Was bedeutet die Ausnahme für Verteidigungsausgaben?", ref: "e:debt-brake" }] }
         ]},
-        { h: "Wer unterstützt den Haushalt, und womit?", items: [
-          { tag: "position", text: "Finanzminister Lars Klingbeil (SPD) verteidigte den Kurs: Mit dem Haushalt setze die Koalition auf Investitionen und tiefgreifende Reformen, mit dem Ziel, Deutschland stärker zu machen." }
+        { h: "Wer unterstützt den Haushalt und womit?", items: [
+          { tag: "position", text: "CDU-Haushaltspolitiker Christian Haase sagte, die Stromsteuer werde „nochmal auf der politischen Agenda” der kommenden Woche stehen. SPD-Haushaltspolitiker Thorsten Rudolph sagte: „Wir dürfen das nicht über neue Schulden finanzieren.”" }
         ]},
-        { h: "Wer kritisiert den Haushalt, und womit?", items: [
-          { tag: "position", text: "Der haushaltspolitische Sprecher der Grünen, Sebastian Schäfer, bezeichnete den Haushalt sinngemäß als „Hütte ohne Fundament” und kritisierte zusätzliche Finanztransaktionen trotz ausgeschöpfter regulärer Kreditobergrenze sowie die nicht umgesetzte Stromsteuersenkung. Die Linke-Haushaltspolitiker Dietmar Bartsch sprach von einem „Dschungel aus Schulden, Tricks und Verschiebungen” und kritisierte, dass immer mehr Ausgaben außerhalb des Kernhaushalts finanziert würden. Der AfD-Haushaltspolitiker Michael Espendiller warf der Koalition vor, der Bund nehme „400.000 Euro neue Schulden – jede Minute” auf und sprach von „verfassungswidrigen Buchungstricks”." }
+        { h: "Wer kritisiert den Haushalt und womit?", items: [
+          { tag: "position", text: "Grünen-Haushaltspolitiker Sebastian Schäfer nannte den Haushalt „ein wackliges Gebilde ohne Fundament”. Linke-Haushaltspolitiker Dietmar Bartsch bezeichnete ihn als „einen unverantwortlichen Haushalt, ein Dickicht aus Schulden, Tricks und Verschiebungen”. Grünen-Politikerin Katrin Uhlig sagte, die Stromsteuer werde „zunehmend zum Symbol für eine Bundesregierung, die groß ankündigt, aber nicht liefert”." }
         ]},
         { h: "Welche Auswirkungen werden diskutiert?", items: [
-          { tag: "fakt", text: "Die Opposition verweist auf eine Kreditfinanzierungsquote von rund 32 % des Haushalts; Steuereinnahmen deckten damit nur rund 71 % der geplanten Ausgaben. Offen bleibt zudem die im Koalitionsvertrag zugesagte Stromsteuersenkung für alle Haushalte (Finanzierungsbedarf rund 5 bis 5,4 Mrd. Euro); Kanzler Friedrich Merz will dies beim Koalitionsausschuss am 17.11. klären und strebt eine verbindliche Zusage zum Januar 2027 für Privathaushalte an. Die abschließende Bundestagsberatung ist für den 24. bis 27.11. angesetzt, die Schlussabstimmung voraussichtlich für den 27.11.",
-            ask: [{ label: "Was ist die Schuldenbremse genau?", ref: "e:debt-brake" }] }
+          { tag: "einordnung", text: "Weil die Finanzierung der Stromsteuersenkung weiterhin ungeklärt ist, bleibt offen, ob und wann Verbraucher und Unternehmen tatsächlich von einer niedrigeren Stromsteuer profitieren. Die Entscheidung soll laut Berichten am Dienstag, 17.11.2026, im Koalitionsausschuss fallen; die endgültige Entscheidung über den Gesamthaushalt 2027 trifft der Bundestag erst in der Woche vom 24. bis 27.11.2026." }
         ]}
       ],
-      reaction: "Mehr zur Bundespräsidentenwahl und zu aktuellen Umfragen in Meldung 8.",
-      terms: ["schuldenbremse"],
+      reaction: "Mehr zur Rentenreform und zur Bundespräsidentschaftskandidatur in Meldung 7.",
+      terms: ["schuldenbremse", "umlage"],
       followups: ["e:haushalt-basics", "e:debt-brake"],
       sources: [
-        { title: "Deutscher Bundestag: Bereinigungssitzung – Ausschuss beschließt Bundeshaushalt 2027", url: "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-haushalt-1231890" },
-        { title: "onvista.de: Bundeshaushalt 2027 steht – Neuverschuldung steigt auf 210 Milliarden Euro", url: "https://www.onvista.de/news/2026/11-13-bundeshaushalt-2027-steht-neuverschuldung-steigt-auf-210-milliarden-euro-0-20-26575979" },
-        { title: "ad-hoc-news.de: Bundeshaushalt 2027 – Opposition kritisiert 123 Milliarden Schulden", url: "https://www.ad-hoc-news.de/politik/bundeshaushalt-2027-opposition-kritisiert-123-milliarden-schulden/70503784" },
-        { title: "Epoch Times: Bundeshaushalt 2027 – Klingbeil verteidigt Milliardeninvestitionen und Schulden", url: "https://www.epochtimes.de/politik/deutschland/bundeshaushalt-2027-klingbeil-verteidigt-milliardeninvestitionen-und-schulden-a5603878.html" },
-        { title: "finanznachrichten.de: Merz will Stromsteuersenkung im Koalitionsausschuss klären", url: "https://www.finanznachrichten.de/nachrichten-2026-11/70111867-merz-will-stromsteuersenkung-im-koalitionsausschuss-klaeren-003.htm" }
+        { title: "Bundestag: Haushaltsausschuss billigt Etat 2027 (hib-Kurzmeldung)", url: "https://www.bundestag.de/presse/hib/kurzmeldungen-1233152" },
+        { title: "Handelsblatt: Haushalt – Koalition findet bisher kein Geld für Stromsteuer-Senkung", url: "https://www.handelsblatt.com/politik/deutschland/haushalt-koalition-findet-bisher-kein-geld-fuer-stromsteuer-senkung/100269235.html" },
+        { title: "Tagesspiegel: „Hat ordentlich geknallt” – Wut in der Union", url: "https://www.tagesspiegel.de/politik/hat-ordentlich-geknalltwut-in-der-union--merz-will-stromsteuersenkung-wohl-noch-im-koalitionsausschuss-durchboxen-16276409.html" }
       ]
     },
-    /* 8 DEUTSCHLAND: BUNDESPRÄSIDENTENWAHL + UMFRAGEN */
+    /* 7 DEUTSCHLAND: RENTE/BUNDESPRÄSIDENTIN/UMFRAGEN */
     {
-      id: "bundespraesidentenwahl-aigner-umfragen-11-13", cats: ["germany"], when: "Kandidatenlage Stand 6.–13.11. · Wahl 30.1.2027 · Umfragen 10.11.2026",
-      headline: "Union einigt sich auf Ilse Aigner als Kandidatin für das Bundespräsidentenamt, Umfragen sehen AfD weiter vorn",
-      sec30: "Nach einem innerunionellen Streit will Kanzler Friedrich Merz Ilse Aigner (CSU) nun offiziell als gemeinsame Kandidatin von CDU und CSU für die Bundespräsidentenwahl am 30.1.2027 vorschlagen; SPD und Grüne signalisieren Unterstützung, AfD und Die Linke lehnen ab und wollen eigene Kandidaten aufstellen. Aktuelle Umfragen von Forsa und INSA sehen die AfD unverändert als stärkste Kraft bei 27 bis 28,5 %, vor der Union mit rund 19,5 bis 20 %.",
+      id: "rentenreform-bundespraesidentin-aigner-umfragen-11-13", cats: ["germany"], when: "Aigner-Nominierung 9.11. · ZDF-Politbarometer 13.11. (Befragung 10.-12.11.) · Rentenreform laufend",
+      headline: "CDU nominiert Ilse Aigner als Kandidatin für das Bundespräsidentenamt, ZDF-Politbarometer sieht AfD sechs Punkte vor der Union",
+      sec30: "Der CDU-Bundesvorstand nominierte am 9.11.2026 die bayerische Landtagspräsidentin Ilse Aigner (CSU) als Kandidatin für die Wahl zur Bundespräsidentin am 30.1.2027; SPD-Chef Klingbeil und die Grünen-Führung signalisierten Unterstützung. Das ZDF-Politbarometer vom 13.11. (Befragung 10.-12.11., 1.297 Befragte) sah die AfD bei 28 % und die Union bei 22 % – ein Rückstand von sechs Punkten; SPD und Linke verloren je einen Punkt. Bei der Rentenreform ist der Gesetzentwurf von Arbeitsminister Alexander Schweitzer (SPD) nach eigenen Angaben zu 95 % fertig, strittig bleibt die Abschaffung der abschlagsfreien Rente nach 45 Beitragsjahren.",
       blocks: [
-        { h: "Was wurde vorgeschlagen?", items: [
-          { tag: "fakt", text: "Kanzler und CDU-Chef Friedrich Merz will Ilse Aigner, Landtagspräsidentin in Bayern (CSU), den Unions-Gremien offiziell als gemeinsame Kandidatin für das Amt der Bundespräsidentin vorschlagen. Vorausgegangen war ein Streit innerhalb der Union, nachdem CSU-Chef Markus Söder Aigner bereits im Frühjahr 2026 zunächst ohne Abstimmung mit der CDU beworben hatte; die CDU hatte zunächst eigene Ansprüche angemeldet." }
+        { h: "Wer ist Ilse Aigner, und wie läuft ihre Nominierung?", items: [
+          { tag: "fakt", text: "Der CDU-Bundesvorstand nominierte am 9.11.2026 die seit 2018 amtierende Präsidentin des Bayerischen Landtags und frühere Bundeslandwirtschaftsministerin Ilse Aigner (CSU) als gemeinsame Kandidatin von CDU und CSU für das Amt der Bundespräsidentin. Die Wahl durch die Bundesversammlung (1.260 Mitglieder) ist für den 30.1.2027 angesetzt; Aigner wäre im Erfolgsfall die erste Frau in diesem Amt." }
         ]},
-        { h: "Was ändert sich konkret?", items: [
-          { tag: "fakt", text: "Die Wahl des Nachfolgers bzw. der Nachfolgerin von Bundespräsident Frank-Walter Steinmeier ist für den 30. Januar 2027 angesetzt. Die Bundesversammlung besteht aus 1.260 Mitgliedern – 630 Bundestagsabgeordneten und 630 von den Ländern entsandten Mitgliedern. Mit Aigner würde erstmals eine Frau das Amt übernehmen." }
+        { h: "Wer unterstützt die Kandidatur, und wer kritisiert sie?", items: [
+          { tag: "position", text: "Bundeskanzler Friedrich Merz sagte: „Mit Ilse Aigner als Bundespräsidentin hätte Deutschland eine Bundespräsidentin mit Würde und Herz.” SPD-Chef Lars Klingbeil signalisierte, die SPD werde eine Kandidatur Aigners „begrüßen und unterstützen”; auch die Grünen-Führung zeigte sich offen. Die AfD kündigte an, eine eigene Kandidatin oder einen eigenen Kandidaten aufzustellen; die AfD-Politikerin Beatrix von Storch nannte die Nominierung Aigners ein „Zeichen der Armut”." }
         ]},
-        { h: "Wer unterstützt die Nominierung, und womit?", items: [
-          { tag: "position", text: "SPD-Politiker Dirk Wiese sagte, für ihn stehe fest, dass eine Frau dieses Amt übernehmen solle. Die Grünen-Fraktionsvorsitzende Britta Haßelmann erklärte, es sei an der Zeit, dass eine Frau Bundespräsidentin werde." }
+        { h: "Was zeigt das aktuelle ZDF-Politbarometer?", items: [
+          { tag: "fakt", text: "Das ZDF-Politbarometer vom 13.11.2026 (telefonische/Online-Befragung von 1.297 Wahlberechtigten, 10. bis 12.11.) sah die AfD bei 28 % (+2 Punkte gegenüber der Vorwoche), die Union bei 22 % (-1 Punkt) – ein Abstand von sechs Punkten. Die Grünen legten auf 15 % zu (+2), die SPD fiel auf 13 % (-1), die Linke auf 10 % (-1), die FDP blieb bei 3 %. Die derzeitige Koalition aus CDU/CSU und SPD hätte laut der Umfrage keine Mehrheit im Bundestag.",
+            ask: [{ label: "Mehr zum Bundeshaushalt der Koalition", ref: "s:6" }] }
         ]},
-        { h: "Wer kritisiert die Nominierung, und womit?", items: [
-          { tag: "position", text: "AfD und Die Linke lehnen Aigner ab und kündigten jeweils eigene Kandidaten an." }
+        { h: "Wie ist der Stand bei der Rentenreform?", items: [
+          { tag: "fakt", text: "Arbeitsminister Alexander Schweitzer (SPD) bezeichnete den Gesetzentwurf zur Umsetzung der Empfehlungen der Alterssicherungskommission als „zu 95 Prozent fertig”; ein offizieller Referentenentwurf lag bis Mitte November aber noch nicht vor. Strittig bleibt vor allem die von der Kommission empfohlene Abschaffung der abschlagsfreien Rente nach 45 Beitragsjahren („Rente mit 63”); Schweitzer, Teile der SPD und ostdeutsche CDU-Politiker diskutieren stattdessen eine gezielte „Schutzrente” für besonders belastete Berufsgruppen. Bundeskanzler Merz will die Reform noch vor Weihnachten ins Kabinett bringen.",
+            ask: [{ label: "Was ist die Rente mit 63?", ref: "e:rente-basics" }] }
         ]},
-        { h: "Was zeigen aktuelle Umfragen?", items: [
-          { tag: "fakt", text: "Forsa sah am 10.11. die AfD bei 27 % (+1 gegenüber dem 3.11.), die Union bei 20 % (unverändert), die Grünen bei 16 % (-1), die SPD bei 13 % (-1), Die Linke bei 11 % und die FDP bei 4 %. INSA (ebenfalls 10.11., im Auftrag der Bild) sah die AfD sogar bei 28,5 %, die Union bei 19,5 %. Beide Institute zeigen die AfD damit übereinstimmend klar als stärkste Kraft.",
-            ask: [{ label: "Was bedeutet eine Koalition?", ref: "t:koalition" }] }
-        ]},
-        { h: "Was bedeutet das für die Mehrheit in der Bundesversammlung?", items: [
-          { tag: "einordnung", text: "Angesichts der aktuellen Umfragewerte ist eine Mehrheit für Aigner in der Bundesversammlung nicht automatisch gesichert; Union und SPD verfügen dort aber weiterhin über Sitze, die für die Wahl relevant sind. Genaue Mehrheitsberechnungen hängen von der tatsächlichen Zusammensetzung der von den Ländern entsandten Mitglieder ab, die erst näher am Wahltermin feststeht.",
-            ask: [{ label: "Mehr zu Mehrheitsverhältnissen bei Koalitionen", ref: "e:coalition-majority" }] }
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Dass CDU, SPD und Grüne sich bei der Bundespräsidentschaftskandidatur auf eine gemeinsame Kandidatin verständigen, während die Umfragen für die Koalitionsparteien gleichzeitig schwach ausfallen, zeigt zwei unterschiedliche Ebenen der aktuellen politischen Lage: Beim repräsentativen Amt des Bundespräsidenten gibt es eine breite Übereinstimmung, bei der Bewertung der Regierungsarbeit in Sachthemen wie Haushalt und Rente dagegen nicht." }
         ]}
       ],
-      reaction: "Mehr zum Bundeshaushalt 2027 in Meldung 7.",
+      reaction: "Mehr zum Bundeshaushalt 2027 und zur Stromsteuer in Meldung 6.",
       terms: ["koalition"],
-      followups: ["e:coalition-majority"],
+      followups: ["e:coalition-majority", "e:rente-basics", "e:landtagswahl-why"],
       sources: [
-        { title: "CDU.de: Ilse Aigner – Bundespräsidentin mit Würde und Herz", url: "https://www.cdu.de/aktuelles/cdu-deutschlands/ilse-aigner-kandidatin-fuer-das-amt-der-bundespraesidentin-und-cdu-bundeskanzler-friedrich-merz/" },
-        { title: "ZDFheute: Wird es erstmals eine Bundespräsidentin geben? Die CSU drängt auf Nominierung von Ilse Aigner", url: "https://www.zdfheute.de/politik/koalition-merz-cdu-bundespraesident-aigner-csu-100.html" },
-        { title: "euronews: Unionsstreit beigelegt – Ilse Aigner soll Bundespräsidentin werden", url: "https://de.euronews.com/2026/11/06/erste-frau-ilse-aigner-soll-bundestagsprasidentin-werden" },
-        { title: "dawum.de: Forsa-Umfrage vom 10.11.2026", url: "https://dawum.de/Bundestag/Forsa/2026-11-10/" },
-        { title: "dawum.de: INSA-Umfrage vom 10.11.2026", url: "https://dawum.de/Bundestag/INSA/2026-11-10/" }
+        { title: "CDU: Ilse Aigner – Bundespräsidentin mit Würde und Herz", url: "https://www.cdu.de/aktuelles/cdu-deutschlands/ilse-aigner-kandidatin-fuer-das-amt-der-bundespraesidentin-und-cdu-bundeskanzler-friedrich-merz/" },
+        { title: "Berliner Zeitung: Merz setzt auf Ilse Aigner – CSU-Politikerin soll Bundespräsidentin werden", url: "https://www.berliner-zeitung.de/article/ilse-aigner-soll-bundespraesidentin-werden-10577479" },
+        { title: "Handelsblatt: ZDF-Politbarometer – AfD wieder deutlicher vor Union", url: "https://www.handelsblatt.com/politik/deutschland/zdf-politbarometer-afd-wieder-deutlicher-vor-union/100269688.html" },
+        { title: "cash-online.de: Rente mit 63 abschaffen – Gesetzentwurf zu 95 Prozent fertig", url: "https://www.cash-online.de/a/rente-mit-63-abschaffen-gesetzentwurf-zu-95-prozent-fertig-730061/" }
       ]
     },
-    /* 9 INTERNATIONAL: UKRAINE-RUSSLAND ABU DHABI */
+    /* 8 GEOPOLITIK: IRAN/HORMUZ */
     {
-      id: "ukraine-russland-abu-dhabi-gefangenenaustausch-11-13", cats: ["world", "geo"], when: "Gespräche Abu Dhabi 10./11.11. · Gefangenenaustausch 12.11. · Moskau-Besuch 12.11.",
-      headline: "Nach den ersten direkten Gesprächen seit Monaten tauschen Ukraine und Russland 314 Kriegsgefangene aus",
-      sec30: "Am 10. und 11.11.2026 fanden in Abu Dhabi die ersten von den USA vermittelten direkten Gespräche zwischen ukrainischen und russischen Delegationen seit rund neun Monaten statt. Einziges konkretes Ergebnis war eine Einigung auf einen Gefangenenaustausch von 314 Soldaten (157 je Seite), der am 12.11. vollzogen wurde. Zu Waffenstillstand, Territorialfragen und Sicherheitsgarantien kam es zu keinem Durchbruch; Hauptstreitpunkt bleibt Russlands Forderung, die Ukraine solle die noch gehaltenen Teile des Donbass abtreten. Die US-Sondergesandten Steve Witkoff und Jared Kushner reisten am 12.11. anschließend zu einem rund fünfstündigen Gespräch mit Präsident Putin nach Moskau und trafen danach Präsident Selenskyj in Dublin.",
+      id: "iran-hormuz-tankerminen-trump-vance-rezaei-11-14", cats: ["world", "geo"], when: "Tankervorfälle Sa 14.11. · Trump-Äußerung 12.11.",
+      headline: "Irans Marine meldet Tanker-Brände nach Minentreffern in der Straße von Hormus, Iran weist Berichte über ein Vance-Rezaei-Treffen zurück",
+      sec30: "Irans Marine und die Revolutionsgarden meldeten am Samstag, 14.11., dass mehrere Öltanker in der Straße von Hormus nach dem Auftreffen von Seeminen in Brand geraten seien; betroffene Schiffe hätten demnach Transponder und Radar abgeschaltet und eine „nicht genehmigte Route” genutzt. Reuters erklärte, die Angaben nicht unabhängig bestätigen zu können. Parallel wiesen der iranische Außenminister Araghchi und der Chef des nationalen Sicherheitsrats, Mohsen Rezaei, Berichte über ein geplantes Treffen mit US-Vizepräsident JD Vance in Doha als „erfunden” zurück. Präsident Trump hatte am 12.11. erklärt, die USA bräuchten „keinen Deal” mehr mit dem Iran.",
       blocks: [
-        { h: "30 Sekunden", items: [
-          { tag: "fakt", text: "In Abu Dhabi verhandelten am 10. und 11.11. erstmals seit rund neun Monaten wieder direkte ukrainische und russische Delegationen unter US-Vermittlung. Konkretes Ergebnis war ein Gefangenenaustausch von 314 Soldaten, der am 12.11. vollzogen wurde; zu Territorialfragen und einem Waffenstillstand gab es keinen Durchbruch." }
+        { h: "Was ist in der Straße von Hormus passiert?", items: [
+          { tag: "unbestaetigt", text: "Irans Marine und die Revolutionsgarden erklärten am Samstag, 14.11.2026, mehrere Öltanker seien nach dem Auftreffen auf Seeminen in Brand geraten; nach Angaben der Revolutionsgarden hätten die betroffenen Schiffe Funk- und Positionssysteme abgeschaltet gehabt und versucht, die Straße von Hormus über eine „nicht genehmigte Route” heimlich zu passieren. Reuters erklärte ausdrücklich, die Angaben nicht unabhängig überprüfen zu können.",
+            ask: [{ label: "Was ist die Straße von Hormus?", ref: "e:hormuz" }] }
         ]},
-        { h: "Warum ist das wichtig?", items: [
-          { tag: "einordnung", text: "Es ist der erste ernsthafte Verhandlungsversuch seit Monaten; der vorherige Diplomatieprozess war durch den im Februar 2026 eskalierten Iran-Konflikt unterbrochen worden. Dass beide Seiten trotz fehlendem Durchbruch an der humanitären Frage (Gefangenenaustausch) zusammenarbeiteten, deutet Beobachtern zufolge auf einen fortbestehenden, wenn auch fragilen Verhandlungskanal hin." }
+        { h: "Was sagte Präsident Trump zu einem Iran-Deal?", items: [
+          { tag: "position", text: "Präsident Trump erklärte am 12.11.2026, die USA bräuchten „keinen Deal” mehr mit dem Iran, nachdem Katar zuvor einen Vorschlag zur Öffnung der Straße von Hormus gegen die Freigabe von rund 8 Mrd. Dollar iranischer Gelder vermittelt hatte." }
         ]},
-        { h: "Wer ist beteiligt?", items: [
-          { tag: "fakt", text: "Für die USA leiteten die Sondergesandten Steve Witkoff und Jared Kushner die Gespräche. US-Außenminister Marco Rubio bezeichnete das Treffen als „very productive”. Präsident Wolodymyr Selenskyj nannte die Gespräche „constructive and quite substantive” und erklärte, es sei vor allem um humanitäre Fragen gegangen – Gefangenenaustausch sowie die Rückführung verschleppter ukrainischer Zivilisten und Kinder." }
+        { h: "Was ist mit dem angeblichen Vance-Rezaei-Treffen?", items: [
+          { tag: "unbestaetigt", text: "Berichte hatten ein Treffen zwischen US-Vizepräsident JD Vance und dem Chef des iranischen Nationalen Sicherheitsrats, Mohsen Rezaei, in Doha vermeldet. Irans Außenminister Abbas Araghchi nannte dies „vollkommen unbegründet”, Rezaei selbst bezeichnete die Berichte als „erfunden” und sagte, sie dienten dazu, wirtschaftlichen Druck zu verringern und den Ölpreis zu senken; Verhandlungen seien erst möglich, wenn die USA sieben iranische Bedingungen akzeptierten.",
+            ask: [{ label: "Mehr zum Ölmarkt und den Preisfolgen", ref: "s:15" }] }
         ]},
-        { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Der direkte Verhandlungsprozess zwischen Russland und der Ukraine war seit Februar 2026 wegen der Eskalation des Iran-Konflikts unterbrochen gewesen. Kushner brachte in Abu Dhabi zudem die Idee einer neuen europäischen Sicherheitsarchitektur mit Russland ein, angelehnt an den früheren NATO-Russland-Rat." }
+        { h: "Wie reagiert der Ölmarkt?", items: [
+          { tag: "fakt", text: "Trotz der gemeldeten Tanker-Zwischenfälle blieb der Brent-Preis zum Wochenende mit rund 95,84 Dollar nahezu unverändert; laut Berichten hat sich die Ölversorgung aus der Golfregion über alternative Routen inzwischen weitgehend erholt, während der Tankerverkehr durch die Straße von Hormus selbst laut IMF-PortWatch-Daten nahe dem Stillstand liegt.",
+            ask: [{ label: "Vom Konflikt zur Börse", ref: "chain:oil-to-markets" }] }
         ]},
-        { h: "Wirtschaftliche Auswirkungen", items: [
-          { tag: "einordnung", text: "Fortschritte oder Rückschläge bei den Gesprächen wirken sich nach Einschätzung von Marktbeobachtern vor allem indirekt über die allgemeine Risikostimmung an den Finanzmärkten aus; ein direkter Effekt auf einzelne Rohstoffpreise wie beim Iran-Konflikt und dem Ölpreis (Meldung 10) ist für die Ukraine-Gespräche in den gesichteten Quellen nicht beschrieben." }
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Dass der Ölpreis trotz neuer Zwischenfallmeldungen kaum reagiert, während tatsächliche Schiffsdurchfahrten durch Hormus fast ausbleiben, deutet darauf hin, dass Märkte die konkrete Versorgungslage über Umwege und Pipeline-Kapazitäten inzwischen höher gewichten als einzelne, teils nicht unabhängig bestätigte Vorfallmeldungen." }
         ]}
       ],
-      reaction: "Mehr zur Iran-Diplomatie und zum Ölpreis in Meldung 10 und 15.",
-      terms: [],
-      followups: [],
-      sources: [
-        { title: "Washington Post: Russia and Ukraine begin U.S.-backed peace talks in Abu Dhabi", url: "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-begin-us-backed-peace-talks-abu-dhabi/" },
-        { title: "Kyiv Post: Ukraine, US and Russia End Second Day of Abu Dhabi Peace Talks", url: "https://www.kyivpost.com/post/89761" },
-        { title: "euronews: Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin", url: "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu" },
-        { title: "CNN: Witkoff and Kushner meet Zelensky after talks with Putin", url: "https://edition.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl" },
-        { title: "Ukrinform: War update – Pokrovsk sector remains hottest", url: "https://www.ukrinform.net/rubric-ato/4182752-war-update-127-clashes-on-front-line-pokrovsk-sector-remains-hottest.html" }
-      ]
-    },
-    /* 10 GEOPOLITIK: IRAN/TRUMP-KEHRTWENDE */
-    {
-      id: "iran-trump-kehrtwende-hormuz-oelpreis-11-13", cats: ["geo", "world"], when: "Katar-Vorschlag 9.11. · Trump-Aussage 12.11. · Tankerzwischenfälle 10.–11.11.",
-      headline: "Trump erklärt, die USA bräuchten keinen Deal mehr mit dem Iran, nachdem Katar einen Vorschlag zur Öffnung der Straße von Hormus vermittelt hatte",
-      sec30: "Katars Premierminister hatte Präsident Trump am 9.11. einen von Iran gebilligten Vorschlag präsentiert: Öffnung der Straße von Hormus im Gegenzug für die Freigabe von 8 Mrd. Dollar eingefrorener iranischer Gelder. Am 12.11. vollzog Trump jedoch eine Kehrtwende und schrieb auf Truth Social, die USA bräuchten „keinen Deal” mehr mit dem Iran, man habe bereits dessen Geld und dessen Straße. Gleichzeitig kam es zu neuen Tankerzwischenfällen in der Straße von Hormus; der Brent-Ölpreis stieg am 12.11. um 3,3 % auf rund 95,80 Dollar.",
-      blocks: [
-        { h: "30 Sekunden", items: [
-          { tag: "fakt", text: "Katar vermittelte einen Vorschlag zur Öffnung der Straße von Hormus gegen Freigabe iranischer Gelder; Trump erklärte am 12.11. jedoch, ein solcher Deal sei nicht mehr nötig. Parallel griffen laut der britischen Seefahrtsbehörde UKMTO Unbekannte am 10. und 11.11. Handelsschiffe in der Straße von Hormus an, ein iranischer Tanker lief zudem auf eine Mine." }
-        ]},
-        { h: "Warum ist das wichtig?", items: [
-          { tag: "einordnung", text: "Trumps Kehrtwende verschiebt eine seit Wochen laufende Vermittlung zwischen den Konfliktparteien zurück in eine Phase größerer Unsicherheit; der unmittelbare Anstieg des Ölpreises um 3,3 % zeigt, wie direkt Marktteilnehmer auf einzelne Aussagen in diesem Konflikt reagieren." }
-        ]},
-        { h: "Wer ist beteiligt?", items: [
-          { tag: "position", text: "Präsident Trump schrieb auf Truth Social: „We don't need a deal with Iran. Those days have long since passed. We've got their money, Hundreds of Billions of Dollars, and we've got their Strait!” Laut Fox News drohte Trump zudem mit Militärschlägen „ohne Zögern” ('no hesitation'). Die jemenitischen Huthi erklärten am 12.11., eine Pumpstation der saudischen East-West-Pipeline sowie Ölanlagen im Hafen Yanbu angegriffen zu haben. Ein mögliches Treffen zwischen US-Vizepräsident JD Vance und Irans Sicherheitsratssekretär Mohsen Rezaei in Katar wurde von iranischer Seite als „fabricated” (fabriziert) zurückgewiesen." }
-        ]},
-        { h: "Historischer Hintergrund", items: [
-          { tag: "fakt", text: "Der Konflikt eskalierte 2026 zum offenen Krieg mit US-Beteiligung; im April hatte Trump bereits ein 48-Stunden-Ultimatum zur Öffnung der Straße von Hormus gestellt, gefolgt von einem zweiwöchigen Waffenstillstand. Katar vermittelt seit Wochen zwischen den USA und Iran." }
-        ]},
-        { h: "Wirtschaftliche Auswirkungen", items: [
-          { tag: "fakt", text: "Der Brent-Ölpreis stieg am 12.11. um 3,3 % bzw. 3,06 Dollar auf rund 95,80 Dollar je Barrel – eine direkte Reaktion auf Trumps Aussage und die Tankerzwischenfälle. Ein Analyst der TD Securities sagte laut Berichten sinngemäß, die verschlechterte Nachrichtenlage zum Deal lasse wieder eine Risikoprämie in den Ölpreis einfließen.",
-            ask: [{ label: "Mehr zum Ölpreis und zu deutschen Gasspeichern", ref: "s:15" }, { label: "Warum reagiert der Ölpreis auf Geopolitik?", ref: "e:why-oil-up-geo" }] }
-        ]}
-      ],
-      reaction: "Mehr zum Ölpreis, zu OPEC+ und zu deutschen Gasspeichern in Meldung 15, zu den Ukraine-Gesprächen in Meldung 9.",
+      reaction: "Mehr zu Ölpreis, OPEC+ und deutschen Gasspeichern in Meldung 15, zur Ukraine-Diplomatie und dem geplanten Trump-Xi-Putin-Gipfel in Meldung 9.",
       terms: ["brent"],
-      followups: ["e:why-oil-up-geo", "e:hormuz"],
+      followups: ["e:why-oil-up-geo", "e:hormuz", "e:brent-wti"],
       sources: [
-        { title: "Rigzone: US Holds Off Strikes after Qatari Mediation", url: "https://www.rigzone.com/news/wire/us_holds_off_strikes_after_qatari_mediation-10-nov-2026-185048-article/" },
-        { title: "Iran International: Qatar to present Trump with $8 billion Hormuz deal", url: "https://www.iranintl.com/en/202611094583" },
-        { title: "NBC News: Trump says the U.S. doesn't 'need' a deal with Iran", url: "https://nbcnews.com/politics/donald-trump/us-doesnt-need-peace-deal-iran-vance-corruption-trump-rcna609027" },
-        { title: "Bloomberg: Oil Prices Rise After Trump Says US Doesn't Need Iran Deal", url: "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran" },
-        { title: "Iran International: Araghchi denies plans for meeting between Rezaei and Vance", url: "https://www.iranintl.com/en/202611105271" }
+        { title: "Investing.com (Reuters): Iran's navy says three tankers on fire after hitting mines in Hormuz", url: "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556" },
+        { title: "gCaptain: Oil tanker on fire after hitting mine in Hormuz", url: "https://gcaptain.com/oil-tanker-on-fire-after-hitting-mine-in-hormuz/" },
+        { title: "Middle East Eye: Iran denies reports of Rezaei meeting with US Vice President JD Vance", url: "https://www.middleeasteye.net/live-blog/live-blog-update/iran-denies-reports-rezaei-meeting-us-vice-president-jd-vance" },
+        { title: "Jerusalem Post: Iran says oil tanker on fire after naval mine strike in eastern Strait of Hormuz", url: "https://www.jpost.com/middle-east/iran-news/article-914859" }
       ]
     },
-    /* 11 DEFENCE: RHEINMETALL/HENSOLDT/RENK */
+    /* 9 GEOPOLITIK: TRUMP-XI-PUTIN/UKRAINE/BULGARIEN */
     {
-      id: "defence-rheinmetall-gewinnwarnung-hensoldt-renk-11-13", cats: ["defence"], when: "Rheinmetall-Gewinnwarnung · Hensoldt-Kapitalmarkttag 10.11. · RENK 9M-Zahlen",
-      headline: "Rheinmetall-Aktie fällt auf 52-Wochen-Tief nach zweiter Prognosesenkung, Hensoldt hebt Umsatzziel für 2035 an",
-      sec30: "Die Rheinmetall-Aktie fiel diese Woche auf ein neues 52-Wochen-Tief von 742,50 Euro – ein Minus von über 60 % gegenüber dem Rekordhoch von rund 1.963,50 Euro im Januar 2026. Grund ist die zweite Prognosesenkung des Jahres: Rheinmetall senkte sein Umsatzziel 2026 von 13,7 bis 14,2 Mrd. Euro auf rund 13,2 Mrd. Euro, nachdem sich der Boxer-Großauftrag „Arminius” über rund 1.800 Fahrzeuge von Dezember 2026 auf voraussichtlich Februar 2027 verschoben hat. Hensoldt bekräftigte dagegen bei seinem Kapitalmarkttag in London am 10.11. sein Umsatzziel von 6 Mrd. Euro für 2030 und hob erstmals ein Ziel von 10 Mrd. Euro für 2035 aus. RENK meldete einen Auftragseingang von 1,66 Mrd. Euro in den ersten neun Monaten 2026 (+33,6 %) und einen Rekord-Auftragsbestand von 7,6 Mrd. Euro.",
+      id: "trump-xi-putin-gipfel-shenzhen-ukraine-bulgarien-11-19", cats: ["world", "geo"], when: "Gipfel angesetzt 19.11.2026 (APEC 18.-19.11.) · Bulgarien-Ankündigung 13.11.",
+      headline: "Kreml bestätigt erstes Dreiertreffen von Trump, Xi und Putin für den 19.11. in Shenzhen, Bulgarien beendet eigene Waffenlieferungen an die Ukraine",
+      sec30: "Der Kreml-Sprecher Dmitri Peskow bestätigte ein erstes trilaterales Treffen von Wladimir Putin, Xi Jinping und Donald Trump am 19.11.2026 am Rande des APEC-Gipfels in Shenzhen (18.-19.11.); dabei sollen laut Kreml-Angaben auch Fragen einer Ukraine-Regelung sowie nukleare Rüstungskontrolle besprochen werden. Die Ukraine selbst ist nicht eingeladen. Parallel erklärte der bulgarische Ministerpräsident Rumen Radew am 13.11. beim Gipfel der Europäischen Politischen Gemeinschaft in Dublin, Bulgarien werde keine Waffen und Munition aus eigenen Beständen mehr an die Ukraine liefern und sich auch nicht an einer neuen EU-Finanzierungsrunde beteiligen.",
       blocks: [
-        { h: "Was ist bei Rheinmetall passiert?", items: [
-          { tag: "fakt", text: "Die Rheinmetall-Aktie fiel diese Woche auf ein neues 52-Wochen-Tief von 742,50 Euro, gegenüber dem Rekordhoch von rund 1.963,50 Euro im Januar 2026 ein Rückgang von mehr als 60 % (seit Jahresbeginn rund -51 %). Grund ist die zweite Prognosesenkung des Jahres: Das Umsatzziel 2026 sank von 13,7 bis 14,2 Mrd. Euro auf rund 13,2 Mrd. Euro, die operative Marge wird bei rund 18,5 % erwartet. Hauptursache ist die Verschiebung des Boxer-Großauftrags „Arminius” (rund 1.800 Fahrzeuge) von Dezember 2026 auf voraussichtlich Februar 2027." },
-          { tag: "fakt", text: "Neue Order: Belgien bestellte bei Rheinmetall 20 Skyranger-30-Flugabwehrsysteme im dreistelligen Millionenbereich. Analysten sind uneins: Goldman Sachs bestätigte ein Kursziel von 2.300 Euro (Buy), während Bank of America auf Neutral mit Kursziel 900 Euro herabstufte; Citi senkte das Ziel auf 1.099 Euro (Buy), Deutsche Bank auf 1.650 Euro (Buy). Der nächste Kapitalmarkttag ist für den 27.11.2026 angesetzt." }
+        { h: "Was ist für den 19.11. in Shenzhen geplant?", items: [
+          { tag: "fakt", text: "Kreml-Sprecher Dmitri Peskow bestätigte, dass Wladimir Putin, Xi Jinping und Donald Trump am 19.11.2026 am Rande des APEC-Gipfels (18.-19.11. in Shenzhen) ein erstes trilaterales Treffen abhalten werden. Nach Kreml-Angaben sollen Putin und Trump dabei weiter über eine Ukraine-Regelung sprechen; alle drei Seiten sollen zudem Gespräche über ein nukleares Rüstungskontrollabkommen führen." }
         ]},
-        { h: "Was zeigte Hensoldts Kapitalmarkttag?", items: [
-          { tag: "fakt", text: "Hensoldt bekräftigte bei seinem Kapitalmarkttag in London am 10.11. sein Umsatzziel von 6 Mrd. Euro für 2030 und hob erstmals ein Ziel von 10 Mrd. Euro für 2035 an. CEO Oliver Dörre sagte: „Wir werden 2035 einen Umsatz von 10 Milliarden Euro erreichen.” Finanzchef Christian Ladurner erwartet für 2027/2028 ein Wachstum von 15 bis 20 % pro Jahr; die Auftragspipeline für 2027 bis 2032 liegt bei rund 110 Mrd. Euro (ungewichtet). JPMorgan stufte die Aktie auf „Übergewichten” hoch, Kursziel 105 Euro." }
+        { h: "Wie reagiert die Ukraine auf den geplanten Gipfel?", items: [
+          { tag: "unbestaetigt", text: "Berichten zufolge ist die Ukraine zu dem Treffen nicht eingeladen; nach Sekundärberichten äußerte Präsident Selenskyj die Sorge vor einer Entscheidung über die Ukraine ohne ukrainische Beteiligung. Diese Einschätzung stammt aus Sekundärquellen und lässt sich hier nicht gegen eine offizielle ukrainische Erklärung absichern." }
         ]},
-        { h: "Wie entwickelte sich RENK?", items: [
-          { tag: "fakt", text: "RENK meldete für die ersten neun Monate 2026 einen Auftragseingang von 1,66 Mrd. Euro (+33,6 % gegenüber Vorjahr) und einen Rekord-Auftragsbestand von 7,6 Mrd. Euro. Die Übernahme von David Brown Defence wurde am 2.11. abgeschlossen." }
+        { h: "Was hat Bulgarien angekündigt?", items: [
+          { tag: "fakt", text: "Der bulgarische Ministerpräsident Rumen Radew erklärte am 13.11.2026 beim Gipfel der Europäischen Politischen Gemeinschaft in Dublin, Bulgarien werde die Ukraine künftig weder mit Waffen und Munition aus eigenen Armeebeständen versorgen noch sich an einer neuen Runde europäischer Finanzhilfen für die Ukraine beteiligen. Als Begründung nannte Radew ein laufendes EU-Verfahren wegen eines übermäßigen bulgarischen Haushaltsdefizits sowie Engpässe bei den eigenen Reserven." }
         ]},
-        { h: "Wie steht es um die deutsche Verteidigungspolitik?", items: [
-          { tag: "position", text: "Verteidigungsminister Boris Pistorius erklärte am 8.11., die Bundeswehr könne ihren Personalbedarf voraussichtlich ohne Wehrpflicht decken: „Wenn sich der Kurs fortsetzt, haben wir keine Aufwuchsprobleme.” Der Personalstand liegt bei rund 190.000 – dem höchsten Stand seit 13 Jahren –, die Bewerbungen stiegen um 24 %. Der Verteidigungshaushalt 2026 liegt insgesamt über 108 Mrd. Euro, davon 25,51 Mrd. Euro aus dem Sondervermögen Bundeswehr.",
-            ask: [{ label: "Was bedeutet das NATO-Ziel für Verteidigungsausgaben?", ref: "e:nato-target" }] }
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Dass mit Bulgarien erstmals ein Nato- und EU-Mitgliedstaat eigene Waffenlieferungen an die Ukraine explizit mit Verweis auf eigene Haushalts- und Reserveprobleme einstellt, während gleichzeitig ein erstes Dreiertreffen von Trump, Xi und Putin über die Ukraine verhandelt werden soll, zeigt zwei parallele Dynamiken: wachsenden finanziellen Druck auf einzelne Unterstützerstaaten einerseits und eine mögliche Verschiebung der Entscheidungsebene hin zu Gesprächen zwischen Großmächten andererseits." }
         ]}
       ],
-      reaction: "Mehr zur Übernahme von KNDS durch den Bund in Meldung 12.",
+      reaction: "Mehr zu Iran, der Straße von Hormus und dem Ölpreis in Meldung 8 und 15.",
       terms: [],
-      followups: ["e:defence-order", "e:defence-stocks", "e:nato-target"],
+      followups: ["e:why-oil-up-geo", "chain:oil-to-markets"],
       sources: [
-        { title: "Investing.com: Rheinmetall stock price target cut to €1,099 by Citi on guidance concerns", url: "https://www.investing.com/news/stock-market-news/rheinmetall-stock-price-target-cut-to-1099-by-citi-on-guidance-concerns-93CH-5024661" },
-        { title: "MarketScreener: Capital Markets Day – Hensoldt confirms revenue ambition of 6 billion euros for 2030 and aims for 10", url: "https://www.marketscreener.com/news/capital-markets-day-hensoldt-confirms-revenue-ambition-of-6-billion-euros-for-2030-and-aims-for-10-ce785edad88afe27" },
-        { title: "GlobeNewswire: 9M 2026 – RENK's order intake climbs by more than 30%", url: "https://www.globenewswire.com/news-release/2026/11/05/3396028/0/en/9m-2026-renk-s-order-intake-climbs-by-more-than-30-with-further-above-average-increase-in-adjusted-ebit-operating-capacity-ramp-up-in-parallel-to-ongoing-production.html" },
-        { title: "ZDFheute: Pistorius sieht derzeit keinen Bedarf für Wehrpflicht", url: "https://www.zdfheute.de/politik/deutschland/pistorius-bundeswehr-wehrpflicht-freiwillige-anzahl-ausreichend-100.html" }
+        { title: "Anadolu Agency: Kremlin says Putin, Xi, Trump to hold trilateral meeting in Shenzhen on Nov. 19", url: "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290" },
+        { title: "TASS: Putin, Xi Jinping, Trump trilateral summit to be held in Shenzhen on November 19", url: "https://tass.com/politics/2218203" },
+        { title: "t-online.de: Ukraine-Krieg – Nato-Land Bulgarien will Kiew keine Waffen mehr liefern", url: "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101529134/ukraine-krieg-nato-land-bulgarien-will-kiew-keine-waffen-mehr-liefern.html" },
+        { title: "Ukrinform: Bulgaria halts arms and ammunition supplies to Ukraine from its military stockpiles", url: "https://www.ukrinform.net/rubric-polytics/4184679-bulgaria-halts-arms-and-ammunition-supplies-to-ukraine-from-its-military-stockpiles.html" }
       ]
     },
-    /* 12 DEALS: KNDS-BUND-ÜBERNAHME + BASF-EVONIK */
+    /* 10 DEFENCE: RHEINMETALL */
     {
-      id: "knds-bund-uebernahme-basf-evonik-11-13", cats: ["deals", "defence"], when: "KNDS-Einigung Berichte Stand 11.11. · BASF-Evonik-Ablehnung bekräftigt 9.11.",
-      headline: "Bund übernimmt laut Berichten die Hälfte des Rüstungskonzerns KNDS für 6,6 Milliarden Euro, Evonik lehnt BASF-Angebot weiter ab",
-      sec30: "Die Bundesregierung übernimmt laut Berichten für 6,6 Mrd. Euro die Hälfte des deutsch-französischen Rüstungskonzerns KNDS (Leopard-2-Hersteller) von den Eigentümerfamilien, nachdem ein geplanter Börsengang gescheitert war; Vertragsunterzeichnung soll noch im November erfolgen. Parallel bekräftigte Evonik am 9.11. nach einem Treffen mit BASF-Spitzenvertretern seine Ablehnung des auf 24 Euro je Aktie (rund 11,2 Mrd. Euro) erhöhten BASF-Übernahmeangebots und untermauerte dies mit starken Quartalszahlen.",
+      id: "rheinmetall-kursverfall-gewinnwarnung-bvb-11-13", cats: ["defence"], when: "Profitwarnung 4.11. · Kurstief 13.11. · BVB-Trennung 13.11.",
+      headline: "Rheinmetall-Aktie fällt auf 21-Monats-Tief, Borussia Dortmund beendet Sponsoring, Analysten verweisen auf Ukraine-Gesprächsfortschritte",
+      sec30: "Die Rheinmetall-Aktie fiel am Freitag, 13.11., zeitweise auf ein 52-Wochen-Tief von 742,50 Euro und schloss bei 765,50 Euro – rund 60 % unter dem Januar-Rekordhoch von 1.966 Euro. Hintergrund ist laut Berichten die bereits zweite Gewinnwarnung binnen drei Monaten (die fünfte binnen elf Monaten laut JPMorgan) wegen der auf Februar 2027 verschobenen Boxer-Großbestellung „Arminius” sowie Fortschritte bei den US-vermittelten Ukraine-Gesprächen, die laut Marktbeobachtern die eingepreiste „Kriegsprämie” der Rüstungsaktien schmelzen lassen. Zudem bestätigte Borussia Dortmund am 13.11., das Stadion-Sponsoring mit Rheinmetall nach Ablauf im Juni 2027 nicht zu verlängern.",
       blocks: [
-        { h: "Was ist der KNDS-Deal?", items: [
-          { tag: "unbestaetigt", text: "Laut einem als Verschlusssache eingestuften Schreiben des Bundesfinanzministeriums, über das mehrere Medien berichten, übernimmt der Bund die Hälfte der Anteile am Rüstungskonzern KNDS von den Eigentümerfamilien (Wegmann) für 6,6 Mrd. Euro. Der Kaufpreis basiert auf einer Unternehmensbewertung von 11,2 Mrd. Euro aus dem Vorfeld des gescheiterten Börsengangs zuzüglich eines Aufschlags von 1 Mrd. Euro. Vertragsunterzeichnung soll noch im November 2026 erfolgen, der Vollzug im Dezember 2026; zum Redaktionsschluss dieser Ausgabe war laut Berichten noch nicht unterschrieben. Details zu Finanzierung, beteiligten Banken und dem genauen Zeitplan der kartellrechtlichen Prüfung werden in den Quellen nicht genannt." }
+        { h: "Wie hat sich die Rheinmetall-Aktie entwickelt?", items: [
+          { tag: "fakt", text: "Die Rheinmetall-Aktie fiel am Freitag, 13.11.2026, zeitweise auf ein 52-Wochen-Tief von 742,50 Euro und schloss bei 765,50 Euro; am Sonntag wurde der Kurs mit rund 759 Euro angegeben – gut 60 % unter dem Januar-Rekordhoch von 1.966 Euro.",
+            ask: [{ label: "Mehr zu Rheinmetalls Konkurrenten RENK und Hensoldt", ref: "s:11" }] }
         ]},
-        { h: "Wie ist der Stand beim BASF-Evonik-Übernahmeangebot?", items: [
-          { tag: "fakt", text: "BASF hatte sein Angebot für Evonik auf 24 Euro je Aktie erhöht, insgesamt rund 11,2 Mrd. Euro – etwa 39 % über dem Kurs von Ende September, bevor BASFs Interesse bekannt wurde. Nach einem Treffen der Unternehmensspitzen am 7./8.11. bekräftigte Evonik am 9.11. laut Reuters-Berichten erneut seine Ablehnung." },
-          { tag: "position", text: "Evonik erklärte, man habe das Angebot „gründlich geprüft” und entschieden, keine Verhandlungen mit BASF aufzunehmen; man sei lediglich zu einem „rein informativen und vertraulichen Austausch” bereit. BASF-Chef Markus Kamieth nannte den Schritt einen „logischen und sinnvollen Schritt zum richtigen Zeitpunkt”, betonte aber, man werde die Fusion „nicht um jeden Preis” verfolgen, und sicherte zu, betriebsbedingte Kündigungen bis 2032 auszuschließen." },
-          { tag: "fakt", text: "Evonik untermauerte seine Position mit Quartalszahlen: Das bereinigte EBITDA stieg im dritten Quartal um 40 % auf 629 Mio. Euro, der Umsatz um 13 % auf knapp 3,83 Mrd. Euro; die Jahresprognose 2026 wurde auf den oberen Rand der Spanne von 2,0 bis 2,2 Mrd. Euro angehoben.",
-            ask: [{ label: "Was bedeutet EBITDA?", ref: "t:ebitda" }, { label: "Wie laufen Übernahmen typischerweise ab?", ref: "e:ma-steps" }] }
+        { h: "Was war der Hintergrund der jüngsten Gewinnwarnung?", items: [
+          { tag: "fakt", text: "Rheinmetall hatte die Jahresprognose 2026 bereits am 4.11. zum zweiten Mal binnen drei Monaten gesenkt: Umsatz nun rund 13,2 statt 13,7 bis 14,2 Mrd. Euro, operative Marge rund 18,5 statt rund 19 %. Grund ist laut Konzernangaben die Verschiebung der milliardenschweren Boxer-Großbestellung „Arminius” (rund 1.800 Fahrzeuge, nach Angaben von Konzernchef Papperger mit einem Rheinmetall-Anteil von zunächst 12,4 Mrd. Euro, potenziell über 38 Mrd. Euro inklusive Folgeaufträgen) von Dezember 2026 auf frühestens Februar 2027; zusätzlich verzögerten sich Munitions-Abrufe. JPMorgan bezeichnete dies als die fünfte Gewinn- oder Umsatzwarnung binnen elf Monaten.",
+            ask: [{ label: "Mehr zum deutschen Verteidigungshaushalt", ref: "e:nato-target" }] }
+        ]},
+        { h: "Welche Rolle spielen die Ukraine-Gespräche?", items: [
+          { tag: "einordnung", text: "Marktbeobachter führen den Kursrückgang bei Rheinmetall, RENK und Hensoldt zusätzlich auf Fortschritte bei den von den USA vermittelten Ukraine-Gesprächen zurück: Je wahrscheinlicher ein Kriegsende erscheint, desto stärker schmilzt nach dieser Lesart die in Rüstungsaktien eingepreiste „Kriegsprämie”. Ein unterzeichnetes Abkommen oder ein Waffenstillstand liegt nach den vorliegenden Berichten allerdings nicht vor.",
+            ask: [{ label: "Mehr zum geplanten Trump-Xi-Putin-Gipfel", ref: "s:9" }] }
+        ]},
+        { h: "Was ist mit dem BVB-Sponsoring?", items: [
+          { tag: "fakt", text: "Borussia Dortmund bestätigte am 13.11.2026, das seit Mai 2024 laufende, rund 10 Mio. Euro pro Jahr schwere Stadion-Sponsoring mit Rheinmetall nach dessen Auslaufen am 30.6.2027 nicht zu verlängern. Dem waren anhaltende Protestaktionen von Fans vorausgegangen." }
         ]}
       ],
-      deal: { value: "6,6 Mrd. Euro (KNDS, laut Berichten) / 11,2 Mrd. Euro (BASF-Angebot für Evonik, abgelehnt)", buyer: "Bundesregierung (KNDS) / BASF (Evonik-Angebot)", target: "50 % der KNDS-Anteile / Evonik Industries AG", sector: "Rüstung / Spezialchemie", type: "Anteilskauf (KNDS, laut Berichten noch nicht unterschrieben) / abgelehntes Übernahmeangebot (Evonik)" },
-      reaction: "Mehr zu Rheinmetall, Hensoldt und RENK in Meldung 11.",
-      terms: ["ebitda"],
-      followups: ["e:ma-steps"],
+      reaction: "Mehr zu RENK, Hensoldt und der EU-Verteidigungsfinanzierung SAFE in Meldung 11.",
+      terms: [],
+      followups: ["e:defence-stocks", "e:defence-order", "chain:oil-to-markets"],
       sources: [
-        { title: "Handelsblatt: Rüstung – Bund zahlt 6,6 Milliarden Euro für KNDS-Einstieg", url: "https://www.handelsblatt.com/politik/deutschland/ruestung-bund-zahlt-66-milliarden-euro-fuer-knds-einstieg/100268563.html" },
-        { title: "Kettner-Edelmetalle: Panzer-Poker um KNDS – Berlin zahlt 6,6 Milliarden für den Leopard!", url: "https://www.kettner-edelmetalle.de/news/panzer-poker-um-knds-berlin-zahlt-66-milliarden-fur-den-leopard-11-11-2026" },
-        { title: "aktien.news: Evonik lehnt BASF-Übernahmeangebot ab und überzeugt mit starken Quartalszahlen", url: "https://www.aktien.news/evonik-lehnt-basf-ubernahmeangebot-ab-und-uberzeugt-mit-starken-quartalszahlen" },
-        { title: "Handelsblatt: BASF bietet jetzt mehr als elf Milliarden Euro für Evonik", url: "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-basf-bietet-jetzt-mehr-als-elf-milliarden-euro-fuer-evonik/100264522.html" },
-        { title: "onvista: Insider – Evonik will auch nach BASF-Treffen eigenständig bleiben", url: "https://www.onvista.de/news/2026/11-09-insider-evonik-will-auch-nach-basf-treffen-eigenstaendig-bleiben-0-20-26574151" }
+        { title: "wallstreet-online.de: Rheinmetall – Prognose gekappt, Fregattenauftrag unsicher", url: "https://wallstreet-online.de/nachricht/21694341-rheinmetall-sturzflug-prognose-gekappt-fregattenauftrag-unsicher" },
+        { title: "finanzen.ch: Rheinmetall-Aktie – Kursbewegung 13.11.2026", url: "https://www.finanzen.ch/nachrichten/aktien/rheinmetall-aktie-kursbewegung-13-11-2026-1035064641" },
+        { title: "ESPN: Borussia Dortmund, Rheinmetall sponsorship ends", url: "https://www.espn.com/soccer/story/_/id/50473322/borussia-dortmund-rheinmetall-sponsorship-arms-manufacturer" }
       ]
     },
-    /* 13 DEALS/PRIVATE CREDIT: MARVELL-LUMENTUM + PRIVATE CREDIT */
+    /* 11 DEFENCE: RENK/HENSOLDT/BELGIEN/SAFE */
     {
-      id: "marvell-lumentum-private-credit-stress-11-13", cats: ["deals", "credit"], when: "Marvell-Lumentum-Fusion angekündigt 2.11. · KBRA-Report 5.11. · BDC-Daten Q3 2026",
-      headline: "Marvell-Lumentum-Fusion über 115 Milliarden Dollar gilt als „Coin-Flip”, Private-Credit-Markt zeigt zunehmenden Stress",
-      sec30: "Marvell Technology und Lumentum einigten sich am 2.11. auf eine Komplettübernahme im All-Stock-Deal mit einem Umtauschverhältnis von 4,5 Marvell-Aktien pro Lumentum-Aktie, bewertet auf rund 115 Mrd. Dollar. Seit Bekanntwerden der Gespräche fiel die Marvell-Aktie um rund 40 %, Lumentum um rund 35 %; Merger-Arbitrage-Spezialisten sehen die Erfolgswahrscheinlichkeit laut Bloomberg bei nur noch rund 50 %. Parallel meldet die Ratingagentur KBRA einen Anstieg ausfallender Private-Credit-Kreditnehmer um 22 % gegenüber dem Vorquartal auf einen Rekordwert von 112 Kreditnehmern, während nicht börsennotierte BDCs im dritten Quartal 2026 mit 4,1 Mrd. Dollar Netto-Abflüssen das dritte Quartal in Folge mehr Geld verloren als eingesammelt haben.",
+      id: "renk-hensoldt-belgien-safe-finanzierung-11-10", cats: ["defence"], when: "RENK-Zahlen 5.11. · Hensoldt-Kapitalmarkttag 10.11. · Belgien-Order 9.11.",
+      headline: "RENK meldet Rekord-Auftragsbestand, Hensoldt hebt Umsatzziel für 2035 an, Belgien bestellt Flugabwehrsysteme bei Rheinmetall",
+      sec30: "RENK steigerte den Auftragseingang in den ersten neun Monaten 2026 um 33,6 % auf 1,66 Mrd. Euro und meldete einen Rekord-Auftragsbestand von 7,6 Mrd. Euro. Hensoldt bestätigte beim Kapitalmarkttag in London am 10.11. sein 2030-Umsatzziel von 6 Mrd. Euro und hob das Ziel für 2035 erstmals auf 10 Mrd. Euro an. Belgien bestellte am 9.11. 20 Skyranger-30-Flugabwehrsysteme von Rheinmetall im Rahmen seines 3,1-Mrd.-Euro-Luftverteidigungsprogramms „Blue Dome”. Bei der EU-Verteidigungsfinanzierung SAFE haben inzwischen alle 19 teilnehmenden Staaten Kreditvereinbarungen über insgesamt 21,3 Mrd. Euro in der zweiten Runde genehmigt.",
       blocks: [
-        { h: "Was ist der Marvell-Lumentum-Deal?", items: [
-          { tag: "fakt", text: "Marvell Technology und Lumentum einigten sich am 2.11.2026 auf eine Komplettübernahme Lumentums im All-Stock-Deal: Lumentum-Aktionäre erhalten 4,5 Marvell-Aktien je Lumentum-Aktie, eine Prämie von rund 23,9 % auf den unbeeinflussten Schlusskurs vom 28.10. Je nach Quelle wird der Deal auf 115 bis 119 Mrd. Dollar beziffert; nach Abschluss sollen Marvell-Aktionäre rund 67 % und Lumentum-Aktionäre rund 33 % des gemeinsamen Unternehmens halten." }
+        { h: "Was zeigen die RENK-Zahlen?", items: [
+          { tag: "fakt", text: "RENK meldete für die ersten neun Monate 2026 einen Auftragseingang von 1,66 Mrd. Euro (+33,6 % ggü. Vorjahr) und einen Rekord-Auftragsbestand von 7,6 Mrd. Euro (Jahresende 2025: 6,7 Mrd. Euro); der Umsatz stieg um 5,8 % auf 982,0 Mio. Euro. Für das fortgeführte Geschäft nach dem Verkauf der Wälzlager-Sparte an Miba rechnet RENK 2026 mit rund 1,4 Mrd. Euro Umsatz und 240 bis 255 Mio. Euro bereinigtem EBIT.",
+            ask: [{ label: "Mehr zum Kursverfall bei Rheinmetall", ref: "s:10" }] }
         ]},
-        { h: "Wie schätzen Analysten die Erfolgschancen ein?", items: [
-          { tag: "fakt", text: "Seit Bekanntwerden der Gespräche Ende Oktober ist die Marvell-Aktie um rund 40 % gefallen, die Lumentum-Aktie um rund 35 %; Lumentum handelte laut Bloomberg Anfang November mit einem Abschlag von 14 % gegenüber dem impliziten Angebotswert. Bank of America stufte Marvell von „Buy” auf „Neutral” herab und senkte das Kursziel von 400 auf 225 Dollar." },
-          { tag: "position", text: "Bloomberg berichtet, Merger-Arbitrage-Spezialisten sähen die Abschlusswahrscheinlichkeit inzwischen bei rund 50 % („Coin-Flip”); die Bloomberg-Intelligence-Analystin Jennifer Rie nennt die chinesische Kartellprüfung als größtes Zeitrisiko. Der Abschluss wird erst für die erste Hälfte 2028 erwartet.",
-            ask: [{ label: "Was kann bei Übernahmen zwischen Vertragsunterzeichnung und Vollzug schiefgehen?", ref: "e:deal-risks" }] }
+        { h: "Was kündigte Hensoldt an?", items: [
+          { tag: "fakt", text: "Hensoldt bestätigte beim Kapitalmarkttag in London am 10.11.2026 sein Umsatzziel von 6 Mrd. Euro für 2030 und hob das Ziel für 2035 erstmals auf 10 Mrd. Euro an; für 2027/2028 erwartet der Sensorhersteller ein jährliches Umsatzwachstum von 15 bis 20 %. Für 2026 bestätigte Hensoldt eine Umsatzprognose von rund 2,8 Mrd. Euro bei einer bereinigten EBITDA-Marge von rund 19 %.",
+            ask: [{ label: "Was ist das NATO-Ausgabenziel?", ref: "e:nato-target" }] }
         ]},
-        { h: "Wie steht es um den Private-Credit-Markt?", items: [
-          { tag: "fakt", text: "Die Ratingagentur KBRA meldete für ihren November-Report einen Anstieg der Zahl ausfallender Private-Debt-Kreditnehmer auf einen Rekordwert von 112 – ein Plus von 22 % gegenüber dem Vorquartal. Die Non-Accrual-Quote im Direct-Lending-Markt liegt laut Berichten bei rund 2,3 %, im Lower Middle Market bei 1,7 %. Verschiedene Ratingagenturen kommen je nach Methodik – insbesondere je nachdem, ob eine Laufzeitverlängerung als Ausfall gezählt wird – auf Ausfallraten zwischen 2,5 und 6,0 %.",
-            ask: [{ label: "Was ist Private Credit?", ref: "e:private-credit-what" }, { label: "Was bedeutet ein Non-Accrual-Kredit?", ref: "t:non-accrual" }] }
+        { h: "Was hat Belgien bestellt?", items: [
+          { tag: "fakt", text: "Belgien bestellte am 9.11.2026 bei Rheinmetall 20 Skyranger-30-Flugabwehrsysteme im Rahmen seines mit den Niederlanden abgestimmten 3,1-Mrd.-Euro-Luftverteidigungsprogramms „Blue Dome”; die Lieferungen sollen Ende 2028 beginnen. Der Auftragswert liegt im unteren dreistelligen Millionenbereich." }
+        ]},
+        { h: "Wie steht es um die EU-Verteidigungsfinanzierung SAFE?", items: [
+          { tag: "fakt", text: "In der zweiten SAFE-Runde über 21,3 Mrd. Euro haben inzwischen alle 19 teilnehmenden Mitgliedstaaten Kreditvereinbarungen genehmigt, 16 davon unterzeichnet; elf Staaten erhielten bereits eine Vorfinanzierung von 15 % (zusammen rund 13,5 Mrd. Euro). Die EU-Kommission wirbt dafür, einen Teil der Mittel in Kooperationsprojekte mit der Ukraine zu lenken." }
+        ]},
+        { h: "Was bedeutet das?", items: [
+          { tag: "einordnung", text: "Dass RENK und Hensoldt ihre Wachstumsziele trotz der Rheinmetall-Probleme anheben oder bestätigen, während zugleich neue nationale Order wie die belgische Skyranger-Bestellung hinzukommen, deutet darauf hin, dass die Schwäche bei Rheinmetall laut den vorliegenden Daten vor allem unternehmensspezifisch (Lieferverzögerungen) bedingt ist und nicht die gesamte europäische Rüstungsbranche gleichermaßen betrifft." }
+        ]}
+      ],
+      reaction: "Mehr zum Kursverfall bei Rheinmetall und zur Debatte um die „Kriegsprämie” in Meldung 10.",
+      terms: [],
+      followups: ["e:nato-target", "e:defence-order", "e:defence-stocks"],
+      sources: [
+        { title: "GlobeNewswire: 9M 2026 RENK steigert Auftragseingang um mehr als 30 %", url: "https://www.globenewswire.com/news-release/2026/11/05/3396028/0/de/9m-2026-renk-steigert-auftragseingang-um-mehr-als-30-bei-erneut-%C3%BCberproportionalem-anstieg-des-bereinigten-ebit-operativer-kapazit%C3%A4tshochlauf-parallel-zur-laufenden-produktion.html" },
+        { title: "Hensoldt: Capital Markets Day – Hensoldt confirms revenue ambition of €6bn for 2030 and aims for €10bn in 2035", url: "https://www.hensoldt.net/news/capital-markets-day-hensoldt-confirms-revenue-ambition-of-6-billion-euros-for-2030-and-aims-for-10-billion-euros-in-2035" },
+        { title: "hartpunkt.de: Belgien bestellt 20 Flugabwehrsysteme Skyranger-30", url: "https://www.hartpunkt.de/belgien-bestellt-20-flugabwehrsysteme-skyranger-30/" },
+        { title: "Berliner Zeitung: 21,3 Milliarden Euro an SAFE-Krediten – EU-Kommission wirbt für Zusammenarbeit mit der Ukraine", url: "https://www.berliner-zeitung.de/article/213-milliarden-euro-an-safe-krediten-eu-kommission-wirbt-fuer-zusammenarbeit-mit-ukraine-10544507" }
+      ]
+    },
+    /* 12 DEALS: KNDS/UNIPER/MEYER WERFT/BASF-EVONIK */
+    {
+      id: "staatsbeteiligungen-knds-uniper-meyerwerft-basf-evonik-11-13", cats: ["deals", "pe"], when: "KNDS-Berichte 11.-13.11. · Uniper-Bieterrunde laufend · Meyer-Werft/MSC-Unterschrift angekündigt für 17.11. · BASF-Evonik seit 9.11. unverändert",
+      headline: "Bund verhandelt mehrere Staatsbeteiligungen: KNDS-Einstieg, Uniper-Verkauf und mögliche MSC-Übernahme bei Meyer Werft",
+      sec30: "Berichten zufolge zahlt der Bund rund 6,6 Mrd. Euro für einen 50-Prozent-Anteil am Rüstungskonzern KNDS – mehr Anteil als die im Juni vom Haushaltsausschuss gebilligten 7,2 Mrd. Euro für 40 Prozent vorsahen, aber zu einem niedrigeren Gesamtpreis; ein unterzeichneter Vertrag liegt laut Berichten noch nicht vor. Beim Energiekonzern Uniper (99,12 % Bundesanteil) sind Brookfield/CPPIB, Equinor und Centrica in die nächste Bieterrunde für verbindliche Angebote gekommen, nachdem ein KKR/RWE-Konsortium und EPH ausgeschieden waren; der Verkaufswert wird auf bis zu 14 Mrd. Euro taxiert. Beim Schiffbauer Meyer Werft bereiten Bund, Niedersachsen und die Schweizer Reederei MSC laut Berichten eine Unterzeichnung am 17.11. vor, die MSC rund 80 % des Unternehmens übertragen würde. Beim BASF-Übernahmeangebot für Evonik (24 Euro je Aktie, rund 11,2 Mrd. Euro) gibt es seit der Ablehnung durch Evonik am 9.11. keine bestätigte neue Entwicklung.",
+      blocks: [
+        { h: "Was ist beim KNDS-Einstieg des Bundes bekannt?", items: [
+          { tag: "unbestaetigt", text: "Mehreren übereinstimmenden Medienberichten zufolge hat sich der Bund grundsätzlich darauf verständigt, rund 6,6 Mrd. Euro für einen 50-Prozent-Anteil an KNDS (Leopard-/Boxer-Hersteller) zu zahlen und damit die deutschen Eigentümerfamilien (gehalten über die Wegmann-Holding) auszuzahlen. Das ist weniger Geld als die vom Haushaltsausschuss im Juni für einen kleineren Anteil von 40 % gebilligten 7,2 Mrd. Euro, aber ein größerer Anteil. Ein unterzeichneter, ratifizierter Vertrag liegt den Berichten zufolge noch nicht vor.",
+            ask: [{ label: "Was passiert bei Übernahmen zwischen Unterzeichnung und Vollzug?", ref: "e:deal-risks" }] }
+        ]},
+        { h: "Was treibt die Uniper-Privatisierung?", items: [
+          { tag: "fakt", text: "Beim mehrheitlich dem Bund gehörenden Energiekonzern Uniper (99,12 % Anteil über das Bundesfinanzministerium) sind laut Berichten Brookfield (mit CPPIB), Equinor und Centrica in die nächste Bieterrunde für verbindliche Angebote gekommen; ein Konsortium aus KKR und RWE sowie der tschechische Investor Daniel Křetínskys EPH schieden zuvor aus. Der Verkaufswert wird auf bis zu 14 Mrd. Euro einschließlich Nettoliquidität taxiert; gesetzlich muss der Bund maximal 25 % plus eine Aktie zurückbehalten, eine Mehrheitsveräußerung ist bis Ende 2028 vorgeschrieben.",
+            ask: [{ label: "Was ist ein Enterprise Value?", ref: "t:enterprise-value" }] }
+        ]},
+        { h: "Was ist bei der Meyer Werft geplant?", items: [
+          { tag: "unbestaetigt", text: "Berichten zufolge bereiten Bund, das Land Niedersachsen und die Schweizer Reederei MSC eine Unterzeichnung am Dienstag, 17.11.2026, vor, mit der MSC das Recht erhalten würde, rund 80 % der Meyer Werft (Papenburg) zu übernehmen – den Anteil, den Bund und Niedersachsen Ende 2024 im Zuge einer Rettungsaktion übernommen hatten. Die Meyer-Familie würde die verbleibenden rund 20 % halten. Der Auftragsbestand der Werft wird mit bis zu 10 Mrd. Euro angegeben. Die beteiligten Parteien haben dies zum Zeitpunkt der Berichte noch nicht offiziell bestätigt." }
+        ]},
+        { h: "Was ist beim BASF-Angebot für Evonik neu?", items: [
+          { tag: "fakt", text: "Beim Übernahmeangebot von BASF für Evonik (24 Euro je Aktie, rund 11,2 Mrd. Euro) gibt es seit der Ablehnung durch den Evonik-Vorstand am 9.11. keine neue bestätigte Entwicklung; Evonik hatte zuvor für das dritte Quartal 2026 einen um rund 40 % auf 629 Mio. Euro gestiegenen operativen Gewinn bei weiterhin negativem Nettoergebnis (-53 Mio. Euro) gemeldet und seine Jahresprognose angehoben. Die RAG-Stiftung als größte Evonik-Aktionärin (über 40 % der Anteile) berät weiterhin über ihre Haltung zu dem Angebot." }
+        ]}
+      ],
+      reaction: "Mehr zum Marvell-Lumentum-Deal und zum Private-Credit-Stress in Meldung 13.",
+      terms: ["enterprise-value", "ebitda"],
+      followups: ["e:ma-steps", "e:ev-ebitda", "e:deal-risks"],
+      sources: [
+        { title: "hessenschau.de: Bericht – Bund zahlt 6,6 Milliarden für Einstieg bei Rüstungskonzern KNDS", url: "https://www.hessenschau.de/wirtschaft/bericht-bund-zahlt-66-milliarden-fuer-einstieg-bei-ruestungskonzern-knds-v1,knds-bund-100.html" },
+        { title: "energyconnects.com: Centrica, Equinor in next round of Germany's Uniper sale", url: "https://www.energyconnects.com/news/utilities/2026/november/centrica-equinor-in-next-round-of-germany-s-uniper-sale/" },
+        { title: "kreuzfahrttester.com: MSC-Übernahme Meyer Werft", url: "https://kreuzfahrttester.com/2026/11/15/msc-uebernahme-meyer-werft/" },
+        { title: "Handelsblatt: Evonik steigert operativen Gewinn und betont Eigenständigkeit", url: "https://www.handelsblatt.com/unternehmen/industrie/quartalszahlen-evonik-steigert-operativen-gewinn-und-betont-eigenstaendigkeit/100265237.html" }
+      ]
+    },
+    /* 13 DEALS/PRIVATE CREDIT: MARVELL-LUMENTUM/KBRA */
+    {
+      id: "marvell-lumentum-spread-private-credit-stress-11-13", cats: ["deals", "credit"], when: "Deal angekündigt 2.11. · KBRA-Report 5.11. · Q3-BDC-Daten",
+      headline: "Kursverfall lässt Spread bei der Marvell-Lumentum-Fusion auf fast 20 Prozent steigen, Private-Credit-Ausfälle erreichen Rekordwert",
+      sec30: "Die am 2.11. vereinbarte All-Stock-Fusion von Marvell und Lumentum (ursprünglich rund 115 Mrd. Dollar Unternehmenswert, Umtauschverhältnis 4,5 Marvell-Aktien je Lumentum-Aktie) steckt durch den starken Kursverfall beider Aktien seit Bekanntwerden in Schwierigkeiten: Der implizite Angebotswert ist von rund 1.132 auf etwa 601 Dollar je Lumentum-Aktie gefallen, der Deal-Spread liegt bei rund 19,7 % – ungewöhnlich hoch für einen bereits unterzeichneten, vorstandsgebilligten Deal. Bank of America stufte Marvell auf „Neutral” herab. Parallel meldet die Ratingagentur KBRA einen Rekordwert von 112 ausfallenden Private-Credit-Kreditnehmern (+22 % ggü. Vorquartal), während nicht börsennotierte BDCs im dritten Quartal 2026 mit 4,1 Mrd. Dollar Netto-Abflüssen das dritte Quartal in Folge mehr Geld verloren als eingesammelt haben.",
+      blocks: [
+        { h: "Wie steht es um die Marvell-Lumentum-Fusion?", items: [
+          { tag: "fakt", text: "Marvell und Lumentum vereinbarten am 2.11.2026 eine All-Stock-Fusion mit einem Umtauschverhältnis von 4,5 Marvell-Aktien je Lumentum-Aktie, ursprünglich mit einem impliziten Angebotswert von rund 1.132 Dollar je Lumentum-Aktie und einem Unternehmenswert von rund 115 Mrd. Dollar bewertet (rund 23,9 % Prämie auf den unbeeinflussten Schlusskurs vom 28.10.). Seit Bekanntwerden ist die Marvell-Aktie massiv gefallen, wodurch der implizite Angebotswert auf rund 601 Dollar je Lumentum-Aktie gesunken ist; Lumentum selbst handelt mit einem Abschlag von rund 19,7 % darauf – ein ungewöhnlich großer Spread für einen bereits unterzeichneten Deal.",
+            ask: [{ label: "Was kann bei Übernahmen zwischen Unterzeichnung und Vollzug schiefgehen?", ref: "e:deal-risks" }] }
+        ]},
+        { h: "Wie reagieren Analysten und Anleger?", items: [
+          { tag: "fakt", text: "Bank of America stufte Marvell von „Buy” auf „Neutral” herab und senkte das Kursziel von 400 auf 225 Dollar, mit Verweis auf Verwässerungsrisiken durch die All-Stock-Struktur. Lumentum-Chef Michael Hurlston räumte ein, das Timing des Deals sei „schlecht” gewesen. Anwaltskanzleien für Aktionärsrechte prüfen laut Berichten, ob der Lumentum-Vorstand eine zu niedrige Prämie akzeptiert hat; eine Klage ist bislang nicht bestätigt.",
+            ask: [{ label: "Was ist ein EBITDA?", ref: "t:ebitda" }] }
+        ]},
+        { h: "Wie stark ist der Private-Credit-Markt unter Druck?", items: [
+          { tag: "fakt", text: "Die Ratingagentur KBRA meldete für ihren November-Report einen Rekordwert von 112 ausfallenden Private-Debt-Kreditnehmern (+22 % ggü. Vorquartal) unter mehr als 3.000 untersuchten Mittelstandsunternehmen mit zusammen über 1,4 Billionen Dollar Direct-Lending-Schulden; die Ausfallquote nach Kreditnehmerzahl liegt bei rund 3,6 %. Im Lower Middle Market liegt die Ausfallquote mit 5,8 % deutlich höher als im Gesamtportfolio.",
+            ask: [{ label: "Was ist Private Credit?", ref: "e:private-credit-what" }] }
         ]},
         { h: "Was zeigen die BDC-Fundraising-Daten?", items: [
-          { tag: "fakt", text: "Nicht börsennotierte Business Development Companies (BDCs) sammelten im dritten Quartal 2026 laut Robert A. Stanger & Co. nur 1,5 Mrd. Dollar ein – der niedrigste Quartalswert seit Ende 2020 (-87 % gegenüber Vorjahr); gleichzeitig überstiegen Rücknahmen die Neumittel um netto 4,1 Mrd. Dollar, das dritte Quartal in Folge mit Netto-Abflüssen. Stanger-Chef Kevin Gannon erklärte sinngemäß, der nicht börsennotierte BDC-Markt schrumpfe, weil Anleger Kapital abziehen, nicht wegen einer breiten Verschlechterung der Nettoinventarwerte." }
+          { tag: "fakt", text: "Nicht börsennotierte BDCs sammelten im dritten Quartal 2026 nur 1,5 Mrd. Dollar ein – 87 % weniger als im Vorjahresquartal und der niedrigste Wert seit Ende 2020 – bei gleichzeitigen Netto-Abflüssen von 4,1 Mrd. Dollar, dem dritten Quartal in Folge mit mehr Rücknahmen als Neugeld. Sponsoren erfüllten im Schnitt nur 40 % der Rücknahmeanträge, geschätzt 8,2 Mrd. Dollar an Anträgen blieben unerfüllt." }
         ]}
       ],
-      deal: { value: "115 Mrd. $ (je nach Quelle bis 119 Mrd. $)", buyer: "Marvell Technology", target: "Lumentum", sector: "Halbleiter/Optik (KI-Infrastruktur)", type: "All-Stock-Fusion, Abschluss erwartet H1 2028" },
-      reaction: "Mehr zu Nvidia und zur KI-Branche in Meldung 14.",
-      terms: ["ebitda", "non-accrual", "bdc", "sofr"],
-      followups: ["e:deal-risks", "e:private-credit-what", "e:redemption-limits", "e:nonaccrual-default"],
+      deal: { value: "~115 Mrd. $ bei Ankündigung; impliziter Wert durch Kursverfall auf rund 601 $ je Lumentum-Aktie gesunken, Deal-Spread ~19,7 %", buyer: "Marvell Technology", target: "Lumentum", sector: "Halbleiter/Optik (KI-Infrastruktur)", type: "All-Stock-Fusion, Abschluss erwartet H1 2028" },
+      reaction: "Mehr zu Nvidia und zur KI-Chipbranche in Meldung 14.",
+      terms: ["ebitda", "non-accrual", "bdc"],
+      followups: ["e:deal-risks", "e:private-credit-what", "e:redemption-limits"],
       sources: [
-        { title: "Bloomberg: Marvell-Lumentum deal odds near coin-flip as AI trade shudders", url: "https://www.bloomberg.com/news/articles/2026-11-09/marvell-lumentum-deal-odds-near-coin-flip-as-ai-trade-shudders" },
-        { title: "TradingView/Benzinga: Marvell's $115 Billion Lumentum Deal Faces 50-50 Odds: Report", url: "https://www.tradingview.com/news/benzinga:04e8ee0b0094b:0-marvell-s-115-billion-lumentum-deal-faces-50-50-odds-report/" },
-        { title: "Bloomberg: Private Credit Defaults Surge, Lower Middle-Market Companies See Higher Rates", url: "https://www.bloomberg.com/news/articles/2026-11-05/private-credit-defaults-record-largest-quarterly-jump-kbra-says" },
-        { title: "AltsWire: Nontraded BDC Net Outflows Reach $4.1B in Q3 as Fundraising Falls to Lowest Level Since 2020", url: "https://altswire.com/nontraded-bdc-net-outflows-reach-4-1b-in-q3-as-fundraising-falls-to-lowest-level-since-2020/" }
+        { title: "TikR: Marvell's Lumentum deal is dangerously myopic – Lumentum is down 25% in two days", url: "https://www.tikr.com/blog/marvells-lumentum-deal-is-dangerously-myopic-lumentum-is-down-25-in-two-days" },
+        { title: "Investing.com: Marvell stock downgraded by BofA on Lumentum deal concerns", url: "https://www.investing.com/news/analyst-ratings/marvell-stock-downgraded-by-bofa-on-lumentum-deal-concerns-93CH-4994008" },
+        { title: "AltsWire: Nontraded BDC net outflows reach $4.1B in Q3 as fundraising falls to lowest level since 2020", url: "https://altswire.com/nontraded-bdc-net-outflows-reach-4-1b-in-q3-as-fundraising-falls-to-lowest-level-since-2020/" },
+        { title: "Bloomberg: Private credit defaults surge, lower middle-market companies see higher rates", url: "https://www.bloomberg.com/news/articles/2026-11-05/private-credit-defaults-record-largest-quarterly-jump-kbra-says" }
       ]
     },
-    /* 14 TECHNOLOGIE: NVIDIA/HUANG + ANTHROPIC-IPO */
+    /* 14 TECHNOLOGIE: NVIDIA/HUANG/ANTHROPIC */
     {
-      id: "nvidia-huang-ruecktritt-anthropic-ipo-11-13", cats: ["tech"], when: "Huang-Rücktritt 12.11. · Anthropic-Pricing geplant 18.11., Handelsstart 19.11.",
-      headline: "Nvidia-Gründer Jensen Huang tritt nach 33 Jahren zurück, Anthropics Börsengang mit bis zu 1,4 Billionen Dollar Bewertung rückt näher",
-      sec30: "Nach Berichten über eine Affäre mit einer mutmaßlich chinesischen Geschäftsfrau und einer von Präsident Trump am 9.11. erwähnten FBI-Prüfung trat Jensen Huang am 12.11. als Präsident, CEO und Boardmitglied von Nvidia zurück – nach 33 Jahren im Amt. Interimistisch übernimmt Finanzchefin Colette Kress. Die Nvidia-Aktie fiel am Rücktrittstag um 4,3 % auf 166,19 Dollar. Parallel bereitet Anthropic seinen Börsengang an der Nasdaq vor: Die Preisspanne liegt bei 70 bis 78 Dollar je Aktie, Pricing ist für den 18.11. und Handelsstart für den 19.11. geplant, bei einer Bewertung von bis zu 1,4 Billionen Dollar.",
+      id: "nvidia-huang-kongress-anthropic-ipo-ueberzeichnet-11-13", cats: ["tech"], when: "Anhörungen angesetzt 1.-3.12. · Anthropic-Pricing 18.11., Handelsstart 19.11.",
+      headline: "Nvidia-Gründer Huang muss vor dem Kongress aussagen, Anthropics Börsengang ist sechsfach überzeichnet",
+      sec30: "Der Senatsausschuss für Bankwesen (Vorsitz: Tim Scott) lud Jensen Huang und US-Handelsminister Howard Lutnick für den 3.12. zu einer öffentlichen Anhörung vor, drei Ausschüsse des Repräsentantenhauses für den 1./2.12.; als Grund nennen die Ausschüsse „nationale Sicherheitsbedenken” im Zusammenhang mit Huangs Rücktritt. Singapurs Innenministerium erklärte, es habe nach Prüfung durch die Generalstaatsanwaltschaft nicht genügend Beweise, um die als mutmaßliche Spionin verdächtigte Geschäftsfrau Alice Huang strafrechtlich zu verfolgen – verhängte aber eine Verwarnung und ein Wiedereinreiseverbot. Parallel ist Anthropics Börsengang an der Nasdaq (Preisspanne 70 bis 78 Dollar, Pricing 18.11., Handelsstart 19.11.) nach Berichten rund sechsfach überzeichnet.",
       blocks: [
-        { h: "Was ist bei Nvidia passiert?", items: [
-          { tag: "fakt", text: "Nach Medienberichten über eine Affäre Huangs mit einer mutmaßlich chinesischen Geschäftsfrau und Präsident Trumps Aussage vom 9.11., das FBI ermittele, trat Jensen Huang am 12.11.2026 als Präsident, CEO und Boardmitglied von Nvidia zurück – bestätigt per SEC-Mitteilung (Form 8-K) und Nvidia-Pressemitteilung. In seinem Rücktrittsschreiben erklärte Huang: „There is no excuse for what I did.” Interimistisch übernahm die bisherige Finanzchefin Colette Kress die Führung." },
-          { tag: "unbestaetigt", text: "Der Spionagevorwurf selbst bleibt umstritten: Singapur erklärte am 12.11., es gebe keine ausreichenden Beweise für eine Strafverfolgung; US-Justizminister Todd Blanche sagte, das Ministerium habe noch keine abschließende Erkenntnis. Senatsausschuss (Banking) und ein Ausschuss des Repräsentantenhauses (Foreign Affairs) haben Huang und Handelsminister Lutnick für Anhörungen Anfang Dezember vorgeladen." },
-          { tag: "fakt", text: "Die Nvidia-Aktie fiel am 12.11. um 4,3 % auf 166,19 Dollar, zeitweise unter 150 Dollar – weit unter dem Oktober-Rekordhoch von rund 243 Dollar.",
-            ask: [{ label: "Mehr zur Marktreaktion", ref: "s:2" }] }
+        { h: "Was ist bei den Kongressanhörungen zu Huang bekannt?", items: [
+          { tag: "fakt", text: "Der Vorsitzende des Senatsausschusses für Bankwesen, Tim Scott, forderte Jensen Huang und Handelsminister Howard Lutnick auf, am 3.12.2026 öffentlich vor dem Ausschuss auszusagen, und drohte im Weigerungsfall mit einer Vorladung per Subpoena. Drei Ausschüsse des Repräsentantenhauses luden Huang und Nvidias Chefjustiziar Tim Teter zusätzlich für den 1./2.12. vor. Als Begründung werden „nationale Sicherheitsbedenken” im Zusammenhang mit den Spionagevorwürfen genannt.",
+            ask: [{ label: "Mehr zum Rücktritt und zur Marktreaktion", ref: "s:2" }] }
         ]},
-        { h: "Wie steht es um Anthropics Börsengang?", items: [
-          { tag: "fakt", text: "Anthropic legte für seinen Börsengang an der Nasdaq (Ticker: ANT) eine Preisspanne von 70 bis 78 Dollar je Aktie fest, bei 825 Mio. Class-A-Aktien. Die Preisfestsetzung ist für den 18.11. geplant, der Handelsstart für den 19.11.; bei einer Bewertung von bis zu 1,4 Billionen Dollar (voll verwässert) könnte der Erlös am oberen Rand der Spanne rund 64 Mrd. Dollar betragen." },
-          { tag: "fakt", text: "Parallel zum Börsengang investieren sieben Technologiekonzerne im Rahmen einer Privatplatzierung über insgesamt 26 Mrd. Dollar: Nvidia und Google/Alphabet je rund 10 Mrd. Dollar, AMD 2,5 Mrd. Dollar, Micron und Broadcom je 1 Mrd. Dollar, Microsoft 1 Mrd. Dollar; TSMC investiert separat bis zu 1 Mrd. Dollar, aufgeteilt auf Anthropic und OpenAI-Vorzugsaktien.",
-            ask: [{ label: "Was ist zirkuläre Finanzierung in der KI-Branche?", ref: "e:circular-financing" }] },
-          { tag: "unbestaetigt", text: "Bloomberg berichtet, Nvidias Investitionszusage stehe wegen Huangs Rücktritt nun unter verstärkter Beobachtung; ob sich dadurch Konditionen oder Zeitplan ändern, ist in den Quellen nicht benannt." }
+        { h: "Was ergab die Prüfung in Singapur?", items: [
+          { tag: "unbestaetigt", text: "Singapurs Innenministerium erklärte, Polizei und Generalstaatsanwaltschaft hätten nicht genügend Beweise gefunden, um die als mutmaßliche Spionin verdächtigte Geschäftsfrau Alice Huang wegen der Spionagevorwürfe strafrechtlich zu verfolgen. Sie erhielt dennoch eine förmliche Verwarnung wegen ungenauer Angaben während der Ermittlungen und ein Verbot der Wiedereinreise nach Singapur; Ermittlungen gegen das Unternehmen Megaspeed und sechs weitere Personen laufen laut Singapur weiter. Der eigentliche Spionagevorwurf bleibt damit unbewiesen, aber auch nicht ausgeräumt.",
+            ask: [{ label: "Was ist zirkuläre Finanzierung in der KI-Branche?", ref: "e:circular-financing" }] }
         ]},
-        { h: "Wie reagierte die übrige Chipbranche?", items: [
-          { tag: "fakt", text: "AMD stieg am 12.11. um 5,86 % auf 562,44 Dollar, Broadcom um 5,54 % auf rund 364 Dollar; William Blair stufte AMD auf „Outperform” hoch, Bank of America erhöhte das Kursziel auf 700 Dollar. TSMC erholte sich nach vorherigen Kursverlusten um rund 4 % nach Bekanntwerden der Anthropic/OpenAI-Investition." },
-          { tag: "fakt", text: "Die addierten Investitionsausgaben (Capex) von Amazon, Alphabet, Microsoft und Meta erreichten im dritten Quartal 2026 mit 201,9 Mrd. Dollar einen Rekordwert; Meta erhöhte seine Jahresprognose 2026 auf 125 bis 145 Mrd. Dollar.",
-            ask: [{ label: "Was treibt die hohen KI-Investitionen?", ref: "e:ai-capex" }] }
+        { h: "Wer leitet Nvidia aktuell, und wie geht die Suche weiter?", items: [
+          { tag: "fakt", text: "Finanzchefin Colette Kress führt Nvidia interimistisch unter Beibehaltung ihres CFO-Titels; der neue Verwaltungsratsvorsitzende Harvey Jones äußerte „volles Vertrauen” in Kress und das Führungsteam. Nvidia erklärte, bislang weder eine Personalberatung beauftragt noch Kandidaten offiziell kontaktiert zu haben; kursierende Namen (intern u. a. Kress selbst, extern u. a. Apple-Chef Tim Cook) bezeichnete das Unternehmen als verfrüht." }
+        ]},
+        { h: "Wie läuft Anthropics Börsengang?", items: [
+          { tag: "fakt", text: "Anthropics Orderbuch war laut Berichten bis zum dritten Tag der Roadshow rund sechsfach überzeichnet – mehr als bei frühen Vergleichswerten wie dem SpaceX-Börsengang. Die Preisspanne liegt weiterhin bei 70 bis 78 Dollar je Aktie (825 Mio. Class-A-Aktien), Pricing ist für den 18.11., der Handelsstart für den 19.11. an der Nasdaq (Ticker: ANT) geplant; rund 20 % der Aktien sind für Privatanleger reserviert. Am oberen Rand der Spanne könnte der Erlös aus Börsengang und begleitender Privatplatzierung zusammen bis zu 90,4 Mrd. Dollar erreichen." }
         ]}
       ],
-      reaction: "Mehr zur Marktreaktion in Meldung 2, zum Marvell-Lumentum-Deal und zur Chipbranche in Meldung 13.",
+      reaction: "Mehr zur Marktreaktion bei Nvidia, AMD und Broadcom in Meldung 2.",
       terms: ["hyperscaler", "gigawatt"],
       followups: ["e:ai-capex", "e:circular-financing", "e:custom-chips"],
       sources: [
-        { title: "NVIDIA Investor Relations: NVIDIA Announces CEO Transition", url: "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/" },
-        { title: "Washington Post: Jensen Huang resigns as Nvidia CEO after affair with alleged spy", url: "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/" },
-        { title: "CNBC: Anthropic sets price range of $70 to $78 in upcoming IPO", url: "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html" },
-        { title: "Fortune: Anthropic sets IPO range valuing it at up to $1.4 trillion", url: "https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/" },
-        { title: "Bloomberg: Anthropic IPO – Claude Maker Seeks Up to $1.5 Trillion Valuation", url: "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-targets-64-4-billion-ipo-nearing-spacex-s-record" }
+        { title: "Fortune: Senate Banking Committee summons Nvidia's Huang, Commerce's Lutnick", url: "https://fortune.com/2026/11/13/senate-banking-committee-nvidia-jensen-huang-howard-lutnick/" },
+        { title: "Al Jazeera: Nvidia's Huang, Lutnick summoned to testify to US Senate", url: "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate" },
+        { title: "The Star: Singapore says it found insufficient evidence to prosecute Alice Huang", url: "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/13/singapore-says-it-found-insufficient-evidence-to-prosecute-alice-huang-the-alleged-spy-in-nvidia-scandal" },
+        { title: "Semafor: Investors are hungry for Anthropic's IPO despite tech pullback", url: "https://www.semafor.com/article/11/13/2026/investors-are-hungry-for-anthropics-ipo-despite-tech-pullback" }
       ]
     },
-    /* 15 ENERGIE: BRENT/OPEC+/GASSPEICHER */
+    /* 15 ENERGIE: BRENT/OPEC+/GASSPEICHER/DUNKELFLAUTE */
     {
-      id: "energie-brent-opec-gasspeicher-ttf-11-13", cats: ["energy"], when: "OPEC+-Entscheidung 1./2.11. · IEA-Bericht 13.11. · Gasspeicherstand Bundesnetzagentur 13.11.",
-      headline: "IEA erwartet erstmals seit Kriegsbeginn einen Ölüberschuss, deutsche Gasspeicher bleiben historisch niedrig gefüllt",
-      sec30: "Brent-Rohöl hält sich am Freitag bei rund 95,8 Dollar je Barrel, nachdem die Internationale Energieagentur (IEA) am 13.11. erstmals seit Beginn des Iran-Kriegs einen möglichen Angebotsüberschuss am Ölmarkt meldete. OPEC+ hatte die Fördermenge für Dezember bereits am 1./2.11. unverändert bei rund 31 Mio. Barrel pro Tag gelassen; das nächste Treffen zu den Januar-Quoten ist für den 29.11. angesetzt. Die deutschen Gasspeicher lagen laut Bundesnetzagentur am 13.11. bei 57,7 % Füllstand (142,7 TWh) – deutlich unter dem Zielwert von 80 % zum 1.11. und dem niedrigsten November-Stand seit Jahren. Der europäische Gaspreis TTF lag zuletzt bei rund 89,45 Euro je Megawattstunde.",
+      id: "oelpreis-opec-gasspeicher-dunkelflaute-11-13", cats: ["energy"], when: "Brent-Settlement Fr 13.11. · OPEC+-Treffen für 29.11. angesetzt · Dunkelflaute 9./10.11.",
+      headline: "Brent fällt zweite Woche in Folge, deutsche Gasspeicher bleiben historisch niedrig, eine Dunkelflaute treibt den Strompreis auf Jahreshoch",
+      sec30: "Brent-Rohöl schloss den Freitag bei 95,84 Dollar je Barrel (WTI: 88,56 Dollar) – die zweite Woche in Folge mit einem Rückgang von jeweils rund 2,5 %. OPEC+ bereitet für den 29.11. eine Entscheidung über die Fördermengen für 2027 vor, die auch von einer verzögerten Kapazitätsprüfung abhängt. Die deutschen Gasspeicher lagen laut Bundesnetzagentur am 13.11. bei 57,7 % Füllstand (142,7 TWh) – weiterhin deutlich unter dem Zielwert von 80 % zum 1.11. Eine Dunkelflaute ließ den deutschen Stromtagesdurchschnitt am 10.11. auf 357,56 Euro je Megawattstunde steigen, den höchsten Tageswert des Jahres 2026; der 15-Minuten-Spitzenpreis lag am 9.11. bei über 650 Euro.",
       blocks: [
-        { h: "Wie hat sich der Ölpreis entwickelt, und warum?", items: [
-          { tag: "fakt", text: "Brent-Rohöl war am Dienstag auf rund 93,50 Dollar gestiegen (+2,3 %) nach neuen Tankerzwischenfällen in der Straße von Hormus und zog am Mittwoch nach Trumps Absage an einen Iran-Deal auf rund 95,80 Dollar weiter an (+3,3 %, mehr in Meldung 10). Am Freitag notiert Brent mit rund 95,5 bis 96,3 Dollar je Zeitpunkt leicht niedriger; binnen 30 Tagen ist der Preis dennoch um rund 9 % gefallen, liegt aber weiterhin gut 50 % über dem Niveau vor einem Jahr." },
-          { tag: "fakt", text: "Die Internationale Energieagentur (IEA) meldete am 13.11. erstmals seit Beginn des Iran-Kriegs einen möglichen Angebotsüberschuss: Das globale Ölangebot stieg im Oktober um 2,3 Mio. Barrel pro Tag auf 105,4 Mio. Barrel, getragen von erholten Golf-Exporten trotz des fortbestehenden Konflikts; für das vierte Quartal wird nun ein Überschuss von rund 2 Mio. Barrel pro Tag erwartet, statt des zuvor erwarteten Defizits.",
+        { h: "Wie hat sich der Ölpreis entwickelt?", items: [
+          { tag: "fakt", text: "Brent-Rohöl schloss den Freitag, 13.11.2026, bei 95,84 Dollar je Barrel (+0,02 Dollar), WTI bei 88,56 Dollar (-0,18 Dollar); beide Sorten verzeichneten damit die zweite Woche in Folge einen Rückgang von jeweils rund 2,5 %. US-Diesel fiel am Samstag erstmals seit zwei Monaten unter 6 Dollar je Gallone.",
             ask: [{ label: "Was ist ein Öl-Future?", ref: "t:oil-future" }] }
         ]},
-        { h: "Was entscheidet OPEC+?", items: [
-          { tag: "fakt", text: "Die OPEC+-Kernallianz aus sieben Ländern (Saudi-Arabien, Russland, Irak, VAE, Kuwait, Kasachstan, Oman) beschloss bereits am 1./2.11., die Fördermenge für Dezember unverändert bei rund 31 Mio. Barrel pro Tag zu lassen – wie bereits im September, Oktober und November. Das nächste Treffen zu den Januar-2027-Quoten ist für Sonntag, den 29.11.2026, angesetzt.",
+        { h: "Was entscheidet OPEC+ am 29.11.?", items: [
+          { tag: "fakt", text: "Die Fördermenge für Dezember bleibt unverändert bei rund 31 Mio. Barrel pro Tag. Am 29.11.2026 trifft sich die vollständige, 21 Länder umfassende OPEC+-Gruppe, um die Fördermengen für 2027 festzulegen – eine weitreichendere Entscheidung als die bisherigen Monatsverlängerungen. Voraussetzung ist eine Kapazitätsprüfung, die ursprünglich Ende September fällig war, sich durch die Kriegsfolgen im Iran aber verzögerte und laut Berichten „in den kommenden Tagen” vor Mitte November abgeschlossen werden sollte. Offen ist, ob die OPEC+ die noch bis Ende 2026 laufenden Förderkürzungen von rund 2 Mio. Barrel pro Tag auslaufen lässt.",
             ask: [{ label: "Was ist OPEC+?", ref: "t:opec-plus" }] }
         ]},
         { h: "Wie ist die Lage bei den deutschen Gasspeichern?", items: [
-          { tag: "fakt", text: "Die deutschen Gasspeicher lagen laut Bundesnetzagentur am 13.11.2026 bei 57,7 % Füllstand (142,7 TWh) – deutlich unter dem für den 1.11. vorgesehenen Zielwert von 80 % und niedriger als in allen Novembern seit mindestens 2022 (November 2025: 75,1 %).",
-            ask: [{ label: "Was ist der TTF-Preis?", ref: "t:ttf" }] },
-          { tag: "position", text: "Die Bundesnetzagentur erklärte, die Gasversorgung in Deutschland sei stabil und die Versorgungssicherheit gewährleistet; das Erreichen der Zielwerte sei dafür nicht zwingend notwendig, da auch Pipeline-Importe, LNG-Kapazität und Nachfragesteuerung zählten. Der Speicherverband INES warnte dagegen vor möglichen Engpässen bei einem außergewöhnlich kalten Winter." }
+          { tag: "fakt", text: "Die deutschen Gasspeicher lagen laut Bundesnetzagentur am 13.11.2026 bei 57,7 % Füllstand (142,7 TWh) – rund 9 Prozentpunkte unter dem gesetzlichen Zielwert von 80 % zum 1.11. und auf einem 15-Jahres-Tief für diesen Zeitpunkt der Saison. Pipeline-Importe lagen in der Woche vom 5. bis 11.11. bei 17,5 TWh, die Auslastung der LNG-Terminals bei 35,5 %.",
+            ask: [{ label: "Was ist der TTF-Preis?", ref: "t:ttf" }] }
         ]},
-        { h: "Wie ist die Lage bei TTF und den Strompreisen?", items: [
-          { tag: "unbestaetigt", text: "Der europäische Gaspreis TTF schwankte zuletzt zwischen rund 84,31 Euro je Megawattstunde (9.11.) und 89,45 Euro (12.11.) – ein plausibler Tagesausschlag, aber kein einheitlicher aktueller Punktwert für den 13.11. in den gesichteten Quellen." },
-          { tag: "fakt", text: "Der deutsche Börsenstrompreis schoss am 9.11. wegen einer Dunkelflaute (geringer Wind- und Solarproduktion) zeitweise auf 644 Euro je Megawattstunde – rund viermal so hoch wie im Oktober –, entspannte sich bis zum 12.11. aber wieder auf einen Tagesdurchschnitt von rund 19,9 Cent je Kilowattstunde." }
+        { h: "Was geschah bei Strompreis und Dunkelflaute?", items: [
+          { tag: "fakt", text: "Eine Dunkelflaute (die Windstromerzeugung brach laut Berichten um rund 90 % ein) ließ den deutschen Stromtagesdurchschnitt am 10.11. auf 357,56 Euro je Megawattstunde steigen – den höchsten Tageswert des Jahres 2026; am 9.11. erreichte der 15-Minuten-Spitzenpreis zeitweise über 650 Euro. Analysen verweisen darauf, dass ausreichend verfügbare Batteriespeicher die Spitze auf rund 388 Euro hätten begrenzen können. Bis zum 14.11. normalisierte sich der Tagesdurchschnitt wieder auf rund 19,8 Cent je Kilowattstunde.",
+            ask: [{ label: "Vom Konflikt zur Börse", ref: "chain:oil-to-markets" }] }
         ]},
         { h: "Was bedeutet das?", items: [
-          { tag: "einordnung", text: "Dass der Ölpreis stark auf einzelne geopolitische Aussagen reagiert, während die deutschen Gasspeicher trotz insgesamt moderaterer Preise historisch niedrig gefüllt sind, zeigt, dass Öl- und Gasmarkt derzeit auf unterschiedliche Faktoren reagieren: Öl vor allem auf die Nachrichtenlage zum Hormus-Konflikt und das IEA-Angebotsbild, Gas stärker auf saisonale Entnahmen und die Einschätzung der Bundesnetzagentur zur Versorgungssicherheit.",
-            ask: [{ label: "Vom Konflikt zur Börse", ref: "chain:oil-to-markets" }] }
+          { tag: "einordnung", text: "Dass der Ölpreis trotz neuer Tanker-Zwischenfallmeldungen in der Straße von Hormus zurückgeht, während die deutschen Gasspeicher historisch niedrig bleiben und einzelne Dunkelflauten weiterhin zu Preisspitzen führen, zeigt erneut unterschiedliche Treiber: Öl reagiert stärker auf das globale Angebotsbild und die OPEC+-Entscheidung Ende November, Gas und Strom in Deutschland stärker auf saisonale Entnahmen, Wetter und die heimische Erzeugungsstruktur." }
         ]}
       ],
-      reaction: "Mehr zur Iran-Diplomatie und Trumps Kehrtwende in Meldung 10.",
+      reaction: "Mehr zu den Tanker-Zwischenfällen in der Straße von Hormus in Meldung 8.",
       terms: ["brent", "ttf", "opec-plus"],
-      followups: ["e:why-oil-up-geo", "e:hormuz", "e:gas-ttf", "e:energy-germany", "e:opec-plus-why"],
+      followups: ["e:why-oil-up-geo", "e:opec-plus-why", "e:gas-ttf", "e:energy-germany"],
       sources: [
-        { title: "Invezz: Oil price today – Brent holds near $96 as IEA sees first surplus since Iran war", url: "https://invezz.com/news/2026/11/13/oil-price-today-brent-holds-near-96-as-iea-sees-first-surplus-since-iran-war/" },
-        { title: "Bloomberg: Global Oil Market Swings to Surplus on Gulf Exports, IEA Says", url: "https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says" },
+        { title: "EnergyNow: Oil prices fall for second straight week as global supply surplus emerges", url: "https://energynow.com/2026/11/oil-prices-fall-for-second-straight-week-as-global-supply-surplus-emerges-wti-closes-at-88-56-brent-at-95-84/" },
+        { title: "Türkiye Today: OPEC pushes capacity review to mid-November as Iran war stalls expansion", url: "https://www.turkiyetoday.com/business/opec-pushes-capacity-review-to-mid-november-as-iran-war-stalls-expansion-report-3229472" },
         { title: "Bundesnetzagentur: Aktuelle Lage der Gasversorgung", url: "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/aktuelle_gasversorgung/start.html" },
-        { title: "de.investing.com: OPEC+ stellt Weichen für unveränderte Ölförderung im Dezember", url: "https://de.investing.com/news/commodities-news/opec-stellt-weichen-fur-unveranderte-olforderung-im-dezember-3737485" },
-        { title: "netz-trends.de: Strompreis an der Börse springt auf 644 Euro je MWh – viermal so hoch wie im Oktober", url: "https://www.netz-trends.de/strompreis-an-der-boerse-springt-auf-644-euro-je-mwh-viermal-so-hoch-wie-im-oktober/" }
+        { title: "Berliner Zeitung: Dunkelflaute treibt Strompreis über 650 Euro", url: "https://www.berliner-zeitung.de/article/dunkelflaute-treibt-strompreis-ueber-650-euro-batterien-haetten-ihn-auf-388-euro-gedrueckt-10582325" },
+        { title: "topagrar.com: Windflaute treibt Strompreis auf Jahreshöchststand", url: "https://www.topagrar.com/markt/news/windflaute-treibt-strompreis-auf-jahreshoechststand-20031039.html" }
       ]
     }
   ],
 
   /* ─────────────────────────── AKTUELLER ZUSAMMENHANG ─────────────────────────── */
   context: {
-    "index-move": { tag: "fakt", story: 1, text: "Der DAX überschritt am Donnerstag erstmals die Marke von 27.000 Punkten (Tageshoch 27.001,67 Punkte), schloss aber bei 26.771,88 Punkten; am Freitag pausiert er knapp im Plus bei rund 26.807 Punkten." },
-    "why-markets-move": { tag: "einordnung", story: 1, text: "Nach dem Rekordlauf der Vorwoche kommt es am Freitag zu Gewinnmitnahmen, während Anleger vor den US-Erzeugerpreisen am Nachmittag und der laufenden Zinsdebatte bei Fed und EZB zurückhaltend agieren." },
-    "yield-meaning": { tag: "fakt", story: 3, text: "Die US-10-Jahres-Rendite liegt bei rund 5,13 % – binnen einer Woche von rund 4,82 % gestiegen –, die Rendite zehnjähriger Bundesanleihen bei rund 3,37 %." },
-    "yield-stocks": { tag: "einordnung", story: 4, text: "Nach der heißer als erwartet ausgefallenen US-Inflation für Oktober gilt eine Fed-Zinserhöhung im Dezember am Terminmarkt praktisch als sicher; das belastet tendenziell zinslose Anlagen wie Gold und Bitcoin sowie hoch bewertete Technologiewerte." },
-    "gold-why": { tag: "fakt", story: 3, text: "Gold erholte sich am Freitag um rund 0,96 % auf etwa 3.914 Dollar je Feinunze, nachdem der Preis am Donnerstag deutlich unter 4.000 Dollar gefallen war." },
-    "eurusd-meaning": { tag: "fakt", story: 3, text: "Der Euro bewegt sich mit rund 1,1058 Dollar kaum gegenüber dem Vortag, da Fed und EZB derzeit ähnliche Zinssignale senden." },
-    "bitcoin-what": { tag: "fakt", story: 3, text: "Bitcoin fiel in der Nacht zu Freitag erstmals seit dem 19. August unter 70.000 Dollar und notiert rund 6 bis 6,6 % niedriger als 24 Stunden zuvor." },
-    "fed-hike": { tag: "position", story: 4, text: "Fed-Gouverneur Christopher Waller und Dallas-Fed-Chefin Lorie Logan signalisierten nach der heißen Oktober-Inflation Offenheit für eine Zinserhöhung im Dezember; Logan hält laut Berichten mindestens zwei weitere Zinsschritte für nötig." },
-    "central-banks-why": { tag: "einordnung", story: 4, text: "Dass sowohl mehrere Fed-Vertreter als auch EZB-Chefökonom Lane und Bundesbank-Chef Nagel im November 2026 Offenheit für eine Zinserhöhung im Dezember zeigen, deutet auf eine ähnliche geldpolitische Debatte auf beiden Seiten des Atlantiks hin." },
-    "ecb-hike": { tag: "position", story: 5, text: "EZB-Chefökonom Philip Lane nannte eine weitere Zinserhöhung im Dezember am 10.11. „prudent”, Bundesbank-Präsident Joachim Nagel bezeichnete sie als „ziemlich offensichtlich” nötig; die Inflation in der Eurozone stieg im Oktober auf 4,0 %." },
-    "inflation-what": { tag: "fakt", story: 5, text: "Die Inflation in der Eurozone stieg im Oktober laut Eurostat-Flashschätzung auf 4,0 % (September: 3,8 %), getrieben vor allem von Energiepreisen (+20,8 % gegenüber Vorjahr); die Kernrate blieb bei 2,5 %." },
-    "haushalt-basics": { tag: "fakt", story: 7, text: "Der Haushaltsausschuss billigte den Bundeshaushalt 2027 mit einer Nettokreditaufnahme von 122,97 Mrd. Euro im Kernhaushalt; die abschließende Bundestagsberatung ist für den 24. bis 27.11.2026 angesetzt." },
-    "debt-brake": { tag: "fakt", story: 7, text: "Von den 122,97 Mrd. Euro Nettokreditaufnahme im Kernhaushalt 2027 entfallen 84,55 Mrd. Euro auf die seit 2025 geltende Ausnahme für Verteidigungsausgaben von der Schuldenbremse." },
-    "coalition-majority": { tag: "fakt", story: 8, text: "Forsa sah die AfD am 10.11. bei 27 %, die Union bei 20 %; die Bundesversammlung zur Wahl des Bundespräsidenten am 30.1.2027 besteht aus 1.260 Mitgliedern." },
-    "defence-order": { tag: "fakt", story: 11, text: "Belgien bestellte bei Rheinmetall 20 Skyranger-30-Flugabwehrsysteme im dreistelligen Millionenbereich; RENK meldete einen Rekord-Auftragsbestand von 7,6 Mrd. Euro." },
-    "defence-stocks": { tag: "fakt", story: 11, text: "Die Rheinmetall-Aktie fiel diese Woche auf ein 52-Wochen-Tief von 742,50 Euro, nachdem der Boxer-Großauftrag „Arminius” von Dezember 2026 auf Februar 2027 verschoben wurde." },
-    "nato-target": { tag: "fakt", story: 11, text: "Hensoldt hob beim Kapitalmarkttag in London sein Umsatzziel für 2035 erstmals auf 10 Mrd. Euro an und bestätigte das Ziel von 6 Mrd. Euro für 2030; der deutsche Verteidigungshaushalt 2026 liegt über 108 Mrd. Euro." },
-    "ma-steps": { tag: "unbestaetigt", story: 12, text: "Der Bund übernimmt laut Berichten für 6,6 Mrd. Euro die Hälfte von KNDS; Evonik bekräftigte am 9.11. seine Ablehnung des auf 24 Euro je Aktie erhöhten BASF-Übernahmeangebots." },
-    "deal-risks": { tag: "position", story: 13, text: "Merger-Arbitrage-Spezialisten sehen die Erfolgswahrscheinlichkeit der 115-Milliarden-Dollar-Fusion von Marvell und Lumentum nur noch bei rund 50 %; als größtes Zeitrisiko gilt die chinesische Kartellprüfung." },
-    "private-credit-what": { tag: "fakt", story: 13, text: "Ein KBRA-Report zeigt einen Anstieg der Zahl ausfallender Private-Credit-Kreditnehmer um 22 % gegenüber dem Vorquartal auf einen Rekordwert von 112 Kreditnehmern." },
-    "redemption-limits": { tag: "fakt", story: 13, text: "Nicht börsennotierte BDCs verzeichneten im dritten Quartal 2026 Netto-Abflüsse von 4,1 Mrd. Dollar – das dritte Quartal in Folge und das schwächste Fundraising-Quartal seit Ende 2020." },
-    "ai-capex": { tag: "fakt", story: 14, text: "Die addierten Investitionsausgaben von Amazon, Alphabet, Microsoft und Meta erreichten im dritten Quartal 2026 einen Rekordwert von 201,9 Mrd. Dollar; Meta erhöhte seine Jahresprognose auf 125 bis 145 Mrd. Dollar." },
-    "circular-financing": { tag: "fakt", story: 14, text: "Nvidia, Google/Alphabet, AMD, Micron, Broadcom und Microsoft beteiligen sich mit insgesamt 26 Mrd. Dollar an Anthropics Börsengang, der mit einer Bewertung von bis zu 1,4 Billionen Dollar geplant ist." },
-    "why-oil-up-geo": { tag: "position", story: 10, text: "Präsident Trump erklärte am 12.11. auf Truth Social, die USA bräuchten „keinen Deal” mehr mit dem Iran; Irans Seite wies ein mögliches Vance-Rezaei-Treffen als „fabricated” zurück." },
-    "hormuz": { tag: "unbestaetigt", story: 10, text: "Katars Vorschlag zur Öffnung der Straße von Hormus gegen Freigabe von 8 Mrd. Dollar iranischer Gelder stand nach Trumps Absage am 12.11. weiterhin ohne Einigung." },
-    "gas-ttf": { tag: "unbestaetigt", story: 15, text: "Der europäische Gaspreis TTF schwankte zuletzt zwischen rund 84,31 Euro (9.11.) und 89,45 Euro (12.11.) je Megawattstunde." },
-    "energy-germany": { tag: "fakt", story: 15, text: "Die deutschen Gasspeicher lagen laut Bundesnetzagentur am 13.11. bei 57,7 % Füllstand (142,7 TWh) – deutlich unter dem Zielwert von 80 % zum 1.11." },
-    "opec-plus-why": { tag: "fakt", story: 15, text: "OPEC+ ließ die Fördermenge für Dezember am 1./2.11. unverändert bei rund 31 Mio. Barrel pro Tag; das nächste Treffen zu den Januar-Quoten ist für den 29.11.2026 angesetzt." }
+    "index-move": { tag: "fakt", story: 1, text: "Der DAX schloss den Freitag bei 26.749,95 Punkten (-0,08 %) niedriger als der Zwischenstand vom Vormittag (rund 26.807 Punkte); der Euro Stoxx 50 gab auf 6.386,86 Punkte nach." },
+    "why-markets-move": { tag: "einordnung", story: 1, text: "Nach dem Rekordlauf der Vorwoche kommt es am Freitag zu Gewinnmitnahmen; zugleich bleibt die Zinsdebatte bei Fed und EZB vor dem Wochenende im Fokus." },
+    "yield-meaning": { tag: "fakt", story: 4, text: "Die US-10-Jahres-Rendite schloss bei rund 5,14 % (Tageshoch 5,17 %), die Rendite zehnjähriger Bundesanleihen bei rund 3,37 bis 3,38 %." },
+    "yield-stocks": { tag: "einordnung", story: 4, text: "Nach den US-Erzeugerpreisen und mehreren hawkishen Fed-Äußerungen gilt eine Zinserhöhung im Dezember am Terminmarkt weiterhin praktisch als sicher; das belastet tendenziell zinslose Anlagen wie Gold und Bitcoin." },
+    "gold-why": { tag: "fakt", story: 3, text: "Gold stieg am Freitagvormittag auf rund 3.914 Dollar, fiel aber bis Handelsschluss auf etwa 3.882 Dollar zurück (+0,14 % ggü. Donnerstag)." },
+    "eurusd-meaning": { tag: "fakt", story: 3, text: "Der Euro schloss bei rund 1,1020 Dollar, schwächer als der Donnerstagsschluss von etwa 1,1055 Dollar." },
+    "bitcoin-what": { tag: "fakt", story: 3, text: "Bitcoin fiel in der Nacht zu Sonntag auf ein Vier-Monats-Tief von rund 62.000 Dollar, nachdem binnen 24 Stunden mehr als 2 Mrd. Dollar an Positionen zwangsliquidiert wurden." },
+    "ppi-what": { tag: "fakt", story: 4, text: "Die US-Erzeugerpreise für Oktober stiegen um 0,3 % zum Vormonat und um 6,5 % im Jahresvergleich – der stärkste Anstieg seit November 2022." },
+    "central-banks-why": { tag: "einordnung", story: 4, text: "Dass sowohl mehrere Fed-Vertreter als auch Bundesbank-Chef Nagel im November 2026 eine Zinserhöhung im Dezember für wahrscheinlich bis „ziemlich offensichtlich” halten, deutet auf eine ähnliche geldpolitische Debatte auf beiden Seiten des Atlantiks hin." },
+    "fed-hike": { tag: "position", story: 4, text: "Fed-Vertreter wie John Williams, Austan Goolsbee und Mary Daly bekräftigten nach den Erzeugerpreisdaten ihre Offenheit für eine Zinserhöhung im Dezember; Finanzminister Bessent warnte dagegen vor einem Zinsschritt mitten im Energiepreis-Schock." },
+    "ecb-hike": { tag: "position", story: 5, text: "Bundesbank-Chef Nagel nannte eine EZB-Zinserhöhung im Dezember „ziemlich offensichtlich” nötig; eine Reuters-Umfrage sieht alle 71 befragten Ökonomen bei einer Anhebung auf 2,75 % im Dezember." },
+    "debt-brake": { tag: "fakt", story: 6, text: "Von den 122,97 Mrd. Euro Nettokreditaufnahme im Kernhaushalt 2027 entfallen 84,55 Mrd. Euro auf die Ausnahme für Verteidigungsausgaben von der Schuldenbremse." },
+    "haushalt-basics": { tag: "fakt", story: 6, text: "Der Haushaltsausschuss billigte den Bundeshaushalt 2027 mit 122,97 Mrd. Euro Nettokreditaufnahme; die Stromsteuersenkung bleibt ungeklärt und soll am 17.11. im Koalitionsausschuss verhandelt werden." },
+    "rente-basics": { tag: "fakt", story: 7, text: "Arbeitsminister Schweitzer bezeichnet den Rentenreform-Gesetzentwurf als „zu 95 Prozent fertig”; strittig bleibt die Abschaffung der abschlagsfreien Rente nach 45 Beitragsjahren." },
+    "coalition-majority": { tag: "fakt", story: 7, text: "Das ZDF-Politbarometer vom 13.11. sah die AfD bei 28 %, die Union bei 22 %; die aktuelle Koalition hätte laut der Umfrage keine Bundestagsmehrheit." },
+    "nato-target": { tag: "fakt", story: 11, text: "Hensoldt hob sein Umsatzziel für 2035 auf 10 Mrd. Euro an; in der zweiten SAFE-Finanzierungsrunde haben alle 19 teilnehmenden EU-Staaten Kreditvereinbarungen über 21,3 Mrd. Euro genehmigt." },
+    "defence-order": { tag: "fakt", story: 11, text: "Belgien bestellte bei Rheinmetall 20 Skyranger-30-Flugabwehrsysteme; RENK meldete einen Rekord-Auftragsbestand von 7,6 Mrd. Euro." },
+    "defence-stocks": { tag: "fakt", story: 10, text: "Die Rheinmetall-Aktie fiel am 13.11. zeitweise auf ein 52-Wochen-Tief von 742,50 Euro – laut JPMorgan die fünfte Gewinnwarnung binnen elf Monaten." },
+    "ma-steps": { tag: "unbestaetigt", story: 12, text: "Der Bund zahlt Berichten zufolge rund 6,6 Mrd. Euro für einen 50-Prozent-Anteil an KNDS; ein unterzeichneter Vertrag liegt noch nicht vor." },
+    "deal-risks": { tag: "fakt", story: 13, text: "Der implizite Angebotswert der Marvell-Lumentum-Fusion ist durch den Kursverfall von rund 1.132 auf etwa 601 Dollar je Lumentum-Aktie gesunken, der Deal-Spread liegt bei rund 19,7 %." },
+    "private-credit-what": { tag: "fakt", story: 13, text: "KBRA meldet einen Rekordwert von 112 ausfallenden Private-Credit-Kreditnehmern, ein Plus von 22 % gegenüber dem Vorquartal." },
+    "redemption-limits": { tag: "fakt", story: 13, text: "Nicht börsennotierte BDCs verzeichneten im dritten Quartal 2026 Netto-Abflüsse von 4,1 Mrd. Dollar – das dritte Quartal in Folge." },
+    "ai-capex": { tag: "fakt", story: 14, text: "Anthropics Orderbuch für den Börsengang war bis zum dritten Roadshow-Tag rund sechsfach überzeichnet; Pricing ist für den 18.11. geplant." },
+    "circular-financing": { tag: "unbestaetigt", story: 14, text: "Singapur fand nicht genügend Beweise, um die als Spionin verdächtigte Geschäftsfrau im Nvidia-Fall strafrechtlich zu verfolgen, verbot ihr aber die Wiedereinreise; der eigentliche Spionagevorwurf bleibt unbewiesen." },
+    "why-oil-up-geo": { tag: "unbestaetigt", story: 8, text: "Irans Marine meldete am 14.11. brennende Tanker nach Minentreffern in der Straße von Hormus; Reuters konnte die Angaben nicht unabhängig bestätigen." },
+    "hormuz": { tag: "unbestaetigt", story: 8, text: "Iran wies Berichte über ein geplantes Treffen zwischen US-Vizepräsident Vance und Sicherheitsratschef Rezaei in Doha als „erfunden” zurück." },
+    "gas-ttf": { tag: "unbestaetigt", story: 15, text: "Der europäische Gaspreis TTF wird fürs Wochenende je nach Quelle zwischen rund 84 und 91 Euro je Megawattstunde angegeben." },
+    "energy-germany": { tag: "fakt", story: 15, text: "Die deutschen Gasspeicher lagen laut Bundesnetzagentur am 13.11. bei 57,7 % Füllstand – rund 9 Prozentpunkte unter dem Zielwert von 80 % zum 1.11." },
+    "opec-plus-why": { tag: "fakt", story: 15, text: "OPEC+ entscheidet am 29.11. über die Fördermengen für 2027; die Fördermenge für Dezember bleibt bei rund 31 Mio. Barrel pro Tag unverändert." }
   },
 
   /* ─────────────── QUIZ (5 Fragen) ─────────────── */
   quiz: [
     {
       topic: "Zinsen", type: "Fakt", story: 4,
-      q: "Wie fiel die US-Kernrate der Inflation (Kern-VPI) für Oktober 2026 im Vergleich zur Markterwartung aus, und wie reagierten die US-Börsen am Tag der Veröffentlichung?",
+      q: "Wie fielen die US-Erzeugerpreise (PPI) für Oktober 2026 im Monats- und im Jahresvergleich aus?",
       options: [
-        "Die Kernrate fiel auf 0,0 %, die Börsen stiegen deutlich",
-        "Die Kernrate wurde gar nicht veröffentlicht",
-        "Die Kernrate lag mit 0,3 % über der Erwartung von 0,2 %, Nasdaq und S&P 500 fielen",
-        "Die Kernrate traf exakt die Erwartung von 0,2 %, die Börsen bewegten sich kaum"
+        "+0,3 % zum Vormonat, +6,5 % im Jahresvergleich – der stärkste Jahresanstieg seit November 2022",
+        "-0,3 % zum Vormonat, keine Jahresrate veröffentlicht",
+        "+1,0 % zum Vormonat, +2,1 % im Jahresvergleich",
+        "Die Erzeugerpreise wurden wegen eines Regierungsstillstands gar nicht veröffentlicht"
       ],
-      answer: 2,
-      explain: "Die Kernrate stieg im Oktober um 0,3 % statt der erwarteten 0,2 %, die Gesamtrate um 0,4 %. Am Tag der Veröffentlichung gaben Nasdaq und S&P 500 nach, die Rendite zehnjähriger US-Anleihen stieg in Richtung 5 %."
+      answer: 0,
+      explain: "Die Erzeugerpreise stiegen im Oktober um 0,3 % gegenüber dem Vormonat und um 6,5 % im Jahresvergleich – den stärksten Anstieg seit November 2022. Mehrere Fed-Vertreter werteten dies als weiteres Argument für eine Zinserhöhung im Dezember."
     },
     {
       topic: "Technologie", type: "Fakt", story: 14,
-      q: "Wer übernahm nach Jensen Huangs Rücktritt interimistisch die Führung von Nvidia?",
+      q: "Welche Ausschüsse haben Jensen Huang nach seinem Rücktritt als Nvidia-CEO zu Anhörungen vorgeladen, und wann?",
       options: [
-        "Lisa Su",
-        "Ein externer Berater der US-Regierung",
-        "Jensen Huangs Sohn",
-        "Colette Kress, die bisherige Finanzchefin"
-      ],
-      answer: 3,
-      explain: "Nvidias bisherige Finanzchefin (CFO) Colette Kress übernahm laut SEC-Mitteilung interimistisch die Rolle der CEO, nachdem Huang nach 33 Jahren zurückgetreten war."
-    },
-    {
-      topic: "Deutschland", type: "Fakt", story: 7,
-      q: "Wie hoch ist laut Haushaltsausschuss die Nettokreditaufnahme im Kernhaushalt 2027, und welcher Teil davon entfällt auf die Ausnahme für Verteidigungsausgaben von der Schuldenbremse?",
-      options: [
-        "122,97 Mrd. Euro insgesamt, davon 84,55 Mrd. Euro über die Verteidigungsausnahme",
-        "560,92 Mrd. Euro insgesamt, keine Ausnahme",
-        "61,85 Mrd. Euro insgesamt, komplett ohne Ausnahme",
-        "396,21 Mrd. Euro insgesamt, komplett über die Verteidigungsausnahme"
-      ],
-      answer: 0,
-      explain: "Der Haushaltsausschuss billigte eine Nettokreditaufnahme von 122,97 Mrd. Euro im Kernhaushalt, davon 84,55 Mrd. Euro über die seit der Reform 2025 geltende Ausnahme für Verteidigungsausgaben oberhalb von 1 % des BIP."
-    },
-    {
-      topic: "Energie", type: "Zusammenhang", story: 10,
-      q: "Angenommen, Katars Vermittlungsvorschlag zur Öffnung der Straße von Hormus wäre am 12.11.2026 von den USA angenommen worden, statt dass Trump einen Deal für überflüssig erklärte. Was wäre dadurch für den Brent-Ölpreis unter sonst gleichen Bedingungen wahrscheinlicher geworden?",
-      options: [
-        "Der Ölpreis wäre eher gestiegen, weil weniger Angebot verfügbar wäre",
-        "Der Ölpreis wäre eher gesunken, weil eine wichtige Route für den Öltransport sicherer geworden wäre",
-        "Es gibt keinen Zusammenhang zwischen der Straße von Hormus und dem Ölpreis",
-        "Der Goldpreis wäre automatisch im gleichen Ausmaß gestiegen"
+        "Nur ein EU-Ausschuss, Termin noch offen",
+        "Der Senatsausschuss für Bankwesen (3.12.) und drei Ausschüsse des Repräsentantenhauses (1./2.12.)",
+        "Gar keine, Huang hat sich freiwillig gemeldet",
+        "Nur ein chinesisches Gericht"
       ],
       answer: 1,
-      explain: "Die Straße von Hormus ist eine zentrale Route für den weltweiten Öltransport. Eine Öffnung und Entspannung hätte die Angebotssicherheit erhöht, was den Ölpreis tendenziell gesenkt hätte. Stattdessen stieg Brent nach Trumps Absage weiter an."
+      explain: "Senatsausschuss-Chef Tim Scott lud Huang und Handelsminister Lutnick für den 3.12. vor, drei Ausschüsse des Repräsentantenhauses für den 1./2.12. – mit Verweis auf nationale Sicherheitsbedenken."
     },
     {
-      topic: "Zinsen", type: "Zusammenhang", story: 5,
-      q: "Sowohl in den USA als auch in der Eurozone verdichten sich im November 2026 die Signale für eine Zinserhöhung im Dezember. Was wird dadurch für den zinslosen Goldpreis unter sonst gleichen Bedingungen wahrscheinlicher?",
+      topic: "Deutschland", type: "Fakt", story: 6,
+      q: "Wie hoch ist die vom Haushaltsausschuss gebilligte Nettokreditaufnahme im Kernhaushalt 2027, und welcher Teil entfällt auf die Verteidigungsausnahme von der Schuldenbremse?",
       options: [
-        "Gold wird automatisch zur neuen Leitwährung",
-        "Es gibt keinen Zusammenhang zwischen Notenbankzinsen und dem Goldpreis",
-        "Gold wird dadurch tendenziell attraktiver, weil Zinserhöhungen Gold stützen",
-        "Gold gerät tendenziell unter Druck, weil höhere Zinsen die Opportunitätskosten fürs Halten von Gold erhöhen"
+        "97,96 Mrd. Euro insgesamt, keine Ausnahme",
+        "560,9 Mrd. Euro insgesamt, komplett über die Ausnahme",
+        "122,97 Mrd. Euro insgesamt, davon 84,55 Mrd. Euro über die Verteidigungsausnahme",
+        "38,43 Mrd. Euro insgesamt, davon die Hälfte über die Ausnahme"
+      ],
+      answer: 2,
+      explain: "Die Nettokreditaufnahme liegt bei 122,97 Mrd. Euro, davon 84,55 Mrd. Euro über die seit 2025 geltende Ausnahme für Verteidigungsausgaben; die zugesagte Stromsteuersenkung ist darin nicht finanziert."
+    },
+    {
+      topic: "Geopolitik", type: "Zusammenhang", story: 8,
+      q: "Angenommen, Reuters hätte die iranischen Berichte über verminte Tanker in der Straße von Hormus unabhängig bestätigen können, statt dass sie unbestätigt blieben. Was wäre dadurch für den Brent-Preis unter sonst gleichen Bedingungen wahrscheinlicher geworden?",
+      options: [
+        "Der Ölpreis wäre eher gesunken, weil die Nachfrage automatisch zurückgeht",
+        "Es gibt grundsätzlich keinen Zusammenhang zwischen Tankervorfällen und dem Ölpreis",
+        "Der Ölpreis wäre eher gestiegen, weil ein bestätigter Angriff auf eine zentrale Öltransportroute die Versorgungssicherheit stärker belastet hätte",
+        "Nur der Goldpreis hätte reagiert, der Ölpreis nicht"
+      ],
+      answer: 2,
+      explain: "Eine unabhängig bestätigte Eskalation in der Straße von Hormus würde die Versorgungssicherheit stärker infrage stellen und den Ölpreis tendenziell nach oben treiben; weil die Berichte unbestätigt blieben, reagierte Brent am Wochenende kaum."
+    },
+    {
+      topic: "Private Credit", type: "Zusammenhang", story: 13,
+      q: "Die Fed-Zinsen bleiben 2026 hoch, und viele private Kreditnehmer zahlen variable Zinsen auf Basis von SOFR. Was wird dadurch für die Zahl der Private-Credit-Ausfälle unter sonst gleichen Bedingungen wahrscheinlicher?",
+      options: [
+        "Die Ausfälle werden unwahrscheinlicher, weil hohe Zinsen Kreditgeber automatisch vorsichtiger machen",
+        "Es gibt keinen Zusammenhang zwischen Notenbankzinsen und Private-Credit-Ausfällen",
+        "Nur der Aktienmarkt reagiert auf Zinsänderungen, der Kreditmarkt nicht",
+        "Die Ausfälle werden wahrscheinlicher, weil höhere SOFR-Zinsen die Zinslast variabel verzinster Kredite erhöhen"
       ],
       answer: 3,
-      explain: "Höhere Zinsen erhöhen die Opportunitätskosten, zinsloses Gold statt verzinster Anlagen zu halten – das drückt tendenziell auf den Goldpreis. Die kurzfristige Erholung am 13.11. ändert daran grundsätzlich nichts."
+      explain: "Viele Private-Credit-Kredite sind variabel verzinst (SOFR + Aufschlag); bleiben die Leitzinsen hoch, steigt die Zinslast der Kreditnehmer, was die Wahrscheinlichkeit von Ausfällen erhöht – passend zum von KBRA gemeldeten Rekordwert von 112 ausfallenden Kreditnehmern."
     }
   ]
 };
